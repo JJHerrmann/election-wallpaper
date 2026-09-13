@@ -1,0 +1,1427 @@
+{
+  "updatedAt": "2026-09-13T00:49:34.084Z",
+  "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
+  "mode": "governor",
+  "summary": {
+    "demSeatsHeld": 17,
+    "gopSeatsHeld": 18,
+    "demNet": 0,
+    "gopNet": 0,
+    "demSeatsBefore": 24,
+    "gopSeatsBefore": 26,
+    "demSeatsProjected": 24,
+    "gopSeatsProjected": 26,
+    "control": "Republican",
+    "confidence": "Currently 26 R – 24 D; net change vs. incumbents from consensus forecaster ratings projects 26 R – 24 D",
+    "unit": "rated governorships (toss-ups and non-flips count as no net change)"
+  },
+  "races": [
+    {
+      "id": "AL-governor",
+      "state": "AL",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Tommy Tuberville",
+          "articleTitle": "Tommy Tuberville",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tommy%20Tuberville%2C%20official%20portrait%2C%20118th%20Congress%20(slight%20crop).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Doug Jones",
+          "articleTitle": "Doug Jones (politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Senator%20Doug%20Jones%20official%20photo%20(cropped)%202.jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "AK-governor",
+      "state": "AK",
+      "status": "slight-r",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Jonathan Kreiss-Tomkins",
+          "articleTitle": "Jonathan Kreiss-Tomkins",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JKTphoto%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Bernadette Wilson",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bernadette%20Wilson%20at%20Chris%20Birch%20memorial%20service.jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "AZ-governor",
+      "state": "AZ",
+      "status": "lean-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Katie Hobbs",
+          "articleTitle": "Katie Hobbs",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Katie%20Hobbs%202026.jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Andy Biggs",
+          "articleTitle": "Andy Biggs",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Andy%20Biggs%202025.jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 10, 2026",
+        "margin": 8.2,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 45.8,
+          "R": 37.6
+        }
+      }
+    },
+    {
+      "id": "AR-governor",
+      "state": "AR",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Sarah Huckabee Sanders",
+          "articleTitle": "Sarah Huckabee Sanders",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Governor%20Sarah%20Huckabee%20Sanders%202026.jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Fredrick Love",
+          "articleTitle": "Fredrick Love",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep%20Fredrick%20J%20Love%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "CA-governor",
+      "state": "CA",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Xavier Becerra",
+          "articleTitle": "Xavier Becerra",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HHS%20Xavier%20Becerra%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Steve Hilton",
+          "articleTitle": "Steve Hilton",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Hilton%20(54233445987%20crop).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 10, 2026",
+        "margin": 21.5,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 58,
+          "R": 36.5
+        }
+      }
+    },
+    {
+      "id": "CO-governor",
+      "state": "CO",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Phil Weiser",
+          "articleTitle": "Phil Weiser",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AG%20Phil%20Weiser.jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Victor Marx",
+          "articleTitle": "Victor Marx",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor%20Marx%20(52125665777)%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "CT-governor",
+      "state": "CT",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Ned Lamont",
+          "articleTitle": "Ned Lamont",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Governor%20Ned%20Lamont%20of%20Connecticut%2C%20official%20portrait%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Ryan Fazio",
+          "articleTitle": "Ryan Fazio",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryan%20Fazio%2C%202026%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 10, 2026",
+        "margin": 17.5,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 51,
+          "R": 33.5
+        }
+      }
+    },
+    {
+      "id": "DE-governor",
+      "state": "DE",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "FL-governor",
+      "state": "FL",
+      "status": "likely-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Byron Donalds",
+          "articleTitle": "Byron Donalds",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Byron%20Donalds%20official%20photo%2C%20117th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "David Jolly",
+          "articleTitle": "David Jolly",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Jolly%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Decision Desk HQ",
+        "date": "September 10, 2026",
+        "margin": 1.1,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 44.2,
+          "D": 43.1
+        }
+      }
+    },
+    {
+      "id": "GA-governor",
+      "state": "GA",
+      "status": "slight-d",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Rick Jackson",
+          "articleTitle": "Rick Jackson (businessman)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rick%20Jackson%20(cropped)%20(cropped).png?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Keisha Lance Bottoms",
+          "articleTitle": "Keisha Lance Bottoms",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Keisha%20Lance%20Bottoms%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 11, 2026",
+        "margin": 1,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "R": 45.7,
+          "D": 46.7
+        }
+      }
+    },
+    {
+      "id": "HI-governor",
+      "state": "HI",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Josh Green",
+          "articleTitle": "Josh Green (politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Josh%20Green%20Official%20Photo%202022%20(cropped)%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Gary Cordery",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gary%20Cordery%20Hawaii.jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "ID-governor",
+      "state": "ID",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Brad Little",
+          "articleTitle": "Brad Little",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brad%20Little%20official%20photo%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Terri Pickens",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TerriPickens-IdahoDemocrat%2C%201%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "IL-governor",
+      "state": "IL",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "JB Pritzker",
+          "articleTitle": "JB Pritzker",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Governor%20JB%20Pritzker%20official%20portrait%202019%20(crop)%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Darren Bailey",
+          "articleTitle": "Darren Bailey",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Darren%20Bailey%20at%20a%202022%20Campaign%20Event%20(cropped2).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "IN-governor",
+      "state": "IN",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "IA-governor",
+      "state": "IA",
+      "status": "lean-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Zach Lahn",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zach%20Lahn%20IA%20State%20Fair%202026.jog%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Rob Sand",
+          "articleTitle": "Rob Sand",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rob%20Sand%20campaign%20headshot%20(cropped%201).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 11, 2026",
+        "margin": 5.7,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "R": 43.8,
+          "D": 49.5
+        }
+      }
+    },
+    {
+      "id": "KS-governor",
+      "state": "KS",
+      "status": "lean-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Cindy Holscher",
+          "articleTitle": "Cindy Holscher",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20%5B%5BCindy%20Holscher%5D%5D?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Ty Masterson",
+          "articleTitle": "Ty Masterson",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20%5B%5BTy%20Masterson%5D%5D?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "KY-governor",
+      "state": "KY",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "LA-governor",
+      "state": "LA",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "ME-governor",
+      "state": "ME",
+      "status": "likely-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Hannah Pingree",
+          "articleTitle": "Hannah Pingree",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Headshot%20of%20Hannah%20Pingree%20in%20February%202026%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Bobby Charles",
+          "articleTitle": "Robert B. Charles",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Charles%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "FiftyPlusOne",
+        "date": "September 11, 2026",
+        "margin": 11.5,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 36.9,
+          "R": 4.4
+        }
+      }
+    },
+    {
+      "id": "MD-governor",
+      "state": "MD",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Wes Moore",
+          "articleTitle": "Wes Moore",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Governor%20Kuroiwa%20and%20Japanese%20Delegation%20(cropped2).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Dan Cox",
+          "articleTitle": "Dan Cox",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dan%20Cox%20Mar2020%20(49617550556).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "MA-governor",
+      "state": "MA",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Maura Healey",
+          "articleTitle": "Maura Healey",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maura%20Healey%2C%20official%20portrait%2C%20governor%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Michael Minogue",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "September 11, 2026",
+        "margin": 20.8,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 53,
+          "R": 32.2
+        }
+      }
+    },
+    {
+      "id": "MI-governor",
+      "state": "MI",
+      "status": "lean-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Jocelyn Benson",
+          "articleTitle": "Jocelyn Benson",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/SOS%20Jocelyn%20Benson%20web%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "John James",
+          "articleTitle": "John James (Michigan politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20John%20James%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 12, 2026",
+        "margin": 6.2,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 48.6,
+          "R": 42.4
+        }
+      }
+    },
+    {
+      "id": "MN-governor",
+      "state": "MN",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Amy Klobuchar",
+          "articleTitle": "Amy Klobuchar",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Artemis%20II%20Klobuchar%20(3x4%20cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Lisa Demuth",
+          "articleTitle": "Lisa Demuth",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisa%20Demuth%2C%202026%20(3x4).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "MS-governor",
+      "state": "MS",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "MO-governor",
+      "state": "MO",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "MT-governor",
+      "state": "MT",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "NE-governor",
+      "state": "NE",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Jim Pillen",
+          "articleTitle": "Jim Pillen",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Pillen%20SelectUSA%20(55251574792).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Lynne Walz",
+          "articleTitle": "Lynne Walz",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "NV-governor",
+      "state": "NV",
+      "status": "slight-r",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Joe Lombardo",
+          "articleTitle": "Joe Lombardo",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Lombardo%20by%20Gage%20Skidmore%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Aaron Ford",
+          "articleTitle": "Aaron Ford (Nevada politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nevada%20Attorney%20General%20Aaron%20Ford%20addresses%20the%20United%20Nations%20Human%20Rights%20Committee%2C%20October%2017-18%2C%202023%201%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Decision Desk HQ",
+        "date": "September 10, 2026",
+        "margin": 2.7,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 45.6,
+          "D": 42.9
+        }
+      }
+    },
+    {
+      "id": "NH-governor",
+      "state": "NH",
+      "status": "likely-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Kelly Ayotte",
+          "articleTitle": "Kelly Ayotte",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Governor%20Kelly%20Ayotte%20receives%20a%20briefing%20from%20National%20Guard%20cyber%20operators%20(cropped)%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Cinde Warmington",
+          "articleTitle": "Cinde Warmington",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "September 12, 2026",
+        "margin": 10,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 48.8,
+          "D": 38.8
+        }
+      }
+    },
+    {
+      "id": "NJ-governor",
+      "state": "NJ",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "NM-governor",
+      "state": "NM",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Deb Haaland",
+          "articleTitle": "Deb Haaland",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Secretary%20Deb%20Haaland%2C%20official%20headshot.jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Gregg Hull",
+          "articleTitle": "Gregg Hull",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 2, 2026",
+        "margin": 11.5,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 45,
+          "R": 33.5
+        }
+      }
+    },
+    {
+      "id": "NY-governor",
+      "state": "NY",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Kathy Hochul",
+          "articleTitle": "Kathy Hochul",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Governor%20Hochul%20Announces%20Five-Point%20Plan%20to%20Protect%20New%20Yorkers%20on%20the%20Subway%20(cropped%204).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Bruce Blakeman",
+          "articleTitle": "Bruce Blakeman",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blakeman%20Profile%20Picture%20(cropped%202).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "NC-governor",
+      "state": "NC",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "ND-governor",
+      "state": "ND",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "OH-governor",
+      "state": "OH",
+      "status": "slight-r",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Vivek Ramaswamy",
+          "articleTitle": "Vivek Ramaswamy",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vivek%20Ramaswamy%20(55241367373)%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Amy Acton",
+          "articleTitle": "Amy Acton",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amy%20Acton%2005%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 2, 2026",
+        "margin": 0.5,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 48,
+          "D": 47.5
+        }
+      }
+    },
+    {
+      "id": "OK-governor",
+      "state": "OK",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Mike Mazzei",
+          "articleTitle": "Mike Mazzei",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Mazzei%20OK%20Senate%20Headshot.jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Cyndi Munson",
+          "articleTitle": "Cyndi Munson",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyndi%20Munson.jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "OR-governor",
+      "state": "OR",
+      "status": "likely-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Tina Kotek",
+          "articleTitle": "Tina Kotek",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tina%20Kotek%20(cropped)1.jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Christine Drazan",
+          "articleTitle": "Christine Drazan",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Christine%20Drazan%20in%20August%202022%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "PA-governor",
+      "state": "PA",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Josh Shapiro",
+          "articleTitle": "Josh Shapiro",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Josh%20Shapiro%20December%202025%20B.jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Stacy Garrity",
+          "articleTitle": "Stacy Garrity",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stacy%20Garrity%2C%202025%20(3x4).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "August 25, 2026",
+        "margin": 16,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 52.7,
+          "R": 36.7
+        }
+      }
+    },
+    {
+      "id": "RI-governor",
+      "state": "RI",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Helena Foulkes",
+          "articleTitle": "Helena Buonanno Foulkes",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HelenaFoulkes%20CROP%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "TBD",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "SC-governor",
+      "state": "SC",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Alan Wilson",
+          "articleTitle": "Alan Wilson (politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Wilson%20in%20August%202025.jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Jermaine Johnson",
+          "articleTitle": "Jermaine Johnson (politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "SD-governor",
+      "state": "SD",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Larry Rhoden",
+          "articleTitle": "Larry Rhoden",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20Rhoden%202025%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Dan Ahlers",
+          "articleTitle": "Dan Ahlers",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "TN-governor",
+      "state": "TN",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Marsha Blackburn",
+          "articleTitle": "Marsha Blackburn",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sen.%20Marsha%20Blackburn%20(R-TN)%20official%20headshot%20-%20116th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Jerri Green",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerri%20Green%20(cropped).3%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "TX-governor",
+      "state": "TX",
+      "status": "likely-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Greg Abbott",
+          "articleTitle": "Greg Abbott",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Greg%20Abbott%202026.jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Gina Hinojosa",
+          "articleTitle": "Gina Hinojosa",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gina%20Hinojosa%20at%20LBJ%20Library%20Forum%20(3x4%20cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Decision Desk HQ",
+        "date": "September 9, 2026",
+        "margin": 1.8,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 46.8,
+          "D": 45
+        }
+      }
+    },
+    {
+      "id": "UT-governor",
+      "state": "UT",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "VT-governor",
+      "state": "VT",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Phil Scott",
+          "articleTitle": "Phil Scott",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Phil%20Scott%202019%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Amanda Janoo",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanda%20Janoo%20at%20candidate%20forum%20in%20May%202026%20(cropped).png?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "VA-governor",
+      "state": "VA",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "WA-governor",
+      "state": "WA",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "WV-governor",
+      "state": "WV",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "WI-governor",
+      "state": "WI",
+      "status": "slight-d",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "David Crowley",
+          "articleTitle": "David Crowley (Wisconsin politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Crowley%202026%20(3x4%20crop).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Tom Tiffany",
+          "articleTitle": "Tom Tiffany",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Tiffany%20(3x4%20crop).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "August 21, 2026",
+        "margin": 3,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 46.9,
+          "R": 43.9
+        }
+      }
+    },
+    {
+      "id": "WY-governor",
+      "state": "WY",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 8,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Eric Barlow",
+          "articleTitle": "Eric Barlow",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20%5B%5BEric%20Barlow%5D%5D?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Kenneth Casner",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Kenneth%20Casner?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    }
+  ],
+  "dataType": "rating"
+}

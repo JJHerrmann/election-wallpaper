@@ -1,0 +1,40 @@
+{
+  "dataUrl": {
+    "type": "textinput",
+    "value": "data/live-{mode}.json",
+    "text": "Data source. {mode} is replaced with president/senate/house/governor. Defaults to the bundled live-* files (refreshed by scripts/fetch_live_data.js); point elsewhere or blank it to use the static sample-* files instead."
+  },
+  "defaultMode": {
+    "type": "dropdown",
+    "value": "senate",
+    "text": "Default race type",
+    "items": [
+      { "value": "president", "text": "President" },
+      { "value": "senate", "text": "Senate" },
+      { "value": "house", "text": "House" },
+      { "value": "governor", "text": "Governor" }
+    ]
+  },
+  "refreshMinutes": {
+    "type": "slider",
+    "value": 360,
+    "min": 15,
+    "max": 720,
+    "step": 15,
+    "text": "Auto-refresh interval (minutes)"
+  },
+  "theme": {
+    "type": "dropdown",
+    "value": "dark",
+    "text": "Theme",
+    "items": [
+      { "value": "dark", "text": "Dark" },
+      { "value": "light", "text": "Light" }
+    ]
+  },
+  "compact": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Compact layout"
+  }
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Election Wallpaper</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <svg id="map" viewBox="0 0 960 603" preserveAspectRatio="xMidYMid meet" aria-label="US election map">
+      <g id="district-layer"></g>
+      <g id="state-layer"></g>
+    </svg>
+
+    <div id="mode-switcher" role="tablist" aria-label="Race type">
+      <button class="mode-btn" data-mode="president" role="tab">President</button>
+      <button class="mode-btn" data-mode="senate" role="tab">Senate</button>
+      <button class="mode-btn" data-mode="house" role="tab">House</button>
+      <button class="mode-btn" data-mode="governor" role="tab">Governor</button>
+    </div>
+
+    <div id="summary-card">
+      <div id="summary-control" class="summary-control">—</div>
+      <div id="summary-seats" class="summary-seats">
+        <div class="seat-row">
+          <span class="party-label dem">D</span>
+          <div class="seat-bar"><div id="seat-bar-dem" class="seat-bar-fill dem"></div><div id="seat-bar-gop" class="seat-bar-fill gop"></div></div>
+          <span class="party-label gop">R</span>
+        </div>
+        <div class="seat-numbers">
+          <span id="dem-count">0</span>
+          <span id="gop-count">0</span>
+        </div>
+      </div>
+      <div id="summary-confidence" class="summary-confidence">—</div>
+      <div id="methodology-note" class="methodology-note hidden">Consensus of forecaster ratings — skews conservative vs. raw current polling, especially in traditionally one-party states. Click a race for its latest poll.</div>
+      <div id="summary-source" class="summary-source">—</div>
+      <div id="last-updated" class="last-updated">Last updated —</div>
+    </div>
+
+    <div id="race-card" class="hidden">
+      <div class="race-card-header">
+        <span id="race-state-name"></span>
+        <button id="race-card-close" aria-label="Close">×</button>
+      </div>
+      <div id="race-status-pill" class="race-status-pill"></div>
+      <div id="race-candidates-table" class="candidates-table hidden">
+        <div class="candidate-col" data-col="0">
+          <div class="candidate-name"></div>
+          <img class="candidate-photo" alt="" />
+          <div class="candidate-meta"><span class="candidate-party"></span><span class="incumbent-flag hidden">Incumbent</span></div>
+          <div class="candidate-pct"></div>
+        </div>
+        <div class="candidate-col" data-col="1">
+          <div class="candidate-name"></div>
+          <img class="candidate-photo" alt="" />
+          <div class="candidate-meta"><span class="candidate-party"></span><span class="incumbent-flag hidden">Incumbent</span></div>
+          <div class="candidate-pct"></div>
+        </div>
+      </div>
+      <div id="race-margin-row" class="race-detail-row"><span class="detail-label">Margin</span><span id="race-margin"></span></div>
+      <div class="race-detail-row"><span class="detail-label">Polls</span><span id="race-polls"></span></div>
+      <svg id="race-trend" viewBox="0 0 240 60" preserveAspectRatio="none"></svg>
+    </div>
+
+    <div id="trend-card" class="hidden">
+      <div class="trend-header">
+        <div class="trend-title">Momentum</div>
+        <div id="trend-window-picker" class="trend-window-picker">
+          <button class="trend-window-btn" data-window="7">7d</button>
+          <button class="trend-window-btn" data-window="30">30d</button>
+          <button class="trend-window-btn" data-window="90">90d</button>
+          <button class="trend-window-btn" data-window="all">All</button>
+        </div>
+      </div>
+      <svg id="trend-chart" viewBox="0 0 200 56" preserveAspectRatio="none"></svg>
+      <div id="trend-delta" class="trend-delta"></div>
+    </div>
+
+    <div id="offline-badge" class="hidden">Showing cached data</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

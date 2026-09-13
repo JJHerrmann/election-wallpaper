@@ -1,0 +1,1413 @@
+{
+  "updatedAt": "2026-09-13T00:49:33.665Z",
+  "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
+  "mode": "senate",
+  "summary": {
+    "demSeatsHeld": 12,
+    "gopSeatsHeld": 22,
+    "demNet": 1,
+    "gopNet": -1,
+    "demSeatsBefore": 47,
+    "gopSeatsBefore": 53,
+    "demSeatsProjected": 48,
+    "gopSeatsProjected": 52,
+    "control": "Republican",
+    "confidence": "Currently 53 R – 47 D; net change vs. incumbents from consensus forecaster ratings projects 52 R – 48 D",
+    "unit": "rated seats (toss-ups and non-flips count as no net change)"
+  },
+  "races": [
+    {
+      "id": "AL-senate",
+      "state": "AL",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Barry Moore",
+          "articleTitle": "Barry Moore (American politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Barry%20Moore%20official%20photo.jpg%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Everett Wess",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "AK-senate",
+      "state": "AK",
+      "status": "toss-up",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Dan S. Sullivan",
+          "articleTitle": "Dan Sullivan (U.S. senator)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Senator%20Sullivan%20Memorial%20Day%202024%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Mary Peltola",
+          "articleTitle": "Mary Peltola",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mary%20Peltola%20Congressional%20Member%20Portrait%20(2)%20(cropped).jpeg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "September 11, 2026",
+        "margin": 0.7,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "R": 49.1,
+          "D": 49.8
+        }
+      }
+    },
+    {
+      "id": "AZ-senate",
+      "state": "AZ",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "AR-senate",
+      "state": "AR",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Tom Cotton",
+          "articleTitle": "Tom Cotton",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_Cotton_official_Senate_photo_(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Hallie Shoffner",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hallie%20Shoffner%20Headshot%20111925%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "September 11, 2026",
+        "margin": 7.4,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 47.9,
+          "D": 40.5
+        }
+      }
+    },
+    {
+      "id": "CA-senate",
+      "state": "CA",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "CO-senate",
+      "state": "CO",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "John Hickenlooper",
+          "articleTitle": "John Hickenlooper",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Hickenlooper%2C%20official%20portrait%2C%20117th%20Congress%20(cropped).jpeg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Mark Baisley",
+          "articleTitle": "Mark Baisley",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Baisley%20in%202024%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "CT-senate",
+      "state": "CT",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "DE-senate",
+      "state": "DE",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": null,
+      "bestPoll": null
+    },
+    {
+      "id": "FL-senate",
+      "state": "FL",
+      "status": "likely-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Ashley Moody",
+          "articleTitle": "Ashley Moody",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Official%20Portrait%20of%20Senator%20Ashley%20Moody%20(cropped%202).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Angie Nixon",
+          "articleTitle": "Angie Nixon",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Angie%20Nixon%20official%20portrait%202022%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "September 11, 2026",
+        "margin": 5.5,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 46.5,
+          "D": 41
+        }
+      }
+    },
+    {
+      "id": "GA-senate",
+      "state": "GA",
+      "status": "likely-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Jon Ossoff",
+          "articleTitle": "Jon Ossoff",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jon%20Ossoff%20Senate%20Portrait%202021%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Mike Collins",
+          "articleTitle": "Mike Collins (politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Mike%20Collins%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "September 11, 2026",
+        "margin": 8.4,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 51.4,
+          "R": 43
+        }
+      }
+    },
+    {
+      "id": "HI-senate",
+      "state": "HI",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "ID-senate",
+      "state": "ID",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Jim Risch",
+          "articleTitle": "Jim Risch",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Risch%202021%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Todd Achilles",
+          "articleTitle": "Todd Achilles",
+          "party": null,
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Todd%20Achilles%20on%20LibertyDad's%20stream.png?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "IL-senate",
+      "state": "IL",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Juliana Stratton",
+          "articleTitle": "Juliana Stratton",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Juliana%20Stratton%202023%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Don Tracy",
+          "articleTitle": "Don Tracy",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "IN-senate",
+      "state": "IN",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "IA-senate",
+      "state": "IA",
+      "status": "slight-r",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Ashley Hinson",
+          "articleTitle": "Ashley Hinson",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Congresswoman%20Ashley%20Hinson%20Official%20portrait%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Josh Turek",
+          "articleTitle": "Josh Turek",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joshua%20Turek%20(croppedb).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Decision Desk HQ",
+        "date": "September 12, 2026",
+        "margin": 2.1,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "R": 43.4,
+          "D": 45.5
+        }
+      }
+    },
+    {
+      "id": "KS-senate",
+      "state": "KS",
+      "status": "likely-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Roger Marshall",
+          "articleTitle": "Roger Marshall",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Marshall%20117th%20Congress%20portrait%20(cropped%20center).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Adam Hamilton",
+          "articleTitle": "Adam Hamilton (pastor)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam%20Hamilton%20at%20podium%20(cropped%202).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "September 11, 2026",
+        "margin": 2.4,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 47.1,
+          "D": 44.7
+        }
+      }
+    },
+    {
+      "id": "KY-senate",
+      "state": "KY",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Andy Barr",
+          "articleTitle": "Andy Barr",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Andy%20Barr%20116th%20Congress.jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Charles Booker",
+          "articleTitle": "Charles Booker (American politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20solar%20panels%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "September 11, 2026",
+        "margin": 10.6,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 49.8,
+          "D": 39.2
+        }
+      }
+    },
+    {
+      "id": "LA-senate",
+      "state": "LA",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Julia Letlow",
+          "articleTitle": "Julia Letlow",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Julia%20Letlow%20117th%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Jamie Davis",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "ME-senate",
+      "state": "ME",
+      "status": "slight-d",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Susan Collins",
+          "articleTitle": "Susan Collins",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Collins%20During%20Senate%20Appropriation%20Homeland%20Security%20Subcommittee%20Hearing%208%20May%202025.jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Troy Jackson (replacing Graham Platner)",
+          "articleTitle": "Troy Jackson",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Troy%20Jackson%20in%20the%20Senate%20Chamber%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "RealClearPolitics",
+        "date": "September 11, 2026",
+        "margin": 2.5,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "R": 45.4,
+          "D": 47.9
+        }
+      }
+    },
+    {
+      "id": "MD-senate",
+      "state": "MD",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "MA-senate",
+      "state": "MA",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Ed Markey",
+          "articleTitle": "Ed Markey",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ed%20Markey%20in%20Edgartown%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "John Deaton",
+          "articleTitle": "John Deaton",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Deaton%2C%202024.jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "September 11, 2026",
+        "margin": 21.7,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 53.1,
+          "R": 31.5
+        }
+      }
+    },
+    {
+      "id": "MI-senate",
+      "state": "MI",
+      "status": "slight-d",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Abdul El-Sayed",
+          "articleTitle": "Abdul El-Sayed",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdul%20El-Sayed%20meet-and-greet%20by%20Conlan%20Houston%205%20(cropped%202).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Mike Rogers",
+          "articleTitle": "Mike Rogers (Michigan politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Rogers%20in%20November%202019%20(3x4%20cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "September 11, 2026",
+        "margin": 2.9,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 47.4,
+          "R": 44.5
+        }
+      }
+    },
+    {
+      "id": "MN-senate",
+      "state": "MN",
+      "status": "likely-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Peggy Flanagan",
+          "articleTitle": "Peggy Flanagan",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peggy%20Flanagan%20and%20Premier%20Kinew%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Michele Tafoya",
+          "articleTitle": "Michele Tafoya",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MicheleTafoya2023.jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "MS-senate",
+      "state": "MS",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Cindy Hyde-Smith",
+          "articleTitle": "Cindy Hyde-Smith",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Official%20headshot%20of%20US%20Senator%20Cindy%20Hyde-Smith%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Scott Colom",
+          "articleTitle": "Scott Colom",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "September 12, 2026",
+        "margin": 8.8,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 45.5,
+          "D": 36.7
+        }
+      }
+    },
+    {
+      "id": "MO-senate",
+      "state": "MO",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "MT-senate",
+      "state": "MT",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Kurt Alme",
+          "articleTitle": "Kurt Alme",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurt%20G.%20Alme%20official%20photo.jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Alani Bankhead",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alani%20Bankhead%20USAF%202021.png?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "FiftyPlusOne",
+        "date": "September 12, 2026",
+        "margin": 15.9,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 19,
+          "D": 26.4
+        }
+      }
+    },
+    {
+      "id": "NE-senate",
+      "state": "NE",
+      "status": "likely-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Pete Ricketts",
+          "articleTitle": "Pete Ricketts",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sen.%20Pete%20Ricketts%20official%20portrait%2C%20118th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Dan Osborn",
+          "articleTitle": "Dan Osborn",
+          "party": null,
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Osborn%20Headshot%202%20(cropped)%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "NV-senate",
+      "state": "NV",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "NH-senate",
+      "state": "NH",
+      "status": "lean-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Chris Pappas",
+          "articleTitle": "Chris Pappas (American politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Pappas%2C%20official%20portrait%20-%202022%20(cropped).png?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "John Sununu",
+          "articleTitle": "John E. Sununu",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20E.%20Sununu%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "NJ-senate",
+      "state": "NJ",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Cory Booker",
+          "articleTitle": "Cory Booker",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cory%20Booker%2C%20official%20portrait%20(119th%20Congress)%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Justin Murphy",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "NM-senate",
+      "state": "NM",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Ben Ray Luján",
+          "articleTitle": "Ben Ray Luján",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben%20Ray%20Luj%C3%A1n%2C%20official%20portrait%20(119th%20Congress)%20(cropped)1.jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Larry Marker",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "NY-senate",
+      "state": "NY",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "NC-senate",
+      "state": "NC",
+      "status": "likely-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "articleTitle": "Michael Whatley",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Whatley%20(54670563614)%20(cropped)%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Roy Cooper",
+          "articleTitle": "Roy Cooper",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roy%20Cooper%20in%20November%202023%20(cropped3).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 11, 2026",
+        "margin": 9,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "R": 40.3,
+          "D": 49.3
+        }
+      }
+    },
+    {
+      "id": "ND-senate",
+      "state": "ND",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "OH-senate",
+      "state": "OH",
+      "status": "slight-d",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Jon Husted",
+          "articleTitle": "Jon Husted",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sen._Jon_Husted_official_portrait%2C_119th_Congress%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Sherrod Brown",
+          "articleTitle": "Sherrod Brown",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sherrod%20Brown%20117th%20Congress%20(2)%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "FiftyPlusOne",
+        "date": "September 12, 2026",
+        "margin": 6.2,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "R": 43.9,
+          "D": 50.1
+        }
+      }
+    },
+    {
+      "id": "OK-senate",
+      "state": "OK",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Kevin Hern",
+          "articleTitle": "Kevin Hern",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Kevin%20Hern%20official%20photo%2C%20116th%20congress%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "N'Kiyla Jasmine Thomas",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "OR-senate",
+      "state": "OR",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Jeff Merkley",
+          "articleTitle": "Jeff Merkley",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeff%20Merkley%2C%20115th%20official%20photo%20(cropped2).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "David Brock Smith",
+          "articleTitle": "David Brock Smith",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Brock%20Smith.jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "PA-senate",
+      "state": "PA",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "RI-senate",
+      "state": "RI",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Jack Reed",
+          "articleTitle": "Jack Reed (Rhode Island politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sen.%20Jack%20Reed%20(D-RI)%2C%20Official%20Portrait%2C%20119th%20Congress%20(1)%20(head%20crop).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Raymond McKay",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "September 11, 2026",
+        "margin": 17.8,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 50,
+          "R": 32.2
+        }
+      }
+    },
+    {
+      "id": "SC-senate",
+      "state": "SC",
+      "status": "likely-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Darline Graham",
+          "articleTitle": "Darline Graham",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Official%20portrait%20of%20Darline%20Graham%2C%20member%20of%20the%20United%20States%20Senate%20from%20South%20Carolina%20(2026)%20(cropped)%202.jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Annie Andrews",
+          "articleTitle": "Annie Andrews (physician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Annie%20Andrews%20Greenville%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "September 11, 2026",
+        "margin": 5.2,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 46.1,
+          "D": 40.9
+        }
+      }
+    },
+    {
+      "id": "SD-senate",
+      "state": "SD",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Mike Rounds",
+          "articleTitle": "Mike Rounds",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Rounds%20official%20Senate%20portrait%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Brian Bengs",
+          "articleTitle": null,
+          "party": null,
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Bengs%20Air%20Force%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "TN-senate",
+      "state": "TN",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Bill Hagerty",
+          "articleTitle": "Bill Hagerty",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sen.%20Bill%20Hagerty%20official%20Senate%20portrait%2C%20117th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Marquita Bradshaw",
+          "articleTitle": "Marquita Bradshaw",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marquita%20Bradshaw%20at%20Morristown%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "TX-senate",
+      "state": "TX",
+      "status": "toss-up",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Ken Paxton",
+          "articleTitle": "Ken Paxton",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/K%20Paxton.jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "James Talarico",
+          "articleTitle": "James Talarico",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/James%20Talarico%20Press%20Conference%20(centered).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 11, 2026",
+        "margin": 3.4,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "R": 43.6,
+          "D": 47
+        }
+      }
+    },
+    {
+      "id": "UT-senate",
+      "state": "UT",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "VT-senate",
+      "state": "VT",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "VA-senate",
+      "state": "VA",
+      "status": "safe-d",
+      "margin": null,
+      "leaderParty": "D",
+      "incumbentParty": "D",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Mark Warner",
+          "articleTitle": "Mark Warner",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Senator%20Mark%20Warner%20Portrait%20(cut%20cropped).png?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Bert Mizusawa",
+          "articleTitle": "Bert Mizusawa",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/110311160930%20MG%20Mizusawa%2C%20Bert%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "September 11, 2026",
+        "margin": 18,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 50.5,
+          "R": 32.5
+        }
+      }
+    },
+    {
+      "id": "WA-senate",
+      "state": "WA",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "WV-senate",
+      "state": "WV",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Shelley Moore Capito",
+          "articleTitle": "Shelley Moore Capito",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelley%20Moore%20Capito%20official%20Senate%20photo%20(cropped%202).jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Rachel Fetty Anderson",
+          "articleTitle": null,
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    },
+    {
+      "id": "WI-senate",
+      "state": "WI",
+      "status": "no-race",
+      "margin": null,
+      "leaderParty": null,
+      "incumbentParty": null,
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 0,
+      "trend": []
+    },
+    {
+      "id": "WY-senate",
+      "state": "WY",
+      "status": "safe-r",
+      "margin": null,
+      "leaderParty": "R",
+      "incumbentParty": "R",
+      "pollCount": 0,
+      "lastPollDaysAgo": null,
+      "dataType": "rating",
+      "raterCount": 11,
+      "trend": [],
+      "candidates": [
+        {
+          "name": "Harriet Hageman",
+          "articleTitle": "Harriet Hageman",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Official-harriet-hageman-wy00%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "James W. Byrd",
+          "articleTitle": "James W. Byrd",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/James%20W.%20Byrd%20at%20Campbell%20County%20League%20of%20Women%20Voters'%20General%20Election%20Candidates'%20Forum%20in%20Gillette%2C%20Wyoming%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        }
+      ],
+      "bestPoll": null
+    }
+  ],
+  "dataType": "rating"
+}

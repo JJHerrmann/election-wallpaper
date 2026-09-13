@@ -1,0 +1,2819 @@
+{
+  "updatedAt": "2026-08-24T17:04:38.868Z",
+  "source": "Sample Data (static prototype)",
+  "mode": "president",
+  "summary": {
+    "demSeats": 272,
+    "gopSeats": 266,
+    "control": "Democratic",
+    "confidence": "polling average (sample)",
+    "unit": "electoral votes"
+  },
+  "races": [
+    {
+      "id": "AL-president",
+      "state": "AL",
+      "status": "safe-r",
+      "margin": 21.6,
+      "leaderParty": "R",
+      "pollCount": 5,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -23.9
+        },
+        {
+          "day": -27,
+          "margin": -23.5
+        },
+        {
+          "day": -24,
+          "margin": -23.6
+        },
+        {
+          "day": -21,
+          "margin": -22.7
+        },
+        {
+          "day": -18,
+          "margin": -21.9
+        },
+        {
+          "day": -15,
+          "margin": -22.3
+        },
+        {
+          "day": -12,
+          "margin": -20.8
+        },
+        {
+          "day": -9,
+          "margin": -21.4
+        },
+        {
+          "day": -6,
+          "margin": -20.3
+        },
+        {
+          "day": -3,
+          "margin": -19.6
+        },
+        {
+          "day": 0,
+          "margin": -21.6
+        }
+      ]
+    },
+    {
+      "id": "AK-president",
+      "state": "AK",
+      "status": "lean-r",
+      "margin": 6.7,
+      "leaderParty": "R",
+      "pollCount": 8,
+      "lastPollDaysAgo": 0,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -7.3
+        },
+        {
+          "day": -27,
+          "margin": -7.1
+        },
+        {
+          "day": -24,
+          "margin": -5.9
+        },
+        {
+          "day": -21,
+          "margin": -5.8
+        },
+        {
+          "day": -18,
+          "margin": -5.5
+        },
+        {
+          "day": -15,
+          "margin": -7.1
+        },
+        {
+          "day": -12,
+          "margin": -6.7
+        },
+        {
+          "day": -9,
+          "margin": -6
+        },
+        {
+          "day": -6,
+          "margin": -5.2
+        },
+        {
+          "day": -3,
+          "margin": -6.5
+        },
+        {
+          "day": 0,
+          "margin": -6.7
+        }
+      ]
+    },
+    {
+      "id": "AZ-president",
+      "state": "AZ",
+      "status": "lean-r",
+      "margin": 3,
+      "leaderParty": "R",
+      "pollCount": 2,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -2.4
+        },
+        {
+          "day": -27,
+          "margin": -2.8
+        },
+        {
+          "day": -24,
+          "margin": -2.3
+        },
+        {
+          "day": -21,
+          "margin": -3.4
+        },
+        {
+          "day": -18,
+          "margin": -2.7
+        },
+        {
+          "day": -15,
+          "margin": -3.5
+        },
+        {
+          "day": -12,
+          "margin": -2.9
+        },
+        {
+          "day": -9,
+          "margin": -4
+        },
+        {
+          "day": -6,
+          "margin": -4.9
+        },
+        {
+          "day": -3,
+          "margin": -3.5
+        },
+        {
+          "day": 0,
+          "margin": -3
+        }
+      ]
+    },
+    {
+      "id": "AR-president",
+      "state": "AR",
+      "status": "safe-r",
+      "margin": 27.8,
+      "leaderParty": "R",
+      "pollCount": 5,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -28.3
+        },
+        {
+          "day": -27,
+          "margin": -27.9
+        },
+        {
+          "day": -24,
+          "margin": -28.2
+        },
+        {
+          "day": -21,
+          "margin": -27
+        },
+        {
+          "day": -18,
+          "margin": -27.6
+        },
+        {
+          "day": -15,
+          "margin": -28.2
+        },
+        {
+          "day": -12,
+          "margin": -27.3
+        },
+        {
+          "day": -9,
+          "margin": -27.3
+        },
+        {
+          "day": -6,
+          "margin": -27.6
+        },
+        {
+          "day": -3,
+          "margin": -27.3
+        },
+        {
+          "day": 0,
+          "margin": -27.8
+        }
+      ]
+    },
+    {
+      "id": "CA-president",
+      "state": "CA",
+      "status": "likely-d",
+      "margin": 13.4,
+      "leaderParty": "D",
+      "pollCount": 4,
+      "lastPollDaysAgo": 1,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 14.4
+        },
+        {
+          "day": -27,
+          "margin": 14.7
+        },
+        {
+          "day": -24,
+          "margin": 14.2
+        },
+        {
+          "day": -21,
+          "margin": 13.3
+        },
+        {
+          "day": -18,
+          "margin": 13.8
+        },
+        {
+          "day": -15,
+          "margin": 13.7
+        },
+        {
+          "day": -12,
+          "margin": 12.6
+        },
+        {
+          "day": -9,
+          "margin": 11.8
+        },
+        {
+          "day": -6,
+          "margin": 13.6
+        },
+        {
+          "day": -3,
+          "margin": 12.4
+        },
+        {
+          "day": 0,
+          "margin": 13.4
+        }
+      ]
+    },
+    {
+      "id": "CO-president",
+      "state": "CO",
+      "status": "lean-d",
+      "margin": 7.3,
+      "leaderParty": "D",
+      "pollCount": 4,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 6.7
+        },
+        {
+          "day": -27,
+          "margin": 6.9
+        },
+        {
+          "day": -24,
+          "margin": 8.2
+        },
+        {
+          "day": -21,
+          "margin": 9.1
+        },
+        {
+          "day": -18,
+          "margin": 8.3
+        },
+        {
+          "day": -15,
+          "margin": 7.5
+        },
+        {
+          "day": -12,
+          "margin": 7.6
+        },
+        {
+          "day": -9,
+          "margin": 7
+        },
+        {
+          "day": -6,
+          "margin": 8
+        },
+        {
+          "day": -3,
+          "margin": 8.8
+        },
+        {
+          "day": 0,
+          "margin": 7.3
+        }
+      ]
+    },
+    {
+      "id": "CT-president",
+      "state": "CT",
+      "status": "likely-d",
+      "margin": 8.6,
+      "leaderParty": "D",
+      "pollCount": 7,
+      "lastPollDaysAgo": 6,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 6.7
+        },
+        {
+          "day": -27,
+          "margin": 6.7
+        },
+        {
+          "day": -24,
+          "margin": 6.8
+        },
+        {
+          "day": -21,
+          "margin": 7.1
+        },
+        {
+          "day": -18,
+          "margin": 6.7
+        },
+        {
+          "day": -15,
+          "margin": 8.5
+        },
+        {
+          "day": -12,
+          "margin": 9.7
+        },
+        {
+          "day": -9,
+          "margin": 8.9
+        },
+        {
+          "day": -6,
+          "margin": 7.9
+        },
+        {
+          "day": -3,
+          "margin": 9.1
+        },
+        {
+          "day": 0,
+          "margin": 8.6
+        }
+      ]
+    },
+    {
+      "id": "DE-president",
+      "state": "DE",
+      "status": "likely-d",
+      "margin": 14.5,
+      "leaderParty": "D",
+      "pollCount": 3,
+      "lastPollDaysAgo": 1,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 16.2
+        },
+        {
+          "day": -27,
+          "margin": 16
+        },
+        {
+          "day": -24,
+          "margin": 15.1
+        },
+        {
+          "day": -21,
+          "margin": 15.9
+        },
+        {
+          "day": -18,
+          "margin": 16.2
+        },
+        {
+          "day": -15,
+          "margin": 14.5
+        },
+        {
+          "day": -12,
+          "margin": 14.6
+        },
+        {
+          "day": -9,
+          "margin": 14.3
+        },
+        {
+          "day": -6,
+          "margin": 15.6
+        },
+        {
+          "day": -3,
+          "margin": 14.3
+        },
+        {
+          "day": 0,
+          "margin": 14.5
+        }
+      ]
+    },
+    {
+      "id": "FL-president",
+      "state": "FL",
+      "status": "likely-r",
+      "margin": 8,
+      "leaderParty": "R",
+      "pollCount": 2,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -7.9
+        },
+        {
+          "day": -27,
+          "margin": -8.6
+        },
+        {
+          "day": -24,
+          "margin": -9.1
+        },
+        {
+          "day": -21,
+          "margin": -7.5
+        },
+        {
+          "day": -18,
+          "margin": -8
+        },
+        {
+          "day": -15,
+          "margin": -9.2
+        },
+        {
+          "day": -12,
+          "margin": -8.9
+        },
+        {
+          "day": -9,
+          "margin": -7.6
+        },
+        {
+          "day": -6,
+          "margin": -8
+        },
+        {
+          "day": -3,
+          "margin": -8.5
+        },
+        {
+          "day": 0,
+          "margin": -8
+        }
+      ]
+    },
+    {
+      "id": "GA-president",
+      "state": "GA",
+      "status": "toss-up",
+      "margin": 1,
+      "leaderParty": "R",
+      "pollCount": 11,
+      "lastPollDaysAgo": 5,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -1.9
+        },
+        {
+          "day": -27,
+          "margin": -0.6
+        },
+        {
+          "day": -24,
+          "margin": -0.2
+        },
+        {
+          "day": -21,
+          "margin": -1.4
+        },
+        {
+          "day": -18,
+          "margin": -2.2
+        },
+        {
+          "day": -15,
+          "margin": -1.3
+        },
+        {
+          "day": -12,
+          "margin": -1
+        },
+        {
+          "day": -9,
+          "margin": -2.1
+        },
+        {
+          "day": -6,
+          "margin": -1.1
+        },
+        {
+          "day": -3,
+          "margin": -1.3
+        },
+        {
+          "day": 0,
+          "margin": -1
+        }
+      ]
+    },
+    {
+      "id": "HI-president",
+      "state": "HI",
+      "status": "safe-d",
+      "margin": 24.4,
+      "leaderParty": "D",
+      "pollCount": 10,
+      "lastPollDaysAgo": 2,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 23.3
+        },
+        {
+          "day": -27,
+          "margin": 22.9
+        },
+        {
+          "day": -24,
+          "margin": 22.5
+        },
+        {
+          "day": -21,
+          "margin": 24.1
+        },
+        {
+          "day": -18,
+          "margin": 23.3
+        },
+        {
+          "day": -15,
+          "margin": 23.6
+        },
+        {
+          "day": -12,
+          "margin": 24.7
+        },
+        {
+          "day": -9,
+          "margin": 25.1
+        },
+        {
+          "day": -6,
+          "margin": 24.1
+        },
+        {
+          "day": -3,
+          "margin": 23
+        },
+        {
+          "day": 0,
+          "margin": 24.4
+        }
+      ]
+    },
+    {
+      "id": "ID-president",
+      "state": "ID",
+      "status": "safe-r",
+      "margin": 28,
+      "leaderParty": "R",
+      "pollCount": 7,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -27.8
+        },
+        {
+          "day": -27,
+          "margin": -27.6
+        },
+        {
+          "day": -24,
+          "margin": -28.3
+        },
+        {
+          "day": -21,
+          "margin": -28.7
+        },
+        {
+          "day": -18,
+          "margin": -29
+        },
+        {
+          "day": -15,
+          "margin": -27.6
+        },
+        {
+          "day": -12,
+          "margin": -27.6
+        },
+        {
+          "day": -9,
+          "margin": -27.1
+        },
+        {
+          "day": -6,
+          "margin": -26.3
+        },
+        {
+          "day": -3,
+          "margin": -27.9
+        },
+        {
+          "day": 0,
+          "margin": -28
+        }
+      ]
+    },
+    {
+      "id": "IL-president",
+      "state": "IL",
+      "status": "likely-d",
+      "margin": 8.6,
+      "leaderParty": "D",
+      "pollCount": 5,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 10.4
+        },
+        {
+          "day": -27,
+          "margin": 10.8
+        },
+        {
+          "day": -24,
+          "margin": 9.6
+        },
+        {
+          "day": -21,
+          "margin": 10.4
+        },
+        {
+          "day": -18,
+          "margin": 10.6
+        },
+        {
+          "day": -15,
+          "margin": 8.7
+        },
+        {
+          "day": -12,
+          "margin": 8.3
+        },
+        {
+          "day": -9,
+          "margin": 7.8
+        },
+        {
+          "day": -6,
+          "margin": 8.8
+        },
+        {
+          "day": -3,
+          "margin": 9.1
+        },
+        {
+          "day": 0,
+          "margin": 8.6
+        }
+      ]
+    },
+    {
+      "id": "IN-president",
+      "state": "IN",
+      "status": "likely-r",
+      "margin": 13.8,
+      "leaderParty": "R",
+      "pollCount": 6,
+      "lastPollDaysAgo": 2,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -13.9
+        },
+        {
+          "day": -27,
+          "margin": -13.6
+        },
+        {
+          "day": -24,
+          "margin": -14.6
+        },
+        {
+          "day": -21,
+          "margin": -14
+        },
+        {
+          "day": -18,
+          "margin": -12.8
+        },
+        {
+          "day": -15,
+          "margin": -12.3
+        },
+        {
+          "day": -12,
+          "margin": -13.8
+        },
+        {
+          "day": -9,
+          "margin": -12.7
+        },
+        {
+          "day": -6,
+          "margin": -14.2
+        },
+        {
+          "day": -3,
+          "margin": -13.2
+        },
+        {
+          "day": 0,
+          "margin": -13.8
+        }
+      ]
+    },
+    {
+      "id": "IA-president",
+      "state": "IA",
+      "status": "lean-r",
+      "margin": 6.4,
+      "leaderParty": "R",
+      "pollCount": 4,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -7
+        },
+        {
+          "day": -27,
+          "margin": -7.9
+        },
+        {
+          "day": -24,
+          "margin": -6.3
+        },
+        {
+          "day": -21,
+          "margin": -6.2
+        },
+        {
+          "day": -18,
+          "margin": -6.7
+        },
+        {
+          "day": -15,
+          "margin": -6.2
+        },
+        {
+          "day": -12,
+          "margin": -6.4
+        },
+        {
+          "day": -9,
+          "margin": -7.3
+        },
+        {
+          "day": -6,
+          "margin": -6.3
+        },
+        {
+          "day": -3,
+          "margin": -6.9
+        },
+        {
+          "day": 0,
+          "margin": -6.4
+        }
+      ]
+    },
+    {
+      "id": "KS-president",
+      "state": "KS",
+      "status": "safe-r",
+      "margin": 16,
+      "leaderParty": "R",
+      "pollCount": 10,
+      "lastPollDaysAgo": 1,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -16.8
+        },
+        {
+          "day": -27,
+          "margin": -16.4
+        },
+        {
+          "day": -24,
+          "margin": -17.1
+        },
+        {
+          "day": -21,
+          "margin": -15.5
+        },
+        {
+          "day": -18,
+          "margin": -15.1
+        },
+        {
+          "day": -15,
+          "margin": -15.8
+        },
+        {
+          "day": -12,
+          "margin": -15.5
+        },
+        {
+          "day": -9,
+          "margin": -15.5
+        },
+        {
+          "day": -6,
+          "margin": -15.1
+        },
+        {
+          "day": -3,
+          "margin": -15.7
+        },
+        {
+          "day": 0,
+          "margin": -16
+        }
+      ]
+    },
+    {
+      "id": "KY-president",
+      "state": "KY",
+      "status": "safe-r",
+      "margin": 22.6,
+      "leaderParty": "R",
+      "pollCount": 5,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -21.1
+        },
+        {
+          "day": -27,
+          "margin": -21.5
+        },
+        {
+          "day": -24,
+          "margin": -21.5
+        },
+        {
+          "day": -21,
+          "margin": -22
+        },
+        {
+          "day": -18,
+          "margin": -22.8
+        },
+        {
+          "day": -15,
+          "margin": -22
+        },
+        {
+          "day": -12,
+          "margin": -22.9
+        },
+        {
+          "day": -9,
+          "margin": -23
+        },
+        {
+          "day": -6,
+          "margin": -23.6
+        },
+        {
+          "day": -3,
+          "margin": -22.6
+        },
+        {
+          "day": 0,
+          "margin": -22.6
+        }
+      ]
+    },
+    {
+      "id": "LA-president",
+      "state": "LA",
+      "status": "safe-r",
+      "margin": 21.5,
+      "leaderParty": "R",
+      "pollCount": 4,
+      "lastPollDaysAgo": 6,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -23.1
+        },
+        {
+          "day": -27,
+          "margin": -21.3
+        },
+        {
+          "day": -24,
+          "margin": -22.1
+        },
+        {
+          "day": -21,
+          "margin": -22.5
+        },
+        {
+          "day": -18,
+          "margin": -21
+        },
+        {
+          "day": -15,
+          "margin": -21
+        },
+        {
+          "day": -12,
+          "margin": -20.2
+        },
+        {
+          "day": -9,
+          "margin": -20.8
+        },
+        {
+          "day": -6,
+          "margin": -22.1
+        },
+        {
+          "day": -3,
+          "margin": -20.7
+        },
+        {
+          "day": 0,
+          "margin": -21.5
+        }
+      ]
+    },
+    {
+      "id": "ME-president",
+      "state": "ME",
+      "status": "toss-up",
+      "margin": 2.2,
+      "leaderParty": "D",
+      "pollCount": 3,
+      "lastPollDaysAgo": 2,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 2.4
+        },
+        {
+          "day": -27,
+          "margin": 1.7
+        },
+        {
+          "day": -24,
+          "margin": 1.2
+        },
+        {
+          "day": -21,
+          "margin": 2.2
+        },
+        {
+          "day": -18,
+          "margin": 1.6
+        },
+        {
+          "day": -15,
+          "margin": 1.6
+        },
+        {
+          "day": -12,
+          "margin": 1.1
+        },
+        {
+          "day": -9,
+          "margin": 0.8
+        },
+        {
+          "day": -6,
+          "margin": 0.5
+        },
+        {
+          "day": -3,
+          "margin": 0.7
+        },
+        {
+          "day": 0,
+          "margin": 2.2
+        }
+      ]
+    },
+    {
+      "id": "MD-president",
+      "state": "MD",
+      "status": "safe-d",
+      "margin": 22.2,
+      "leaderParty": "D",
+      "pollCount": 9,
+      "lastPollDaysAgo": 1,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 21.9
+        },
+        {
+          "day": -27,
+          "margin": 21.2
+        },
+        {
+          "day": -24,
+          "margin": 20.5
+        },
+        {
+          "day": -21,
+          "margin": 22.3
+        },
+        {
+          "day": -18,
+          "margin": 21.1
+        },
+        {
+          "day": -15,
+          "margin": 20.7
+        },
+        {
+          "day": -12,
+          "margin": 20.9
+        },
+        {
+          "day": -9,
+          "margin": 21.4
+        },
+        {
+          "day": -6,
+          "margin": 22.4
+        },
+        {
+          "day": -3,
+          "margin": 21.8
+        },
+        {
+          "day": 0,
+          "margin": 22.2
+        }
+      ]
+    },
+    {
+      "id": "MA-president",
+      "state": "MA",
+      "status": "safe-d",
+      "margin": 19.5,
+      "leaderParty": "D",
+      "pollCount": 5,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 21.1
+        },
+        {
+          "day": -27,
+          "margin": 21.1
+        },
+        {
+          "day": -24,
+          "margin": 19.5
+        },
+        {
+          "day": -21,
+          "margin": 20.3
+        },
+        {
+          "day": -18,
+          "margin": 19.5
+        },
+        {
+          "day": -15,
+          "margin": 20.4
+        },
+        {
+          "day": -12,
+          "margin": 19
+        },
+        {
+          "day": -9,
+          "margin": 18.2
+        },
+        {
+          "day": -6,
+          "margin": 17.8
+        },
+        {
+          "day": -3,
+          "margin": 17.4
+        },
+        {
+          "day": 0,
+          "margin": 19.5
+        }
+      ]
+    },
+    {
+      "id": "MI-president",
+      "state": "MI",
+      "status": "toss-up",
+      "margin": 1.5,
+      "leaderParty": "D",
+      "pollCount": 10,
+      "lastPollDaysAgo": 5,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 1.6
+        },
+        {
+          "day": -27,
+          "margin": 1.8
+        },
+        {
+          "day": -24,
+          "margin": 1.3
+        },
+        {
+          "day": -21,
+          "margin": 0.4
+        },
+        {
+          "day": -18,
+          "margin": 1.6
+        },
+        {
+          "day": -15,
+          "margin": 2.1
+        },
+        {
+          "day": -12,
+          "margin": 1.3
+        },
+        {
+          "day": -9,
+          "margin": 2.5
+        },
+        {
+          "day": -6,
+          "margin": 2.1
+        },
+        {
+          "day": -3,
+          "margin": 2.1
+        },
+        {
+          "day": 0,
+          "margin": 1.5
+        }
+      ]
+    },
+    {
+      "id": "MN-president",
+      "state": "MN",
+      "status": "lean-d",
+      "margin": 5.6,
+      "leaderParty": "D",
+      "pollCount": 6,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 4.9
+        },
+        {
+          "day": -27,
+          "margin": 4.9
+        },
+        {
+          "day": -24,
+          "margin": 4.4
+        },
+        {
+          "day": -21,
+          "margin": 5.2
+        },
+        {
+          "day": -18,
+          "margin": 5.7
+        },
+        {
+          "day": -15,
+          "margin": 5.4
+        },
+        {
+          "day": -12,
+          "margin": 6.7
+        },
+        {
+          "day": -9,
+          "margin": 5.4
+        },
+        {
+          "day": -6,
+          "margin": 6
+        },
+        {
+          "day": -3,
+          "margin": 4.8
+        },
+        {
+          "day": 0,
+          "margin": 5.6
+        }
+      ]
+    },
+    {
+      "id": "MS-president",
+      "state": "MS",
+      "status": "safe-r",
+      "margin": 20.7,
+      "leaderParty": "R",
+      "pollCount": 6,
+      "lastPollDaysAgo": 2,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -19.4
+        },
+        {
+          "day": -27,
+          "margin": -18.8
+        },
+        {
+          "day": -24,
+          "margin": -19
+        },
+        {
+          "day": -21,
+          "margin": -19.1
+        },
+        {
+          "day": -18,
+          "margin": -20.6
+        },
+        {
+          "day": -15,
+          "margin": -20.6
+        },
+        {
+          "day": -12,
+          "margin": -20.9
+        },
+        {
+          "day": -9,
+          "margin": -20.4
+        },
+        {
+          "day": -6,
+          "margin": -19.7
+        },
+        {
+          "day": -3,
+          "margin": -20.1
+        },
+        {
+          "day": 0,
+          "margin": -20.7
+        }
+      ]
+    },
+    {
+      "id": "MO-president",
+      "state": "MO",
+      "status": "safe-r",
+      "margin": 16.8,
+      "leaderParty": "R",
+      "pollCount": 10,
+      "lastPollDaysAgo": 5,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -16.4
+        },
+        {
+          "day": -27,
+          "margin": -15.4
+        },
+        {
+          "day": -24,
+          "margin": -15.8
+        },
+        {
+          "day": -21,
+          "margin": -16.1
+        },
+        {
+          "day": -18,
+          "margin": -16.1
+        },
+        {
+          "day": -15,
+          "margin": -17
+        },
+        {
+          "day": -12,
+          "margin": -16.9
+        },
+        {
+          "day": -9,
+          "margin": -17.2
+        },
+        {
+          "day": -6,
+          "margin": -16.9
+        },
+        {
+          "day": -3,
+          "margin": -15.7
+        },
+        {
+          "day": 0,
+          "margin": -16.8
+        }
+      ]
+    },
+    {
+      "id": "MT-president",
+      "state": "MT",
+      "status": "likely-r",
+      "margin": 14.8,
+      "leaderParty": "R",
+      "pollCount": 9,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -14.9
+        },
+        {
+          "day": -27,
+          "margin": -13.6
+        },
+        {
+          "day": -24,
+          "margin": -14.7
+        },
+        {
+          "day": -21,
+          "margin": -14.2
+        },
+        {
+          "day": -18,
+          "margin": -14.1
+        },
+        {
+          "day": -15,
+          "margin": -13.8
+        },
+        {
+          "day": -12,
+          "margin": -13.7
+        },
+        {
+          "day": -9,
+          "margin": -14.7
+        },
+        {
+          "day": -6,
+          "margin": -14.8
+        },
+        {
+          "day": -3,
+          "margin": -14.5
+        },
+        {
+          "day": 0,
+          "margin": -14.8
+        }
+      ]
+    },
+    {
+      "id": "NE-president",
+      "state": "NE",
+      "status": "safe-r",
+      "margin": 18.9,
+      "leaderParty": "R",
+      "pollCount": 7,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -16.4
+        },
+        {
+          "day": -27,
+          "margin": -17.2
+        },
+        {
+          "day": -24,
+          "margin": -16.8
+        },
+        {
+          "day": -21,
+          "margin": -16.7
+        },
+        {
+          "day": -18,
+          "margin": -16.2
+        },
+        {
+          "day": -15,
+          "margin": -17.2
+        },
+        {
+          "day": -12,
+          "margin": -18.9
+        },
+        {
+          "day": -9,
+          "margin": -20
+        },
+        {
+          "day": -6,
+          "margin": -18.5
+        },
+        {
+          "day": -3,
+          "margin": -18.4
+        },
+        {
+          "day": 0,
+          "margin": -18.9
+        }
+      ]
+    },
+    {
+      "id": "NV-president",
+      "state": "NV",
+      "status": "toss-up",
+      "margin": 0.2,
+      "leaderParty": "D",
+      "pollCount": 11,
+      "lastPollDaysAgo": 0,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 1.6
+        },
+        {
+          "day": -27,
+          "margin": 1.5
+        },
+        {
+          "day": -24,
+          "margin": 1.7
+        },
+        {
+          "day": -21,
+          "margin": 1.8
+        },
+        {
+          "day": -18,
+          "margin": 1.2
+        },
+        {
+          "day": -15,
+          "margin": -0.1
+        },
+        {
+          "day": -12,
+          "margin": -1.2
+        },
+        {
+          "day": -9,
+          "margin": -1.5
+        },
+        {
+          "day": -6,
+          "margin": -1.7
+        },
+        {
+          "day": -3,
+          "margin": -2.2
+        },
+        {
+          "day": 0,
+          "margin": 0.2
+        }
+      ]
+    },
+    {
+      "id": "NH-president",
+      "state": "NH",
+      "status": "toss-up",
+      "margin": 1.6,
+      "leaderParty": "R",
+      "pollCount": 7,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -0.1
+        },
+        {
+          "day": -27,
+          "margin": -1.4
+        },
+        {
+          "day": -24,
+          "margin": -1.9
+        },
+        {
+          "day": -21,
+          "margin": -1.7
+        },
+        {
+          "day": -18,
+          "margin": -1.3
+        },
+        {
+          "day": -15,
+          "margin": -2.1
+        },
+        {
+          "day": -12,
+          "margin": -2.5
+        },
+        {
+          "day": -9,
+          "margin": -1.1
+        },
+        {
+          "day": -6,
+          "margin": -0.7
+        },
+        {
+          "day": -3,
+          "margin": -0.5
+        },
+        {
+          "day": 0,
+          "margin": -1.6
+        }
+      ]
+    },
+    {
+      "id": "NJ-president",
+      "state": "NJ",
+      "status": "lean-d",
+      "margin": 7.7,
+      "leaderParty": "D",
+      "pollCount": 7,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 8.9
+        },
+        {
+          "day": -27,
+          "margin": 9.6
+        },
+        {
+          "day": -24,
+          "margin": 9.6
+        },
+        {
+          "day": -21,
+          "margin": 8
+        },
+        {
+          "day": -18,
+          "margin": 8.1
+        },
+        {
+          "day": -15,
+          "margin": 6.8
+        },
+        {
+          "day": -12,
+          "margin": 6.4
+        },
+        {
+          "day": -9,
+          "margin": 6
+        },
+        {
+          "day": -6,
+          "margin": 5.4
+        },
+        {
+          "day": -3,
+          "margin": 6.7
+        },
+        {
+          "day": 0,
+          "margin": 7.7
+        }
+      ]
+    },
+    {
+      "id": "NM-president",
+      "state": "NM",
+      "status": "lean-d",
+      "margin": 3.4,
+      "leaderParty": "D",
+      "pollCount": 10,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 1.9
+        },
+        {
+          "day": -27,
+          "margin": 2.9
+        },
+        {
+          "day": -24,
+          "margin": 2.3
+        },
+        {
+          "day": -21,
+          "margin": 1.6
+        },
+        {
+          "day": -18,
+          "margin": 2.8
+        },
+        {
+          "day": -15,
+          "margin": 3.9
+        },
+        {
+          "day": -12,
+          "margin": 4.5
+        },
+        {
+          "day": -9,
+          "margin": 3.3
+        },
+        {
+          "day": -6,
+          "margin": 2.1
+        },
+        {
+          "day": -3,
+          "margin": 2.1
+        },
+        {
+          "day": 0,
+          "margin": 3.4
+        }
+      ]
+    },
+    {
+      "id": "NY-president",
+      "state": "NY",
+      "status": "likely-d",
+      "margin": 8.9,
+      "leaderParty": "D",
+      "pollCount": 6,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 10
+        },
+        {
+          "day": -27,
+          "margin": 9.1
+        },
+        {
+          "day": -24,
+          "margin": 9.6
+        },
+        {
+          "day": -21,
+          "margin": 9
+        },
+        {
+          "day": -18,
+          "margin": 10.1
+        },
+        {
+          "day": -15,
+          "margin": 9.4
+        },
+        {
+          "day": -12,
+          "margin": 9.9
+        },
+        {
+          "day": -9,
+          "margin": 10.3
+        },
+        {
+          "day": -6,
+          "margin": 10.8
+        },
+        {
+          "day": -3,
+          "margin": 8.9
+        },
+        {
+          "day": 0,
+          "margin": 8.9
+        }
+      ]
+    },
+    {
+      "id": "NC-president",
+      "state": "NC",
+      "status": "toss-up",
+      "margin": 1.3,
+      "leaderParty": "R",
+      "pollCount": 11,
+      "lastPollDaysAgo": 6,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -2.6
+        },
+        {
+          "day": -27,
+          "margin": -2.6
+        },
+        {
+          "day": -24,
+          "margin": -2.3
+        },
+        {
+          "day": -21,
+          "margin": -0.9
+        },
+        {
+          "day": -18,
+          "margin": -0.7
+        },
+        {
+          "day": -15,
+          "margin": -1.1
+        },
+        {
+          "day": -12,
+          "margin": -1.2
+        },
+        {
+          "day": -9,
+          "margin": 0
+        },
+        {
+          "day": -6,
+          "margin": 0.6
+        },
+        {
+          "day": -3,
+          "margin": 0
+        },
+        {
+          "day": 0,
+          "margin": -1.3
+        }
+      ]
+    },
+    {
+      "id": "ND-president",
+      "state": "ND",
+      "status": "safe-r",
+      "margin": 28.8,
+      "leaderParty": "R",
+      "pollCount": 8,
+      "lastPollDaysAgo": 5,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -29.3
+        },
+        {
+          "day": -27,
+          "margin": -29.9
+        },
+        {
+          "day": -24,
+          "margin": -29.5
+        },
+        {
+          "day": -21,
+          "margin": -30.5
+        },
+        {
+          "day": -18,
+          "margin": -30
+        },
+        {
+          "day": -15,
+          "margin": -28.9
+        },
+        {
+          "day": -12,
+          "margin": -28.5
+        },
+        {
+          "day": -9,
+          "margin": -28.7
+        },
+        {
+          "day": -6,
+          "margin": -29.1
+        },
+        {
+          "day": -3,
+          "margin": -29.6
+        },
+        {
+          "day": 0,
+          "margin": -28.8
+        }
+      ]
+    },
+    {
+      "id": "OH-president",
+      "state": "OH",
+      "status": "lean-r",
+      "margin": 7.2,
+      "leaderParty": "R",
+      "pollCount": 12,
+      "lastPollDaysAgo": 2,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -5.2
+        },
+        {
+          "day": -27,
+          "margin": -4.6
+        },
+        {
+          "day": -24,
+          "margin": -4.7
+        },
+        {
+          "day": -21,
+          "margin": -5
+        },
+        {
+          "day": -18,
+          "margin": -6.4
+        },
+        {
+          "day": -15,
+          "margin": -7.5
+        },
+        {
+          "day": -12,
+          "margin": -8
+        },
+        {
+          "day": -9,
+          "margin": -7.9
+        },
+        {
+          "day": -6,
+          "margin": -6.8
+        },
+        {
+          "day": -3,
+          "margin": -7
+        },
+        {
+          "day": 0,
+          "margin": -7.2
+        }
+      ]
+    },
+    {
+      "id": "OK-president",
+      "state": "OK",
+      "status": "safe-r",
+      "margin": 28.8,
+      "leaderParty": "R",
+      "pollCount": 5,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -27.7
+        },
+        {
+          "day": -27,
+          "margin": -27.4
+        },
+        {
+          "day": -24,
+          "margin": -28.1
+        },
+        {
+          "day": -21,
+          "margin": -29
+        },
+        {
+          "day": -18,
+          "margin": -27.9
+        },
+        {
+          "day": -15,
+          "margin": -29.1
+        },
+        {
+          "day": -12,
+          "margin": -29.7
+        },
+        {
+          "day": -9,
+          "margin": -30
+        },
+        {
+          "day": -6,
+          "margin": -28.6
+        },
+        {
+          "day": -3,
+          "margin": -29.7
+        },
+        {
+          "day": 0,
+          "margin": -28.8
+        }
+      ]
+    },
+    {
+      "id": "OR-president",
+      "state": "OR",
+      "status": "likely-d",
+      "margin": 13.1,
+      "leaderParty": "D",
+      "pollCount": 10,
+      "lastPollDaysAgo": 1,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 14.8
+        },
+        {
+          "day": -27,
+          "margin": 14.5
+        },
+        {
+          "day": -24,
+          "margin": 15.2
+        },
+        {
+          "day": -21,
+          "margin": 14
+        },
+        {
+          "day": -18,
+          "margin": 13.1
+        },
+        {
+          "day": -15,
+          "margin": 13
+        },
+        {
+          "day": -12,
+          "margin": 11.8
+        },
+        {
+          "day": -9,
+          "margin": 12
+        },
+        {
+          "day": -6,
+          "margin": 12.2
+        },
+        {
+          "day": -3,
+          "margin": 11.7
+        },
+        {
+          "day": 0,
+          "margin": 13.1
+        }
+      ]
+    },
+    {
+      "id": "PA-president",
+      "state": "PA",
+      "status": "toss-up",
+      "margin": 1.1,
+      "leaderParty": "D",
+      "pollCount": 5,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 2.3
+        },
+        {
+          "day": -27,
+          "margin": 2.1
+        },
+        {
+          "day": -24,
+          "margin": 2.6
+        },
+        {
+          "day": -21,
+          "margin": 2.9
+        },
+        {
+          "day": -18,
+          "margin": 2.8
+        },
+        {
+          "day": -15,
+          "margin": 1.5
+        },
+        {
+          "day": -12,
+          "margin": 0.8
+        },
+        {
+          "day": -9,
+          "margin": 1.9
+        },
+        {
+          "day": -6,
+          "margin": 2.2
+        },
+        {
+          "day": -3,
+          "margin": 1.1
+        },
+        {
+          "day": 0,
+          "margin": 1.1
+        }
+      ]
+    },
+    {
+      "id": "RI-president",
+      "state": "RI",
+      "status": "safe-d",
+      "margin": 17.3,
+      "leaderParty": "D",
+      "pollCount": 3,
+      "lastPollDaysAgo": 0,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 15.7
+        },
+        {
+          "day": -27,
+          "margin": 16.2
+        },
+        {
+          "day": -24,
+          "margin": 16.5
+        },
+        {
+          "day": -21,
+          "margin": 17.3
+        },
+        {
+          "day": -18,
+          "margin": 17.9
+        },
+        {
+          "day": -15,
+          "margin": 17.9
+        },
+        {
+          "day": -12,
+          "margin": 17.5
+        },
+        {
+          "day": -9,
+          "margin": 17.8
+        },
+        {
+          "day": -6,
+          "margin": 17.8
+        },
+        {
+          "day": -3,
+          "margin": 17.4
+        },
+        {
+          "day": 0,
+          "margin": 17.3
+        }
+      ]
+    },
+    {
+      "id": "SC-president",
+      "state": "SC",
+      "status": "safe-r",
+      "margin": 17,
+      "leaderParty": "R",
+      "pollCount": 3,
+      "lastPollDaysAgo": 2,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -17.9
+        },
+        {
+          "day": -27,
+          "margin": -16.5
+        },
+        {
+          "day": -24,
+          "margin": -17
+        },
+        {
+          "day": -21,
+          "margin": -16.4
+        },
+        {
+          "day": -18,
+          "margin": -15.9
+        },
+        {
+          "day": -15,
+          "margin": -17.3
+        },
+        {
+          "day": -12,
+          "margin": -16.9
+        },
+        {
+          "day": -9,
+          "margin": -16.7
+        },
+        {
+          "day": -6,
+          "margin": -16
+        },
+        {
+          "day": -3,
+          "margin": -17.4
+        },
+        {
+          "day": 0,
+          "margin": -17
+        }
+      ]
+    },
+    {
+      "id": "SD-president",
+      "state": "SD",
+      "status": "safe-r",
+      "margin": 20.6,
+      "leaderParty": "R",
+      "pollCount": 10,
+      "lastPollDaysAgo": 1,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -21.8
+        },
+        {
+          "day": -27,
+          "margin": -20.8
+        },
+        {
+          "day": -24,
+          "margin": -21.4
+        },
+        {
+          "day": -21,
+          "margin": -22
+        },
+        {
+          "day": -18,
+          "margin": -21.8
+        },
+        {
+          "day": -15,
+          "margin": -21.8
+        },
+        {
+          "day": -12,
+          "margin": -21.8
+        },
+        {
+          "day": -9,
+          "margin": -22.1
+        },
+        {
+          "day": -6,
+          "margin": -20.9
+        },
+        {
+          "day": -3,
+          "margin": -20.3
+        },
+        {
+          "day": 0,
+          "margin": -20.6
+        }
+      ]
+    },
+    {
+      "id": "TN-president",
+      "state": "TN",
+      "status": "safe-r",
+      "margin": 21,
+      "leaderParty": "R",
+      "pollCount": 6,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -21.4
+        },
+        {
+          "day": -27,
+          "margin": -22.4
+        },
+        {
+          "day": -24,
+          "margin": -21.6
+        },
+        {
+          "day": -21,
+          "margin": -22.4
+        },
+        {
+          "day": -18,
+          "margin": -22.1
+        },
+        {
+          "day": -15,
+          "margin": -21.3
+        },
+        {
+          "day": -12,
+          "margin": -20.9
+        },
+        {
+          "day": -9,
+          "margin": -20.9
+        },
+        {
+          "day": -6,
+          "margin": -21.4
+        },
+        {
+          "day": -3,
+          "margin": -21.2
+        },
+        {
+          "day": 0,
+          "margin": -21
+        }
+      ]
+    },
+    {
+      "id": "TX-president",
+      "state": "TX",
+      "status": "likely-r",
+      "margin": 10.8,
+      "leaderParty": "R",
+      "pollCount": 11,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -11.8
+        },
+        {
+          "day": -27,
+          "margin": -12.6
+        },
+        {
+          "day": -24,
+          "margin": -11.7
+        },
+        {
+          "day": -21,
+          "margin": -11.8
+        },
+        {
+          "day": -18,
+          "margin": -12.2
+        },
+        {
+          "day": -15,
+          "margin": -11.7
+        },
+        {
+          "day": -12,
+          "margin": -12
+        },
+        {
+          "day": -9,
+          "margin": -10.9
+        },
+        {
+          "day": -6,
+          "margin": -11.3
+        },
+        {
+          "day": -3,
+          "margin": -10.5
+        },
+        {
+          "day": 0,
+          "margin": -10.8
+        }
+      ]
+    },
+    {
+      "id": "UT-president",
+      "state": "UT",
+      "status": "safe-r",
+      "margin": 19.7,
+      "leaderParty": "R",
+      "pollCount": 8,
+      "lastPollDaysAgo": 1,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -19.3
+        },
+        {
+          "day": -27,
+          "margin": -19.6
+        },
+        {
+          "day": -24,
+          "margin": -20.4
+        },
+        {
+          "day": -21,
+          "margin": -19.7
+        },
+        {
+          "day": -18,
+          "margin": -20.7
+        },
+        {
+          "day": -15,
+          "margin": -20.2
+        },
+        {
+          "day": -12,
+          "margin": -20
+        },
+        {
+          "day": -9,
+          "margin": -18.9
+        },
+        {
+          "day": -6,
+          "margin": -20.4
+        },
+        {
+          "day": -3,
+          "margin": -19.4
+        },
+        {
+          "day": 0,
+          "margin": -19.7
+        }
+      ]
+    },
+    {
+      "id": "VT-president",
+      "state": "VT",
+      "status": "safe-d",
+      "margin": 29.6,
+      "leaderParty": "D",
+      "pollCount": 4,
+      "lastPollDaysAgo": 4,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 28.9
+        },
+        {
+          "day": -27,
+          "margin": 29.8
+        },
+        {
+          "day": -24,
+          "margin": 28.9
+        },
+        {
+          "day": -21,
+          "margin": 29.9
+        },
+        {
+          "day": -18,
+          "margin": 29.5
+        },
+        {
+          "day": -15,
+          "margin": 29.8
+        },
+        {
+          "day": -12,
+          "margin": 28.6
+        },
+        {
+          "day": -9,
+          "margin": 28.3
+        },
+        {
+          "day": -6,
+          "margin": 28.4
+        },
+        {
+          "day": -3,
+          "margin": 29.8
+        },
+        {
+          "day": 0,
+          "margin": 29.6
+        }
+      ]
+    },
+    {
+      "id": "VA-president",
+      "state": "VA",
+      "status": "lean-d",
+      "margin": 6.1,
+      "leaderParty": "D",
+      "pollCount": 11,
+      "lastPollDaysAgo": 0,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 8.3
+        },
+        {
+          "day": -27,
+          "margin": 7.5
+        },
+        {
+          "day": -24,
+          "margin": 8.2
+        },
+        {
+          "day": -21,
+          "margin": 6.4
+        },
+        {
+          "day": -18,
+          "margin": 5.5
+        },
+        {
+          "day": -15,
+          "margin": 6.2
+        },
+        {
+          "day": -12,
+          "margin": 7.4
+        },
+        {
+          "day": -9,
+          "margin": 7
+        },
+        {
+          "day": -6,
+          "margin": 7
+        },
+        {
+          "day": -3,
+          "margin": 6.9
+        },
+        {
+          "day": 0,
+          "margin": 6.1
+        }
+      ]
+    },
+    {
+      "id": "WA-president",
+      "state": "WA",
+      "status": "safe-d",
+      "margin": 18.9,
+      "leaderParty": "D",
+      "pollCount": 5,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 21.1
+        },
+        {
+          "day": -27,
+          "margin": 20.5
+        },
+        {
+          "day": -24,
+          "margin": 21.1
+        },
+        {
+          "day": -21,
+          "margin": 20.2
+        },
+        {
+          "day": -18,
+          "margin": 19.4
+        },
+        {
+          "day": -15,
+          "margin": 18.5
+        },
+        {
+          "day": -12,
+          "margin": 18.9
+        },
+        {
+          "day": -9,
+          "margin": 18.1
+        },
+        {
+          "day": -6,
+          "margin": 17.5
+        },
+        {
+          "day": -3,
+          "margin": 18.9
+        },
+        {
+          "day": 0,
+          "margin": 18.9
+        }
+      ]
+    },
+    {
+      "id": "WV-president",
+      "state": "WV",
+      "status": "safe-r",
+      "margin": 33.7,
+      "leaderParty": "R",
+      "pollCount": 5,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -34.7
+        },
+        {
+          "day": -27,
+          "margin": -34.3
+        },
+        {
+          "day": -24,
+          "margin": -34
+        },
+        {
+          "day": -21,
+          "margin": -33.2
+        },
+        {
+          "day": -18,
+          "margin": -33.8
+        },
+        {
+          "day": -15,
+          "margin": -33.2
+        },
+        {
+          "day": -12,
+          "margin": -33.3
+        },
+        {
+          "day": -9,
+          "margin": -33.3
+        },
+        {
+          "day": -6,
+          "margin": -34.1
+        },
+        {
+          "day": -3,
+          "margin": -33.5
+        },
+        {
+          "day": 0,
+          "margin": -33.7
+        }
+      ]
+    },
+    {
+      "id": "WI-president",
+      "state": "WI",
+      "status": "toss-up",
+      "margin": 0.9,
+      "leaderParty": "D",
+      "pollCount": 3,
+      "lastPollDaysAgo": 2,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 0.2
+        },
+        {
+          "day": -27,
+          "margin": 0.6
+        },
+        {
+          "day": -24,
+          "margin": 1.6
+        },
+        {
+          "day": -21,
+          "margin": 2.4
+        },
+        {
+          "day": -18,
+          "margin": 1.6
+        },
+        {
+          "day": -15,
+          "margin": 0.1
+        },
+        {
+          "day": -12,
+          "margin": -0.1
+        },
+        {
+          "day": -9,
+          "margin": -0.2
+        },
+        {
+          "day": -6,
+          "margin": -0.8
+        },
+        {
+          "day": -3,
+          "margin": -0.1
+        },
+        {
+          "day": 0,
+          "margin": 0.9
+        }
+      ]
+    },
+    {
+      "id": "WY-president",
+      "state": "WY",
+      "status": "safe-r",
+      "margin": 38.4,
+      "leaderParty": "R",
+      "pollCount": 11,
+      "lastPollDaysAgo": 2,
+      "trend": [
+        {
+          "day": -30,
+          "margin": -36.3
+        },
+        {
+          "day": -27,
+          "margin": -37.7
+        },
+        {
+          "day": -24,
+          "margin": -38
+        },
+        {
+          "day": -21,
+          "margin": -37.6
+        },
+        {
+          "day": -18,
+          "margin": -37.4
+        },
+        {
+          "day": -15,
+          "margin": -37.6
+        },
+        {
+          "day": -12,
+          "margin": -37.6
+        },
+        {
+          "day": -9,
+          "margin": -38.1
+        },
+        {
+          "day": -6,
+          "margin": -38.1
+        },
+        {
+          "day": -3,
+          "margin": -37.3
+        },
+        {
+          "day": 0,
+          "margin": -38.4
+        }
+      ]
+    },
+    {
+      "id": "DC-president",
+      "state": "DC",
+      "status": "safe-d",
+      "margin": 65.9,
+      "leaderParty": "D",
+      "pollCount": 9,
+      "lastPollDaysAgo": 3,
+      "trend": [
+        {
+          "day": -30,
+          "margin": 64.3
+        },
+        {
+          "day": -27,
+          "margin": 65.9
+        },
+        {
+          "day": -24,
+          "margin": 66.5
+        },
+        {
+          "day": -21,
+          "margin": 65.9
+        },
+        {
+          "day": -18,
+          "margin": 66.2
+        },
+        {
+          "day": -15,
+          "margin": 65.2
+        },
+        {
+          "day": -12,
+          "margin": 66.4
+        },
+        {
+          "day": -9,
+          "margin": 65.9
+        },
+        {
+          "day": -6,
+          "margin": 65.6
+        },
+        {
+          "day": -3,
+          "margin": 65.1
+        },
+        {
+          "day": 0,
+          "margin": 65.9
+        }
+      ]
+    }
+  ]
+}

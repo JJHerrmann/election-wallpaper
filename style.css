@@ -1,0 +1,524 @@
+:root {
+  --bg: #0b1220;
+  --bg-grid: #121b2e;
+  --ink: #e8edf7;
+  --ink-dim: #93a1bd;
+  --panel-bg: rgba(17, 25, 43, 0.72);
+  --panel-border: rgba(255, 255, 255, 0.08);
+  --dem: #3584e4;
+  --dem-safe: #1a5fb4;
+  --dem-likely: #3584e4;
+  --dem-lean: #7cb2f0;
+  --gop: #e5533d;
+  --gop-safe: #a51d0f;
+  --gop-likely: #e5533d;
+  --gop-lean: #f2a7a0;
+  --tossup: #a89bc4;
+  --slight-d: #92a6da;
+  --slight-r: #cda1b2;
+  --muted-d: #617086;
+  --muted-r: #726872;
+  --no-race: #35415a;
+  --state-stroke: #0b1220;
+  --accent: #f2c94c;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at 50% 20%, #14203a 0%, var(--bg) 55%, #060a13 100%);
+  color: var(--ink);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+}
+
+#app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#map {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#map .state {
+  stroke: var(--state-stroke);
+  stroke-width: 0.6;
+  fill: var(--no-race);
+  transition: fill 900ms ease;
+  cursor: pointer;
+}
+
+#map .state:hover {
+  stroke: var(--accent);
+  stroke-width: 1.4;
+}
+
+#map .state.selected {
+  stroke: var(--ink);
+  stroke-width: 1.6;
+}
+
+#map .state.fill-safe-d,
+#map .district.fill-safe-d { fill: var(--dem-safe); }
+#map .state.fill-likely-d,
+#map .district.fill-likely-d { fill: var(--dem-likely); }
+#map .state.fill-lean-d,
+#map .district.fill-lean-d { fill: var(--dem-lean); }
+#map .state.fill-slight-d,
+#map .district.fill-slight-d { fill: var(--slight-d); }
+#map .state.fill-toss-up,
+#map .district.fill-toss-up { fill: var(--tossup); }
+#map .state.fill-slight-r,
+#map .district.fill-slight-r { fill: var(--slight-r); }
+#map .state.fill-lean-r,
+#map .district.fill-lean-r { fill: var(--gop-lean); }
+#map .state.fill-likely-r,
+#map .district.fill-likely-r { fill: var(--gop-likely); }
+#map .state.fill-safe-r,
+#map .district.fill-safe-r { fill: var(--gop-safe); }
+#map .state.fill-no-race,
+#map .district.fill-no-race { fill: var(--no-race); }
+#map .district.fill-muted-d { fill: var(--muted-d); }
+#map .district.fill-muted-r { fill: var(--muted-r); }
+
+.race-status-pill.fill-safe-d { background: var(--dem-safe); }
+.race-status-pill.fill-likely-d { background: var(--dem-likely); }
+.race-status-pill.fill-lean-d { background: var(--dem-lean); }
+.race-status-pill.fill-slight-d { background: var(--slight-d); }
+.race-status-pill.fill-toss-up { background: var(--tossup); }
+.race-status-pill.fill-slight-r { background: var(--slight-r); }
+.race-status-pill.fill-lean-r { background: var(--gop-lean); }
+.race-status-pill.fill-likely-r { background: var(--gop-likely); }
+.race-status-pill.fill-safe-r { background: var(--gop-safe); }
+.race-status-pill.fill-no-race { background: var(--no-race); }
+.race-status-pill.fill-muted-d { background: var(--muted-d); }
+.race-status-pill.fill-muted-r { background: var(--muted-r); }
+
+/* ---- district layer ---- */
+#district-layer.layer-hidden { display: none; }
+
+#map .district {
+  stroke: var(--state-stroke);
+  stroke-width: 0.15;
+  fill: var(--no-race);
+  transition: fill 900ms ease;
+  cursor: pointer;
+}
+
+#map .district:hover {
+  stroke: var(--accent);
+  stroke-width: 0.8;
+}
+
+#map .district.selected {
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+
+/* When districts are showing, state paths become a thin geographic reference
+   outline instead of a filled layer, sitting on top of the district fills. */
+#state-layer.outline-only .state {
+  fill: none;
+  stroke: rgba(232, 237, 247, 0.35);
+  stroke-width: 0.8;
+  pointer-events: none;
+}
+
+/* ---- mode switcher ---- */
+#mode-switcher {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  display: flex;
+  gap: 4px;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 999px;
+  padding: 4px;
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+}
+
+.mode-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--ink-dim);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 200ms ease, color 200ms ease;
+}
+
+.mode-btn:hover { color: var(--ink); }
+
+.mode-btn.active {
+  background: linear-gradient(135deg, #3a4a70, #263252);
+  color: var(--ink);
+}
+
+/* ---- summary card ---- */
+#summary-card {
+  position: absolute;
+  top: 24px;
+  left: 28px;
+  min-width: 220px;
+  max-width: 40vw;
+  width: max-content;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
+  padding: 16px 18px;
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+  overflow-wrap: break-word;
+}
+
+.summary-control {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 0.01em;
+}
+
+.seat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.party-label {
+  font-size: 11px;
+  font-weight: 700;
+  width: 14px;
+  text-align: center;
+}
+
+.party-label.dem { color: var(--dem); }
+.party-label.gop { color: var(--gop); }
+
+.seat-bar {
+  flex: 1;
+  height: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+  display: flex;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.seat-bar-fill {
+  height: 100%;
+  transition: width 900ms ease;
+}
+
+.seat-bar-fill.dem { background: var(--dem); }
+.seat-bar-fill.gop { background: var(--gop); }
+
+.seat-numbers {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 6px;
+  color: var(--ink-dim);
+}
+
+#dem-count { color: var(--dem); }
+#gop-count { color: var(--gop); }
+
+.summary-confidence {
+  margin-top: 10px;
+  font-size: 11.5px;
+  color: var(--ink-dim);
+  line-height: 1.4;
+}
+
+.methodology-note {
+  margin-top: 8px;
+  padding: 6px 8px;
+  font-size: 10.5px;
+  line-height: 1.35;
+  color: var(--ink-dim);
+  background: rgba(242, 201, 76, 0.08);
+  border-left: 2px solid var(--accent);
+  border-radius: 4px;
+}
+
+.summary-source {
+  margin-top: 6px;
+  font-size: 10px;
+  color: #5c6a8a;
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.last-updated {
+  margin-top: 8px;
+  font-size: 10.5px;
+  color: #5c6a8a;
+  border-top: 1px solid var(--panel-border);
+  padding-top: 8px;
+}
+
+/* ---- race detail card ---- */
+#race-card {
+  position: absolute;
+  bottom: 32px;
+  left: 28px;
+  width: 260px;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
+  padding: 16px 18px;
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+
+#race-card.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(6px);
+}
+
+.race-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+#race-card-close {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--ink-dim);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+#race-card-close:hover { color: var(--ink); }
+
+.race-status-pill {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+  background: var(--no-race);
+}
+
+.candidates-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.candidate-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 3px;
+  padding: 8px 6px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.candidate-name {
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.2;
+  min-height: 2.2em;
+  display: flex;
+  align-items: center;
+}
+
+.candidate-photo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--no-race);
+  border: 1.5px solid var(--panel-border);
+}
+
+.candidate-meta {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+}
+
+.candidate-party {
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 999px;
+}
+
+.candidate-col[data-party="D"] .candidate-party { background: var(--dem); color: #fff; }
+.candidate-col[data-party="R"] .candidate-party { background: var(--gop); color: #fff; }
+
+.incumbent-flag {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 1px 5px;
+}
+
+.candidate-pct {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.race-detail-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.5px;
+  color: var(--ink-dim);
+  margin-bottom: 4px;
+}
+
+.race-detail-row span:last-child { color: var(--ink); font-weight: 600; }
+
+#race-trend {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+/* ---- momentum trend card ---- */
+#trend-card {
+  position: absolute;
+  bottom: 56px;
+  right: 28px;
+  width: 200px;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
+  padding: 12px 14px;
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+  transition: opacity 220ms ease;
+}
+
+#trend-card.hidden { opacity: 0; pointer-events: none; }
+
+.trend-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  gap: 8px;
+}
+
+.trend-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-dim);
+  white-space: nowrap;
+}
+
+.trend-window-picker {
+  display: flex;
+  gap: 2px;
+}
+
+.trend-window-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--ink-dim);
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 5px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 150ms ease, color 150ms ease;
+}
+
+.trend-window-btn:hover { color: var(--ink); }
+
+.trend-window-btn.active {
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--ink);
+}
+
+#trend-chart {
+  width: 100%;
+  height: 56px;
+  display: block;
+}
+
+.trend-delta {
+  margin-top: 6px;
+  font-size: 10px;
+  line-height: 1.35;
+  color: var(--ink-dim);
+}
+
+/* ---- offline badge ---- */
+#offline-badge {
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
+  font-size: 11px;
+  color: var(--ink-dim);
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 999px;
+  padding: 5px 12px;
+}
+
+.hidden { display: none !important; }
+
+/* ---- compact layout (Lively "compact" property) ---- */
+body.compact #summary-card { padding: 10px 12px; min-width: 170px; }
+body.compact .summary-control { font-size: 14px; }
+body.compact #mode-switcher { top: 16px; right: 16px; }
+body.compact .mode-btn { padding: 6px 11px; font-size: 11.5px; }
+body.compact #race-card { width: 210px; padding: 10px 12px; }
+body.compact #trend-card { width: 160px; padding: 8px 10px; bottom: 48px; }
+
+/* ---- light theme (Lively "theme" property) ---- */
+body.light {
+  --bg: #eef2fa;
+  --panel-bg: rgba(255, 255, 255, 0.78);
+  --panel-border: rgba(20, 30, 55, 0.08);
+  --ink: #131b2e;
+  --ink-dim: #4c5670;
+  --no-race: #c9d2e3;
+  --state-stroke: #eef2fa;
+  --shadow: 0 8px 24px rgba(30, 40, 70, 0.14);
+}
+
+body.light html, body.light {
+  background: radial-gradient(ellipse at 50% 20%, #ffffff 0%, #e7edf9 55%, #dbe3f3 100%);
+}
