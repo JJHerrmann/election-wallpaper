@@ -29,7 +29,7 @@ const REPO_DIR = path.join(__dirname, '..');
 // Lively both depend on this script succeeding regardless of push connectivity.
 function pushDataUpdate() {
   try {
-    execSync('git add data', { cwd: REPO_DIR, stdio: 'pipe' });
+    execSync('git add data senate governor sitemap.xml', { cwd: REPO_DIR, stdio: 'pipe' });
     try {
       execSync('git diff --cached --quiet', { cwd: REPO_DIR, stdio: 'pipe' });
       console.log('  (no data changes to push)');
@@ -706,6 +706,9 @@ async function main() {
   const presidentData = await fetchPresident2024Results();
   fs.writeFileSync(path.join(DATA_DIR, 'live-president.json'), JSON.stringify(presidentData, null, 2));
   console.log('  states:', presidentData.races.length, 'EV', presidentData.summary.demSeats, '-', presidentData.summary.gopSeats);
+
+  console.log('Generating per-race SEO pages...');
+  require('./generate_race_pages').main();
 
   console.log('Pushing data update to origin (election.rook.works)...');
   pushDataUpdate();

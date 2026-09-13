@@ -20,6 +20,7 @@
 
 <meta name="theme-color" content="#0b1220" />
 <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="content.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,12 +41,6 @@
 </script>
 </head>
 <body>
-<noscript>
-  <div style="max-width:640px;margin:40px auto;padding:0 20px;font-family:system-ui,sans-serif;color:#1a1a1a;">
-    <h1>2026 Senate, House &amp; Governor Election Forecast Map</h1>
-    <p>This page shows a live-updating map of 2026 US Senate, House of Representatives, and gubernatorial race ratings, sourced from aggregated published forecaster ratings (Cook Political Report, Sabato's Crystal Ball, Inside Elections, Silver Bulletin, Race to the WH, and others) and Cook Partisan Voting Index district data, refreshed daily and on breaking campaign news. Enable JavaScript to view the interactive map.</p>
-  </div>
-</noscript>
   <div id="app">
     <svg id="map" viewBox="0 0 960 603" preserveAspectRatio="xMidYMid meet" aria-label="US election map">
       <g id="district-layer"></g>
@@ -119,6 +114,43 @@
 
     <div id="offline-badge" class="hidden">Showing cached data</div>
   </div>
+
+  <main id="site-content">
+    <h1>2026 Senate, House &amp; Governor Election Forecast Map</h1>
+    <p>This live-updating map tracks every rated 2026 US Senate, House of Representatives,
+    and gubernatorial race, refreshed daily and whenever breaking campaign news
+    (a candidate dropping out, an indictment, a death) suggests the ratings might have
+    moved. Switch tabs above to see President, Senate, House, or Governor; click any
+    state or district for its candidates, party, incumbency, and latest poll.</p>
+
+    <h2>How the ratings work</h2>
+    <p>Senate and Governor ratings are a <strong>consensus of published forecaster
+    ratings</strong> &mdash; Cook Political Report, Sabato's Crystal Ball, Inside
+    Elections, RealClearPolitics, Silver Bulletin, Race to the WH, and others &mdash;
+    aggregated from Wikipedia's own tracking of those forecasters' calls. This is
+    institutional judgment, not a raw poll average, and it deliberately moves more slowly
+    and conservatively than day-to-day polling: a single strong poll won't flip a rating
+    category, especially in a state with a strong partisan lean. House districts are
+    shaded by real <strong>Cook Partisan Voting Index</strong> (structural lean, not a
+    forecast), with the ~90 genuinely competitive districts shown in full color against a
+    muted backdrop of the ~345 safe ones. The President tab shows the certified 2024
+    result, since there is no 2026 presidential race.</p>
+
+    <h2>Browse every race</h2>
+    <p>Every rated Senate and Governor race also has its own page with candidates,
+    rating, and latest poll: <a href="/senate/">all 2026 Senate races</a> &middot;
+    <a href="/governor/">all 2026 Governor races</a>.</p>
+
+    <h2>Sourcing &amp; freshness</h2>
+    <p>All data is sourced from Wikipedia (CC BY-SA), which itself aggregates the named
+    forecasters' published work. Nothing here is original polling or an original
+    forecast. The page shows exactly when it was last refreshed in the summary panel
+    above.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>A <a href="https://rook.works">Rookworks</a> project. <a href="https://dispatch.rook.works">Read the blog</a></p>
+  </footer>
 
   <script src="app.js"></script>
 </body>
