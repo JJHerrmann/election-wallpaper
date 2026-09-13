@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T18:49:35.316Z",
+  "updatedAt": "2026-09-13T21:49:35.354Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -1071,7 +1071,16 @@
           "isIncumbent": false
         }
       ],
-      "bestPoll": null
+      "bestPoll": {
+        "source": "Race to the WH",
+        "date": "September 13, 2026",
+        "margin": 2.4,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "D": 44.7,
+          "R": 47.1
+        }
+      }
     },
     {
       "id": "PA-governor",
@@ -1103,12 +1112,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "August 25, 2026",
-        "margin": 16,
+        "date": "September 13, 2026",
+        "margin": 19.8,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 52.7,
-          "R": 36.7
+          "D": 52.8,
+          "R": 33
         }
       }
     },
@@ -1261,13 +1270,13 @@
         }
       ],
       "bestPoll": {
-        "source": "Decision Desk HQ",
-        "date": "September 9, 2026",
-        "margin": 1.8,
+        "source": "270toWin",
+        "date": "September 13, 2026",
+        "margin": 3.2,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 46.8,
-          "D": 45
+          "R": 47.4,
+          "D": 44.2
         }
       }
     },
