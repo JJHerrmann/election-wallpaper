@@ -3,10 +3,49 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Election Wallpaper</title>
+<title>2026 Senate, House &amp; Governor Election Forecast Map | Live Wallpaper</title>
+<meta name="description" content="Live, self-updating map of 2026 US Senate, House, and Governor race ratings, sourced from aggregated forecaster consensus (Cook, Sabato, Inside Elections, Silver Bulletin, and more) and real Cook PVI district data. Updated daily plus on breaking campaign news." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://election.rook.works/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://election.rook.works/" />
+<meta property="og:site_name" content="Rookworks" />
+<meta property="og:title" content="2026 Senate, House &amp; Governor Election Forecast Map" />
+<meta property="og:description" content="Live, self-updating US election ratings map for the 2026 midterms — Senate, House, and Governor races, forecaster-consensus sourced and updated daily." />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="2026 Senate, House &amp; Governor Election Forecast Map" />
+<meta name="twitter:description" content="Live, self-updating US election ratings map for the 2026 midterms, updated daily from aggregated forecaster consensus and real Cook PVI data." />
+
+<meta name="theme-color" content="#0b1220" />
 <link rel="stylesheet" href="style.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "2026 US Senate, House, and Governor Election Forecast Ratings",
+  "description": "Daily-updated consensus election ratings for the 2026 US Senate, House of Representatives, and gubernatorial races, aggregated from published forecaster ratings (Cook Political Report, Sabato's Crystal Ball, Inside Elections, Silver Bulletin, Race to the WH, and others) and Cook Partisan Voting Index district data.",
+  "url": "https://election.rook.works/",
+  "temporalCoverage": "2026-01-01/2026-11-03",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "creator": { "@type": "Organization", "name": "Rookworks" },
+  "keywords": ["2026 midterm elections", "Senate election forecast", "House election forecast", "governor race ratings", "election map", "Cook Partisan Voting Index", "generic ballot polling"],
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://election.rook.works/data/live-senate.json" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://election.rook.works/data/live-house.json" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://election.rook.works/data/live-governor.json" }
+  ]
+}
+</script>
 </head>
 <body>
+<noscript>
+  <div style="max-width:640px;margin:40px auto;padding:0 20px;font-family:system-ui,sans-serif;color:#1a1a1a;">
+    <h1>2026 Senate, House &amp; Governor Election Forecast Map</h1>
+    <p>This page shows a live-updating map of 2026 US Senate, House of Representatives, and gubernatorial race ratings, sourced from aggregated published forecaster ratings (Cook Political Report, Sabato's Crystal Ball, Inside Elections, Silver Bulletin, Race to the WH, and others) and Cook Partisan Voting Index district data, refreshed daily and on breaking campaign news. Enable JavaScript to view the interactive map.</p>
+  </div>
+</noscript>
   <div id="app">
     <svg id="map" viewBox="0 0 960 603" preserveAspectRatio="xMidYMid meet" aria-label="US election map">
       <g id="district-layer"></g>
