@@ -15,8 +15,36 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const REPO_DIR = path.join(__dirname, '..');
+
+// Pushes the refreshed data/ + history-*.json files to the public GitHub Pages site
+// (election.rook.works) so it stays in sync with the local wallpaper. Lives here
+// rather than in scheduled_refresh.cmd because check_news_alerts.js also calls this
+// script directly (not through the .cmd), so this is the one place both the daily
+// and news-alert-triggered refreshes actually pass through. Best-effort: a git/network
+// failure here must never crash the data fetch itself, since the local wallpaper and
+// Lively both depend on this script succeeding regardless of push connectivity.
+function pushDataUpdate() {
+  try {
+    execSync('git add data', { cwd: REPO_DIR, stdio: 'pipe' });
+    try {
+      execSync('git diff --cached --quiet', { cwd: REPO_DIR, stdio: 'pipe' });
+      console.log('  (no data changes to push)');
+      return;
+    } catch (diffErr) {
+      // non-zero exit from `git diff --quiet` means there ARE staged changes -- expected path.
+    }
+    const stamp = new Date().toISOString();
+    execSync(`git commit -m "data: automated refresh ${stamp}"`, { cwd: REPO_DIR, stdio: 'pipe' });
+    execSync('git push', { cwd: REPO_DIR, stdio: 'pipe' });
+    console.log('  pushed data update to origin');
+  } catch (err) {
+    console.error('  WARNING: failed to push data update:', err.message);
+  }
+}
 
 const STATE_TO_USPS = {
   Alabama: 'AL', Alaska: 'AK', Arizona: 'AZ', Arkansas: 'AR', California: 'CA',
@@ -678,6 +706,9 @@ async function main() {
   const presidentData = await fetchPresident2024Results();
   fs.writeFileSync(path.join(DATA_DIR, 'live-president.json'), JSON.stringify(presidentData, null, 2));
   console.log('  states:', presidentData.races.length, 'EV', presidentData.summary.demSeats, '-', presidentData.summary.gopSeats);
+
+  console.log('Pushing data update to origin (election.rook.works)...');
+  pushDataUpdate();
 
   console.log('Done.');
 }
