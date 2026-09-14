@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T04:49:34.596Z",
+  "updatedAt": "2026-09-14T06:49:34.618Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -936,7 +936,7 @@
           "articleTitle": "Kathy Hochul",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Governor%20Hochul%20Announces%20Five-Point%20Plan%20to%20Protect%20New%20Yorkers%20on%20the%20Subway%20(cropped%204).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Bruce Blakeman",
