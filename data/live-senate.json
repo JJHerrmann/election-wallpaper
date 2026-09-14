@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T10:00:02.183Z",
+  "updatedAt": "2026-09-14T14:49:33.559Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -613,9 +613,9 @@
     {
       "id": "MI-senate",
       "state": "MI",
-      "status": "slight-d",
+      "status": "lean-d",
       "margin": null,
-      "leaderParty": null,
+      "leaderParty": "D",
       "incumbentParty": "D",
       "pollCount": 0,
       "lastPollDaysAgo": null,
