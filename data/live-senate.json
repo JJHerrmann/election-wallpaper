@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T01:49:33.789Z",
+  "updatedAt": "2026-09-15T04:49:33.462Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -752,10 +752,10 @@
           "isIncumbent": false
         },
         {
-          "name": "Alani Bankhead",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alani%20Bankhead%20USAF%202021.png?width=80",
+          "name": "Seth Bodnar",
+          "articleTitle": "Seth Bodnar",
+          "party": null,
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Seth%20Bodnar%20-%20President%20at%20University%20of%20Montana%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
