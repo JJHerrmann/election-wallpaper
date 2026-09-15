@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T13:49:36.102Z",
+  "updatedAt": "2026-09-15T17:49:37.406Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -856,13 +856,13 @@
         }
       ],
       "bestPoll": {
-        "source": "''Silver Bulletin''",
-        "date": "September 12, 2026",
-        "margin": 10,
+        "source": "RealClearPolitics",
+        "date": "September 15, 2026",
+        "margin": 14,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 48.8,
-          "D": 38.8
+          "R": 51,
+          "D": 37
         }
       }
     },
@@ -1142,7 +1142,7 @@
           "isIncumbent": false
         },
         {
-          "name": "TBD",
+          "name": "Aaron Guckian",
           "articleTitle": null,
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
@@ -1270,13 +1270,13 @@
         }
       ],
       "bestPoll": {
-        "source": "270toWin",
-        "date": "September 13, 2026",
-        "margin": 3.2,
+        "source": "Decision Desk HQ",
+        "date": "September 15, 2026",
+        "margin": 5.2,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 47.4,
-          "D": 44.2
+          "R": 49.1,
+          "D": 43.9
         }
       }
     },

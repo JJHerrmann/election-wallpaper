@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T13:49:36.917Z",
+  "updatedAt": "2026-09-15T17:49:38.302Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -2429,11 +2429,11 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Sarah McBride ''(presumptive)''",
+          "name": "Sarah McBride",
           "articleTitle": "Sarah McBride",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Representative%20Sarah%20McBride%20Official%20Portrait%20(slight%20crop).jpg?width=80",
-          "isIncumbent": false
+          "isIncumbent": true
         },
         {
           "name": "TBD",
