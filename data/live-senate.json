@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:49:38.115Z",
+  "updatedAt": "2026-09-16T00:50:03.014Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -26,7 +26,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -56,7 +56,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -108,7 +108,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -160,7 +160,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -203,9 +203,24 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
-      "candidates": null,
+      "candidates": [
+        {
+          "name": "Chris Coons",
+          "articleTitle": "Chris Coons",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Coons%202024.jpg?width=80",
+          "isIncumbent": true
+        },
+        {
+          "name": "Michael Katz",
+          "articleTitle": "Michael Katz (politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        }
+      ],
       "bestPoll": null
     },
     {
@@ -218,7 +233,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -257,7 +272,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -309,7 +324,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -339,7 +354,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -382,7 +397,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -421,7 +436,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -460,7 +475,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -499,7 +514,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -529,7 +544,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -581,7 +596,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -620,7 +635,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -659,7 +674,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -689,7 +704,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -741,7 +756,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -780,7 +795,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -823,7 +838,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -853,7 +868,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -883,7 +898,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -919,14 +934,14 @@
     {
       "id": "NC-senate",
       "state": "NC",
-      "status": "lean-d",
+      "status": "likely-d",
       "margin": null,
       "leaderParty": "D",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -978,7 +993,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1017,7 +1032,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1047,7 +1062,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1090,7 +1105,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1129,7 +1144,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1168,7 +1183,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1198,7 +1213,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1228,7 +1243,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1293,7 +1308,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1345,7 +1360,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
@@ -1388,7 +1403,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 10,
+      "raterCount": 11,
       "trend": [],
       "candidates": [
         {
