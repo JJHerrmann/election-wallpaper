@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T16:49:36.309Z",
+  "updatedAt": "2026-09-16T18:49:36.306Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -8578,7 +8578,7 @@
           "name": "Derek Merrin",
           "articleTitle": "Derek Merrin",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Derek_Merrin_jpeg.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Derek%20Merrin%20jpeg%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
