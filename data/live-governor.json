@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T19:49:35.243Z",
+  "updatedAt": "2026-09-16T20:49:34.821Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -334,13 +334,13 @@
         }
       ],
       "bestPoll": {
-        "source": "270toWin",
-        "date": "September 11, 2026",
-        "margin": 1,
+        "source": "FiftyPlusOne",
+        "date": "September 16, 2026",
+        "margin": 2.7,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.7,
-          "D": 46.7
+          "R": 44.8,
+          "D": 47.5
         }
       }
     },
@@ -786,7 +786,16 @@
           "isIncumbent": false
         }
       ],
-      "bestPoll": null
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "September 16, 2026",
+        "margin": 10.2,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 44.8,
+          "D": 34.6
+        }
+      }
     },
     {
       "id": "NV-governor",
