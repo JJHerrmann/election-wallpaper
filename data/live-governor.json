@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T01:49:34.706Z",
+  "updatedAt": "2026-09-16T05:49:34.856Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -462,7 +462,7 @@
       "candidates": [
         {
           "name": "Zach Lahn",
-          "articleTitle": null,
+          "articleTitle": "Zach Lahn",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zach%20Lahn%20IA%20State%20Fair%202026.jog%20(cropped).jpg?width=80",
           "isIncumbent": false
