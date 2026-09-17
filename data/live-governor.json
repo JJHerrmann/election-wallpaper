@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T00:49:35.589Z",
+  "updatedAt": "2026-09-17T04:49:34.886Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -1145,7 +1145,7 @@
       "candidates": [
         {
           "name": "Helena Foulkes",
-          "articleTitle": "Helena Buonanno Foulkes",
+          "articleTitle": "Helena Foulkes",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HelenaFoulkes%20CROP%20(cropped).jpg?width=80",
           "isIncumbent": false
