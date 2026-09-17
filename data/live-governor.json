@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T17:49:35.523Z",
+  "updatedAt": "2026-09-17T18:49:35.068Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -891,7 +891,7 @@
     {
       "id": "NM-governor",
       "state": "NM",
-      "status": "safe-d",
+      "status": "likely-d",
       "margin": null,
       "leaderParty": "D",
       "incumbentParty": "D",
