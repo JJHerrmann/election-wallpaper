@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T16:49:34.597Z",
+  "updatedAt": "2026-09-17T17:49:34.943Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -443,7 +443,7 @@
           "name": "Roger Marshall",
           "articleTitle": "Roger Marshall",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Marshall%20117th%20Congress%20portrait%20(cropped%20center).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20Senator%20visits%20Joint%20Task%20Force%20-%20Southern%20Border%20(9082056)%20(cropped2).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -456,12 +456,12 @@
       ],
       "bestPoll": {
         "source": "''Silver Bulletin''",
-        "date": "September 15, 2026",
-        "margin": 3.5,
+        "date": "September 16, 2026",
+        "margin": 3.4,
         "leaderParty": "R",
         "candidatePcts": {
           "R": 48,
-          "D": 44.5
+          "D": 44.6
         }
       }
     },
