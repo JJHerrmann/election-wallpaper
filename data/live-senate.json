@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T18:49:34.436Z",
+  "updatedAt": "2026-09-17T19:49:34.198Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -528,7 +528,7 @@
           "name": "Jamie Davis",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/https%3A%2F%2Fjamieforlouisiana.com%2Fassets%2Frunoff%2Fcornfield-portrait.jpg?width=80",
           "isIncumbent": false
         }
       ],
