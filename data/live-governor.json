@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T19:49:34.811Z",
+  "updatedAt": "2026-09-17T21:49:34.661Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -49,7 +49,7 @@
     {
       "id": "AK-governor",
       "state": "AK",
-      "status": "slight-r",
+      "status": "toss-up",
       "margin": null,
       "leaderParty": null,
       "incumbentParty": "R",
