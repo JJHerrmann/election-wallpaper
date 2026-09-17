@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T22:49:33.586Z",
+  "updatedAt": "2026-09-17T23:49:34.234Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -443,7 +443,7 @@
           "name": "Roger Marshall",
           "articleTitle": "Roger Marshall",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20Senator%20visits%20Joint%20Task%20Force%20-%20Southern%20Border%20(9082056)%20(cropped2).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20Senator%20visits%20Joint%20Task%20Force%20-%20Southern%20Border%20(9082056)%20(cropped%203).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -528,7 +528,7 @@
           "name": "Jamie Davis",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/https%3A%2F%2Fjamieforlouisiana.com%2Fassets%2Frunoff%2Fcornfield-portrait.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
