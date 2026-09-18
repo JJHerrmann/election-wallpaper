@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T10:00:02.813Z",
+  "updatedAt": "2026-09-18T10:49:33.662Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -1236,7 +1236,7 @@
     {
       "id": "TX-senate",
       "state": "TX",
-      "status": "toss-up",
+      "status": "slight-d",
       "margin": null,
       "leaderParty": null,
       "incumbentParty": "R",
