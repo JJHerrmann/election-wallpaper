@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T14:49:34.344Z",
+  "updatedAt": "2026-09-18T15:49:34.585Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -514,7 +514,16 @@
           "isIncumbent": false
         }
       ],
-      "bestPoll": null
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "September 18, 2026",
+        "margin": 7.5,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "D": 43.5,
+          "R": 51
+        }
+      }
     },
     {
       "id": "KY-governor",
