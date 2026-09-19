@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T11:49:35.021Z",
+  "updatedAt": "2026-09-19T17:49:34.081Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -416,13 +416,13 @@
         }
       ],
       "bestPoll": {
-        "source": "FiftyPlusOne",
-        "date": "September 18, 2026",
+        "source": "Decision Desk HQ",
+        "date": "September 19, 2026",
         "margin": 0.3,
-        "leaderParty": "D",
+        "leaderParty": "R",
         "candidatePcts": {
-          "R": 45,
-          "D": 45.3
+          "R": 43.8,
+          "D": 43.5
         }
       }
     },
@@ -749,7 +749,7 @@
     {
       "id": "MT-senate",
       "state": "MT",
-      "status": "likely-r",
+      "status": "safe-r",
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
