@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T10:00:02.759Z",
+  "updatedAt": "2026-09-19T11:49:35.021Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -122,7 +122,7 @@
           "name": "Hallie Shoffner",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Hallie%20Shoffner?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -749,7 +749,7 @@
     {
       "id": "MT-senate",
       "state": "MT",
-      "status": "safe-r",
+      "status": "likely-r",
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
