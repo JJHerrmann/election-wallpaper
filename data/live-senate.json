@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T01:49:34.136Z",
+  "updatedAt": "2026-09-20T02:49:35.618Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "Annie Andrews",
-          "articleTitle": "Annie Andrews (physician)",
+          "articleTitle": "Annie Andrews (pediatrician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Annie%20Andrews%20Greenville%20(cropped).jpg?width=80",
           "isIncumbent": false
