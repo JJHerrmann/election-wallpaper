@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T11:49:34.889Z",
+  "updatedAt": "2026-09-20T17:49:36.504Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -607,22 +607,7 @@
       "pviMagnitude": 7,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "James Gallagher",
-          "articleTitle": "James Gallagher (California politician)",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/James%20Gallagher%2C%20official%20portrait%20(119th%20Congress)%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Mike McGuire",
-          "articleTitle": "Mike McGuire (politician)",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/CA%20Sen%20Mike%20McGuire%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -635,22 +620,7 @@
       "pviMagnitude": 13,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Jared Huffman",
-          "articleTitle": "Jared Huffman",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jared%20Huffman%20Portrait%20118%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Robin Littau",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -663,22 +633,7 @@
       "pviMagnitude": 6,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Ami Bera",
-          "articleTitle": "Ami Bera",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ami%20Bera%20117th%20Congress%20(cropped).jpeg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Robb Tucker",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Robb%20Tucker%2C%202025%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -691,22 +646,7 @@
       "pviMagnitude": 8,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Mike Thompson",
-          "articleTitle": "Mike Thompson",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Thompson%2C%20official%20portrait%2C%20116th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Eric Jones",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -719,22 +659,7 @@
       "pviMagnitude": 10,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Tom McClintock",
-          "articleTitle": "Tom McClintock",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20McClintock%20portrait%20(118th%20Congress).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Michael Masuda",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -747,22 +672,7 @@
       "pviMagnitude": 5,
       "competitive": true,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Kevin Kiley",
-          "articleTitle": "Kevin Kiley (politician)",
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Kevin%20Kiley%20official%20photo%2C%20118th%20Congress%202%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Richard Pan",
-          "articleTitle": "Richard Pan",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Pan%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -775,22 +685,7 @@
       "pviMagnitude": 7,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Doris Matsui",
-          "articleTitle": "Doris Matsui",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Doris%20Matsui%20portrait%20(118th%20Congress).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Mai Vang",
-          "articleTitle": "Mai Vang",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sacramento%20City%20Councilmember%20Mai%20Vang%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -803,22 +698,7 @@
       "pviMagnitude": 19,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "John Garamendi",
-          "articleTitle": "John Garamendi",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Garamendi%20portrait%20(118th%20Congress).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Rudy Recile",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -831,22 +711,7 @@
       "pviMagnitude": 8,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Josh Harder",
-          "articleTitle": "Josh Harder",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Josh%20Harder%2C%20official%20portrait%2C%20116th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "John McBride",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -859,22 +724,7 @@
       "pviMagnitude": 18,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Mark DeSaulnier",
-          "articleTitle": "Mark DeSaulnier",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20DeSaulnier%20portrait%20(118th%20Congress).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Jeff Frese",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -887,22 +737,7 @@
       "pviMagnitude": 36,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Connie Chan",
-          "articleTitle": "Connie Chan (politician)",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Connie%20Chan%2C%202025.jpg?width=80",
-          "isIncumbent": false
-        },
-        {
-          "name": "Scott Wiener",
-          "articleTitle": "Scott Wiener",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Wiener%20Official%20Biography%20Portrait.jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -915,22 +750,7 @@
       "pviMagnitude": 39,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Lateefah Simon",
-          "articleTitle": "Lateefah Simon",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Simon%20Lateefah%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Jamie Joyce",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -943,22 +763,7 @@
       "pviMagnitude": 2,
       "competitive": true,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Adam Gray",
-          "articleTitle": "Adam Gray",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam%20Gray%2C%20official%20portrait%20(119th%20Congress)%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Kevin Lincoln",
-          "articleTitle": "Kevin Lincoln (politician)",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/KevinLincoln%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -971,22 +776,7 @@
       "pviMagnitude": 19,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Aisha Wahab",
-          "articleTitle": "Aisha Wahab",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aisha%20Wahab%2C%20official%20portrait%20-%202026%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Melissa Hernandez",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Melissa%20Hernandez%2C%202020.jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -999,22 +789,7 @@
       "pviMagnitude": 26,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Kevin Mullin",
-          "articleTitle": "Kevin Mullin",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Kevin%20Mullin%20official%20portrait%2C%20118th%20Congress%20(crop).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Charles Hoelter",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1027,22 +802,7 @@
       "pviMagnitude": 25,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Sam Liccardo",
-          "articleTitle": "Sam Liccardo",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Liccardo%20Sam%20119th%20Congress%20(cropped)%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Peter Sundin Soulé",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1055,22 +815,7 @@
       "pviMagnitude": 21,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Ro Khanna",
-          "articleTitle": "Ro Khanna",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ro%20Khanna%2C%20official%20portrait%2C%20115th%20Congress%20(crop).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Ritesh Tandon",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1083,22 +828,7 @@
       "pviMagnitude": 16,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Zoe Lofgren",
-          "articleTitle": "Zoe Lofgren",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zoe%20Lofgren%20Official%20Portrait%202024%20(cropped).jpeg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Shane Lewis",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1111,22 +841,7 @@
       "pviMagnitude": 18,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Jimmy Panetta",
-          "articleTitle": "Jimmy Panetta",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jimmy%20Panetta%20official%20portrait%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Peter Verbica",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1139,22 +854,7 @@
       "pviMagnitude": 16,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Vince Fong",
-          "articleTitle": "Vince Fong",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vince%20Fong%20official%20congressional%20photograph%20118th%20congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Sandra Van Scotter",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1167,22 +867,7 @@
       "pviMagnitude": 5,
       "competitive": true,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Jim Costa",
-          "articleTitle": "Jim Costa",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Costa%20portrait%20(118th%20Congress).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Kyle Kirkland",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1195,22 +880,7 @@
       "pviMagnitude": 1,
       "competitive": true,
       "trend": [],
-      "candidates": [
-        {
-          "name": "David Valadao",
-          "articleTitle": "David Valadao",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Valadao%20117th%20U.S%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Randy Villegas",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Randy%20Villegas%20at%20Vota%20Palooza%20in%202024%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1223,22 +893,7 @@
       "pviMagnitude": 9,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Jay Obernolte",
-          "articleTitle": "Jay Obernolte",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jay%20Obernolte%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Tessa Lynn Hodge",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1251,22 +906,7 @@
       "pviMagnitude": 13,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Salud Carbajal",
-          "articleTitle": "Salud Carbajal",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Salud%20Carbajal%20-%20117th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Bob Smith",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1279,22 +919,7 @@
       "pviMagnitude": 4,
       "competitive": true,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Raul Ruiz",
-          "articleTitle": "Raul Ruiz (politician)",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Raul%20Ruiz%20(D-CA)%20118th%20Congress%201%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Joe Males",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Males%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1307,22 +932,7 @@
       "pviMagnitude": 9,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Jacqui Irwin",
-          "articleTitle": "Jacqui Irwin",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/150302-Z-WQ610-%20(16698067641)%20(alt%20crop).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
-          "name": "Sam Gallucci",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1335,22 +945,7 @@
       "pviMagnitude": 6,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "George Whitesides",
-          "articleTitle": "George T. Whitesides",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20George%20Whitesides%20Official%20Portrait%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Jason Gibbs",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JasonGibbs.webp?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1363,22 +958,7 @@
       "pviMagnitude": 14,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Judy Chu",
-          "articleTitle": "Judy Chu",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Judy%20Chu%202019-05-02%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "April Verlato",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/April%20Verlato%20Updated%20portrait%20-%20Copy%20(3)%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1391,22 +971,7 @@
       "pviMagnitude": 19,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Luz Rivas",
-          "articleTitle": "Luz Rivas",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Luz%20Rivas%20(D-CA)%2C%20Official%20Portrait%2C%20119th%20Congress%20(cropped2).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Angélica María Dueñas",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AngelicaDuenas%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1419,22 +984,7 @@
       "pviMagnitude": 21,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Laura Friedman",
-          "articleTitle": "Laura Friedman",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Laura%20Friedman%20119th%20congress%20(3x4%20full)%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Scott Meyers",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1447,22 +997,7 @@
       "pviMagnitude": 8,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Gil Cisneros",
-          "articleTitle": "Gil Cisneros",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gil%20Cisneros%20119th%20Congress%202%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Eric Ching",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eric%20Ching%20(closer%20crop).png?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1475,22 +1010,7 @@
       "pviMagnitude": 14,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Brad Sherman",
-          "articleTitle": "Brad Sherman",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brad%20Sherman%20portrait%20(118th%20Congress).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Larry Thompson",
-          "articleTitle": "Larry A. Thompson",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20A.%20Thompson%2C%202011%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1503,22 +1023,7 @@
       "pviMagnitude": 7,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Pete Aguilar",
-          "articleTitle": "Pete Aguilar",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pete%20Aguilar%20117th%20congress%20(cropped).jpeg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Stephanie Vargas",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1531,22 +1036,7 @@
       "pviMagnitude": 28,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Jimmy Gomez",
-          "articleTitle": "Jimmy Gomez",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jimmy%20Gomez%20official%20portrait%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Angela Gonzales-Torres",
-          "articleTitle": "Angela Gonzales-Torres",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1559,22 +1049,7 @@
       "pviMagnitude": 6,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Norma Torres",
-          "articleTitle": "Norma Torres",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Norma%20Torres%20118th%20congress%20(cropped).jpeg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Mike Cargile",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Cargile%20on%20AI%20News%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1587,22 +1062,7 @@
       "pviMagnitude": 21,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Ted Lieu",
-          "articleTitle": "Ted Lieu",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Congressman%20Ted%20W.%20Lieu%20official%20photo%20(cropped%203).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Houston Brignano",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1615,22 +1075,7 @@
       "pviMagnitude": 33,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Sydney Kamlager-Dove",
-          "articleTitle": "Sydney Kamlager-Dove",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Kamlager-Dove%20118th-2%20(cropped).jpeg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Samantha Mota",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1643,22 +1088,7 @@
       "pviMagnitude": 8,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Hilda Solis",
-          "articleTitle": "Hilda Solis",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hilda%20Solis%2C%202025%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
-          "name": "Pedro Antonio Casas",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1671,22 +1101,7 @@
       "pviMagnitude": 7,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Mark Takano",
-          "articleTitle": "Mark Takano",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Takano%20118th%20Congress%20(cropped).jpeg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Steve Manos",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Manos.png?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1699,22 +1114,7 @@
       "pviMagnitude": 6,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Ken Calvert",
-          "articleTitle": "Ken Calvert",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ken%20Calvert.jpg?width=80",
-          "isIncumbent": false
-        },
-        {
-          "name": "Young Kim",
-          "articleTitle": "Young Kim",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Kim%20117th%20U.S%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1727,22 +1127,7 @@
       "pviMagnitude": 9,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Linda Sánchez",
-          "articleTitle": "Linda Sánchez",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Linda%20S%C3%A1nchez%2C%20116th%20Congress%2C%20official%20photo%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Mitch Clemmons",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitch%20Clemmons%20on%20AI%20News%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1755,22 +1140,7 @@
       "pviMagnitude": 8,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Robert Garcia",
-          "articleTitle": "Robert Garcia (California congressman)",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Garcia%20119th%20Congress%20(cropped).jpeg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Brian Burley",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/BrianBurley.jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1783,22 +1153,7 @@
       "pviMagnitude": 27,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Maxine Waters",
-          "articleTitle": "Maxine Waters",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maxine%20Waters%2C%20Official%20Portrait%2C%20113th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Cristian Morales",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1811,22 +1166,7 @@
       "pviMagnitude": 20,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Nanette Barragán",
-          "articleTitle": "Nanette Barragán",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanette%20Barragan%20official%20portrait%20(cropped%202).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Genevieve Angel",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1839,22 +1179,7 @@
       "pviMagnitude": 3,
       "competitive": true,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Derek Tran",
-          "articleTitle": "Derek Tran",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Derek%20Tran%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Chuong Vo",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chuong%20Vo%2C%20Mayor%20Pro%20Tem%20of%20Cerritos%2C%20CA%2C%202020.jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1867,22 +1192,7 @@
       "pviMagnitude": 10,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Lou Correa",
-          "articleTitle": "Lou Correa",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lou%20Correa%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "David Pan",
-          "articleTitle": "David Pan",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1895,22 +1205,7 @@
       "pviMagnitude": 6,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Dave Min",
-          "articleTitle": "Dave Min",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Min%20Dave%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Jenny Le Roux",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1923,22 +1218,7 @@
       "pviMagnitude": 2,
       "competitive": true,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Jim Desmond",
-          "articleTitle": "Jim Desmond",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Desmond%20Official%20Portrait%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
-          "name": "Marni von Wilpert",
-          "articleTitle": "Marni von Wilpert",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marni%20von%20Wilpert%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1951,22 +1231,7 @@
       "pviMagnitude": 7,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Mike Levin",
-          "articleTitle": "Mike Levin",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Mike%20Levin%20official%20photo%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Armen Kurdian",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -1979,22 +1244,7 @@
       "pviMagnitude": 10,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Scott Peters",
-          "articleTitle": "Scott Peters (politician)",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Peters%20official%20portrait%20116th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Steve Cohen",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -2007,22 +1257,7 @@
       "pviMagnitude": 10,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Sara Jacobs",
-          "articleTitle": "Sara Jacobs",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Congresswoman%20Sara%20Jacobs.jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Richardo Cabrera",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
@@ -2035,22 +1270,7 @@
       "pviMagnitude": 11,
       "competitive": false,
       "trend": [],
-      "candidates": [
-        {
-          "name": "Juan Vargas",
-          "articleTitle": "Juan Vargas",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Juan%20Vargas%20official%20photo%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
-          "name": "Jeff Belle",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        }
-      ],
+      "candidates": null,
       "bestPoll": null
     },
     {
