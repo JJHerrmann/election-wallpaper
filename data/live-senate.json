@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T12:49:33.507Z",
+  "updatedAt": "2026-09-22T15:49:34.249Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -49,7 +49,7 @@
     {
       "id": "AK-senate",
       "state": "AK",
-      "status": "toss-up",
+      "status": "slight-d",
       "margin": null,
       "leaderParty": null,
       "incumbentParty": "R",
@@ -417,12 +417,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "September 19, 2026",
-        "margin": 1.4,
-        "leaderParty": "R",
+        "date": "September 22, 2026",
+        "margin": 0.4,
+        "leaderParty": "D",
         "candidatePcts": {
-          "R": 46,
-          "D": 44.4
+          "R": 44.4,
+          "D": 44.8
         }
       }
     },
@@ -1262,13 +1262,13 @@
         }
       ],
       "bestPoll": {
-        "source": "FiftyPlusOne",
-        "date": "September 19, 2026",
-        "margin": 3.5,
+        "source": "270toWin",
+        "date": "September 22, 2026",
+        "margin": 2.4,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 44.4,
-          "D": 47.9
+          "R": 44.6,
+          "D": 47
         }
       }
     },
