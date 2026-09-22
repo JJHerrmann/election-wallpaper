@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T16:49:33.429Z",
+  "updatedAt": "2026-09-22T10:00:02.767Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -122,7 +122,7 @@
           "name": "Hallie Shoffner",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hallie%20Shoffner%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -253,12 +253,12 @@
       ],
       "bestPoll": {
         "source": "RealClearPolitics",
-        "date": "September 19, 2026",
-        "margin": 5,
+        "date": "September 21, 2026",
+        "margin": 5.5,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 48.3,
-          "D": 43.3
+          "R": 48.5,
+          "D": 43
         }
       }
     },
