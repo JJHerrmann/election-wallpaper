@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T17:49:34.304Z",
+  "updatedAt": "2026-09-23T15:51:39.755Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -252,13 +252,13 @@
         }
       ],
       "bestPoll": {
-        "source": "RealClearPolitics",
-        "date": "September 21, 2026",
-        "margin": 5.5,
+        "source": "Race to the WH",
+        "date": "September 22, 2026",
+        "margin": 5.3,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 48.5,
-          "D": 43
+          "R": 47.5,
+          "D": 42.2
         }
       }
     },
@@ -443,7 +443,7 @@
           "name": "Roger Marshall",
           "articleTitle": "Roger Marshall",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Marshall%20117th%20Congress%20portrait%20(cropped%20center).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20Senator%20visits%20Joint%20Task%20Force%20-%20Southern%20Border%20(9082056)%20(cropped%203).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -655,12 +655,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "September 18, 2026",
-        "margin": 2.2,
+        "date": "September 22, 2026",
+        "margin": 3,
         "leaderParty": "D",
         "candidatePcts": {
           "D": 47.2,
-          "R": 45
+          "R": 44.2
         }
       }
     },
@@ -776,12 +776,12 @@
       ],
       "bestPoll": {
         "source": "Decision Desk HQ",
-        "date": "September 18, 2026",
-        "margin": 16.9,
+        "date": "September 22, 2026",
+        "margin": 15,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 20.3,
-          "D": 25.7
+          "R": 18.2,
+          "D": 27.4
         }
       }
     },
@@ -948,7 +948,7 @@
           "name": "Michael Whatley",
           "articleTitle": "Michael Whatley",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Whatley%20(54670563614)%20(cropped)%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Whatley%20(55505282618)%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -1263,12 +1263,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "September 22, 2026",
-        "margin": 2.4,
+        "date": "September 23, 2026",
+        "margin": 3,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 44.6,
-          "D": 47
+          "R": 44.8,
+          "D": 47.8
         }
       }
     },

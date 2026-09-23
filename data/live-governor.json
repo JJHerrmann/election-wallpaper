@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T17:49:34.796Z",
+  "updatedAt": "2026-09-23T15:51:40.364Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -175,12 +175,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "September 10, 2026",
-        "margin": 21.5,
+        "date": "September 22, 2026",
+        "margin": 22,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 58,
-          "R": 36.5
+          "D": 57.5,
+          "R": 35.5
         }
       }
     },
@@ -244,12 +244,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "September 16, 2026",
-        "margin": 15.7,
+        "date": "September 22, 2026",
+        "margin": 13.5,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 53,
-          "R": 37.3
+          "D": 51.8,
+          "R": 38.3
         }
       }
     },
@@ -269,7 +269,7 @@
     {
       "id": "FL-governor",
       "state": "FL",
-      "status": "likely-r",
+      "status": "lean-r",
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
@@ -421,7 +421,7 @@
           "name": "JB Pritzker",
           "articleTitle": "JB Pritzker",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JB%20Pritzker%202026%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JB%20Pritzker%202026%20(cropped%203x4).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -809,7 +809,7 @@
     {
       "id": "NV-governor",
       "state": "NV",
-      "status": "slight-r",
+      "status": "toss-up",
       "margin": null,
       "leaderParty": null,
       "incumbentParty": "R",
@@ -995,7 +995,7 @@
     {
       "id": "OH-governor",
       "state": "OH",
-      "status": "slight-r",
+      "status": "toss-up",
       "margin": null,
       "leaderParty": null,
       "incumbentParty": "R",
@@ -1262,7 +1262,7 @@
     {
       "id": "TX-governor",
       "state": "TX",
-      "status": "likely-r",
+      "status": "lean-r",
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
