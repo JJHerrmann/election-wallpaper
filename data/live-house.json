@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-09-24T04:49:35.592Z",
+  "updatedAt": "2026-09-24T08:49:35.990Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
     "demSeats": 215,
     "gopSeats": 219,
     "control": "Republican",
-    "confidence": "Shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +7.9 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
+    "confidence": "Shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.1 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
     "unit": "current House seats (PVI shading is structural lean, not a forecast)",
     "genericBallot": {
       "republicanPct": 41.9,
-      "democratPct": 49.8,
+      "democratPct": 50,
       "marginParty": "D",
-      "marginPts": 7.9
+      "marginPts": 8.1
     }
   },
   "races": [
