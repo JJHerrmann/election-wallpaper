@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T12:49:34.708Z",
+  "updatedAt": "2026-09-24T13:49:34.579Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -115,7 +115,7 @@
           "name": "Tom Cotton",
           "articleTitle": "Tom Cotton",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_Cotton_official_Senate_photo_(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom-Cotton-US-Congressional-Portrait.jpg?width=80",
           "isIncumbent": true
         },
         {
