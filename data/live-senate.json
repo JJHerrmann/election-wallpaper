@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T00:49:34.106Z",
+  "updatedAt": "2026-09-24T02:49:34.413Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -1326,16 +1326,7 @@
           "isIncumbent": false
         }
       ],
-      "bestPoll": {
-        "source": "Race to the WH",
-        "date": "September 11, 2026",
-        "margin": 18,
-        "leaderParty": "D",
-        "candidatePcts": {
-          "D": 50.5,
-          "R": 32.5
-        }
-      }
+      "bestPoll": null
     },
     {
       "id": "WA-senate",
