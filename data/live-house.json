@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T22:49:36.354Z",
+  "updatedAt": "2026-09-24T00:49:35.430Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -6024,7 +6024,7 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Jennifer Balkcom (replacing Chuck Edwards)",
+          "name": "Jennifer Balkcom",
           "articleTitle": "Jennifer Balkcom",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Jennifer%20Balkcom.jpg?width=80",
