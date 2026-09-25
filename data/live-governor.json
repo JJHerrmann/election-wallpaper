@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T15:49:35.087Z",
+  "updatedAt": "2026-09-25T18:49:34.334Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -1021,13 +1021,13 @@
         }
       ],
       "bestPoll": {
-        "source": "Decision Desk HQ",
-        "date": "September 16, 2026",
-        "margin": 2.2,
+        "source": "Race to the WH",
+        "date": "September 25, 2026",
+        "margin": 0.5,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.6,
-          "D": 47.8
+          "R": 46.7,
+          "D": 47.2
         }
       }
     },
