@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T10:00:02.997Z",
+  "updatedAt": "2026-09-26T11:49:33.847Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -455,13 +455,13 @@
         }
       ],
       "bestPoll": {
-        "source": "''Silver Bulletin''",
+        "source": "Race to the WH",
         "date": "September 25, 2026",
-        "margin": 0.5,
-        "leaderParty": "R",
+        "margin": 0.1,
+        "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.5,
-          "D": 46
+          "R": 45.8,
+          "D": 45.9
         }
       }
     },
