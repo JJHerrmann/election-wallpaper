@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T22:49:34.534Z",
+  "updatedAt": "2026-09-26T23:49:34.791Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -521,7 +521,7 @@
           "name": "Julia Letlow",
           "articleTitle": "Julia Letlow",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Julia%20Letlow%20117th%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Julia%20Letlow%20117th%20(cropped%202).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -845,14 +845,14 @@
           "name": "Chris Pappas",
           "articleTitle": "Chris Pappas (American politician)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Pappas%2C%20official%20portrait%20-%202022%20(cropped).png?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Pappas%2C%20official%20portrait%20-%202022%20(cropped%202).png?width=80",
           "isIncumbent": false
         },
         {
           "name": "John E. Sununu",
           "articleTitle": "John E. Sununu",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20E.%20Sununu%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20E.%20Sununu%20(cropped%202).jpg?width=80",
           "isIncumbent": false
         }
       ],
