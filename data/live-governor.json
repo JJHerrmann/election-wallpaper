@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T04:49:34.308Z",
+  "updatedAt": "2026-09-27T06:49:34.476Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -503,14 +503,14 @@
           "name": "Cindy Holscher",
           "articleTitle": "Cindy Holscher",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cindy%20Holscher%202026%20in%20Manhattan%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cindy%20Holscher%202026%20in%20Manhattan%20(cropped)%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
           "name": "Ty Masterson",
           "articleTitle": "Ty Masterson",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20%5B%5BTy%20Masterson%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
