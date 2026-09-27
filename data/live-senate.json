@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T21:49:34.099Z",
+  "updatedAt": "2026-09-27T23:49:34.100Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -120,7 +120,7 @@
         },
         {
           "name": "Hallie Shoffner",
-          "articleTitle": null,
+          "articleTitle": "Hallie Shoffner",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hallie%20Shoffner%20(cropped).jpg?width=80",
           "isIncumbent": false
