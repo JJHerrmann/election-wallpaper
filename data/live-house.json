@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T14:49:35.564Z",
+  "updatedAt": "2026-09-28T20:49:37.662Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -9532,9 +9532,9 @@
         },
         {
           "name": "Alex Mealer",
-          "articleTitle": "Alex Mealer",
+          "articleTitle": null,
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20%5B%5BAlex%20Mealer%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Alex%20Mealer?width=80",
           "isIncumbent": false
         }
       ],
