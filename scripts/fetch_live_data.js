@@ -441,6 +441,49 @@ function buildRatingMode(mode, ratingsByState, allStates, baseline) {
   };
 }
 
+// Reads the "Overall" row of Wikipedia's "2026 United States House of Representatives
+// election ratings" table: each forecaster's total seats rated D (any level), rated R,
+// and toss-ups. Deliberately format-tolerant -- it pulls every "D – NNN" / "R – NNN" /
+// "NN tossups" triple out of that row in order rather than depending on exact cell
+// markup -- and returns null (so the House card falls back to current seats) unless
+// the result passes sanity checks.
+function extractHouseForecastTotals(ratingsWikitext) {
+  const idx = ratingsWikitext.search(/^[!|][^\n]*Overall/m);
+  if (idx === -1) return null;
+  let row = ratingsWikitext.slice(idx);
+  const end = row.search(/\n\|\}/);
+  if (end !== -1) row = row.slice(0, end);
+  row = row.replace(/<ref[^>]*\/>/g, '').replace(/<ref[\s\S]*?<\/ref>/g, '').replace(/&ndash;|&mdash;/g, '–');
+
+  const dash = '\\s*(?:–|—|-|:)\\s*';
+  const dems = [...row.matchAll(new RegExp(`\\bD${dash}(\\d{2,3})\\b`, 'g'))].map((m) => +m[1]);
+  const reps = [...row.matchAll(new RegExp(`\\bR${dash}(\\d{2,3})\\b`, 'g'))].map((m) => +m[1]);
+  const tossups = [...row.matchAll(/(\d{1,3})\s*toss-?ups?/gi)].map((m) => +m[1]);
+  const n = Math.min(dems.length, reps.length, tossups.length);
+  if (n < 3) return null;
+
+  const forecasters = [];
+  for (let i = 0; i < n; i++) {
+    const total = dems[i] + reps[i] + tossups[i];
+    if (total < 425 || total > 440) return null; // misaligned parse; don't publish garbage
+    forecasters.push({ dem: dems[i], gop: reps[i], tossups: tossups[i] });
+  }
+  const median = (arr) => {
+    const s = [...arr].sort((a, b) => a - b);
+    const mid = Math.floor(s.length / 2);
+    return s.length % 2 ? s[mid] : Math.round((s[mid - 1] + s[mid]) / 2);
+  };
+  const demVals = forecasters.map((f) => f.dem);
+  const gopVals = forecasters.map((f) => f.gop);
+  return {
+    forecasters,
+    demLow: Math.min(...demVals), demHigh: Math.max(...demVals), demMedian: median(demVals),
+    gopLow: Math.min(...gopVals), gopHigh: Math.max(...gopVals), gopMedian: median(gopVals),
+    tossupMedian: median(forecasters.map((f) => f.tossups)),
+    demCeiling: Math.max(...forecasters.map((f) => f.dem + f.tossups)),
+  };
+}
+
 function extractGenericBallotAverage(houseWikitext) {
   const m = houseWikitext.match(/<section begin="GenericBallotAgg"\/>([\s\S]*?)<section end="GenericBallotAgg"/);
   if (!m) return null;
@@ -505,7 +548,7 @@ function statusFromPvi(pviParty, pviMag) {
   return { status: `${bucket}-${pviParty.toLowerCase()}`, competitive };
 }
 
-function buildHouseDistrictMode(pviByDistrict, genericBallot, allDistrictIds) {
+function buildHouseDistrictMode(pviByDistrict, genericBallot, allDistrictIds, forecast) {
   const races = allDistrictIds.map((id) => {
     const p = pviByDistrict[id];
     if (!p) {
@@ -531,16 +574,24 @@ function buildHouseDistrictMode(pviByDistrict, genericBallot, allDistrictIds) {
     ? ` Nationally, the generic-ballot polling average has ${genericBallot.marginParty === 'D' ? 'Democrats' : 'Republicans'} +${genericBallot.marginPts.toFixed(1)} pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).`
     : '';
 
+  const forecastTxt = forecast
+    ? ` Forecasters (${forecast.forecasters.length}) rate ${forecast.demLow}–${forecast.demHigh} seats for Democrats (median ${forecast.demMedian}) and ${forecast.gopLow}–${forecast.gopHigh} for Republicans (median ${forecast.gopMedian}), with a median ${forecast.tossupMedian} toss-ups; Democrats reach ${forecast.demCeiling} at most if they sweep the toss-ups. 218 needed. Currently ${dem} D – ${gop} R.`
+    : '';
+  const control = forecast
+    ? (forecast.demMedian >= 218 ? 'Projected Democratic' : forecast.gopMedian >= 218 ? 'Projected Republican' : 'Toss-up')
+    : (gop >= dem ? 'Republican' : 'Democratic');
+
   return {
     updatedAt: nowIso(),
-    source: 'Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k',
+    source: `Wikipedia (Cook Partisan Voting Index by congressional district, current representative party${forecast ? '; forecaster seat totals from "2026 United States House of Representatives election ratings"' : ''}); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k`,
     mode: 'house',
     summary: {
       demSeats: dem, gopSeats: gop,
-      control: gop >= dem ? 'Republican' : 'Democratic',
-      confidence: `Shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color.${genericBallotTxt}`,
-      unit: 'current House seats (PVI shading is structural lean, not a forecast)',
+      control,
+      confidence: `${forecastTxt ? forecastTxt.trim() + ' ' : ''}Map shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color.${genericBallotTxt}`,
+      unit: forecast ? 'seat counts are forecaster ratings; map shading is structural lean' : 'current House seats (PVI shading is structural lean, not a forecast)',
       genericBallot: genericBallot || null,
+      projection: forecast || null,
     },
     races,
     dataType: 'pvi',
@@ -697,7 +748,16 @@ async function main() {
   const allDistrictIds = districtPaths.districts.map((d) => d.id).filter((id) => !id.startsWith('DC-'));
   console.log('  fetching per-district candidate/poll detail (50 state articles)...');
   await attachHouseCandidates(pviByDistrict, allDistrictIds);
-  const houseData = buildHouseDistrictMode(pviByDistrict, genericBallot, allDistrictIds);
+  let houseForecast = null;
+  try {
+    houseForecast = extractHouseForecastTotals(await fetchWikitext('2026 United States House of Representatives election ratings'));
+  } catch (err) {
+    console.error('  WARNING: House ratings fetch failed:', err.message);
+  }
+  console.log('  House forecaster totals:', houseForecast
+    ? `${houseForecast.forecasters.length} forecasters, D ${houseForecast.demLow}-${houseForecast.demHigh} (median ${houseForecast.demMedian}), R median ${houseForecast.gopMedian}, toss-ups median ${houseForecast.tossupMedian}`
+    : 'NOT PARSED (falling back to current seats)');
+  const houseData = buildHouseDistrictMode(pviByDistrict, genericBallot, allDistrictIds, houseForecast);
   fs.writeFileSync(path.join(DATA_DIR, 'live-house.json'), JSON.stringify(houseData, null, 2));
   const matched = allDistrictIds.filter((id) => pviByDistrict[id]).length;
   const houseWithCandidates = allDistrictIds.filter((id) => pviByDistrict[id] && pviByDistrict[id].candidates).length;

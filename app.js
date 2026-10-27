@@ -198,7 +198,17 @@
     const modeLabel = data.mode.charAt(0).toUpperCase() + data.mode.slice(1);
     els.summaryControl.textContent = `${modeLabel} · ${data.summary.control} control`;
 
-    if (data.summary.demNet !== undefined) {
+    els.gopBar.style.marginLeft = '';
+    if (data.summary.projection) {
+      // House: forecaster seat-total range. Bar is sized against all 435 seats with
+      // the R fill pushed right, so the neutral gap in the middle is the toss-ups.
+      const p = data.summary.projection;
+      els.demBar.style.width = (100 * p.demMedian / 435) + '%';
+      els.gopBar.style.width = (100 * p.gopMedian / 435) + '%';
+      els.gopBar.style.marginLeft = 'auto';
+      els.demCount.textContent = p.demLow === p.demHigh ? `D ${p.demMedian}` : `D ${p.demLow}–${p.demHigh}`;
+      els.gopCount.textContent = p.gopLow === p.gopHigh ? `R ${p.gopMedian}` : `R ${p.gopLow}–${p.gopHigh}`;
+    } else if (data.summary.demNet !== undefined) {
       // Net change vs. current incumbents (e.g. "D +1 / R -1"), bar shows projected
       // full-chamber balance rather than just the subset of rated races.
       const dem = data.summary.demSeatsProjected;
