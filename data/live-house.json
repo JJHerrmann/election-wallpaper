@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T21:55:51.098Z",
+  "updatedAt": "2026-10-27T22:04:07.702Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party; forecaster seat totals from \"2026 United States House of Representatives election ratings\"); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -67,6 +67,7 @@
           "tossups": 20
         }
       ],
+      "total": 435,
       "demLow": 212,
       "demHigh": 230,
       "demMedian": 225,
@@ -74,7 +75,8 @@
       "gopHigh": 205,
       "gopMedian": 196,
       "tossupMedian": 16,
-      "demCeiling": 246
+      "demCeiling": 246,
+      "gopCeiling": 223
     }
   },
   "races": [

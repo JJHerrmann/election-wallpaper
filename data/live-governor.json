@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T21:55:50.222Z",
+  "updatedAt": "2026-10-27T22:04:06.813Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -11,9 +11,63 @@
     "gopSeatsBefore": 26,
     "demSeatsProjected": 26,
     "gopSeatsProjected": 24,
-    "control": "Democratic",
-    "confidence": "Currently 26 R – 24 D; net change vs. incumbents from consensus forecaster ratings projects 24 R – 26 D",
-    "unit": "rated governorships (toss-ups and non-flips count as no net change)"
+    "control": "Projected Democratic",
+    "confidence": "Across 8 forecasters: D 23–26 governorships (median 26), R 19–23 (median 22), median 3 toss-ups. Sweeping the toss-ups gets D to 31 or R to 27 at most. Currently 26 R – 24 D.",
+    "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
+    "projection": {
+      "forecasters": [
+        {
+          "dem": 25,
+          "gop": 21,
+          "tossups": 4
+        },
+        {
+          "dem": 26,
+          "gop": 22,
+          "tossups": 2
+        },
+        {
+          "dem": 24,
+          "gop": 22,
+          "tossups": 4
+        },
+        {
+          "dem": 23,
+          "gop": 23,
+          "tossups": 4
+        },
+        {
+          "dem": 26,
+          "gop": 22,
+          "tossups": 2
+        },
+        {
+          "dem": 23,
+          "gop": 19,
+          "tossups": 8
+        },
+        {
+          "dem": 26,
+          "gop": 22,
+          "tossups": 2
+        },
+        {
+          "dem": 26,
+          "gop": 22,
+          "tossups": 2
+        }
+      ],
+      "total": 50,
+      "demLow": 23,
+      "demHigh": 26,
+      "demMedian": 26,
+      "gopLow": 19,
+      "gopHigh": 23,
+      "gopMedian": 22,
+      "tossupMedian": 3,
+      "demCeiling": 31,
+      "gopCeiling": 27
+    }
   },
   "races": [
     {
