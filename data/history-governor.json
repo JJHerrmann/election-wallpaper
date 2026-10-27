@@ -158,5 +158,10 @@
     "date": "2026-09-30",
     "netScore": 0,
     "label": "D net ±0 / R net ±0 vs. incumbents"
+  },
+  {
+    "date": "2026-10-27",
+    "netScore": 2,
+    "label": "D net +2 / R net -2 vs. incumbents"
   }
 ]

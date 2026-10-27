@@ -158,5 +158,10 @@
     "date": "2026-09-30",
     "netScore": 8.3,
     "label": "Generic ballot D+8.3"
+  },
+  {
+    "date": "2026-10-27",
+    "netScore": 8.5,
+    "label": "Generic ballot D+8.5"
   }
 ]

@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-09-30T20:49:36.720Z",
+  "updatedAt": "2026-10-27T21:43:15.867Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
     "demSeats": 215,
     "gopSeats": 219,
     "control": "Republican",
-    "confidence": "Shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.3 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
+    "confidence": "Shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.5 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
     "unit": "current House seats (PVI shading is structural lean, not a forecast)",
     "genericBallot": {
-      "republicanPct": 42.1,
-      "democratPct": 50.4,
+      "republicanPct": 43,
+      "democratPct": 51.5,
       "marginParty": "D",
-      "marginPts": 8.3
+      "marginPts": 8.5
     }
   },
   "races": [
@@ -38,7 +38,7 @@
           "name": "Bill Hill",
           "articleTitle": null,
           "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Hill%20(cropped%203x4).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -396,7 +396,7 @@
           "articleTitle": "Eli Crane",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Eli%20Crane%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Jonathan Nez",
@@ -424,7 +424,7 @@
           "articleTitle": "Yassamin Ansari",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Yassamin%20Ansari%20official%20photo%2C%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         }
       ],
       "bestPoll": null
@@ -445,7 +445,7 @@
           "articleTitle": "Greg Stanton",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Greg%20Stanton%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Zuhdi Jasser",
@@ -501,7 +501,7 @@
           "articleTitle": "Juan Ciscomani",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Juan%20Ciscomani%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "JoAnna Mendoza",
@@ -529,7 +529,7 @@
           "articleTitle": "Adelita Grijalva",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Adelita%20Grijalva%20Official%20Portrait.jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Daniel Butierez",
@@ -557,13 +557,13 @@
           "articleTitle": "Abraham Hamadeh",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Abraham%20Hamadeh%20119th%20congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Bernadette Greene-Placentia",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bernadette%20Greene%20Placentia.png?width=80",
           "isIncumbent": false
         }
       ],
@@ -585,7 +585,7 @@
           "articleTitle": "Paul Gosar",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Gosar%20118th%20Congress%20portrait.jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Danielle Sterbinsky",
@@ -2023,7 +2023,7 @@
           "name": "Leela Gray",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/BG%20L.%20Gray%20Mil%20Photo.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/BG%20L.%20Gray%20Mil%20Photo%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -2493,7 +2493,7 @@
           "articleTitle": "Sanford Bishop",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sanford%20Bishop%20117th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Matt Day",
@@ -2521,7 +2521,7 @@
           "articleTitle": "Brian Jack",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack%20Brian%20119th%20Congress%20(3x4%20crop).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Maura Keller",
@@ -2549,7 +2549,7 @@
           "articleTitle": "Hank Johnson",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hank%20Johnson%2C%20official%20portrait%20115th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "James Duffie",
@@ -2577,7 +2577,7 @@
           "articleTitle": "Nikema Williams",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Nikema%20Williams%20official%20photo%2C%20117th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         }
       ],
       "bestPoll": null
@@ -2598,7 +2598,7 @@
           "articleTitle": "Lucy McBath",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lucy%20McBath%20portrait%20(118th%20Congress).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Kevin Martin",
@@ -2626,7 +2626,7 @@
           "articleTitle": "Rich McCormick",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Rich%20McCormick%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Anthony Kozycki",
@@ -2654,7 +2654,7 @@
           "articleTitle": "Austin Scott (politician)",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Austin%20Scott%202021-22%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Kelly Esti",
@@ -2682,7 +2682,7 @@
           "articleTitle": "Andrew Clyde",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Andrew%20Clyde%20official%20photo%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Caitlyn Gegen",
@@ -2766,7 +2766,7 @@
           "articleTitle": "Rick Allen (politician)",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rick%20Allen%20Official%20Photo%2C%20114th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Ceretta Smith",
@@ -2815,7 +2815,7 @@
           "articleTitle": "Clay Fuller",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Clay%20Fuller%20official%20congressional%20photograph%20119th%20congress.jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Shawn Harris",
@@ -3011,7 +3011,7 @@
           "articleTitle": "Russ Fulcher",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Russ%20Fulcher%2C%20official%20portrait%2C%20116th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Kaylee Peterson",
@@ -3039,7 +3039,7 @@
           "articleTitle": "Mike Simpson",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20simpson%20official%20portrait%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Elinor Gilbreath",
@@ -3066,7 +3066,7 @@
           "name": "Jonathan Jackson",
           "articleTitle": "Jonathan Jackson (Illinois politician)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Jonathan%20Jackson%20official%20portrait%2C%20118th%20Congress%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jonathan%20Jackson%2C%20official%20portrait%20-%202025%20(cropped).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -3206,7 +3206,7 @@
           "name": "Sean Casten",
           "articleTitle": "Sean Casten",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sean%20Casten%20Headshot%20117th%20Congress%20(cropped).jpeg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sean%20Casten%2C%20official%20portrait%20-%202025%20(cropped).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -4053,7 +4053,7 @@
           "name": "Zach Dembo",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zach%20Dembo.jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -4494,7 +4494,7 @@
           "name": "Dan Schwartz",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dan%20Schwartz%202026-10-13.png?width=80",
           "isIncumbent": false
         }
       ],
@@ -4739,7 +4739,7 @@
           "name": "Matthew Dunlap",
           "articleTitle": "Matthew Dunlap",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matt%20Dunlap%20(cropped%20headshot).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -5390,7 +5390,7 @@
           "name": "Fred Wellman",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fred%20Wellman%2C%20August%202025.png?width=80",
           "isIncumbent": false
         }
       ],
@@ -5495,14 +5495,14 @@
           "name": "Chris Stigall",
           "articleTitle": "Chris Stigall",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20%5B%5BChris%20Stigall%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Stigall%202017%20(headshot).jpg?width=80",
           "isIncumbent": false
         },
         {
           "name": "Josh Smead",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Josh%20Smead?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -6024,7 +6024,7 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Jennifer Balkcom",
+          "name": "Jennifer Balkcom (replacing Chuck Edwards)",
           "articleTitle": "Jennifer Balkcom",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Jennifer%20Balkcom.jpg?width=80",
@@ -6032,7 +6032,7 @@
         },
         {
           "name": "Jamie Ager",
-          "articleTitle": null,
+          "articleTitle": "Jamie Ager",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
@@ -6930,7 +6930,7 @@
           "name": "Jeanine Driscoll",
           "articleTitle": null,
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeanine_Driscoll.jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -7154,7 +7154,7 @@
           "name": "Caroline Shinkle",
           "articleTitle": null,
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Caroline%20Shinkle%20Selfie%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -7287,14 +7287,14 @@
           "name": "Mike Lawler",
           "articleTitle": "Mike Lawler",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Mike%20Lawler%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Mike%20Lawler%20official%20photo%20(cropped).jpg?width=80",
           "isIncumbent": true
         },
         {
           "name": "Cait Conley",
           "articleTitle": "Cait Conley",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DHS%20Secretary%20Alejandro%20Mayorkas%20Gives%20Opening%20Remarks%20During%20CISA%20National%20Election%20Exercise%20in%20Arlington%2C%20Virginia%20on%2022%20August%202024%20-%206%20Cait%20Conley%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cait%20Conley.jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -8554,7 +8554,7 @@
           "name": "Janelle Stelson",
           "articleTitle": "Janelle Stelson",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Janelle%20Stelson%2008-29-2026.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Janelle%20Stelson%2008-29-2026%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -8995,7 +8995,7 @@
           "name": "Russell Fry",
           "articleTitle": "Russell Fry",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep%20Russell%20Fry%20Official%20Portrait%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Russell%20Fry%20119th%20Congress%20(cropped).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -9450,7 +9450,7 @@
           "name": "Danny Minton",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Danny_Minton.png?width=80",
           "isIncumbent": false
         }
       ],
@@ -9506,7 +9506,7 @@
           "name": "Laura Jones",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Laura%20Jones?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -9919,7 +9919,7 @@
           "name": "Brandon Herrera",
           "articleTitle": "Brandon Herrera",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brandon%20Herrera%20with%20attendees%20(55457704523)%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brandon%20Herrera%20(55457596971)%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -10480,7 +10480,7 @@
           "articleTitle": "Rob Wittman",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rob%20Wittman%20official%20portrait%2C%20118th%20Congress%20(tight%20crop%202).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Shannon Taylor",
@@ -10508,7 +10508,7 @@
           "articleTitle": "Jen Kiggans",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiggans%20Jen%20118th%20Congress%203x4%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Elaine Luria",
@@ -10536,7 +10536,7 @@
           "articleTitle": "Bobby Scott (politician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bobby%20Scott%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Edwin Rivera",
@@ -10564,7 +10564,7 @@
           "articleTitle": "Jennifer McClellan",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Rep.%20Jennifer%20McClellan%20-%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Robert Murray",
@@ -10592,7 +10592,7 @@
           "articleTitle": "John McGuire (Virginia politician)",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/McGuire%20John%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Tom Perriello",
@@ -10626,7 +10626,7 @@
           "name": "Beth Macy",
           "articleTitle": "Beth Macy",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Beth%20Macy.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Beth%20Macy%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -10648,7 +10648,7 @@
           "articleTitle": "Eugene Vindman",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vindman%20Eugene%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Doug Ollivant",
@@ -10676,7 +10676,7 @@
           "articleTitle": "Don Beyer",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Don%20Beyer%2C%20official%20portrait%20(118th%20Congress)%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Tony Sabio",
@@ -10732,7 +10732,7 @@
           "articleTitle": "Suhas Subramanyam",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Subramanyam%20Suhas%20119th%20Congress%20(cropped).jpeg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Dave Beckwith",
@@ -10760,7 +10760,7 @@
           "articleTitle": "James Walkinshaw",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/James%20Walkinshaw%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Arthur Purves",
@@ -10816,7 +10816,7 @@
           "articleTitle": "Suzan DelBene",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Suzan%20DelBene%20Official%20Portrait%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Mary Silva",
@@ -10844,7 +10844,7 @@
           "articleTitle": "Rick Larsen",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rick%20Larsen%20116th%20Congress%20official%20photo%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Edwin H. Feller",
@@ -10872,7 +10872,7 @@
           "articleTitle": "Marie Gluesenkamp Perez",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Marie%20Gluesenkamp%20Perez%20-%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "John Braun",
@@ -10928,7 +10928,7 @@
           "articleTitle": "Michael Baumgartner",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Baumgartner%20Michael%20119th%20Congress%20(cropped)%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Carmela Conroy",
@@ -10956,7 +10956,7 @@
           "articleTitle": "Emily Randall",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Randall%20Emily%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Teresa Fox",
@@ -10984,7 +10984,7 @@
           "articleTitle": "Pramila Jayapal",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pramila%20Jayapal%2C%20official%20portrait%2C%20116th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Nirav Sheth",
@@ -11012,7 +11012,7 @@
           "articleTitle": "Kim Schrier",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kim%20Schrier%20Official%20Portrait%20116th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Spencer Meline",
@@ -11040,7 +11040,7 @@
           "articleTitle": "Adam Smith (Washington politician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam%20Smith%20Clerk.jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Doug Basler",
@@ -11068,7 +11068,7 @@
           "articleTitle": "Marilyn Strickland",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marilyn%20Strickland%20117th%20U.S%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Chris D. Chung",
@@ -11372,8 +11372,8 @@
           "isIncumbent": false
         },
         {
-          "name": "Lisa F. Kinney",
-          "articleTitle": "Lisa F. Kinney",
+          "name": "Lisa Kinney",
+          "articleTitle": "Lisa Kinney",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
