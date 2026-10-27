@@ -200,11 +200,11 @@
 
     els.gopBar.style.marginLeft = '';
     if (data.summary.projection) {
-      // House: forecaster seat-total range. Bar is sized against all 435 seats with
+      // Forecaster seat-total range. Bar is sized against the whole chamber with
       // the R fill pushed right, so the neutral gap in the middle is the toss-ups.
       const p = data.summary.projection;
-      els.demBar.style.width = (100 * p.demMedian / 435) + '%';
-      els.gopBar.style.width = (100 * p.gopMedian / 435) + '%';
+      els.demBar.style.width = (100 * p.demMedian / (p.total || 435)) + '%';
+      els.gopBar.style.width = (100 * p.gopMedian / (p.total || 435)) + '%';
       els.gopBar.style.marginLeft = 'auto';
       els.demCount.textContent = p.demLow === p.demHigh ? `D ${p.demMedian}` : `D ${p.demLow}–${p.demHigh}`;
       els.gopCount.textContent = p.gopLow === p.gopHigh ? `R ${p.gopMedian}` : `R ${p.gopLow}–${p.gopHigh}`;

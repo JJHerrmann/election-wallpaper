@@ -334,6 +334,7 @@ function parsePredictionsTable(wikitext, sectionHeadingRegex) {
     if (consensus) {
       consensus.incumbentParty = extractIncumbentParty(row);
       consensus.articleTitle = stateInfo.articleTitle;
+      consensus.ratings = ratings; // per-forecaster, in table column order
       results[usps] = consensus;
     }
   }
@@ -386,6 +387,59 @@ function extractChamberBaseline(wikitext) {
   return { gop, dem };
 }
 
+function summarizeForecasters(forecasters, total) {
+  const median = (arr) => {
+    const s = [...arr].sort((a, b) => a - b);
+    const mid = Math.floor(s.length / 2);
+    return s.length % 2 ? s[mid] : Math.round((s[mid - 1] + s[mid]) / 2);
+  };
+  const demVals = forecasters.map((f) => f.dem);
+  const gopVals = forecasters.map((f) => f.gop);
+  return {
+    forecasters, total,
+    demLow: Math.min(...demVals), demHigh: Math.max(...demVals), demMedian: median(demVals),
+    gopLow: Math.min(...gopVals), gopHigh: Math.max(...gopVals), gopMedian: median(gopVals),
+    tossupMedian: median(forecasters.map((f) => f.tossups)),
+    demCeiling: Math.max(...forecasters.map((f) => f.dem + f.tossups)),
+    gopCeiling: Math.max(...forecasters.map((f) => f.gop + f.tossups)),
+  };
+}
+
+// Per-forecaster full-chamber projection for Senate/Governor: for each forecaster
+// column, seats not up stay with their current party, and each rated race goes to
+// whichever party that forecaster rates it toward (any level), else toss-up.
+// Rows whose rating count doesn't match the table's usual column count (a missing or
+// non-template cell would shift columns) fall back to the consensus call for every
+// forecaster rather than risk misattributing ratings.
+function projectByForecaster(ratingsByState, baseline) {
+  if (!baseline) return null;
+  const rows = Object.values(ratingsByState).filter((c) => c.incumbentParty && c.ratings);
+  if (!rows.length) return null;
+  const counts = {};
+  for (const c of rows) counts[c.ratings.length] = (counts[c.ratings.length] || 0) + 1;
+  const n = +Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
+  if (n < 3) return null;
+
+  let demHeld = 0, gopHeld = 0;
+  for (const c of rows) { if (c.incumbentParty === 'D') demHeld++; else gopHeld++; }
+  const demBase = baseline.dem - demHeld;
+  const gopBase = baseline.gop - gopHeld;
+  if (demBase < 0 || gopBase < 0) return null;
+
+  const forecasters = [];
+  for (let i = 0; i < n; i++) {
+    let dem = demBase, gop = gopBase, tossups = 0;
+    for (const c of rows) {
+      const call = c.ratings.length === n
+        ? (c.ratings[i].level === 'tossup' ? null : c.ratings[i].party)
+        : c.leaderParty;
+      if (call === 'D') dem++; else if (call === 'R') gop++; else tossups++;
+    }
+    forecasters.push({ dem, gop, tossups });
+  }
+  return summarizeForecasters(forecasters, baseline.dem + baseline.gop);
+}
+
 function buildRatingMode(mode, ratingsByState, allStates, baseline) {
   const races = allStates.map((usps) => {
     const c = ratingsByState[usps];
@@ -420,6 +474,20 @@ function buildRatingMode(mode, ratingsByState, allStates, baseline) {
     ? (gopProjected > demProjected ? 'Republican' : 'Democratic')
     : (gopNet >= demNet ? 'Republican' : 'Democratic'); // fallback if baseline parse ever fails
 
+  const projection = projectByForecaster(ratingsByState, baseline);
+  let projectedControl = control;
+  let projectionTxt = '';
+  if (projection) {
+    const isSenate = mode === 'senate';
+    // Senate: Republicans keep control at 50 (VP tiebreak); Democrats need 51.
+    const demNeed = isSenate ? 51 : Math.floor(projection.total / 2) + 1;
+    const gopNeed = isSenate ? 50 : Math.floor(projection.total / 2) + 1;
+    projectedControl = projection.demMedian >= demNeed ? 'Projected Democratic'
+      : projection.gopMedian >= gopNeed ? 'Projected Republican' : 'Toss-up';
+    const noun = isSenate ? 'seats' : 'governorships';
+    projectionTxt = `Across ${projection.forecasters.length} forecasters: D ${projection.demLow}–${projection.demHigh} ${noun} (median ${projection.demMedian}), R ${projection.gopLow}–${projection.gopHigh} (median ${projection.gopMedian}), median ${projection.tossupMedian} toss-ups. Sweeping the toss-ups gets D to ${projection.demCeiling} or R to ${projection.gopCeiling} at most.${isSenate ? ' D needs 51; R holds at 50.' : ''}`;
+  }
+
   return {
     updatedAt: nowIso(),
     source: 'Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)',
@@ -430,11 +498,16 @@ function buildRatingMode(mode, ratingsByState, allStates, baseline) {
       demSeatsBefore: baseline ? baseline.dem : null,
       gopSeatsBefore: baseline ? baseline.gop : null,
       demSeatsProjected: demProjected, gopSeatsProjected: gopProjected,
-      control,
-      confidence: baseline
+      control: projectedControl,
+      confidence: projection
+        ? `${projectionTxt} Currently ${baseline.gop} R – ${baseline.dem} D.`
+        : baseline
         ? `Currently ${baseline.gop} R – ${baseline.dem} D; net change vs. incumbents from consensus forecaster ratings projects ${gopProjected} R – ${demProjected} D`
         : 'net change vs. current incumbent party, from consensus of published forecaster ratings (not raw polling)',
-      unit: `${mode === 'governor' ? 'rated governorships' : 'rated seats'} (toss-ups and non-flips count as no net change)`,
+      unit: projection
+        ? `published forecaster ratings, not raw polling; map color is the consensus rating`
+        : `${mode === 'governor' ? 'rated governorships' : 'rated seats'} (toss-ups and non-flips count as no net change)`,
+      projection,
     },
     races,
     dataType: 'rating',
@@ -468,20 +541,7 @@ function extractHouseForecastTotals(ratingsWikitext) {
     if (total < 425 || total > 440) return null; // misaligned parse; don't publish garbage
     forecasters.push({ dem: dems[i], gop: reps[i], tossups: tossups[i] });
   }
-  const median = (arr) => {
-    const s = [...arr].sort((a, b) => a - b);
-    const mid = Math.floor(s.length / 2);
-    return s.length % 2 ? s[mid] : Math.round((s[mid - 1] + s[mid]) / 2);
-  };
-  const demVals = forecasters.map((f) => f.dem);
-  const gopVals = forecasters.map((f) => f.gop);
-  return {
-    forecasters,
-    demLow: Math.min(...demVals), demHigh: Math.max(...demVals), demMedian: median(demVals),
-    gopLow: Math.min(...gopVals), gopHigh: Math.max(...gopVals), gopMedian: median(gopVals),
-    tossupMedian: median(forecasters.map((f) => f.tossups)),
-    demCeiling: Math.max(...forecasters.map((f) => f.dem + f.tossups)),
-  };
+  return summarizeForecasters(forecasters, 435);
 }
 
 function extractGenericBallotAverage(houseWikitext) {
