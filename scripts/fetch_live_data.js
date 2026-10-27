@@ -316,6 +316,22 @@ function parseBestPoll(wikitextRaw) {
     : null;
 }
 
+// What the map shows for a race: the call a MAJORITY of forecasters make (any
+// level, tilt included), shaded by the consensus strength. If no party has a
+// majority it's a toss-up. This is what makes the map agree with the seat ranges on
+// the card -- the old averaged "slight" bands rendered near-toss-ups as pale party
+// colors, which read as calls they weren't.
+function majorityCall(ratings, consensus) {
+  if (!ratings || !ratings.length) return null;
+  const n = ratings.length;
+  const d = ratings.filter((r) => r.level !== 'tossup' && r.party === 'D').length;
+  const r = ratings.filter((x) => x.level !== 'tossup' && x.party === 'R').length;
+  const party = d > n / 2 ? 'D' : r > n / 2 ? 'R' : null;
+  if (!party) return { status: 'toss-up', leaderParty: null };
+  const m = consensus && consensus.leaderParty === party && consensus.status.match(/^(safe|likely|lean)-/);
+  return { status: `${m ? m[1] : 'lean'}-${party.toLowerCase()}`, leaderParty: party };
+}
+
 function parsePredictionsTable(wikitext, sectionHeadingRegex) {
   const section = extractSection(wikitext, sectionHeadingRegex);
   const tableStart = section.indexOf('{|');
@@ -335,6 +351,7 @@ function parsePredictionsTable(wikitext, sectionHeadingRegex) {
       consensus.incumbentParty = extractIncumbentParty(row);
       consensus.articleTitle = stateInfo.articleTitle;
       consensus.ratings = ratings; // per-forecaster, in table column order
+      consensus.call = majorityCall(ratings, consensus);
       results[usps] = consensus;
     }
   }
@@ -447,8 +464,8 @@ function buildRatingMode(mode, ratingsByState, allStates, baseline) {
       return { id: `${usps}-${mode}`, state: usps, status: 'no-race', margin: null, leaderParty: null, incumbentParty: null, pollCount: 0, lastPollDaysAgo: null, dataType: 'rating', raterCount: 0, trend: [] };
     }
     return {
-      id: `${usps}-${mode}`, state: usps, status: c.status, margin: null,
-      leaderParty: c.leaderParty, incumbentParty: c.incumbentParty, pollCount: 0, lastPollDaysAgo: null,
+      id: `${usps}-${mode}`, state: usps, status: c.call ? c.call.status : c.status, margin: null,
+      leaderParty: c.call ? c.call.leaderParty : c.leaderParty, consensusStatus: c.status, incumbentParty: c.incumbentParty, pollCount: 0, lastPollDaysAgo: null,
       dataType: 'rating', raterCount: c.raterCount, trend: [],
       candidates: c.candidates || null, bestPoll: c.bestPoll || null,
     };
@@ -512,6 +529,40 @@ function buildRatingMode(mode, ratingsByState, allStates, baseline) {
     races,
     dataType: 'rating',
   };
+}
+
+// Per-district rows of the House ratings table (only districts at least one
+// forecaster considers competitive are listed; everything else is safe). Accepts
+// either {{USRaceRating}} templates or plain "Lean R" / "Tossup" cell text, since we
+// can't count on one markup. Returns {} unless enough rows parse to be trustworthy.
+function extractHouseDistrictRatings(ratingsWikitext) {
+  const results = {};
+  const rows = ratingsWikitext.split(/\n\|-/);
+  for (const row of rows) {
+    const idm = row.match(/\{\{ushr\|([^|}]+)\|([^|}]+)(?:\|[^}]*)?\}\}/);
+    if (!idm) continue;
+    const st = idm[1].trim();
+    const usps = STATE_TO_USPS[st] || (/^[A-Z]{2}$/.test(st) ? st : null);
+    if (!usps) continue;
+    const raw = idm[2].trim();
+    const distNum = /^\d+$/.test(raw) ? raw.padStart(2, '0') : '00';
+    const clean = row.replace(/<ref[^>]*\/>/g, '').replace(/<ref[\s\S]*?<\/ref>/g, '');
+    let ratings = extractRatings(clean);
+    if (ratings.length < 3) {
+      ratings = [];
+      const re = /\b(Safe|Solid|Likely|Lean|Tilt)\s+(D|R)\b|\bToss-?up\b/gi;
+      let m;
+      while ((m = re.exec(clean))) {
+        if (!m[1]) ratings.push({ level: 'tossup', party: null });
+        else ratings.push({ level: m[1].toLowerCase(), party: m[2].toUpperCase() });
+      }
+    }
+    if (ratings.length < 3) continue;
+    const consensus = consensusFromRatings(ratings);
+    results[`${usps}-${distNum}`] = { ratings, consensus, call: majorityCall(ratings, consensus) };
+  }
+  if (Object.keys(results).length < 40) return {};
+  return results;
 }
 
 // Reads the "Overall" row of Wikipedia's "2026 United States House of Representatives
@@ -608,11 +659,22 @@ function statusFromPvi(pviParty, pviMag) {
   return { status: `${bucket}-${pviParty.toLowerCase()}`, competitive };
 }
 
-function buildHouseDistrictMode(pviByDistrict, genericBallot, allDistrictIds, forecast) {
+function buildHouseDistrictMode(pviByDistrict, genericBallot, allDistrictIds, forecast, districtRatings = {}) {
   const races = allDistrictIds.map((id) => {
     const p = pviByDistrict[id];
     if (!p) {
       return { id, status: 'no-race', margin: null, leaderParty: null, incumbentParty: null, dataType: 'pvi', pviMagnitude: null, competitive: false, trend: [] };
+    }
+    const rated = districtRatings[id];
+    if (rated && rated.call) {
+      // Forecaster-rated district: color by the majority call (same model as the card).
+      return {
+        id, status: rated.call.status, margin: null, leaderParty: rated.call.leaderParty,
+        incumbentParty: p.repParty, dataType: 'rating', raterCount: rated.ratings.length,
+        consensusStatus: rated.consensus ? rated.consensus.status : null,
+        pviMagnitude: p.pviMag, pviParty: p.pviParty, competitive: !rated.call.status.startsWith('safe'), trend: [],
+        candidates: p.candidates || null, bestPoll: p.bestPoll || null,
+      };
     }
     const { status, competitive } = statusFromPvi(p.pviParty, p.pviMag);
     return {
@@ -809,15 +871,23 @@ async function main() {
   console.log('  fetching per-district candidate/poll detail (50 state articles)...');
   await attachHouseCandidates(pviByDistrict, allDistrictIds);
   let houseForecast = null;
+  let houseDistrictRatings = {};
   try {
-    houseForecast = extractHouseForecastTotals(await fetchWikitext('2026 United States House of Representatives election ratings'));
+    const ratingsWikitext = await fetchWikitext('2026 United States House of Representatives election ratings');
+    houseForecast = extractHouseForecastTotals(ratingsWikitext);
+    houseDistrictRatings = extractHouseDistrictRatings(ratingsWikitext);
   } catch (err) {
     console.error('  WARNING: House ratings fetch failed:', err.message);
   }
   console.log('  House forecaster totals:', houseForecast
     ? `${houseForecast.forecasters.length} forecasters, D ${houseForecast.demLow}-${houseForecast.demHigh} (median ${houseForecast.demMedian}), R median ${houseForecast.gopMedian}, toss-ups median ${houseForecast.tossupMedian}`
     : 'NOT PARSED (falling back to current seats)');
-  const houseData = buildHouseDistrictMode(pviByDistrict, genericBallot, allDistrictIds, houseForecast);
+  const ratedCalls = Object.values(houseDistrictRatings).map((r) => r.call.status);
+  console.log('  House rated districts:', Object.keys(houseDistrictRatings).length,
+    '| toss-ups:', ratedCalls.filter((x) => x === 'toss-up').length,
+    '| D calls:', ratedCalls.filter((x) => x.endsWith('-d')).length,
+    '| R calls:', ratedCalls.filter((x) => x.endsWith('-r')).length);
+  const houseData = buildHouseDistrictMode(pviByDistrict, genericBallot, allDistrictIds, houseForecast, houseDistrictRatings);
   fs.writeFileSync(path.join(DATA_DIR, 'live-house.json'), JSON.stringify(houseData, null, 2));
   const matched = allDistrictIds.filter((id) => pviByDistrict[id]).length;
   const houseWithCandidates = allDistrictIds.filter((id) => pviByDistrict[id] && pviByDistrict[id].candidates).length;

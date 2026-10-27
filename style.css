@@ -13,7 +13,7 @@
   --gop-safe: #a51d0f;
   --gop-likely: #e5533d;
   --gop-lean: #f2a7a0;
-  --tossup: #a89bc4;
+  --tossup: #c9a96e; /* warm sand: reads as neither party at a glance */
   --slight-d: #92a6da;
   --slight-r: #cda1b2;
   --muted-d: #617086;
@@ -525,3 +525,14 @@ body.light {
 body.light html, body.light {
   background: radial-gradient(ellipse at 50% 20%, #ffffff 0%, #e7edf9 55%, #dbe3f3 100%);
 }
+
+.map-legend { display: flex; gap: 2px; margin-top: 10px; }
+.map-legend .lg-sw { flex: 1; height: 8px; border-radius: 2px; }
+.map-legend .lg-sw.fill-safe-d { background: var(--dem-safe); }
+.map-legend .lg-sw.fill-likely-d { background: var(--dem-likely); }
+.map-legend .lg-sw.fill-lean-d { background: var(--dem-lean); }
+.map-legend .lg-sw.fill-toss-up { background: var(--tossup); }
+.map-legend .lg-sw.fill-lean-r { background: var(--gop-lean); }
+.map-legend .lg-sw.fill-likely-r { background: var(--gop-likely); }
+.map-legend .lg-sw.fill-safe-r { background: var(--gop-safe); }
+.map-legend-labels { display: flex; justify-content: space-between; font-size: 11px; color: var(--ink-dim); margin-top: 3px; }
