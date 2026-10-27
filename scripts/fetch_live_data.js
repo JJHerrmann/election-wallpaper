@@ -20,6 +20,14 @@ const { execSync } = require('child_process');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const REPO_DIR = path.join(__dirname, '..');
 
+// Wikimedia's API policy asks for a descriptive User-Agent with contact info, and
+// anonymous default clients get throttled first. Every outbound request goes through
+// this so refreshes don't start failing with HTTP 429.
+const USER_AGENT = 'ElectionRookWorks/1.0 (https://election.rook.works; https://github.com/JJHerrmann/election-wallpaper)';
+function uaFetch(url) {
+  return fetch(url, { headers: { 'User-Agent': USER_AGENT, 'Api-User-Agent': USER_AGENT } });
+}
+
 // Pushes the refreshed data/ + history-*.json files to the public GitHub Pages site
 // (election.rook.works) so it stays in sync with the local wallpaper. Lives here
 // rather than in scheduled_refresh.cmd because check_news_alerts.js also calls this
@@ -39,6 +47,7 @@ function pushDataUpdate() {
     }
     const stamp = new Date().toISOString();
     execSync(`git commit -m "data: automated refresh ${stamp}"`, { cwd: REPO_DIR, stdio: 'pipe' });
+    execSync('git pull --rebase --autostash', { cwd: REPO_DIR, stdio: 'pipe' });
     execSync('git push', { cwd: REPO_DIR, stdio: 'pipe' });
     console.log('  pushed data update to origin');
   } catch (err) {
@@ -69,7 +78,7 @@ const LEVEL_MAGNITUDE = {
 
 async function fetchWikitext(title) {
   const url = `https://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=${encodeURIComponent(title)}&rvslots=main&rvprop=content&format=json&formatversion=2`;
-  const res = await fetch(url);
+  const res = await uaFetch(url);
   if (!res.ok) throw new Error(`Wikipedia fetch failed for ${title}: HTTP ${res.status}`);
   const data = await res.json();
   const page = data.query.pages[0];
@@ -83,7 +92,7 @@ async function fetchWikitextBatch(titles) {
   for (let i = 0; i < titles.length; i += 50) {
     const chunk = titles.slice(i, i + 50);
     const url = `https://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=${encodeURIComponent(chunk.join('|'))}&rvslots=main&rvprop=content&format=json&formatversion=2`;
-    const res = await fetch(url);
+    const res = await uaFetch(url);
     if (!res.ok) throw new Error(`Wikipedia batch fetch failed: HTTP ${res.status}`);
     const data = await res.json();
     for (const page of data.query.pages) {
@@ -610,7 +619,7 @@ function statusFromMargin(absMargin) {
 }
 
 async function fetchPresident2024Results() {
-  const res = await fetch('https://decisionlabs.ai/api/elections/2024');
+  const res = await uaFetch('https://decisionlabs.ai/api/elections/2024');
   if (!res.ok) throw new Error(`Decision Labs elections fetch failed: HTTP ${res.status}`);
   const data = await res.json();
 

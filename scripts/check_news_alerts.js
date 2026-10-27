@@ -17,6 +17,7 @@ const { execFileSync } = require('child_process');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const LOG_DIR = path.join(__dirname, '..', 'logs');
 const STATE_PATH = path.join(DATA_DIR, '.news_alert_state.json');
+const USER_AGENT = 'ElectionRookWorks/1.0 (https://election.rook.works; https://github.com/JJHerrmann/election-wallpaper)';
 
 const QUERIES = {
   'drops-out': '("drops out" OR "withdraws from" OR "suspends campaign") ("2026 election" OR "2026 midterm" OR "2026 senate" OR "2026 governor" OR "2026 house race")',
@@ -50,7 +51,7 @@ function parseRssItems(xml) {
 
 async function fetchQuery(query) {
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
-  const res = await fetch(url);
+  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
   if (!res.ok) throw new Error(`News RSS fetch failed: HTTP ${res.status}`);
   const xml = await res.text();
   return parseRssItems(xml).slice(0, 15); // most recent ~15 results

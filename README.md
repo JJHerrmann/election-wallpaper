@@ -233,8 +233,16 @@ cached data" badge appears whenever it's not showing a fresh fetch.
 2b. ✅ **District-level House** — full 435-district map, shaded by real Cook PVI, safe vs.
    competitive visually split so the map isn't 435 equally-loud shapes. Known gap: Census
    boundary file may not reflect Louisiana's/Alabama's very-last-minute 2026 redraws.
-3. ✅ **Automated refresh** — two Windows Scheduled Tasks (both "run only when logged in,"
-   no stored credentials):
+3. ✅ **Automated refresh** — the public site now refreshes from GitHub Actions
+   (`.github/workflows/refresh-data.yml`): twice daily at ~6:17 AM/PM Eastern, plus a
+   manual "Run workflow" button on the Actions tab. It runs the same
+   `fetch_live_data.js`, which commits and pushes the results itself, so
+   election.rook.works no longer depends on a local machine being on and logged in.
+   All requests send a descriptive User-Agent per Wikimedia's API policy.
+   `pushDataUpdate()` now pulls with rebase before pushing, so a local run and a CI run
+   don't collide. The local Windows tasks below still work for the desktop wallpaper;
+   they're optional for the website. Original local setup: two Windows Scheduled Tasks
+   (both "run only when logged in," no stored credentials):
    - `ElectionWallpaperDataRefresh` — daily at 6:00 AM, full re-scrape
      (`scripts/scheduled_refresh.cmd` → `fetch_live_data.js`). Log: `logs/refresh.log`.
    - `ElectionWallpaperNewsAlertCheck` — hourly, polls free Google News RSS for four

@@ -1,0 +1,52 @@
+name: Refresh election data
+
+# Hosted replacement for the local Windows Scheduled Task. Runs the same
+# scripts/fetch_live_data.js, which commits and pushes data/, senate/, governor/
+# and sitemap.xml itself (pushDataUpdate), so GitHub Pages republishes
+# election.rook.works without any machine needing to be on or logged in.
+
+on:
+  schedule:
+    # Twice daily (UTC): ~6:17 AM and ~6:17 PM Eastern during DST.
+    # Off-the-hour minutes avoid the top-of-hour Actions backlog.
+    - cron: '17 10 * * *'
+    - cron: '17 22 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Configure git identity
+        run: |
+          git config user.name "election-refresh[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch ratings and push
+        run: node scripts/fetch_live_data.js
+
+      - name: Fail if the push did not land
+        # pushDataUpdate() only warns on failure (so the local wallpaper never
+        # crashes); in CI we want a red run instead of a silent stale site.
+        run: |
+          git fetch origin
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
+            echo "Local HEAD differs from origin after refresh - push failed." >&2
+            exit 1
+          fi
