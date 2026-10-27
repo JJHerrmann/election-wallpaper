@@ -1,18 +1,80 @@
 {
-  "updatedAt": "2026-10-27T21:43:15.867Z",
-  "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
+  "updatedAt": "2026-10-27T21:55:51.098Z",
+  "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party; forecaster seat totals from \"2026 United States House of Representatives election ratings\"); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
     "demSeats": 215,
     "gopSeats": 219,
-    "control": "Republican",
-    "confidence": "Shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.5 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
-    "unit": "current House seats (PVI shading is structural lean, not a forecast)",
+    "control": "Projected Democratic",
+    "confidence": "Forecasters (10) rate 212–230 seats for Democrats (median 225) and 189–205 for Republicans (median 196), with a median 16 toss-ups; Democrats reach 246 at most if they sweep the toss-ups. 218 needed. Currently 215 D – 219 R. Map shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.5 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
+    "unit": "seat counts are forecaster ratings; map shading is structural lean",
     "genericBallot": {
       "republicanPct": 43,
       "democratPct": 51.5,
       "marginParty": "D",
       "marginPts": 8.5
+    },
+    "projection": {
+      "forecasters": [
+        {
+          "dem": 220,
+          "gop": 198,
+          "tossups": 17
+        },
+        {
+          "dem": 212,
+          "gop": 205,
+          "tossups": 18
+        },
+        {
+          "dem": 225,
+          "gop": 193,
+          "tossups": 17
+        },
+        {
+          "dem": 230,
+          "gop": 190,
+          "tossups": 15
+        },
+        {
+          "dem": 225,
+          "gop": 197,
+          "tossups": 13
+        },
+        {
+          "dem": 223,
+          "gop": 203,
+          "tossups": 9
+        },
+        {
+          "dem": 230,
+          "gop": 196,
+          "tossups": 9
+        },
+        {
+          "dem": 223,
+          "gop": 195,
+          "tossups": 17
+        },
+        {
+          "dem": 230,
+          "gop": 196,
+          "tossups": 9
+        },
+        {
+          "dem": 226,
+          "gop": 189,
+          "tossups": 20
+        }
+      ],
+      "demLow": 212,
+      "demHigh": 230,
+      "demMedian": 225,
+      "gopLow": 189,
+      "gopHigh": 205,
+      "gopMedian": 196,
+      "tossupMedian": 16,
+      "demCeiling": 246
     }
   },
   "races": [

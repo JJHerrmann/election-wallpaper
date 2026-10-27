@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T21:43:14.506Z",
+  "updatedAt": "2026-10-27T21:55:49.820Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -898,7 +898,16 @@
           "isIncumbent": false
         }
       ],
-      "bestPoll": null
+      "bestPoll": {
+        "source": "RealClearPolitics",
+        "date": "October 27, 2026",
+        "margin": 16.5,
+        "leaderParty": null,
+        "candidatePcts": {
+          "D": 53.5,
+          "R": 37
+        }
+      }
     },
     {
       "id": "NY-senate",
