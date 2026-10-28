@@ -9,6 +9,7 @@
     KY: '6-7 PM', GA: '7 PM', VA: '7 PM', NC: '7:30 PM', OH: '7:30 PM', ME: '8 PM', PA: '8 PM',
     MI: '8-9 PM', KS: '8-9 PM', TX: '8-9 PM', IA: '9 PM', CO: '9 PM', AZ: '9 PM', NY: '9 PM', AK: '12-1 AM',
   };
+  const BIGBOARD_IDS = ['NC-sen', 'VA-sen', 'GA-sen', 'GA-gov'];
   const STATUS_LABEL = { live: 'Counting', waiting: 'Awaiting results', 'no-feed': 'No live feed', stale: 'Feed delayed', error: 'Feed error' };
 
   const els = {
@@ -133,6 +134,11 @@
       foot.appendChild(a);
     } else {
       foot.appendChild(el('span', null, ''));
+    }
+    if (BIGBOARD_IDS.includes(r.id)) {
+      const bb = el('a', null, 'County big board');
+      bb.href = 'bigboard.html?race=' + encodeURIComponent(r.id);
+      foot.appendChild(bb);
     }
     foot.appendChild(el('span', null, r.changedAt && r.totalVotes > 0 ? `Changed ${fmtTime(r.changedAt)}` : ''));
     card.appendChild(foot);

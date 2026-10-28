@@ -261,6 +261,27 @@ Georgia hadn't posted its 2026 general when this was built; its contest-name
 patterns in `results_config.js` follow past generals and should be rechecked once
 the state stages the election.
 
+## Big board (county level)
+
+`bigboard.html` is a county-by-county board for the statewide races whose official feeds
+publish per-county results reachable from GitHub's runners: NC Senate, VA Senate, GA
+Senate and GA Governor. Views: leading, swing vs 2024, % in, 2024 result; county
+drill-down; "where the votes are left"; biggest swings; and an estimated finish.
+
+- `scripts/bigboard_feed.js` (called by `fetch_live_results.js` each pass) writes raw
+  county counts to `data/bigboard.json`: NC's 100 per-county files, VA's 133 and GA's 159
+  per-locality API calls. VA/GA county contests are matched to the statewide contest by
+  `parentId`, since counties sometimes rename contests.
+- `scripts/build_bigboard_static.js` (run once; dev deps `us-atlas`, `topojson-client`,
+  `d3-geo`) built `data/bigboard-geo.json` (county outlines) and
+  `data/bigboard-baseline.json` (certified 2024 presidential results by county, from
+  the same state offices; statewide totals match the certified results).
+- The estimate (in `bigboard.js`): vote-weighted average swing from counties 95%+ in,
+  applied to remaining counties' 2024 margins; expected turnout per county fitted
+  against 2024 lean from completed counties; rough range by resampling completed
+  counties. Simulated partial counts of past NC/VA/GA races: ~1-2 pt average error once
+  a third of counties are complete, up to ~5 early.
+
 ## Next passes
 
 1. ✅ **Visual prototype** — static data, all four modes, one polished layout.

@@ -63,6 +63,10 @@
   }
   .banner.hidden { display: none; }
 
+  .bblink { display: block; margin-top: 10px; padding: 11px 14px; border-radius: 12px; text-decoration: none; color: var(--ink);
+    font-size: 13.5px; border: 1px solid rgba(53,132,228,.45); background: rgba(53,132,228,.10); }
+  .bblink:hover { border-color: var(--dem); }
+  .bblink:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   nav.groups { display: flex; gap: 6px; flex-wrap: wrap; margin: 18px 0 8px; position: sticky; top: 0; z-index: 2; padding: 8px 0; background: linear-gradient(var(--bg) 70%, transparent); }
   nav.groups button {
     appearance: none; border: 1px solid var(--border); background: var(--panel); color: var(--ink-dim);
@@ -131,6 +135,7 @@
       <span>Page checks again in <strong id="countdown">-</strong></span>
     </div>
     <div class="banner hidden" id="pre-banner"></div>
+    <a class="bblink" href="bigboard.html"><strong>Big board</strong> &middot; county-by-county map, swing vs 2024 and votes left for North Carolina, Virginia and Georgia &rarr;</a>
 
     <nav class="groups" id="group-nav" aria-label="Race groups"></nav>
     <main id="groups"><p class="empty">Loading races...</p></main>

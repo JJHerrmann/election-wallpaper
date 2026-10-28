@@ -15,6 +15,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const { ELECTION_DATE, GROUPS, OFFICIAL_PAGES, NO_FEED_REASON, SOURCES, RACES } = require('./results_config');
+const { buildBigBoard } = require('./bigboard_feed');
 
 const REPO_DIR = path.join(__dirname, '..');
 const DATA_DIR = path.join(REPO_DIR, 'data');
@@ -245,6 +246,13 @@ async function runOnce() {
   };
   fs.writeFileSync(OUT_PATH, JSON.stringify(out, null, 2));
 
+  // County-level data for the big board; a failure here never blocks the cards.
+  try {
+    await buildBigBoard({ getJson, normParty, ELECTION_DATE }, DRY_RUN);
+  } catch (err) {
+    console.error('  WARNING: big board update failed:', err.message);
+  }
+
   const tally = races.reduce((m, r) => ((m[r.status] = (m[r.status] || 0) + 1), m), {});
   console.log(`[${now}] races: ${JSON.stringify(tally)}${Object.keys(sourceErrors).length ? ' | source errors: ' + JSON.stringify(sourceErrors) : ''}`);
   return out;
@@ -252,7 +260,7 @@ async function runOnce() {
 
 function pushResults() {
   try {
-    execSync('git add data/live-results.json', { cwd: REPO_DIR, stdio: 'pipe' });
+    execSync('git add data/live-results.json data/bigboard.json', { cwd: REPO_DIR, stdio: 'pipe' });
     try { execSync('git diff --cached --quiet', { cwd: REPO_DIR, stdio: 'pipe' }); console.log('  (no change)'); return; } catch (e) { /* staged changes: continue */ }
     execSync(`git commit -m "results: live update ${new Date().toISOString()}"`, { cwd: REPO_DIR, stdio: 'pipe' });
     execSync('git pull --rebase --autostash', { cwd: REPO_DIR, stdio: 'pipe' });

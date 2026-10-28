@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T22:41:12.878Z",
+  "updatedAt": "2026-10-28T23:11:56.009Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -48,7 +48,7 @@
       "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
       "status": "waiting",
       "note": "Georgia has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:41:12.878Z"
+      "checkedAt": "2026-10-28T23:11:56.009Z"
     },
     {
       "id": "GA-gov",
@@ -61,7 +61,7 @@
       "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
       "status": "waiting",
       "note": "Georgia has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:41:12.878Z"
+      "checkedAt": "2026-10-28T23:11:56.009Z"
     },
     {
       "id": "VA-sen",
@@ -97,8 +97,8 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:41:12.878Z",
-      "changedAt": "2026-10-28T22:35:19.011Z"
+      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
       "id": "VA-01",
@@ -135,8 +135,8 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:41:12.878Z",
-      "changedAt": "2026-10-28T22:35:19.011Z"
+      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
       "id": "VA-02",
@@ -187,8 +187,8 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:41:12.878Z",
-      "changedAt": "2026-10-28T22:35:19.011Z"
+      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
       "id": "NC-sen",
@@ -239,8 +239,8 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:41:12.878Z",
-      "changedAt": "2026-10-28T22:35:19.011Z"
+      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
       "id": "ME-sen",
@@ -368,8 +368,8 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:41:12.878Z",
-      "changedAt": "2026-10-28T22:35:19.011Z"
+      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
       "id": "NC-11",
@@ -413,8 +413,8 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:41:12.878Z",
-      "changedAt": "2026-10-28T22:35:19.011Z"
+      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
       "id": "IA-01",
