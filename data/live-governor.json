@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:08:01.117Z",
+  "updatedAt": "2026-10-28T01:25:57.651Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -1374,13 +1374,13 @@
         }
       ],
       "bestPoll": {
-        "source": "RealClearPolitics",
-        "date": "October 26, 2026",
-        "margin": 3.3,
+        "source": "270toWin",
+        "date": "October 27, 2026",
+        "margin": 3.2,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 49.8,
-          "D": 46.5
+          "R": 50.1,
+          "D": 46.9
         }
       }
     },
