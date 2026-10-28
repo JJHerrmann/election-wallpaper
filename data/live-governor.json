@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T16:39:09.851Z",
+  "updatedAt": "2026-10-28T20:29:44.498Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -11,8 +11,8 @@
     "gopSeatsBefore": 26,
     "demSeatsProjected": 26,
     "gopSeatsProjected": 24,
-    "control": "Projected Democratic",
-    "confidence": "Across 8 forecasters: D 23–26 governorships (median 26), R 19–23 (median 22), median 3 toss-ups. Sweeping the toss-ups gets D to 31 or R to 27 at most. Currently 26 R – 24 D.",
+    "control": "Toss-up",
+    "confidence": "Across 8 forecasters: D 23–26 governorships (median 25), R 19–23 (median 22), median 4 toss-ups. Sweeping the toss-ups gets D to 31 or R to 27 at most. Currently 26 R – 24 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
@@ -22,9 +22,9 @@
           "tossups": 4
         },
         {
-          "dem": 26,
+          "dem": 25,
           "gop": 22,
-          "tossups": 2
+          "tossups": 3
         },
         {
           "dem": 24,
@@ -42,9 +42,9 @@
           "tossups": 2
         },
         {
-          "dem": 23,
+          "dem": 24,
           "gop": 19,
-          "tossups": 8
+          "tossups": 7
         },
         {
           "dem": 26,
@@ -60,11 +60,11 @@
       "total": 50,
       "demLow": 23,
       "demHigh": 26,
-      "demMedian": 26,
+      "demMedian": 25,
       "gopLow": 19,
       "gopHigh": 23,
       "gopMedian": 22,
-      "tossupMedian": 3,
+      "tossupMedian": 4,
       "demCeiling": 31,
       "gopCeiling": 27
     }
@@ -357,13 +357,13 @@
         }
       ],
       "bestPoll": {
-        "source": "Decision Desk HQ",
-        "date": "October 26, 2026",
-        "margin": 6.5,
+        "source": "270toWin",
+        "date": "October 28, 2026",
+        "margin": 5.5,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 49.1,
-          "D": 42.6
+          "R": 49.7,
+          "D": 44.2
         }
       }
     },
@@ -543,13 +543,13 @@
         }
       ],
       "bestPoll": {
-        "source": "270toWin",
-        "date": "October 22, 2026",
-        "margin": 6.6,
+        "source": "FiftyPlusOne",
+        "date": "October 28, 2026",
+        "margin": 7.1,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 44.4,
-          "D": 51
+          "R": 44,
+          "D": 51.1
         }
       }
     },
@@ -761,7 +761,7 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 21, 2026",
+        "date": "October 28, 2026",
         "margin": 7.8,
         "leaderParty": "D",
         "candidatePcts": {
@@ -1471,9 +1471,9 @@
     {
       "id": "WI-governor",
       "state": "WI",
-      "status": "toss-up",
+      "status": "lean-d",
       "margin": null,
-      "leaderParty": null,
+      "leaderParty": "D",
       "consensusStatus": "lean-d",
       "incumbentParty": "D",
       "pollCount": 0,
