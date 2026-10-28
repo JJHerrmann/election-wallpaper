@@ -596,8 +596,20 @@
     };
   }
 
+  // Keeps the state card from running into the summary card when both share the
+  // left panel column on wide screens (style.css reads --summary-h).
+  function trackSummaryHeight() {
+    const card = document.getElementById('summary-card');
+    if (!card) return;
+    const set = () => document.documentElement.style.setProperty('--summary-h', card.offsetHeight + 'px');
+    set();
+    if ('ResizeObserver' in window) new ResizeObserver(set).observe(card);
+    else window.addEventListener('resize', set);
+  }
+
   async function init() {
     cacheEls();
+    trackSummaryHeight();
     wireModeSwitcher();
     wireRaceCard();
     wireTrendWindowPicker();
