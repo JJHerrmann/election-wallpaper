@@ -358,6 +358,110 @@ function parsePredictionsTable(wikitext, sectionHeadingRegex) {
   return results;
 }
 
+// ---------------------------------------------------------------------------
+// Early vote by party registration (the "who's voted so far" numbers TV runs).
+// Source: UF Election Lab's national early-vote tracker, which republishes each
+// state's official daily reports as one CSV. Party registration of people who
+// have voted is NOT how they voted, and only ~half of states register by party;
+// both caveats are carried into the UI. We keep our own daily snapshots
+// (history-earlyvote.json) so the card can show movement since the last reading.
+const EARLY_VOTE_CSV = 'https://election.lab.ufl.edu/data-downloads/earlyvote/2026/US.csv';
+const EARLY_VOTE_PAGE = 'https://election.lab.ufl.edu/early-vote/2026-early-voting/';
+
+function parseCsv(text) {
+  // RFC 4180-ish: quoted fields may contain commas, doubled quotes and newlines
+  // (the Election Lab "notes" column does).
+  const rows = [];
+  let row = [], field = '', i = 0, quoted = false;
+  while (i < text.length) {
+    const ch = text[i];
+    if (quoted) {
+      if (ch === '"') {
+        if (text[i + 1] === '"') { field += '"'; i += 2; continue; }
+        quoted = false; i++; continue;
+      }
+      field += ch; i++; continue;
+    }
+    if (ch === '"') { quoted = true; i++; continue; }
+    if (ch === ',') { row.push(field); field = ''; i++; continue; }
+    if (ch === '\r') { i++; continue; }
+    if (ch === '\n') { row.push(field); rows.push(row); row = []; field = ''; i++; continue; }
+    field += ch; i++;
+  }
+  if (field !== '' || row.length) { row.push(field); rows.push(row); }
+  const header = rows.shift() || [];
+  return rows.filter((r) => r.length > 1).map((r) => Object.fromEntries(header.map((h, k) => [h.trim(), (r[k] ?? '').trim()])));
+}
+
+function usDateToIso(mdy) {
+  const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(mdy || '');
+  return m ? `${m[3]}-${m[1].padStart(2, '0')}-${m[2].padStart(2, '0')}` : null;
+}
+
+async function fetchEarlyVote() {
+  const res = await uaFetch(EARLY_VOTE_CSV);
+  if (!res.ok) throw new Error(`Election Lab early vote fetch failed: HTTP ${res.status}`);
+  const rows = parseCsv(await res.text());
+  const num = (v) => { const n = parseInt(String(v).replace(/,/g, ''), 10); return Number.isFinite(n) ? n : 0; };
+
+  const states = {};
+  for (const r of rows) {
+    const usps = (r.state_abbv || '').toUpperCase();
+    if (!/^[A-Z]{2}$/.test(usps)) continue;
+    const voted = num(r.voted_all);
+    if (!voted) continue;
+    const dem = num(r.voted_dem), rep = num(r.voted_rep);
+    const hasParty = dem + rep > 0;
+    const turnout2022 = num(r.turn_2022) || null;
+    states[usps] = {
+      voted,
+      inPerson: num(r.inperson_all),
+      mailReturned: num(r.accept_all),
+      dem: hasParty ? dem : null,
+      rep: hasParty ? rep : null,
+      other: hasParty ? Math.max(voted - dem - rep, 0) : null,
+      hasParty,
+      turnout2022,
+      pctOf2022: turnout2022 ? Math.round((1000 * voted) / turnout2022) / 10 : null,
+      lastUpdate: usDateToIso(r.last_update),
+      stateSource: /^https?:\/\//.test(r.data_source || '') ? r.data_source : null,
+    };
+  }
+  if (Object.keys(states).length < 25) throw new Error(`Election Lab CSV parsed only ${Object.keys(states).length} states`);
+
+  // Daily snapshots, one per date (re-runs overwrite that day), capped at 45 days.
+  const histPath = path.join(DATA_DIR, 'history-earlyvote.json');
+  let hist = {};
+  try { hist = JSON.parse(fs.readFileSync(histPath, 'utf8')); } catch (e) { hist = {}; }
+  const today = localDateKey();
+  const priorDates = Object.keys(hist).filter((d) => d < today).sort();
+  const prevDate = priorDates[priorDates.length - 1] || null;
+  const prev = prevDate ? hist[prevDate] : null;
+
+  for (const [usps, st] of Object.entries(states)) {
+    const p = prev && prev[usps];
+    if (!p) continue;
+    st.change = {
+      since: prevDate,
+      voted: st.voted - p.voted,
+      demLead: st.hasParty && p.dem != null ? (st.dem - st.rep) - (p.dem - p.rep) : null,
+    };
+  }
+
+  hist[today] = Object.fromEntries(Object.entries(states).map(([u, st]) => [u, { voted: st.voted, dem: st.dem, rep: st.rep }]));
+  const keep = Object.keys(hist).sort().slice(-45);
+  hist = Object.fromEntries(keep.map((d) => [d, hist[d]]));
+  fs.writeFileSync(histPath, JSON.stringify(hist));
+
+  return {
+    updatedAt: nowIso(),
+    source: 'UF Election Lab early vote tracker (official state reports)',
+    sourceUrl: EARLY_VOTE_PAGE,
+    caveat: 'Party registration of people who have voted, not how they voted. Ballots are not counted until Election Day.',
+    states,
+  };
+}
+
 function nowIso() { return new Date().toISOString(); }
 
 const HISTORY_MAX_DAYS = 120;
@@ -905,6 +1009,18 @@ async function main() {
   const presidentData = await fetchPresident2024Results();
   fs.writeFileSync(path.join(DATA_DIR, 'live-president.json'), JSON.stringify(presidentData, null, 2));
   console.log('  states:', presidentData.races.length, 'EV', presidentData.summary.demSeats, '-', presidentData.summary.gopSeats);
+
+  console.log('Fetching early vote by party registration (UF Election Lab)...');
+  try {
+    const ev = await fetchEarlyVote();
+    fs.writeFileSync(path.join(DATA_DIR, 'early-vote.json'), JSON.stringify(ev, null, 2));
+    const withParty = Object.values(ev.states).filter((x) => x.hasParty).length;
+    const nc = ev.states.NC;
+    console.log('  states:', Object.keys(ev.states).length, '| with party data:', withParty,
+      nc ? `| NC voted ${nc.voted} (${nc.pctOf2022}% of 2022)${nc.hasParty ? `, D ${nc.dem} R ${nc.rep}` : ''}` : '');
+  } catch (err) {
+    console.error('  WARNING: early vote fetch failed (keeping previous file):', err.message);
+  }
 
   console.log('Generating per-race SEO pages...');
   require('./generate_race_pages').main();

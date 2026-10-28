@@ -225,6 +225,18 @@ If a `dataUrl` fetch fails, the app falls back to the last successful response c
 `localStorage`, and finally to the bundled sample data — it never goes blank. An "Showing
 cached data" badge appears whenever it's not showing a fresh fetch.
 
+## Early vote by party registration
+
+`fetchEarlyVote()` in `fetch_live_data.js` pulls the UF Election Lab's national early-vote
+CSV (`election.lab.ufl.edu/data-downloads/earlyvote/2026/US.csv`, which republishes each
+state's official daily reports) into `data/early-vote.json`: ballots cast, share of 2022
+total turnout, and, for the ~25 states that register by party, the D / R / other split of
+who has voted. `data/history-earlyvote.json` keeps one snapshot per day (45 days) so the
+map card and race pages can show change since the previous reading. Shown on the map's
+race card (statewide, also for House districts) and the per-race Senate/Governor pages,
+always with the caveat that party registration is not vote choice. A fetch failure keeps
+the previous file and never blocks the rest of the refresh.
+
 ## Next passes
 
 1. ✅ **Visual prototype** — static data, all four modes, one polished layout.

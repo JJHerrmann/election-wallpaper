@@ -63,6 +63,11 @@
     els.trendDelta = qs('trend-delta');
     els.trendWindowPicker = qs('trend-window-picker');
     els.trendWindowBtns = [...els.trendWindowPicker.querySelectorAll('.trend-window-btn')];
+    els.ev = {
+      box: qs('race-early-vote'), label: qs('ev-label'), total: qs('ev-total'), party: qs('ev-party'),
+      barD: qs('ev-bar-d'), barO: qs('ev-bar-o'), barR: qs('ev-bar-r'),
+      dem: qs('ev-dem'), oth: qs('ev-oth'), rep: qs('ev-rep'), lead: qs('ev-lead'), caveat: qs('ev-caveat'),
+    };
     els.candidatesTable = qs('race-candidates-table');
     els.candidateCols = [...els.candidatesTable.querySelectorAll('.candidate-col')];
   }
@@ -477,7 +482,60 @@
     }
 
     drawTrend(race.trend);
+    renderEarlyVote(id);
     els.raceCard.classList.remove('hidden');
+  }
+
+  // Early vote by party registration (data/early-vote.json, refreshed with the rest).
+  async function loadEarlyVote() {
+    try { state.earlyVote = await loadJson('data/early-vote.json'); } catch (e) { state.earlyVote = null; }
+  }
+
+  function fmtInt(n) { return Number(n).toLocaleString('en-US'); }
+  function fmtShortDate(iso) {
+    if (!iso) return '';
+    const [y, m, d] = iso.split('-').map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  }
+
+  function renderEarlyVote(id) {
+    const ev = els.ev;
+    const usps = String(id).split('-')[0];
+    const st = state.earlyVote && state.earlyVote.states && state.earlyVote.states[usps];
+    if (!st || state.mode === 'president') { ev.box.classList.add('hidden'); return; }
+
+    ev.label.textContent = state.granularity === 'district' ? `Early vote · ${usps} statewide` : 'Early vote';
+    let total = `${fmtInt(st.voted)} voted`;
+    if (st.pctOf2022 != null) total += ` · ${st.pctOf2022}% of 2022 turnout`;
+    if (st.change && st.change.voted > 0) total += ` · +${fmtInt(st.change.voted)} since ${fmtShortDate(st.change.since)}`;
+    ev.total.textContent = total;
+
+    if (st.hasParty) {
+      const pct = (n) => (100 * n / st.voted);
+      ev.barD.style.width = pct(st.dem) + '%';
+      ev.barO.style.width = pct(st.other) + '%';
+      ev.barR.style.width = pct(st.rep) + '%';
+      ev.dem.textContent = `D ${pct(st.dem).toFixed(1)}%`;
+      ev.oth.textContent = `Other ${pct(st.other).toFixed(1)}%`;
+      ev.rep.textContent = `R ${pct(st.rep).toFixed(1)}%`;
+      const lead = st.dem - st.rep;
+      const leader = lead >= 0 ? 'Registered Democrats' : 'Registered Republicans';
+      let leadTxt = `${leader} lead by ${fmtInt(Math.abs(lead))}`;
+      if (st.change && st.change.demLead != null && st.change.demLead !== 0) {
+        const grew = (lead >= 0) === (st.change.demLead > 0);
+        leadTxt += `, ${grew ? 'up' : 'down'} ${fmtInt(Math.abs(st.change.demLead))} since ${fmtShortDate(st.change.since)}`;
+      }
+      ev.lead.textContent = leadTxt;
+      ev.lead.className = 'ev-lead ' + (lead >= 0 ? 'dem' : 'gop');
+      ev.party.classList.remove('hidden');
+      ev.caveat.textContent = 'Party registration of who has voted, not how they voted. Unaffiliated voters decide most close races. ' +
+        `Updated ${fmtShortDate(st.lastUpdate)} · UF Election Lab`;
+    } else {
+      ev.party.classList.add('hidden');
+      ev.caveat.textContent = `${STATE_NAMES[usps] || usps} doesn't register voters by party, so only turnout is reported. ` +
+        `Updated ${fmtShortDate(st.lastUpdate)} · UF Election Lab`;
+    }
+    ev.box.classList.remove('hidden');
   }
 
   function hideRaceCard() {
@@ -506,6 +564,7 @@
     const ms = Math.max(state.refreshMinutes, 5) * 60 * 1000;
     setInterval(async () => {
       const data = await loadModeData(state.mode, { forceRemote: true });
+      await loadEarlyVote();
       applyModeData(data);
     }, ms);
   }
@@ -551,7 +610,7 @@
     } catch (e) {}
     for (const btn of els.trendWindowBtns) btn.classList.toggle('active', btn.dataset.window === state.trendWindow);
 
-    const [mapData, districtData] = await Promise.all([loadMapPaths(), loadDistrictPaths()]);
+    const [mapData, districtData] = await Promise.all([loadMapPaths(), loadDistrictPaths(), loadEarlyVote()]);
     buildMap(mapData, districtData);
 
     for (const btn of els.modeSwitcher.querySelectorAll('.mode-btn')) {

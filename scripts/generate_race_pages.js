@@ -90,7 +90,31 @@ function candidateCardHtml(cand, bestPoll) {
   </div>`;
 }
 
-function renderRacePage(mode, race, allRacesForState) {
+function loadEarlyVote() {
+  try { return JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'early-vote.json'), 'utf8')); } catch (e) { return null; }
+}
+
+function earlyVoteHtml(ev, usps) {
+  const st = ev && ev.states && ev.states[usps];
+  if (!st) return '';
+  const n = (x) => Number(x).toLocaleString('en-US');
+  const pct = (x) => (100 * x / st.voted).toFixed(1);
+  const turnout = `${n(st.voted)} ballots cast so far${st.pctOf2022 != null ? ` (${st.pctOf2022}% of 2022 total turnout)` : ''}`;
+  let party = '';
+  if (st.hasParty) {
+    const lead = st.dem - st.rep;
+    party = `<p>By party registration: <strong>D ${pct(st.dem)}%</strong> &middot; R ${pct(st.rep)}% &middot; other/unaffiliated ${pct(st.other)}%. `
+      + `Registered ${lead >= 0 ? 'Democrats' : 'Republicans'} lead by ${n(Math.abs(lead))}.</p>`;
+  }
+  return `<div class="detail-box">
+    <h2>Early vote</h2>
+    <p>${esc(turnout)}, as of ${esc(st.lastUpdate || '')}.</p>
+    ${party}
+    <p class="dim">${st.hasParty ? 'Party registration of people who have voted, not how they voted.' : 'This state does not register voters by party; turnout only.'} Ballots are not counted until Election Day. Source: <a href="${esc(ev.sourceUrl)}">UF Election Lab</a>.</p>
+  </div>`;
+}
+
+function renderRacePage(mode, race, allRacesForState, ev) {
   const stateName = STATE_NAMES[race.state] || race.state;
   const modeLabel = mode === 'senate' ? 'Senate' : 'Governor';
   const [c1, c2] = race.candidates || [];
@@ -131,6 +155,8 @@ ${headHtml({ title, description, canonical })}
     ${race.bestPoll ? `<p>Latest poll: <strong>${esc(race.bestPoll.leaderParty)}+${esc(race.bestPoll.margin)}</strong> pts &mdash; ${esc(race.bestPoll.source)} (${esc(race.bestPoll.date)})</p>` : ''}
     <p class="dim">Election day: November 3, 2026.</p>
   </div>
+
+  ${earlyVoteHtml(ev, race.state)}
 
   ${METHODOLOGY_HTML}
 
@@ -184,8 +210,9 @@ function writePage(relPath, html) {
 function generateForMode(mode) {
   const data = JSON.parse(fs.readFileSync(path.join(DATA_DIR, `live-${mode}.json`), 'utf8'));
   const rated = data.races.filter((r) => r.status !== 'no-race');
+  const ev = loadEarlyVote();
   for (const race of rated) {
-    writePage(`${mode}/${race.state.toLowerCase()}/index.html`, renderRacePage(mode, race, rated));
+    writePage(`${mode}/${race.state.toLowerCase()}/index.html`, renderRacePage(mode, race, rated, ev));
   }
   writePage(`${mode}/index.html`, renderHubPage(mode, data.races));
   return rated.map((r) => `${SITE_URL}/${mode}/${r.state.toLowerCase()}/`);
