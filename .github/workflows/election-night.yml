@@ -1,0 +1,90 @@
+name: Election night live results
+
+# Polls official state results feeds every 3 minutes and publishes
+# data/live-results.json (at most every 6 minutes, to stay under GitHub Pages'
+# ~10 builds/hour soft limit) for results.html.
+#
+# A single job can run at most 6 hours, so the night is split into three chained
+# shifts that each stop at END_UTC. Scheduled runs on GitHub can start hours late,
+# so the schedule fires early afternoon ET; "Run workflow" on the Actions tab is
+# the backup if it hasn't started by ~5 PM ET.
+
+on:
+  schedule:
+    - cron: '7 18 3 11 *'   # Nov 3, 1:07 PM ET; exits immediately after END_UTC
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'live = real 2026 results, published. dry-run = past elections, NOT published (pipeline test).'
+        type: choice
+        options: [live, dry-run]
+        default: live
+      minutes:
+        description: 'Dry-run only: how many minutes to run'
+        default: '4'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: election-night
+  cancel-in-progress: false
+
+env:
+  END_UTC: '2026-11-04T10:00:00Z'   # 5 AM ET Wednesday
+
+jobs:
+  shift1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: master }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Configure git identity
+        run: |
+          git config user.name "election-results[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Dry run (no publish)
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'dry-run'
+        run: |
+          node scripts/fetch_live_results.js --dry-run --loop 2 --max-minutes "${{ inputs.minutes }}"
+          node -e 'const d=require("./data/live-results.json");const t={};for(const r of d.races)t[r.status]=(t[r.status]||0)+1;console.log("statuses",t,"sources",d.sources);'
+      - name: Poll and publish
+        if: github.event_name == 'schedule' || inputs.mode == 'live'
+        run: node scripts/fetch_live_results.js --loop 3 --push-every 6 --push --until "$END_UTC" --max-minutes 340
+
+  shift2:
+    needs: shift1
+    if: always() && (github.event_name == 'schedule' || inputs.mode == 'live')
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: master }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Configure git identity
+        run: |
+          git config user.name "election-results[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Poll and publish
+        run: node scripts/fetch_live_results.js --loop 3 --push-every 6 --push --until "$END_UTC" --max-minutes 340
+
+  shift3:
+    needs: shift2
+    if: always() && (github.event_name == 'schedule' || inputs.mode == 'live')
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: master }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Configure git identity
+        run: |
+          git config user.name "election-results[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Poll and publish
+        run: node scripts/fetch_live_results.js --loop 3 --push-every 6 --push --until "$END_UTC" --max-minutes 340

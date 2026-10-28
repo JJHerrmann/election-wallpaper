@@ -16,7 +16,7 @@
   --gop-safe: #a51d0f;
   --gop-likely: #e5533d;
   --gop-lean: #f2a7a0;
-  --tossup: #a89bc4;
+  --tossup: #c9a96e; /* keep in sync with style.css */
   --slight-d: #92a6da;
   --slight-r: #cda1b2;
   --accent: #f2c94c;

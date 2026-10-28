@@ -1,0 +1,567 @@
+{
+  "updatedAt": "2026-10-28T22:37:57.829Z",
+  "electionDate": "2026-11-03",
+  "groups": [
+    {
+      "id": "canaries",
+      "label": "Early canaries",
+      "blurb": "Polls close 6-7 PM ET. These tell you what kind of night it is."
+    },
+    {
+      "id": "senate",
+      "label": "Senate control",
+      "blurb": "D needs 51 seats; R holds the chamber at 50."
+    },
+    {
+      "id": "nc",
+      "label": "North Carolina",
+      "blurb": "Home state, full detail."
+    },
+    {
+      "id": "house",
+      "label": "Top House flips",
+      "blurb": "Toss-up and lean districts across the map."
+    }
+  ],
+  "races": [
+    {
+      "id": "KY-06",
+      "label": "Kentucky 6th (open, Barr seat)",
+      "state": "KY",
+      "chamber": "house",
+      "groups": [
+        "canaries"
+      ],
+      "officialUrl": "https://elect.ky.gov/results/Pages/default.aspx",
+      "status": "no-feed",
+      "note": "Kentucky publishes no live statewide feed"
+    },
+    {
+      "id": "GA-sen",
+      "label": "Georgia Senate",
+      "state": "GA",
+      "chamber": "senate",
+      "groups": [
+        "canaries",
+        "senate"
+      ],
+      "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
+      "status": "waiting",
+      "note": "Georgia has not posted its 2026-11-03 election yet",
+      "checkedAt": "2026-10-28T22:37:57.829Z"
+    },
+    {
+      "id": "GA-gov",
+      "label": "Georgia Governor",
+      "state": "GA",
+      "chamber": "governor",
+      "groups": [
+        "canaries"
+      ],
+      "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
+      "status": "waiting",
+      "note": "Georgia has not posted its 2026-11-03 election yet",
+      "checkedAt": "2026-10-28T22:37:57.829Z"
+    },
+    {
+      "id": "VA-sen",
+      "label": "Virginia Senate",
+      "state": "VA",
+      "chamber": "senate",
+      "groups": [
+        "canaries"
+      ],
+      "officialUrl": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General",
+      "status": "waiting",
+      "contestName": "Member, United States Senate",
+      "candidates": [
+        {
+          "name": "Mark R. Warner",
+          "party": "D",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Bert Mizusawa",
+          "party": "R",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        }
+      ],
+      "totalVotes": 0,
+      "reporting": {
+        "units": 0,
+        "total": 133,
+        "label": "localities",
+        "pct": 0
+      },
+      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "changedAt": "2026-10-28T22:35:19.011Z"
+    },
+    {
+      "id": "VA-01",
+      "label": "Virginia 1st",
+      "state": "VA",
+      "chamber": "house",
+      "groups": [
+        "canaries",
+        "house"
+      ],
+      "officialUrl": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General",
+      "status": "waiting",
+      "contestName": "Member, House of Representatives (1st District)",
+      "candidates": [
+        {
+          "name": "Shannon L. Taylor",
+          "party": "D",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Robert J. \"Rob\" Wittman",
+          "party": "R",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        }
+      ],
+      "totalVotes": 0,
+      "reporting": {
+        "units": 0,
+        "total": 18,
+        "label": "localities",
+        "pct": 0
+      },
+      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "changedAt": "2026-10-28T22:35:19.011Z"
+    },
+    {
+      "id": "VA-02",
+      "label": "Virginia 2nd",
+      "state": "VA",
+      "chamber": "house",
+      "groups": [
+        "canaries",
+        "house"
+      ],
+      "officialUrl": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General",
+      "status": "waiting",
+      "contestName": "Member, House of Representatives (2nd District)",
+      "candidates": [
+        {
+          "name": "Elaine G. Luria",
+          "party": "D",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Jen A. Kiggans",
+          "party": "R",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Geral D. \"Bishop\" Staten",
+          "party": "I",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "J. Matt Baker",
+          "party": "I",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        }
+      ],
+      "totalVotes": 0,
+      "reporting": {
+        "units": 0,
+        "total": 8,
+        "label": "localities",
+        "pct": 0
+      },
+      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "changedAt": "2026-10-28T22:35:19.011Z"
+    },
+    {
+      "id": "NC-sen",
+      "label": "North Carolina Senate",
+      "state": "NC",
+      "chamber": "senate",
+      "groups": [
+        "senate",
+        "nc"
+      ],
+      "officialUrl": "https://er.ncsbe.gov/?election_dt=11/03/2026",
+      "status": "waiting",
+      "contestName": "US SENATE (VOTE FOR 1)",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "G",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "D",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "L",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "R",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        }
+      ],
+      "totalVotes": 0,
+      "reporting": {
+        "units": 0,
+        "total": 2626,
+        "label": "precincts",
+        "pct": 0
+      },
+      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "changedAt": "2026-10-28T22:35:19.011Z"
+    },
+    {
+      "id": "ME-sen",
+      "label": "Maine Senate",
+      "state": "ME",
+      "chamber": "senate",
+      "groups": [
+        "senate"
+      ],
+      "officialUrl": "https://www.maine.gov/sos/cec/elec/results/index.html",
+      "status": "no-feed",
+      "note": "Maine publishes no live statewide results; towns report to the press"
+    },
+    {
+      "id": "IA-sen",
+      "label": "Iowa Senate",
+      "state": "IA",
+      "chamber": "senate",
+      "groups": [
+        "senate"
+      ],
+      "officialUrl": "https://electionresults.iowa.gov/IA/",
+      "status": "waiting",
+      "note": "IA has not posted its 2026-11-03 election yet",
+      "checkedAt": "2026-10-28T22:37:57.829Z"
+    },
+    {
+      "id": "OH-sen",
+      "label": "Ohio Senate (special)",
+      "state": "OH",
+      "chamber": "senate",
+      "groups": [
+        "senate"
+      ],
+      "officialUrl": "https://liveresults.ohiosos.gov/",
+      "status": "no-feed",
+      "note": "Ohio results feed not verified"
+    },
+    {
+      "id": "TX-sen",
+      "label": "Texas Senate",
+      "state": "TX",
+      "chamber": "senate",
+      "groups": [
+        "senate"
+      ],
+      "officialUrl": "https://results.texas-election.com/",
+      "status": "no-feed",
+      "note": "Texas results site blocks automated access"
+    },
+    {
+      "id": "KS-sen",
+      "label": "Kansas Senate",
+      "state": "KS",
+      "chamber": "senate",
+      "groups": [
+        "senate"
+      ],
+      "officialUrl": "https://sos.ks.gov/elections/election-results.html",
+      "status": "no-feed",
+      "note": "Kansas results server not reachable for automated checks"
+    },
+    {
+      "id": "AK-sen",
+      "label": "Alaska Senate",
+      "state": "AK",
+      "chamber": "senate",
+      "groups": [
+        "senate"
+      ],
+      "officialUrl": "https://www.elections.alaska.gov/election-results/",
+      "status": "no-feed",
+      "note": "Alaska results server not reachable for automated checks"
+    },
+    {
+      "id": "MI-sen",
+      "label": "Michigan Senate",
+      "state": "MI",
+      "chamber": "senate",
+      "groups": [
+        "senate"
+      ],
+      "officialUrl": "https://mielections.us/election/results/",
+      "status": "no-feed",
+      "note": "Michigan results server not reachable for automated checks"
+    },
+    {
+      "id": "NC-01",
+      "label": "NC 1st",
+      "state": "NC",
+      "chamber": "house",
+      "groups": [
+        "nc",
+        "house"
+      ],
+      "officialUrl": "https://er.ncsbe.gov/?election_dt=11/03/2026",
+      "status": "waiting",
+      "contestName": "US HOUSE OF REPRESENTATIVES DISTRICT 01 (VOTE FOR 1)",
+      "candidates": [
+        {
+          "name": "Don Davis",
+          "party": "D",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Laurie Buckhout",
+          "party": "R",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Tom Bailey",
+          "party": "L",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        }
+      ],
+      "totalVotes": 0,
+      "reporting": {
+        "units": 0,
+        "total": 290,
+        "label": "precincts",
+        "pct": 0
+      },
+      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "changedAt": "2026-10-28T22:35:19.011Z"
+    },
+    {
+      "id": "NC-11",
+      "label": "NC 11th (open)",
+      "state": "NC",
+      "chamber": "house",
+      "groups": [
+        "nc",
+        "house"
+      ],
+      "officialUrl": "https://er.ncsbe.gov/?election_dt=11/03/2026",
+      "status": "waiting",
+      "contestName": "US HOUSE OF REPRESENTATIVES DISTRICT 11 (VOTE FOR 1)",
+      "candidates": [
+        {
+          "name": "Jennifer Capps Balkcom",
+          "party": "R",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Jamie Ager",
+          "party": "D",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Travis Groo",
+          "party": "L",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        }
+      ],
+      "totalVotes": 0,
+      "reporting": {
+        "units": 0,
+        "total": 290,
+        "label": "precincts",
+        "pct": 0
+      },
+      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "changedAt": "2026-10-28T22:35:19.011Z"
+    },
+    {
+      "id": "IA-01",
+      "label": "Iowa 1st",
+      "state": "IA",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://electionresults.iowa.gov/IA/",
+      "status": "waiting",
+      "note": "IA has not posted its 2026-11-03 election yet",
+      "checkedAt": "2026-10-28T22:37:57.829Z"
+    },
+    {
+      "id": "IA-02",
+      "label": "Iowa 2nd (open)",
+      "state": "IA",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://electionresults.iowa.gov/IA/",
+      "status": "waiting",
+      "note": "IA has not posted its 2026-11-03 election yet",
+      "checkedAt": "2026-10-28T22:37:57.829Z"
+    },
+    {
+      "id": "IA-03",
+      "label": "Iowa 3rd",
+      "state": "IA",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://electionresults.iowa.gov/IA/",
+      "status": "waiting",
+      "note": "IA has not posted its 2026-11-03 election yet",
+      "checkedAt": "2026-10-28T22:37:57.829Z"
+    },
+    {
+      "id": "CO-08",
+      "label": "Colorado 8th",
+      "state": "CO",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://results.enr.clarityelections.com/CO/",
+      "status": "waiting",
+      "note": "CO has not posted its 2026-11-03 election yet",
+      "checkedAt": "2026-10-28T22:37:57.829Z"
+    },
+    {
+      "id": "CO-05",
+      "label": "Colorado 5th",
+      "state": "CO",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://results.enr.clarityelections.com/CO/",
+      "status": "waiting",
+      "note": "CO has not posted its 2026-11-03 election yet",
+      "checkedAt": "2026-10-28T22:37:57.829Z"
+    },
+    {
+      "id": "PA-07",
+      "label": "Pennsylvania 7th",
+      "state": "PA",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://www.electionreturns.pa.gov/",
+      "status": "no-feed",
+      "note": "Pennsylvania results site requires a CAPTCHA"
+    },
+    {
+      "id": "PA-10",
+      "label": "Pennsylvania 10th",
+      "state": "PA",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://www.electionreturns.pa.gov/",
+      "status": "no-feed",
+      "note": "Pennsylvania results site requires a CAPTCHA"
+    },
+    {
+      "id": "MI-07",
+      "label": "Michigan 7th",
+      "state": "MI",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://mielections.us/election/results/",
+      "status": "no-feed",
+      "note": "Michigan results server not reachable for automated checks"
+    },
+    {
+      "id": "AZ-06",
+      "label": "Arizona 6th",
+      "state": "AZ",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://results.arizona.vote/",
+      "status": "no-feed",
+      "note": "Arizona results site blocks automated access"
+    },
+    {
+      "id": "NY-17",
+      "label": "New York 17th",
+      "state": "NY",
+      "chamber": "house",
+      "groups": [
+        "house"
+      ],
+      "officialUrl": "https://nyenr.elections.ny.gov/",
+      "status": "no-feed",
+      "note": "New York results site blocks automated access"
+    }
+  ],
+  "sources": {
+    "GA": {
+      "ok": false,
+      "error": "Georgia has not posted its 2026-11-03 election yet"
+    },
+    "VA": {
+      "ok": true
+    },
+    "NC": {
+      "ok": true
+    },
+    "IA": {
+      "ok": false,
+      "error": "IA has not posted its 2026-11-03 election yet"
+    },
+    "CO": {
+      "ok": false,
+      "error": "CO has not posted its 2026-11-03 election yet"
+    }
+  },
+  "note": "Unofficial results from official state election feeds. Not race calls."
+}
