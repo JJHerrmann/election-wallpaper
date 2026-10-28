@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T22:37:57.829Z",
+  "updatedAt": "2026-10-28T22:41:12.878Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -48,7 +48,7 @@
       "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
       "status": "waiting",
       "note": "Georgia has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:37:57.829Z"
+      "checkedAt": "2026-10-28T22:41:12.878Z"
     },
     {
       "id": "GA-gov",
@@ -61,7 +61,7 @@
       "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
       "status": "waiting",
       "note": "Georgia has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:37:57.829Z"
+      "checkedAt": "2026-10-28T22:41:12.878Z"
     },
     {
       "id": "VA-sen",
@@ -97,7 +97,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "checkedAt": "2026-10-28T22:41:12.878Z",
       "changedAt": "2026-10-28T22:35:19.011Z"
     },
     {
@@ -135,7 +135,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "checkedAt": "2026-10-28T22:41:12.878Z",
       "changedAt": "2026-10-28T22:35:19.011Z"
     },
     {
@@ -187,7 +187,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "checkedAt": "2026-10-28T22:41:12.878Z",
       "changedAt": "2026-10-28T22:35:19.011Z"
     },
     {
@@ -239,7 +239,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "checkedAt": "2026-10-28T22:41:12.878Z",
       "changedAt": "2026-10-28T22:35:19.011Z"
     },
     {
@@ -263,9 +263,8 @@
         "senate"
       ],
       "officialUrl": "https://electionresults.iowa.gov/IA/",
-      "status": "waiting",
-      "note": "IA has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:37:57.829Z"
+      "status": "no-feed",
+      "note": "Iowa results site challenges automated access"
     },
     {
       "id": "OH-sen",
@@ -369,7 +368,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "checkedAt": "2026-10-28T22:41:12.878Z",
       "changedAt": "2026-10-28T22:35:19.011Z"
     },
     {
@@ -414,7 +413,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T22:37:57.829Z",
+      "checkedAt": "2026-10-28T22:41:12.878Z",
       "changedAt": "2026-10-28T22:35:19.011Z"
     },
     {
@@ -426,9 +425,8 @@
         "house"
       ],
       "officialUrl": "https://electionresults.iowa.gov/IA/",
-      "status": "waiting",
-      "note": "IA has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:37:57.829Z"
+      "status": "no-feed",
+      "note": "Iowa results site challenges automated access"
     },
     {
       "id": "IA-02",
@@ -439,9 +437,8 @@
         "house"
       ],
       "officialUrl": "https://electionresults.iowa.gov/IA/",
-      "status": "waiting",
-      "note": "IA has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:37:57.829Z"
+      "status": "no-feed",
+      "note": "Iowa results site challenges automated access"
     },
     {
       "id": "IA-03",
@@ -452,9 +449,8 @@
         "house"
       ],
       "officialUrl": "https://electionresults.iowa.gov/IA/",
-      "status": "waiting",
-      "note": "IA has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:37:57.829Z"
+      "status": "no-feed",
+      "note": "Iowa results site challenges automated access"
     },
     {
       "id": "CO-08",
@@ -465,9 +461,8 @@
         "house"
       ],
       "officialUrl": "https://results.enr.clarityelections.com/CO/",
-      "status": "waiting",
-      "note": "CO has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:37:57.829Z"
+      "status": "no-feed",
+      "note": "Colorado results site challenges automated access"
     },
     {
       "id": "CO-05",
@@ -478,9 +473,8 @@
         "house"
       ],
       "officialUrl": "https://results.enr.clarityelections.com/CO/",
-      "status": "waiting",
-      "note": "CO has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T22:37:57.829Z"
+      "status": "no-feed",
+      "note": "Colorado results site challenges automated access"
     },
     {
       "id": "PA-07",
@@ -553,14 +547,6 @@
     },
     "NC": {
       "ok": true
-    },
-    "IA": {
-      "ok": false,
-      "error": "IA has not posted its 2026-11-03 election yet"
-    },
-    "CO": {
-      "ok": false,
-      "error": "CO has not posted its 2026-11-03 election yet"
     }
   },
   "note": "Unofficial results from official state election feeds. Not race calls."

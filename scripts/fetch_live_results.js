@@ -13,7 +13,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync, execFileSync } = require('child_process');
+const { execSync } = require('child_process');
 const { ELECTION_DATE, GROUPS, OFFICIAL_PAGES, NO_FEED_REASON, SOURCES, RACES } = require('./results_config');
 
 const REPO_DIR = path.join(__dirname, '..');
@@ -36,14 +36,6 @@ async function getText(url) {
   if (!res.ok) throw new Error(`HTTP ${res.status} from ${new URL(url).host}`);
   return (await res.text()).trim();
 }
-
-// Clarity's CDN answers Node's built-in fetch with an empty 202 (its bot filter keys
-// on the HTTP client, not on anything we send) but serves curl normally. Same honest
-// User-Agent either way; this only changes which HTTP client makes the request.
-function curlGet(url) {
-  return execFileSync('curl', ['-sS', '--fail', '--compressed', '--max-time', '30', '-A', USER_AGENT, url], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
-}
-const curlJson = (url) => JSON.parse(curlGet(url).replace(/^\uFEFF/, ''));
 
 // ---------------------------------------------------------------- party labels
 const PARTY_MAP = {
@@ -142,7 +134,7 @@ async function loadEnhancedVoting(src) {
 
 async function clarityEid(src) {
   if (DRY_RUN) return src.dryRun.eid;
-  const list = curlJson(`https://results.enr.clarityelections.com/${src.state}/elections.json`);
+  const list = await getJson(`https://results.enr.clarityelections.com/${src.state}/elections.json`);
   const [y, m, d] = ELECTION_DATE.split('-').map(Number);
   const want = `${m}/${d}/${y}`;
   const hits = list.filter((e) => String(e.Date || '').startsWith(want) && !e.County);
@@ -153,9 +145,9 @@ async function clarityEid(src) {
 async function loadClarity(src) {
   const eid = await clarityEid(src);
   const base = `https://results.enr.clarityelections.com/${src.state}/${eid}`;
-  const ver = curlGet(`${base}/current_ver.txt`).trim();
+  const ver = await getText(`${base}/current_ver.txt`);
   if (!/^\d+$/.test(ver)) throw new Error(`${src.state} returned an unexpected version marker`);
-  const rows = curlJson(`${base}/${ver}/json/en/summary.json`);
+  const rows = await getJson(`${base}/${ver}/json/en/summary.json`);
   return rows.map((c) => ({
     name: c.C,
     candidates: (c.CH || []).map((nm, i) => ({

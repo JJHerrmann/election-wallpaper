@@ -245,9 +245,10 @@ the previous file and never blocks the rest of the refresh.
 
 `scripts/fetch_live_results.js` builds that file from official state feeds, configured
 in `scripts/results_config.js`: North Carolina (NCSBE JSON), Virginia and Georgia
-(Enhanced Voting API), Iowa and Colorado (Clarity). Arizona, Texas and New York sit
-behind Cloudflare browser challenges and Pennsylvania behind a CAPTCHA; those aren't
-worked around. Maine and Kentucky publish no live statewide feed. Races without a feed
+(Enhanced Voting API). Arizona, Texas and New York sit behind Cloudflare browser
+challenges, Pennsylvania behind a CAPTCHA, and Iowa/Colorado's Clarity CDN challenges
+GitHub's runners; none of those are worked around (a Clarity adapter is kept in case
+that changes). Maine and Kentucky publish no live statewide feed. Races without a feed
 link to the state's official results page.
 
 `.github/workflows/election-night.yml` runs the poller every 3 minutes (publishing at
@@ -256,9 +257,9 @@ most every 6, under GitHub Pages' soft build limit) from early afternoon Nov 3 u
 live results", Run workflow, mode `live`. Pipeline test: mode `dry-run` runs against
 past elections and publishes nothing. Locally: `node scripts/fetch_live_results.js --dry-run`.
 
-Georgia, Iowa and Colorado hadn't posted their 2026 general contests when this was
-built; their contest-name patterns in `results_config.js` follow past generals and
-should be rechecked once those states stage the election.
+Georgia hadn't posted its 2026 general when this was built; its contest-name
+patterns in `results_config.js` follow past generals and should be rechecked once
+the state stages the election.
 
 ## Next passes
 

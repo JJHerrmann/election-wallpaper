@@ -43,6 +43,8 @@ const NO_FEED_REASON = {
   ME: 'Maine publishes no live statewide results; towns report to the press',
   AK: 'Alaska results server not reachable for automated checks',
   KS: 'Kansas results server not reachable for automated checks',
+  IA: 'Iowa results site challenges automated access',
+  CO: 'Colorado results site challenges automated access',
   OH: 'Ohio results feed not verified',
   TX: 'Texas results site blocks automated access',
   PA: 'Pennsylvania results site requires a CAPTCHA',
@@ -51,7 +53,10 @@ const NO_FEED_REASON = {
   NY: 'New York results site blocks automated access',
 };
 
-// Feed sources. `type` picks the adapter in fetch_live_results.js.
+// Feed sources. `type` picks the adapter in fetch_live_results.js. IA and CO
+// (Clarity) work from some networks but their CDN serves a bot challenge to
+// GitHub's runners, so their races are set to feed: null. The adapter stays in
+// case that changes: set a race's feed back to 'IA'/'CO' with a match pattern.
 const SOURCES = {
   NC: { type: 'ncsbe', dateKey: '20261103', dryRun: { dateKey: '20241105' } },
   VA: {
@@ -87,7 +92,7 @@ const RACES = [
     feed: 'NC', match: /^US SENATE\b/i, dryRunMatch: /^US PRESIDENT\b/i },
   { id: 'ME-sen', label: 'Maine Senate', state: 'ME', chamber: 'senate', groups: ['senate'], feed: null },
   { id: 'IA-sen', label: 'Iowa Senate', state: 'IA', chamber: 'senate', groups: ['senate'],
-    feed: 'IA', match: /^United States Senator$/i, dryRunMatch: /^United States Senator - Rep\.$/i },
+    feed: null },
   { id: 'OH-sen', label: 'Ohio Senate (special)', state: 'OH', chamber: 'senate', groups: ['senate'], feed: null },
   { id: 'TX-sen', label: 'Texas Senate', state: 'TX', chamber: 'senate', groups: ['senate'], feed: null },
   { id: 'KS-sen', label: 'Kansas Senate', state: 'KS', chamber: 'senate', groups: ['senate'], feed: null },
@@ -102,15 +107,15 @@ const RACES = [
 
   // --- Top House flips
   { id: 'IA-01', label: 'Iowa 1st', state: 'IA', chamber: 'house', groups: ['house'],
-    feed: 'IA', match: /^United States Representative District 1$/i, dryRunMatch: /^United States Representative District 1 - Rep\.$/i },
+    feed: null },
   { id: 'IA-02', label: 'Iowa 2nd (open)', state: 'IA', chamber: 'house', groups: ['house'],
-    feed: 'IA', match: /^United States Representative District 2$/i, dryRunMatch: /^United States Representative District 2 - Rep\.$/i },
+    feed: null },
   { id: 'IA-03', label: 'Iowa 3rd', state: 'IA', chamber: 'house', groups: ['house'],
-    feed: 'IA', match: /^United States Representative District 3$/i, dryRunMatch: /^United States Representative District 3 - Rep\.$/i },
+    feed: null },
   { id: 'CO-08', label: 'Colorado 8th', state: 'CO', chamber: 'house', groups: ['house'],
-    feed: 'CO', match: /United States Congress - District 8$/i, dryRunMatch: /United States Congress - District 8 - Republican Party$/i },
+    feed: null },
   { id: 'CO-05', label: 'Colorado 5th', state: 'CO', chamber: 'house', groups: ['house'],
-    feed: 'CO', match: /United States Congress - District 5$/i, dryRunMatch: /United States Congress - District 5 - Republican Party$/i },
+    feed: null },
   { id: 'PA-07', label: 'Pennsylvania 7th', state: 'PA', chamber: 'house', groups: ['house'], feed: null },
   { id: 'PA-10', label: 'Pennsylvania 10th', state: 'PA', chamber: 'house', groups: ['house'], feed: null },
   { id: 'MI-07', label: 'Michigan 7th', state: 'MI', chamber: 'house', groups: ['house'], feed: null },
