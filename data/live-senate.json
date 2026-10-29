@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T01:50:15.093Z",
+  "updatedAt": "2026-10-29T16:56:22.767Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -12,7 +12,7 @@
     "demSeatsProjected": 48,
     "gopSeatsProjected": 52,
     "control": "Toss-up",
-    "confidence": "Across 11 forecasters: D 47–52 seats (median 49), R 44–48 (median 46), median 4 toss-ups. Sweeping the toss-ups gets D to 56 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
+    "confidence": "Across 11 forecasters: D 47–52 seats (median 49), R 44–48 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 56 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
@@ -22,9 +22,9 @@
           "tossups": 7
         },
         {
-          "dem": 49,
-          "gop": 47,
-          "tossups": 4
+          "dem": 48,
+          "gop": 46,
+          "tossups": 6
         },
         {
           "dem": 49,
@@ -38,8 +38,8 @@
         },
         {
           "dem": 48,
-          "gop": 47,
-          "tossups": 5
+          "gop": 46,
+          "tossups": 6
         },
         {
           "dem": 48,
@@ -79,7 +79,7 @@
       "gopLow": 44,
       "gopHigh": 48,
       "gopMedian": 46,
-      "tossupMedian": 4,
+      "tossupMedian": 5,
       "demCeiling": 56,
       "gopCeiling": 53
     }
@@ -535,13 +535,13 @@
         }
       ],
       "bestPoll": {
-        "source": "''Silver Bulletin''",
-        "date": "October 27, 2026",
-        "margin": 0.9,
+        "source": "270toWin",
+        "date": "October 29, 2026",
+        "margin": 1.5,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.9,
-          "D": 46.8
+          "R": 45.5,
+          "D": 47
         }
       }
     },
@@ -637,13 +637,13 @@
         }
       ],
       "bestPoll": {
-        "source": "FiftyPlusOne",
-        "date": "October 28, 2026",
-        "margin": 3,
+        "source": "270toWin",
+        "date": "October 29, 2026",
+        "margin": 2.6,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.5,
-          "D": 49.5
+          "R": 46.4,
+          "D": 49
         }
       }
     },
@@ -731,22 +731,22 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 28, 2026",
-        "margin": 3.6,
+        "date": "October 29, 2026",
+        "margin": 4.6,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 49,
-          "R": 45.4
+          "D": 49.2,
+          "R": 44.6
         }
       }
     },
     {
       "id": "MN-senate",
       "state": "MN",
-      "status": "lean-d",
+      "status": "likely-d",
       "margin": null,
       "leaderParty": "D",
-      "consensusStatus": "lean-d",
+      "consensusStatus": "likely-d",
       "incumbentParty": null,
       "pollCount": 0,
       "lastPollDaysAgo": null,
@@ -1346,12 +1346,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 27, 2026",
-        "margin": 2.9,
+        "date": "October 29, 2026",
+        "margin": 3.5,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.7,
-          "D": 49.6
+          "R": 45.8,
+          "D": 49.3
         }
       }
     },
