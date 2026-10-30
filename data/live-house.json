@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-29T16:56:24.349Z",
+  "updatedAt": "2026-10-30T01:59:06.442Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party; forecaster seat totals from \"2026 United States House of Representatives election ratings\"); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
     "demSeats": 215,
     "gopSeats": 219,
     "control": "Projected Democratic",
-    "confidence": "Forecasters (10) rate 212–230 seats for Democrats (median 225) and 189–205 for Republicans (median 196), with a median 16 toss-ups; Democrats reach 246 at most if they sweep the toss-ups. 218 needed. Currently 215 D – 219 R. Map shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.5 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
+    "confidence": "Forecasters (10) rate 220–230 seats for Democrats (median 225) and 189–203 for Republicans (median 196), with a median 14 toss-ups; Democrats reach 246 at most if they sweep the toss-ups. 218 needed. Currently 215 D – 219 R. Map shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.5 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
     "unit": "seat counts are forecaster ratings; map shading is structural lean",
     "genericBallot": {
       "republicanPct": 43,
@@ -22,9 +22,9 @@
           "tossups": 17
         },
         {
-          "dem": 212,
-          "gop": 205,
-          "tossups": 18
+          "dem": 224,
+          "gop": 198,
+          "tossups": 13
         },
         {
           "dem": 225,
@@ -68,15 +68,15 @@
         }
       ],
       "total": 435,
-      "demLow": 212,
+      "demLow": 220,
       "demHigh": 230,
       "demMedian": 225,
       "gopLow": 189,
-      "gopHigh": 205,
+      "gopHigh": 203,
       "gopMedian": 196,
-      "tossupMedian": 16,
+      "tossupMedian": 14,
       "demCeiling": 246,
-      "gopCeiling": 223
+      "gopCeiling": 215
     }
   },
   "races": [
@@ -1502,9 +1502,9 @@
     },
     {
       "id": "CO-05",
-      "status": "lean-r",
+      "status": "toss-up",
       "margin": null,
-      "leaderParty": "R",
+      "leaderParty": null,
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
@@ -2447,7 +2447,7 @@
           "name": "Casey Askar",
           "articleTitle": null,
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Casey%20S.%20Askar%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -5943,7 +5943,7 @@
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "slight-r",
+      "consensusStatus": "toss-up",
       "pviMagnitude": 5,
       "pviParty": "R",
       "competitive": true,
@@ -8173,13 +8173,13 @@
     },
     {
       "id": "OH-10",
-      "status": "likely-r",
+      "status": "lean-r",
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "likely-r",
+      "consensusStatus": "lean-r",
       "pviMagnitude": 4,
       "pviParty": "R",
       "competitive": true,
@@ -11569,7 +11569,7 @@
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "lean-r",
+      "consensusStatus": "slight-r",
       "pviMagnitude": 2,
       "pviParty": "R",
       "competitive": true,

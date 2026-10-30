@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T16:56:22.767Z",
+  "updatedAt": "2026-10-30T01:59:04.236Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -12,7 +12,7 @@
     "demSeatsProjected": 48,
     "gopSeatsProjected": 52,
     "control": "Toss-up",
-    "confidence": "Across 11 forecasters: D 47–52 seats (median 49), R 44–48 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 56 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
+    "confidence": "Across 11 forecasters: D 47–52 seats (median 49), R 44–47 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 56 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
@@ -32,9 +32,9 @@
           "tossups": 4
         },
         {
-          "dem": 50,
+          "dem": 51,
           "gop": 46,
-          "tossups": 4
+          "tossups": 3
         },
         {
           "dem": 48,
@@ -42,8 +42,8 @@
           "tossups": 6
         },
         {
-          "dem": 48,
-          "gop": 48,
+          "dem": 50,
+          "gop": 46,
           "tossups": 4
         },
         {
@@ -77,7 +77,7 @@
       "demHigh": 52,
       "demMedian": 49,
       "gopLow": 44,
-      "gopHigh": 48,
+      "gopHigh": 47,
       "gopMedian": 46,
       "tossupMedian": 5,
       "demCeiling": 56,
@@ -495,13 +495,13 @@
         }
       ],
       "bestPoll": {
-        "source": "FiftyPlusOne",
-        "date": "October 28, 2026",
+        "source": "270toWin",
+        "date": "October 29, 2026",
         "margin": 0.6,
-        "leaderParty": "D",
+        "leaderParty": "R",
         "candidatePcts": {
-          "R": 45.5,
-          "D": 46.1
+          "R": 45.8,
+          "D": 45.2
         }
       }
     },

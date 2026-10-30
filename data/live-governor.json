@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T16:56:23.290Z",
+  "updatedAt": "2026-10-30T01:59:05.047Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -12,7 +12,7 @@
     "demSeatsProjected": 26,
     "gopSeatsProjected": 24,
     "control": "Projected Democratic",
-    "confidence": "Across 8 forecasters: D 23–27 governorships (median 26), R 19–23 (median 22), median 3 toss-ups. Sweeping the toss-ups gets D to 31 or R to 27 at most. Currently 26 R – 24 D.",
+    "confidence": "Across 8 forecasters: D 24–27 governorships (median 26), R 19–22 (median 22), median 2 toss-ups. Sweeping the toss-ups gets D to 31 or R to 26 at most. Currently 26 R – 24 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
@@ -32,9 +32,9 @@
           "tossups": 4
         },
         {
-          "dem": 23,
-          "gop": 23,
-          "tossups": 4
+          "dem": 27,
+          "gop": 22,
+          "tossups": 1
         },
         {
           "dem": 26,
@@ -58,15 +58,15 @@
         }
       ],
       "total": 50,
-      "demLow": 23,
+      "demLow": 24,
       "demHigh": 27,
       "demMedian": 26,
       "gopLow": 19,
-      "gopHigh": 23,
+      "gopHigh": 22,
       "gopMedian": 22,
-      "tossupMedian": 3,
+      "tossupMedian": 2,
       "demCeiling": 31,
-      "gopCeiling": 27
+      "gopCeiling": 26
     }
   },
   "races": [
@@ -373,7 +373,7 @@
       "status": "toss-up",
       "margin": null,
       "leaderParty": null,
-      "consensusStatus": "toss-up",
+      "consensusStatus": "slight-d",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
@@ -543,13 +543,13 @@
         }
       ],
       "bestPoll": {
-        "source": "FiftyPlusOne",
-        "date": "October 28, 2026",
-        "margin": 7.1,
+        "source": "Decision Desk HQ",
+        "date": "October 29, 2026",
+        "margin": 5.5,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 44,
-          "D": 51.1
+          "R": 45.2,
+          "D": 50.7
         }
       }
     },
@@ -583,13 +583,13 @@
         }
       ],
       "bestPoll": {
-        "source": "Decision Desk HQ",
-        "date": "October 23, 2026",
-        "margin": 2.2,
+        "source": "270toWin",
+        "date": "October 29, 2026",
+        "margin": 4.4,
         "leaderParty": "R",
         "candidatePcts": {
-          "D": 45.5,
-          "R": 47.7
+          "D": 44.3,
+          "R": 48.7
         }
       }
     },
