@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-30T01:59:06.442Z",
+  "updatedAt": "2026-10-30T16:42:53.997Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party; forecaster seat totals from \"2026 United States House of Representatives election ratings\"); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
     "demSeats": 215,
     "gopSeats": 219,
     "control": "Projected Democratic",
-    "confidence": "Forecasters (10) rate 220–230 seats for Democrats (median 225) and 189–203 for Republicans (median 196), with a median 14 toss-ups; Democrats reach 246 at most if they sweep the toss-ups. 218 needed. Currently 215 D – 219 R. Map shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.5 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
+    "confidence": "Forecasters (10) rate 222–230 seats for Democrats (median 225) and 189–203 for Republicans (median 196), with a median 14 toss-ups; Democrats reach 246 at most if they sweep the toss-ups. 218 needed. Currently 215 D – 219 R. Map shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.9 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
     "unit": "seat counts are forecaster ratings; map shading is structural lean",
     "genericBallot": {
-      "republicanPct": 43,
-      "democratPct": 51.5,
+      "republicanPct": 42.7,
+      "democratPct": 51.6,
       "marginParty": "D",
-      "marginPts": 8.5
+      "marginPts": 8.9
     },
     "projection": {
       "forecasters": [
         {
-          "dem": 220,
-          "gop": 198,
-          "tossups": 17
+          "dem": 222,
+          "gop": 195,
+          "tossups": 18
         },
         {
           "dem": 224,
@@ -68,7 +68,7 @@
         }
       ],
       "total": 435,
-      "demLow": 220,
+      "demLow": 222,
       "demHigh": 230,
       "demMedian": 225,
       "gopLow": 189,
@@ -76,7 +76,7 @@
       "gopMedian": 196,
       "tossupMedian": 14,
       "demCeiling": 246,
-      "gopCeiling": 215
+      "gopCeiling": 213
     }
   },
   "races": [
@@ -1878,16 +1878,16 @@
     },
     {
       "id": "FL-04",
-      "status": "safe-r",
+      "status": "likely-r",
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "safe-r",
+      "consensusStatus": "likely-r",
       "pviMagnitude": 5,
       "pviParty": "R",
-      "competitive": false,
+      "competitive": true,
       "trend": [],
       "candidates": [
         {
@@ -2279,11 +2279,8 @@
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
-      "dataType": "rating",
-      "raterCount": 10,
-      "consensusStatus": "safe-r",
+      "dataType": "pvi",
       "pviMagnitude": 10,
-      "pviParty": "R",
       "competitive": false,
       "trend": [],
       "candidates": [
@@ -2430,7 +2427,7 @@
       "incumbentParty": "D",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "slight-d",
+      "consensusStatus": "toss-up",
       "pviMagnitude": 4,
       "pviParty": "R",
       "competitive": true,
@@ -3706,16 +3703,13 @@
     },
     {
       "id": "IL-17",
-      "status": "safe-d",
+      "status": "lean-d",
       "margin": null,
       "leaderParty": "D",
       "incumbentParty": "D",
-      "dataType": "rating",
-      "raterCount": 10,
-      "consensusStatus": "safe-d",
+      "dataType": "pvi",
       "pviMagnitude": 3,
-      "pviParty": "D",
-      "competitive": false,
+      "competitive": true,
       "trend": [],
       "candidates": [
         {
@@ -3875,7 +3869,7 @@
           "name": "J. D. Ford",
           "articleTitle": "J. D. Ford",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JD%20Ford%2C%20Indy%20Pride%20Parade%202023%20(2)%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jd-ford-statehouse-official.jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -4276,7 +4270,7 @@
           "name": "Zach Dembo",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zach%20Dembo.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zach%20Dembo%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -4958,7 +4952,7 @@
       "incumbentParty": "D",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "toss-up",
+      "consensusStatus": "slight-r",
       "pviMagnitude": 4,
       "pviParty": "R",
       "competitive": true,
@@ -7617,9 +7611,9 @@
     },
     {
       "id": "NY-17",
-      "status": "toss-up",
+      "status": "lean-d",
       "margin": null,
-      "leaderParty": null,
+      "leaderParty": "D",
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
@@ -8086,7 +8080,7 @@
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "lean-d",
+      "consensusStatus": "slight-d",
       "pviMagnitude": 5,
       "pviParty": "R",
       "competitive": true,
@@ -8670,7 +8664,7 @@
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "toss-up",
+      "consensusStatus": "slight-d",
       "pviMagnitude": 1,
       "pviParty": "D",
       "competitive": true,
@@ -9333,11 +9327,8 @@
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
-      "dataType": "rating",
-      "raterCount": 10,
-      "consensusStatus": "safe-r",
+      "dataType": "pvi",
       "pviMagnitude": 11,
-      "pviParty": "R",
       "competitive": false,
       "trend": [],
       "candidates": [
@@ -11563,13 +11554,13 @@
     },
     {
       "id": "WI-01",
-      "status": "toss-up",
+      "status": "lean-r",
       "margin": null,
-      "leaderParty": null,
+      "leaderParty": "R",
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "slight-r",
+      "consensusStatus": "lean-r",
       "pviMagnitude": 2,
       "pviParty": "R",
       "competitive": true,
