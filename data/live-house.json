@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-31T01:37:31.650Z",
+  "updatedAt": "2026-10-31T15:44:50.918Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party; forecaster seat totals from \"2026 United States House of Representatives election ratings\"); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
     "demSeats": 215,
     "gopSeats": 219,
     "control": "Projected Democratic",
-    "confidence": "Forecasters (10) rate 222–230 seats for Democrats (median 225) and 189–203 for Republicans (median 196), with a median 14 toss-ups; Democrats reach 246 at most if they sweep the toss-ups. 218 needed. Currently 215 D – 219 R. Map shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.9 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
+    "confidence": "Forecasters (10) rate 222–230 seats for Democrats (median 225) and 189–203 for Republicans (median 196), with a median 14 toss-ups; Democrats reach 246 at most if they sweep the toss-ups. 218 needed. Currently 215 D – 219 R. Map shading is each district's real Cook PVI (structural partisan lean, not a poll) — safe districts (|PVI| ≥ 10) render muted, competitive districts render in full color. Nationally, the generic-ballot polling average has Democrats +8.6 pts (Wikipedia aggregation of DDHQ, FiftyPlusOne, RCP, Silver Bulletin, VoteHub, Race to the WH).",
     "unit": "seat counts are forecaster ratings; map shading is structural lean",
     "genericBallot": {
-      "republicanPct": 42.7,
-      "democratPct": 51.6,
+      "republicanPct": 43.1,
+      "democratPct": 51.7,
       "marginParty": "D",
-      "marginPts": 8.9
+      "marginPts": 8.6
     },
     "projection": {
       "forecasters": [

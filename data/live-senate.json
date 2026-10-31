@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T01:37:30.172Z",
+  "updatedAt": "2026-10-31T15:44:49.387Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -12,7 +12,7 @@
     "demSeatsProjected": 48,
     "gopSeatsProjected": 52,
     "control": "Toss-up",
-    "confidence": "Across 11 forecasters: D 47–52 seats (median 49), R 44–47 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 56 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
+    "confidence": "Across 11 forecasters: D 47–52 seats (median 49), R 45–47 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 55 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
@@ -32,9 +32,9 @@
           "tossups": 4
         },
         {
-          "dem": 52,
+          "dem": 51,
           "gop": 46,
-          "tossups": 2
+          "tossups": 3
         },
         {
           "dem": 48,
@@ -53,8 +53,8 @@
         },
         {
           "dem": 47,
-          "gop": 44,
-          "tossups": 9
+          "gop": 45,
+          "tossups": 8
         },
         {
           "dem": 49,
@@ -76,11 +76,11 @@
       "demLow": 47,
       "demHigh": 52,
       "demMedian": 49,
-      "gopLow": 44,
+      "gopLow": 45,
       "gopHigh": 47,
       "gopMedian": 46,
       "tossupMedian": 5,
-      "demCeiling": 56,
+      "demCeiling": 55,
       "gopCeiling": 53
     }
   },
@@ -731,12 +731,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 29, 2026",
-        "margin": 4.6,
+        "date": "October 30, 2026",
+        "margin": 5.8,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 49.2,
-          "R": 44.6
+          "D": 49.8,
+          "R": 44
         }
       }
     },
