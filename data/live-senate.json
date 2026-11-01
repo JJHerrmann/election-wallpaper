@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-31T15:44:49.387Z",
+  "updatedAt": "2026-11-01T01:14:38.865Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
     "demSeatsHeld": 12,
     "gopSeatsHeld": 22,
-    "demNet": 1,
-    "gopNet": -1,
+    "demNet": 2,
+    "gopNet": -2,
     "demSeatsBefore": 47,
     "gopSeatsBefore": 53,
-    "demSeatsProjected": 48,
-    "gopSeatsProjected": 52,
+    "demSeatsProjected": 49,
+    "gopSeatsProjected": 51,
     "control": "Toss-up",
     "confidence": "Across 11 forecasters: D 47–52 seats (median 49), R 45–47 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 55 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
@@ -22,9 +22,9 @@
           "tossups": 7
         },
         {
-          "dem": 48,
+          "dem": 49,
           "gop": 46,
-          "tossups": 6
+          "tossups": 5
         },
         {
           "dem": 49,
@@ -32,9 +32,9 @@
           "tossups": 4
         },
         {
-          "dem": 51,
+          "dem": 52,
           "gop": 46,
-          "tossups": 3
+          "tossups": 2
         },
         {
           "dem": 48,
@@ -199,13 +199,13 @@
         }
       ],
       "bestPoll": {
-        "source": "270toWin",
-        "date": "October 9, 2026",
-        "margin": 6.5,
+        "source": "''Silver Bulletin''",
+        "date": "October 31, 2026",
+        "margin": 13.1,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 47.5,
-          "D": 41
+          "R": 52.7,
+          "D": 39.5
         }
       }
     },
@@ -328,12 +328,12 @@
       ],
       "bestPoll": {
         "source": "Decision Desk HQ",
-        "date": "October 28, 2026",
-        "margin": 6.5,
+        "date": "October 31, 2026",
+        "margin": 5.7,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 49.8,
-          "D": 43.3
+          "R": 48.2,
+          "D": 42.5
         }
       }
     },
@@ -610,10 +610,10 @@
     {
       "id": "ME-senate",
       "state": "ME",
-      "status": "toss-up",
+      "status": "lean-d",
       "margin": null,
-      "leaderParty": null,
-      "consensusStatus": "slight-d",
+      "leaderParty": "D",
+      "consensusStatus": "lean-d",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
@@ -731,12 +731,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 30, 2026",
-        "margin": 5.8,
+        "date": "October 31, 2026",
+        "margin": 5.5,
         "leaderParty": "D",
         "candidatePcts": {
           "D": 49.8,
-          "R": 44
+          "R": 44.3
         }
       }
     },
@@ -833,7 +833,7 @@
           "name": "Kurt Alme",
           "articleTitle": "Kurt Alme",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurt%20G.%20Alme%20official%20photo.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurt%20G.%20Alme%20official%20photo%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -1098,12 +1098,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 28, 2026",
-        "margin": 3.5,
+        "date": "October 31, 2026",
+        "margin": 2,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 44.8,
-          "D": 48.3
+          "R": 45.8,
+          "D": 47.8
         }
       }
     },
@@ -1346,12 +1346,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 30, 2026",
-        "margin": 3.2,
+        "date": "October 31, 2026",
+        "margin": 3.3,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.4,
-          "D": 49.6
+          "R": 46.1,
+          "D": 49.4
         }
       }
     },

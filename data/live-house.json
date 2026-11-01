@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:44:50.918Z",
+  "updatedAt": "2026-11-01T01:14:40.136Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party; forecaster seat totals from \"2026 United States House of Representatives election ratings\"); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -5244,13 +5244,13 @@
     },
     {
       "id": "MI-10",
-      "status": "lean-d",
+      "status": "toss-up",
       "margin": null,
-      "leaderParty": "D",
+      "leaderParty": null,
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "lean-d",
+      "consensusStatus": "slight-d",
       "pviMagnitude": 3,
       "pviParty": "R",
       "competitive": true,

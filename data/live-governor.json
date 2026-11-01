@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:44:50.034Z",
+  "updatedAt": "2026-11-01T01:14:39.309Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -358,12 +358,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 28, 2026",
-        "margin": 5.5,
+        "date": "October 31, 2026",
+        "margin": 4.5,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 49.7,
-          "D": 44.2
+          "R": 48.8,
+          "D": 44.3
         }
       }
     },
@@ -463,7 +463,7 @@
           "name": "Terri Pickens",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TerriPickens-IdahoDemocrat%2C%201%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Terri%20Pickens?width=80",
           "isIncumbent": false
         }
       ],
@@ -733,10 +733,10 @@
     {
       "id": "MI-governor",
       "state": "MI",
-      "status": "lean-d",
+      "status": "likely-d",
       "margin": null,
       "leaderParty": "D",
-      "consensusStatus": "lean-d",
+      "consensusStatus": "likely-d",
       "incumbentParty": "D",
       "pollCount": 0,
       "lastPollDaysAgo": null,
@@ -871,11 +871,11 @@
       ],
       "bestPoll": {
         "source": "''Silver Bulletin''",
-        "date": "October 27, 2026",
-        "margin": 3.4,
+        "date": "October 31, 2026",
+        "margin": 5.6,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 43.9,
+          "R": 46.1,
           "D": 40.5
         }
       }
@@ -1100,13 +1100,13 @@
         }
       ],
       "bestPoll": {
-        "source": "270toWin",
-        "date": "October 28, 2026",
+        "source": "Decision Desk HQ",
+        "date": "October 31, 2026",
         "margin": 2,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.6,
-          "D": 47.6
+          "R": 46.5,
+          "D": 48.5
         }
       }
     },
@@ -1376,12 +1376,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 30, 2026",
-        "margin": 3.2,
+        "date": "October 31, 2026",
+        "margin": 2.8,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 49.9,
-          "D": 46.7
+          "R": 49.6,
+          "D": 46.8
         }
       }
     },
