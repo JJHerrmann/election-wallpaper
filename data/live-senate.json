@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T01:14:38.865Z",
+  "updatedAt": "2026-11-01T16:49:06.966Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -12,7 +12,7 @@
     "demSeatsProjected": 49,
     "gopSeatsProjected": 51,
     "control": "Toss-up",
-    "confidence": "Across 11 forecasters: D 47–52 seats (median 49), R 45–47 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 55 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
+    "confidence": "Across 12 forecasters: D 47–52 seats (median 49), R 45–48 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 55 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
@@ -32,19 +32,24 @@
           "tossups": 4
         },
         {
-          "dem": 52,
+          "dem": 51,
           "gop": 46,
-          "tossups": 2
+          "tossups": 3
         },
         {
           "dem": 48,
-          "gop": 46,
-          "tossups": 6
+          "gop": 45,
+          "tossups": 7
         },
         {
           "dem": 50,
           "gop": 46,
           "tossups": 4
+        },
+        {
+          "dem": 47,
+          "gop": 48,
+          "tossups": 5
         },
         {
           "dem": 49,
@@ -77,7 +82,7 @@
       "demHigh": 52,
       "demMedian": 49,
       "gopLow": 45,
-      "gopHigh": 47,
+      "gopHigh": 48,
       "gopMedian": 46,
       "tossupMedian": 5,
       "demCeiling": 55,
@@ -96,7 +101,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -127,7 +132,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -147,12 +152,12 @@
       ],
       "bestPoll": {
         "source": "Decision Desk HQ",
-        "date": "October 28, 2026",
-        "margin": 1.6,
+        "date": "October 31, 2026",
+        "margin": 1.3,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 47.5,
-          "D": 49.1
+          "R": 48.5,
+          "D": 49.8
         }
       }
     },
@@ -180,7 +185,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -194,7 +199,7 @@
           "name": "Hallie Shoffner",
           "articleTitle": "Hallie Shoffner",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hallie%20Shoffner%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hallie%20Shoffner%20headshot%203x4%20crop.jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -233,7 +238,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -277,7 +282,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -308,7 +313,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -348,7 +353,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -401,7 +406,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -432,7 +437,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -471,12 +476,12 @@
       "status": "toss-up",
       "margin": null,
       "leaderParty": null,
-      "consensusStatus": "toss-up",
+      "consensusStatus": "slight-r",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -516,7 +521,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -535,13 +540,13 @@
         }
       ],
       "bestPoll": {
-        "source": "270toWin",
-        "date": "October 30, 2026",
-        "margin": 3.8,
+        "source": "FiftyPlusOne",
+        "date": "October 31, 2026",
+        "margin": 3.3,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.2,
-          "D": 49
+          "R": 45.4,
+          "D": 48.7
         }
       }
     },
@@ -556,7 +561,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -579,15 +584,15 @@
     {
       "id": "LA-senate",
       "state": "LA",
-      "status": "likely-r",
+      "status": "safe-r",
       "margin": null,
       "leaderParty": "R",
-      "consensusStatus": "likely-r",
+      "consensusStatus": "safe-r",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -610,15 +615,15 @@
     {
       "id": "ME-senate",
       "state": "ME",
-      "status": "lean-d",
+      "status": "toss-up",
       "margin": null,
-      "leaderParty": "D",
+      "leaderParty": null,
       "consensusStatus": "lean-d",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -637,13 +642,13 @@
         }
       ],
       "bestPoll": {
-        "source": "FiftyPlusOne",
-        "date": "October 30, 2026",
-        "margin": 3.2,
+        "source": "270toWin",
+        "date": "October 31, 2026",
+        "margin": 3.6,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.2,
-          "D": 49.4
+          "R": 45.6,
+          "D": 49.2
         }
       }
     },
@@ -671,7 +676,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -711,7 +716,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -751,7 +756,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -782,7 +787,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -818,15 +823,15 @@
     {
       "id": "MT-senate",
       "state": "MT",
-      "status": "likely-r",
+      "status": "safe-r",
       "margin": null,
       "leaderParty": "R",
-      "consensusStatus": "likely-r",
+      "consensusStatus": "safe-r",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -866,7 +871,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -902,15 +907,15 @@
     {
       "id": "NH-senate",
       "state": "NH",
-      "status": "likely-d",
+      "status": "lean-d",
       "margin": null,
       "leaderParty": "D",
-      "consensusStatus": "likely-d",
+      "consensusStatus": "lean-d",
       "incumbentParty": "D",
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -941,7 +946,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -972,7 +977,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1025,7 +1030,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1078,7 +1083,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1118,7 +1123,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1149,7 +1154,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1193,7 +1198,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1224,7 +1229,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1264,7 +1269,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1295,7 +1300,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1326,7 +1331,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1392,7 +1397,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1436,7 +1441,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
@@ -1480,7 +1485,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {

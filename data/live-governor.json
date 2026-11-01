@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T01:14:39.309Z",
+  "updatedAt": "2026-11-01T16:49:07.787Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -345,7 +345,7 @@
           "name": "Byron Donalds",
           "articleTitle": "Byron Donalds",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Byron%20Donalds%202023%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Byron%20Donalds%20official%20photo%2C%20117th%20Congress%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -529,7 +529,7 @@
       "candidates": [
         {
           "name": "Zach Lahn",
-          "articleTitle": null,
+          "articleTitle": "Zach Lahn (businessman)",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zach%20Lahn%20IA%20State%20Fair%202026.jog%20(cropped).jpg?width=80",
           "isIncumbent": false
@@ -649,13 +649,12 @@
         }
       ],
       "bestPoll": {
-        "source": "FiftyPlusOne",
-        "date": "October 30, 2026",
-        "margin": 10.9,
+        "source": "Decision Desk HQ",
+        "date": "October 31, 2026",
+        "margin": 11.1,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 39.3,
-          "R": 7.1
+          "D": 39
         }
       }
     },
@@ -761,12 +760,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 30, 2026",
-        "margin": 8.6,
+        "date": "October 31, 2026",
+        "margin": 8.4,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 51.2,
-          "R": 42.6
+          "D": 51.6,
+          "R": 43.2
         }
       }
     },
