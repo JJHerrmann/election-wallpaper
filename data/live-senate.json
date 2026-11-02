@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-02T01:32:08.778Z",
+  "updatedAt": "2026-11-02T20:23:10.113Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
     "demSeatsHeld": 12,
     "gopSeatsHeld": 22,
-    "demNet": 2,
-    "gopNet": -2,
+    "demNet": 3,
+    "gopNet": -3,
     "demSeatsBefore": 47,
     "gopSeatsBefore": 53,
-    "demSeatsProjected": 49,
-    "gopSeatsProjected": 51,
+    "demSeatsProjected": 50,
+    "gopSeatsProjected": 50,
     "control": "Toss-up",
-    "confidence": "Across 12 forecasters: D 47–52 seats (median 49), R 45–48 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 55 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
+    "confidence": "Across 12 forecasters: D 47–53 seats (median 50), R 44–48 (median 46), median 4 toss-ups. Sweeping the toss-ups gets D to 56 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
@@ -22,9 +22,9 @@
           "tossups": 7
         },
         {
-          "dem": 49,
+          "dem": 51,
           "gop": 46,
-          "tossups": 5
+          "tossups": 3
         },
         {
           "dem": 49,
@@ -32,9 +32,9 @@
           "tossups": 4
         },
         {
-          "dem": 51,
+          "dem": 53,
           "gop": 46,
-          "tossups": 3
+          "tossups": 1
         },
         {
           "dem": 48,
@@ -58,13 +58,13 @@
         },
         {
           "dem": 47,
-          "gop": 45,
-          "tossups": 8
+          "gop": 44,
+          "tossups": 9
         },
         {
-          "dem": 49,
-          "gop": 46,
-          "tossups": 5
+          "dem": 53,
+          "gop": 47,
+          "tossups": 0
         },
         {
           "dem": 52,
@@ -79,13 +79,13 @@
       ],
       "total": 100,
       "demLow": 47,
-      "demHigh": 52,
-      "demMedian": 49,
-      "gopLow": 45,
+      "demHigh": 53,
+      "demMedian": 50,
+      "gopLow": 44,
       "gopHigh": 48,
       "gopMedian": 46,
-      "tossupMedian": 5,
-      "demCeiling": 55,
+      "tossupMedian": 4,
+      "demCeiling": 56,
       "gopCeiling": 53
     }
   },
@@ -151,13 +151,13 @@
         }
       ],
       "bestPoll": {
-        "source": "Decision Desk HQ",
-        "date": "October 31, 2026",
-        "margin": 1.3,
+        "source": "270toWin",
+        "date": "November 2, 2026",
+        "margin": 3.5,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 48.5,
-          "D": 49.8
+          "R": 45.5,
+          "D": 49
         }
       }
     },
@@ -500,13 +500,13 @@
         }
       ],
       "bestPoll": {
-        "source": "270toWin",
-        "date": "November 1, 2026",
-        "margin": 0.2,
+        "source": "FiftyPlusOne",
+        "date": "November 2, 2026",
+        "margin": 0.7,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.2,
-          "D": 46.4
+          "R": 46.6,
+          "D": 47.3
         }
       }
     },
@@ -516,7 +516,7 @@
       "status": "toss-up",
       "margin": null,
       "leaderParty": null,
-      "consensusStatus": "toss-up",
+      "consensusStatus": "slight-d",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
@@ -541,12 +541,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 1, 2026",
-        "margin": 3.4,
+        "date": "November 2, 2026",
+        "margin": 4.6,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46,
-          "D": 49.4
+          "R": 45.2,
+          "D": 49.8
         }
       }
     },
@@ -584,10 +584,10 @@
     {
       "id": "LA-senate",
       "state": "LA",
-      "status": "safe-r",
+      "status": "likely-r",
       "margin": null,
       "leaderParty": "R",
-      "consensusStatus": "safe-r",
+      "consensusStatus": "likely-r",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
@@ -606,7 +606,7 @@
           "name": "Jamie Davis",
           "articleTitle": "Jamie Davis (Lousiana)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%5B%5BFile%3AJamiedavisdemocrat-354x472.jpg%7C113px%5D%5D?width=80",
           "isIncumbent": false
         }
       ],
@@ -615,9 +615,9 @@
     {
       "id": "ME-senate",
       "state": "ME",
-      "status": "toss-up",
+      "status": "lean-d",
       "margin": null,
-      "leaderParty": null,
+      "leaderParty": "D",
       "consensusStatus": "lean-d",
       "incumbentParty": "R",
       "pollCount": 0,
@@ -643,12 +643,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 1, 2026",
-        "margin": 3.9,
+        "date": "November 2, 2026",
+        "margin": 4.8,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.8,
-          "D": 49.7
+          "R": 45.6,
+          "D": 50.4
         }
       }
     },
@@ -736,12 +736,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 1, 2026",
-        "margin": 6,
+        "date": "November 2, 2026",
+        "margin": 6.3,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 50.5,
-          "R": 44.5
+          "D": 50.9,
+          "R": 44.6
         }
       }
     },
@@ -801,7 +801,7 @@
           "name": "Scott Colom",
           "articleTitle": "Scott Colom",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Colom.png?width=80",
           "isIncumbent": false
         }
       ],
@@ -907,10 +907,10 @@
     {
       "id": "NH-senate",
       "state": "NH",
-      "status": "lean-d",
+      "status": "likely-d",
       "margin": null,
       "leaderParty": "D",
-      "consensusStatus": "lean-d",
+      "consensusStatus": "likely-d",
       "incumbentParty": "D",
       "pollCount": 0,
       "lastPollDaysAgo": null,
@@ -1103,12 +1103,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 1, 2026",
-        "margin": 1.6,
+        "date": "November 2, 2026",
+        "margin": 1.7,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.6,
-          "D": 48.2
+          "R": 47,
+          "D": 48.7
         }
       }
     },
@@ -1326,7 +1326,7 @@
       "status": "toss-up",
       "margin": null,
       "leaderParty": null,
-      "consensusStatus": "slight-d",
+      "consensusStatus": "lean-d",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,
@@ -1351,12 +1351,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 1, 2026",
+        "date": "November 2, 2026",
         "margin": 3.4,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.2,
-          "D": 49.6
+          "R": 46.1,
+          "D": 49.5
         }
       }
     },
