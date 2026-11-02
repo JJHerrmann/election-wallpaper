@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T16:49:06.966Z",
+  "updatedAt": "2026-11-02T01:32:08.778Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -501,12 +501,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 29, 2026",
-        "margin": 0.6,
-        "leaderParty": "R",
+        "date": "November 1, 2026",
+        "margin": 0.2,
+        "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.8,
-          "D": 45.2
+          "R": 46.2,
+          "D": 46.4
         }
       }
     },
@@ -540,13 +540,13 @@
         }
       ],
       "bestPoll": {
-        "source": "FiftyPlusOne",
-        "date": "October 31, 2026",
-        "margin": 3.3,
+        "source": "270toWin",
+        "date": "November 1, 2026",
+        "margin": 3.4,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.4,
-          "D": 48.7
+          "R": 46,
+          "D": 49.4
         }
       }
     },
@@ -643,12 +643,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 31, 2026",
-        "margin": 3.6,
+        "date": "November 1, 2026",
+        "margin": 3.9,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.6,
-          "D": 49.2
+          "R": 45.8,
+          "D": 49.7
         }
       }
     },
@@ -736,12 +736,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 31, 2026",
-        "margin": 5.5,
+        "date": "November 1, 2026",
+        "margin": 6,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 49.8,
-          "R": 44.3
+          "D": 50.5,
+          "R": 44.5
         }
       }
     },
@@ -1050,12 +1050,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 26, 2026",
-        "margin": 11.4,
+        "date": "November 1, 2026",
+        "margin": 11.6,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 41.3,
-          "D": 52.7
+          "R": 41.8,
+          "D": 53.4
         }
       }
     },
@@ -1103,12 +1103,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 31, 2026",
-        "margin": 2,
+        "date": "November 1, 2026",
+        "margin": 1.6,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45.8,
-          "D": 47.8
+          "R": 46.6,
+          "D": 48.2
         }
       }
     },
@@ -1248,12 +1248,12 @@
         }
       ],
       "bestPoll": {
-        "source": "Decision Desk HQ",
-        "date": "October 30, 2026",
-        "margin": 0.1,
+        "source": "''Silver Bulletin''",
+        "date": "November 1, 2026",
+        "margin": 1.4,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 45.7,
+          "R": 47,
           "D": 45.6
         }
       }
@@ -1351,12 +1351,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "October 31, 2026",
-        "margin": 3.3,
+        "date": "November 1, 2026",
+        "margin": 3.4,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.1,
-          "D": 49.4
+          "R": 46.2,
+          "D": 49.6
         }
       }
     },

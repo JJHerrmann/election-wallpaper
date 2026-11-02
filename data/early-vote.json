@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T16:49:11.943Z",
+  "updatedAt": "2026-11-02T01:32:12.006Z",
   "source": "UF Election Lab early vote tracker (official state reports)",
   "sourceUrl": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
   "caveat": "Party registration of people who have voted, not how they voted. Ballots are not counted until Election Day.",
@@ -17,8 +17,8 @@
       "lastUpdate": "2026-10-31",
       "stateSource": "https://www.elections.alaska.gov/research/statistics/#aeqstats",
       "change": {
-        "since": "2026-10-31",
-        "voted": 8568,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
@@ -35,9 +35,9 @@
       "lastUpdate": "2026-11-01",
       "stateSource": "https://www.stealth-analytics.com/early-ballots",
       "change": {
-        "since": "2026-10-31",
-        "voted": 32496,
-        "demLead": 237
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "AR": {
@@ -53,26 +53,26 @@
       "lastUpdate": "2026-10-31",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 58237,
-        "demLead": -2619
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "CA": {
-      "voted": 5504307,
-      "inPerson": 149387,
-      "mailReturned": 5354920,
+      "voted": 5965896,
+      "inPerson": 226503,
+      "mailReturned": 5739393,
       "dem": 2653319,
       "rep": 1467396,
-      "other": 1383592,
+      "other": 1845181,
       "hasParty": true,
       "turnout2022": 11146610,
-      "pctOf2022": 49.4,
-      "lastUpdate": "2026-10-31",
+      "pctOf2022": 53.5,
+      "lastUpdate": "2026-11-01",
       "stateSource": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026",
       "change": {
-        "since": "2026-10-31",
-        "voted": 226454,
+        "since": "2026-11-01",
+        "voted": 461589,
         "demLead": 0
       }
     },
@@ -89,45 +89,45 @@
       "lastUpdate": "2026-10-31",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 86536,
-        "demLead": 5157
-      }
-    },
-    "CT": {
-      "voted": 438386,
-      "inPerson": 388342,
-      "mailReturned": 50044,
-      "dem": 212730,
-      "rep": 85222,
-      "other": 140434,
-      "hasParty": true,
-      "turnout2022": 1297811,
-      "pctOf2022": 33.8,
-      "lastUpdate": "2026-10-31",
-      "stateSource": null,
-      "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": 0
       }
     },
-    "DE": {
-      "voted": 137931,
-      "inPerson": 0,
-      "mailReturned": 137931,
-      "dem": 73271,
-      "rep": 38291,
-      "other": 26369,
+    "CT": {
+      "voted": 467678,
+      "inPerson": 417230,
+      "mailReturned": 50448,
+      "dem": 225830,
+      "rep": 90829,
+      "other": 151019,
       "hasParty": true,
-      "turnout2022": 325632,
-      "pctOf2022": 42.4,
-      "lastUpdate": "2026-10-31",
+      "turnout2022": 1297811,
+      "pctOf2022": 36,
+      "lastUpdate": "2026-11-01",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 9920,
-        "demLead": 2381
+        "since": "2026-11-01",
+        "voted": 29292,
+        "demLead": 7493
+      }
+    },
+    "DE": {
+      "voted": 145712,
+      "inPerson": 0,
+      "mailReturned": 145712,
+      "dem": 77167,
+      "rep": 40374,
+      "other": 28171,
+      "hasParty": true,
+      "turnout2022": 325632,
+      "pctOf2022": 44.7,
+      "lastUpdate": "2026-11-01",
+      "stateSource": null,
+      "change": {
+        "since": "2026-11-01",
+        "voted": 7781,
+        "demLead": 1813
       }
     },
     "DC": {
@@ -143,27 +143,27 @@
       "lastUpdate": "2026-10-31",
       "stateSource": "https://dcboe.org/",
       "change": {
-        "since": "2026-10-31",
-        "voted": 10633,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
     "FL": {
-      "voted": 5171389,
-      "inPerson": 3264176,
-      "mailReturned": 1907213,
-      "dem": 1948071,
-      "rep": 2102638,
-      "other": 1120680,
+      "voted": 5402758,
+      "inPerson": 3465546,
+      "mailReturned": 1937212,
+      "dem": 2040475,
+      "rep": 2175018,
+      "other": 1187265,
       "hasParty": true,
       "turnout2022": 7796916,
-      "pctOf2022": 66.3,
+      "pctOf2022": 69.3,
       "lastUpdate": "2026-11-01",
       "stateSource": "https://countyfilesvbm-ev.floridados.gov/VoteByMailEarlyVotingReports/PublicStats",
       "change": {
-        "since": "2026-10-31",
-        "voted": 346655,
-        "demLead": -29552
+        "since": "2026-11-01",
+        "voted": 231369,
+        "demLead": 20024
       }
     },
     "GA": {
@@ -179,8 +179,8 @@
       "lastUpdate": "2026-11-01",
       "stateSource": "https://mvp.sos.ga.gov/s/voter-absentee-files",
       "change": {
-        "since": "2026-10-31",
-        "voted": 2881,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
@@ -197,27 +197,27 @@
       "lastUpdate": "2026-10-31",
       "stateSource": "https://elections.hawaii.gov/resources/absentee-voting-report/",
       "change": {
-        "since": "2026-10-31",
-        "voted": 20503,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
     "ID": {
-      "voted": 241364,
-      "inPerson": 122372,
-      "mailReturned": 118992,
-      "dem": 22501,
-      "rep": 72411,
-      "other": 146452,
+      "voted": 263133,
+      "inPerson": 144127,
+      "mailReturned": 119006,
+      "dem": 22506,
+      "rep": 72415,
+      "other": 168212,
       "hasParty": true,
       "turnout2022": 595350,
-      "pctOf2022": 40.5,
-      "lastUpdate": "2026-10-31",
+      "pctOf2022": 44.2,
+      "lastUpdate": "2026-11-01",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 7154,
-        "demLead": -3506
+        "since": "2026-11-01",
+        "voted": 21769,
+        "demLead": 1
       }
     },
     "IL": {
@@ -233,7 +233,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": "https://www.elections.il.gov/VotingAndRegistrationSystems/PreElectionCounts.aspx",
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -251,7 +251,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -269,9 +269,9 @@
       "lastUpdate": "2026-10-31",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 33015,
-        "demLead": -571
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "KS": {
@@ -287,9 +287,9 @@
       "lastUpdate": "2026-10-31",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 46206,
-        "demLead": -7311
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "KY": {
@@ -305,7 +305,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": "https://elect.ky.gov/Pages/default.aspx",
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": 0
       }
@@ -323,9 +323,9 @@
       "lastUpdate": "2026-11-01",
       "stateSource": "https://www.sos.la.gov/elections-voting/early-voting-statistics-statewide",
       "change": {
-        "since": "2026-10-31",
-        "voted": 384,
-        "demLead": 113
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "ME": {
@@ -341,27 +341,27 @@
       "lastUpdate": "2026-10-30",
       "stateSource": "https://www.maine.gov/sos/cec/elec/data/index.html",
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": 0
       }
     },
     "MD": {
-      "voted": 981363,
+      "voted": 991069,
       "inPerson": 604396,
-      "mailReturned": 376967,
-      "dem": 627606,
-      "rep": 205835,
-      "other": 147922,
+      "mailReturned": 386673,
+      "dem": 634589,
+      "rep": 206785,
+      "other": 149695,
       "hasParty": true,
       "turnout2022": 2031635,
-      "pctOf2022": 48.3,
-      "lastUpdate": "2026-10-31",
+      "pctOf2022": 48.8,
+      "lastUpdate": "2026-11-01",
       "stateSource": "https://elections.maryland.gov/press_room/index.html",
       "change": {
-        "since": "2026-10-31",
-        "voted": 19317,
-        "demLead": 11277
+        "since": "2026-11-01",
+        "voted": 9706,
+        "demLead": 6033
       }
     },
     "MA": {
@@ -377,7 +377,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -395,7 +395,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -413,7 +413,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": "https://www.sos.mn.gov/election-administration-campaigns/data-maps/absentee-data/",
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -431,7 +431,7 @@
       "lastUpdate": "2026-10-26",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -449,7 +449,7 @@
       "lastUpdate": "2026-10-29",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -467,8 +467,8 @@
       "lastUpdate": "2026-11-01",
       "stateSource": "https://sosmt.gov/elections/absentee-ballot-count/",
       "change": {
-        "since": "2026-10-31",
-        "voted": 3120,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
@@ -485,7 +485,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": 0
       }
@@ -503,9 +503,9 @@
       "lastUpdate": "2026-10-31",
       "stateSource": "https://www.nvsos.gov/elections/election-information/vivid-project",
       "change": {
-        "since": "2026-10-31",
-        "voted": 53843,
-        "demLead": 9508
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "NJ": {
@@ -521,7 +521,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": 0
       }
@@ -539,26 +539,26 @@
       "lastUpdate": "2026-10-31",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 41385,
-        "demLead": 4357
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "NY": {
-      "voted": 1620756,
-      "inPerson": 1474891,
+      "voted": 1851563,
+      "inPerson": 1705698,
       "mailReturned": 145865,
       "dem": null,
       "rep": null,
       "other": null,
       "hasParty": false,
       "turnout2022": 5962278,
-      "pctOf2022": 27.2,
-      "lastUpdate": "2026-10-31",
+      "pctOf2022": 31.1,
+      "lastUpdate": "2026-11-01",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 0,
+        "since": "2026-11-01",
+        "voted": 230807,
         "demLead": null
       }
     },
@@ -575,9 +575,9 @@
       "lastUpdate": "2026-11-01",
       "stateSource": "https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/",
       "change": {
-        "since": "2026-10-31",
-        "voted": 204571,
-        "demLead": 12955
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "ND": {
@@ -593,26 +593,26 @@
       "lastUpdate": "2026-10-31",
       "stateSource": "https://vip.sos.nd.gov/abev.aspx?eid=348",
       "change": {
-        "since": "2026-10-31",
-        "voted": 5373,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
     "OH": {
-      "voted": 1594055,
-      "inPerson": 994304,
-      "mailReturned": 599751,
+      "voted": 1677822,
+      "inPerson": 1060266,
+      "mailReturned": 617556,
       "dem": null,
       "rep": null,
       "other": null,
       "hasParty": false,
       "turnout2022": 4201368,
-      "pctOf2022": 37.9,
-      "lastUpdate": "2026-10-31",
+      "pctOf2022": 39.9,
+      "lastUpdate": "2026-11-01",
       "stateSource": "https://data.ohiosos.gov/portal/election-dashboards",
       "change": {
-        "since": "2026-10-31",
-        "voted": 108155,
+        "since": "2026-11-01",
+        "voted": 83767,
         "demLead": null
       }
     },
@@ -629,9 +629,9 @@
       "lastUpdate": "2026-11-01",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 36631,
-        "demLead": -2333
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "OR": {
@@ -647,27 +647,27 @@
       "lastUpdate": "2026-10-31",
       "stateSource": "https://sos.oregon.gov/elections/Documents/2026-general-election-unofficial-ballot-returns.pdf",
       "change": {
-        "since": "2026-10-31",
-        "voted": 94850,
-        "demLead": 4846
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "PA": {
-      "voted": 1042976,
+      "voted": 1056549,
       "inPerson": 0,
-      "mailReturned": 1042976,
-      "dem": 674734,
-      "rep": 263811,
-      "other": 104431,
+      "mailReturned": 1056549,
+      "dem": 683968,
+      "rep": 266257,
+      "other": 106324,
       "hasParty": true,
       "turnout2022": 5410022,
-      "pctOf2022": 19.3,
-      "lastUpdate": "2026-10-31",
+      "pctOf2022": 19.5,
+      "lastUpdate": "2026-11-01",
       "stateSource": "https://data.pa.gov/Government-Efficiency-Citizen-Engagement/2026-General-Election-Mail-Ballot-Requests-Departm/nbwd-pfn4/about_data",
       "change": {
-        "since": "2026-10-31",
-        "voted": 34031,
-        "demLead": 11336
+        "since": "2026-11-01",
+        "voted": 13573,
+        "demLead": 6788
       }
     },
     "RI": {
@@ -683,7 +683,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": 0
       }
@@ -701,7 +701,7 @@
       "lastUpdate": "2026-10-31",
       "stateSource": "https://scvotes.gov/elections-statistics/voter-participation/",
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -719,9 +719,9 @@
       "lastUpdate": "2026-10-31",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 47,
-        "demLead": -11
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "TN": {
@@ -737,7 +737,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": "https://sos.tn.gov/govotetn",
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -755,8 +755,8 @@
       "lastUpdate": "2026-11-01",
       "stateSource": "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr",
       "change": {
-        "since": "2026-10-31",
-        "voted": 617958,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
@@ -773,9 +773,9 @@
       "lastUpdate": "2026-11-01",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 16468,
-        "demLead": -2184
+        "since": "2026-11-01",
+        "voted": 0,
+        "demLead": 0
       }
     },
     "VT": {
@@ -791,8 +791,8 @@
       "lastUpdate": "2026-11-01",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
-        "voted": 849,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
@@ -809,8 +809,8 @@
       "lastUpdate": "2026-11-01",
       "stateSource": "https://www.vpap.org/elections/early-voting/",
       "change": {
-        "since": "2026-10-31",
-        "voted": 115756,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
@@ -827,7 +827,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": "https://www.sos.wa.gov/elections/data-research/election-data-and-maps/ballot-return-statistics",
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": null
       }
@@ -845,7 +845,7 @@
       "lastUpdate": "2026-10-29",
       "stateSource": "https://sos.wv.gov/article/secretary-warner-announces-more-115000-ballots-have-been-cast-absentee-voting-and-during",
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": 0
       }
@@ -863,8 +863,8 @@
       "lastUpdate": "2026-10-31",
       "stateSource": "https://elections.wi.gov/resources/statistics/absentee-ballot-report-november-3-2026-general-election-0",
       "change": {
-        "since": "2026-10-31",
-        "voted": 71866,
+        "since": "2026-11-01",
+        "voted": 0,
         "demLead": null
       }
     },
@@ -881,7 +881,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": null,
       "change": {
-        "since": "2026-10-31",
+        "since": "2026-11-01",
         "voted": 0,
         "demLead": 0
       }
