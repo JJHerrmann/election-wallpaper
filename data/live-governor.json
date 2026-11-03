@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:23:10.941Z",
+  "updatedAt": "2026-11-03T03:29:04.569Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -12,7 +12,7 @@
     "demSeatsProjected": 26,
     "gopSeatsProjected": 24,
     "control": "Projected Democratic",
-    "confidence": "Across 8 forecasters: D 23–28 governorships (median 26), R 18–22 (median 22), median 2 toss-ups. Sweeping the toss-ups gets D to 32 or R to 27 at most. Currently 26 R – 24 D.",
+    "confidence": "Across 8 forecasters: D 23–28 governorships (median 27), R 18–22 (median 22), median 2 toss-ups. Sweeping the toss-ups gets D to 32 or R to 27 at most. Currently 26 R – 24 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
@@ -22,9 +22,9 @@
           "tossups": 3
         },
         {
-          "dem": 26,
+          "dem": 27,
           "gop": 22,
-          "tossups": 2
+          "tossups": 1
         },
         {
           "dem": 24,
@@ -53,14 +53,14 @@
         },
         {
           "dem": 27,
-          "gop": 22,
-          "tossups": 1
+          "gop": 21,
+          "tossups": 2
         }
       ],
       "total": 50,
       "demLow": 23,
       "demHigh": 28,
-      "demMedian": 26,
+      "demMedian": 27,
       "gopLow": 18,
       "gopHigh": 22,
       "gopMedian": 22,
@@ -304,13 +304,13 @@
         }
       ],
       "bestPoll": {
-        "source": "RealClearPolitics",
-        "date": "October 19, 2026",
-        "margin": 16,
+        "source": "270toWin",
+        "date": "November 2, 2026",
+        "margin": 19.4,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 53.6,
-          "R": 37.6
+          "D": 56.4,
+          "R": 37
         }
       }
     },
@@ -544,12 +544,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 1, 2026",
-        "margin": 6.2,
+        "date": "November 2, 2026",
+        "margin": 7,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 45,
-          "D": 51.2
+          "R": 44.6,
+          "D": 51.6
         }
       }
     },
@@ -1400,10 +1400,10 @@
     {
       "id": "VT-governor",
       "state": "VT",
-      "status": "likely-r",
+      "status": "lean-r",
       "margin": null,
       "leaderParty": "R",
-      "consensusStatus": "likely-r",
+      "consensusStatus": "lean-r",
       "incumbentParty": "R",
       "pollCount": 0,
       "lastPollDaysAgo": null,

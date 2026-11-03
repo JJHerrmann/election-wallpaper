@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:23:10.113Z",
+  "updatedAt": "2026-11-03T03:29:03.607Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -17,9 +17,9 @@
     "projection": {
       "forecasters": [
         {
-          "dem": 47,
+          "dem": 48,
           "gop": 46,
-          "tossups": 7
+          "tossups": 6
         },
         {
           "dem": 51,
@@ -72,9 +72,9 @@
           "tossups": 2
         },
         {
-          "dem": 52,
+          "dem": 53,
           "gop": 46,
-          "tossups": 2
+          "tossups": 1
         }
       ],
       "total": 100,
@@ -500,13 +500,13 @@
         }
       ],
       "bestPoll": {
-        "source": "FiftyPlusOne",
+        "source": "Decision Desk HQ",
         "date": "November 2, 2026",
         "margin": 0.7,
-        "leaderParty": "D",
+        "leaderParty": "R",
         "candidatePcts": {
-          "R": 46.6,
-          "D": 47.3
+          "R": 47.2,
+          "D": 46.5
         }
       }
     },
@@ -604,9 +604,9 @@
         },
         {
           "name": "Jamie Davis",
-          "articleTitle": "Jamie Davis (Lousiana)",
+          "articleTitle": "Jamie Davis (Louisiana)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%5B%5BFile%3AJamiedavisdemocrat-354x472.jpg%7C113px%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamiedavisdemocrat-354x472.jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -695,13 +695,13 @@
         }
       ],
       "bestPoll": {
-        "source": "270toWin",
-        "date": "October 20, 2026",
-        "margin": 26,
+        "source": "Decision Desk HQ",
+        "date": "November 2, 2026",
+        "margin": 25.9,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 55.8,
-          "R": 29.8
+          "D": 55.1,
+          "R": 29.2
         }
       }
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:23:11.941Z",
+  "updatedAt": "2026-11-03T03:29:06.090Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -1815,16 +1815,16 @@
     },
     {
       "id": "FL-04",
-      "status": "safe-r",
+      "status": "likely-r",
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "safe-r",
+      "consensusStatus": "likely-r",
       "pviMagnitude": 5,
       "pviParty": "R",
-      "competitive": false,
+      "competitive": true,
       "trend": [],
       "candidates": [
         {
@@ -2057,16 +2057,16 @@
     },
     {
       "id": "FL-12",
-      "status": "likely-r",
+      "status": "safe-r",
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "likely-r",
+      "consensusStatus": "safe-r",
       "pviMagnitude": 7,
       "pviParty": "R",
-      "competitive": true,
+      "competitive": false,
       "trend": [],
       "candidates": [
         {
@@ -2855,11 +2855,8 @@
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
-      "dataType": "rating",
-      "raterCount": 10,
-      "consensusStatus": "safe-r",
+      "dataType": "pvi",
       "pviMagnitude": 12,
-      "pviParty": "R",
       "competitive": false,
       "trend": [],
       "candidates": [
@@ -3055,7 +3052,7 @@
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
-      "consensusStatus": "lean-d",
+      "consensusStatus": "slight-d",
       "pviMagnitude": 4,
       "pviParty": "R",
       "competitive": true,
@@ -5557,9 +5554,9 @@
     },
     {
       "id": "MO-02",
-      "status": "lean-r",
+      "status": "toss-up",
       "margin": null,
-      "leaderParty": "R",
+      "leaderParty": null,
       "incumbentParty": "R",
       "dataType": "rating",
       "raterCount": 10,
@@ -9683,7 +9680,7 @@
           "name": "Steve Toth",
           "articleTitle": "Steve Toth",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/SteveToth--EagleForum--TX2Debate--GraceChurch--SpringTX--08Jan2026%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Toth%20at%20Alamo%20Cenotaph%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
