@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T23:11:56.009Z",
+  "updatedAt": "2026-11-03T23:12:47.916Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -47,8 +47,32 @@
       ],
       "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
       "status": "waiting",
-      "note": "Georgia has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T23:11:56.009Z"
+      "contestName": "US Senate",
+      "candidates": [
+        {
+          "name": "Mike Collins",
+          "party": "R",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Jon Ossoff",
+          "party": "D",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        }
+      ],
+      "totalVotes": 0,
+      "reporting": {
+        "units": 0,
+        "total": 159,
+        "label": "counties",
+        "pct": 0
+      },
+      "checkedAt": "2026-11-03T23:12:47.916Z",
+      "changedAt": "2026-11-03T23:12:47.916Z"
     },
     {
       "id": "GA-gov",
@@ -60,8 +84,32 @@
       ],
       "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
       "status": "waiting",
-      "note": "Georgia has not posted its 2026-11-03 election yet",
-      "checkedAt": "2026-10-28T23:11:56.009Z"
+      "contestName": "Governor",
+      "candidates": [
+        {
+          "name": "Rick Jackson",
+          "party": "R",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        },
+        {
+          "name": "Keisha Lance Bottoms",
+          "party": "D",
+          "votes": 0,
+          "pct": 0,
+          "winner": false
+        }
+      ],
+      "totalVotes": 0,
+      "reporting": {
+        "units": 0,
+        "total": 159,
+        "label": "counties",
+        "pct": 0
+      },
+      "checkedAt": "2026-11-03T23:12:47.916Z",
+      "changedAt": "2026-11-03T23:12:47.916Z"
     },
     {
       "id": "VA-sen",
@@ -97,7 +145,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "checkedAt": "2026-11-03T23:12:47.916Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -135,7 +183,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "checkedAt": "2026-11-03T23:12:47.916Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -187,7 +235,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "checkedAt": "2026-11-03T23:12:47.916Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -239,7 +287,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "checkedAt": "2026-11-03T23:12:47.916Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -368,7 +416,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "checkedAt": "2026-11-03T23:12:47.916Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -413,7 +461,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-10-28T23:11:56.009Z",
+      "checkedAt": "2026-11-03T23:12:47.916Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -539,8 +587,7 @@
   ],
   "sources": {
     "GA": {
-      "ok": false,
-      "error": "Georgia has not posted its 2026-11-03 election yet"
+      "ok": true
     },
     "VA": {
       "ok": true
