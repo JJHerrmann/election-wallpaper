@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T00:12:49.178Z",
+  "updatedAt": "2026-11-04T00:18:49.245Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -52,27 +52,27 @@
         {
           "name": "Jon Ossoff",
           "party": "D",
-          "votes": 520317,
-          "pct": 72.6,
+          "votes": 563565,
+          "pct": 70.8,
           "winner": false
         },
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 196043,
-          "pct": 27.4,
+          "votes": 231911,
+          "pct": 29.2,
           "winner": false
         }
       ],
-      "totalVotes": 716360,
+      "totalVotes": 795476,
       "reporting": {
-        "units": 13,
+        "units": 22,
         "total": 159,
         "label": "counties",
-        "pct": 8.2
+        "pct": 13.8
       },
-      "checkedAt": "2026-11-04T00:12:49.178Z",
-      "changedAt": "2026-11-04T00:09:49.011Z"
+      "checkedAt": "2026-11-04T00:18:49.245Z",
+      "changedAt": "2026-11-04T00:15:49.135Z"
     },
     {
       "id": "GA-gov",
@@ -89,27 +89,27 @@
         {
           "name": "Keisha Lance Bottoms",
           "party": "D",
-          "votes": 486918,
-          "pct": 68,
+          "votes": 527378,
+          "pct": 66.4,
           "winner": false
         },
         {
           "name": "Rick Jackson",
           "party": "R",
-          "votes": 228670,
-          "pct": 32,
+          "votes": 267447,
+          "pct": 33.6,
           "winner": false
         }
       ],
-      "totalVotes": 715588,
+      "totalVotes": 794825,
       "reporting": {
-        "units": 13,
+        "units": 22,
         "total": 159,
         "label": "counties",
-        "pct": 8.2
+        "pct": 13.8
       },
-      "checkedAt": "2026-11-04T00:12:49.178Z",
-      "changedAt": "2026-11-04T00:09:49.011Z"
+      "checkedAt": "2026-11-04T00:18:49.245Z",
+      "changedAt": "2026-11-04T00:15:49.135Z"
     },
     {
       "id": "VA-sen",
@@ -124,36 +124,36 @@
       "contestName": "Member, United States Senate",
       "candidates": [
         {
-          "name": "Bert Mizusawa",
-          "party": "R",
-          "votes": 7163,
-          "pct": 50.4,
+          "name": "Mark R. Warner",
+          "party": "D",
+          "votes": 15278,
+          "pct": 55.8,
           "winner": false
         },
         {
-          "name": "Mark R. Warner",
-          "party": "D",
-          "votes": 7017,
-          "pct": 49.4,
+          "name": "Bert Mizusawa",
+          "party": "R",
+          "votes": 12072,
+          "pct": 44.1,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 20,
-          "pct": 0.1,
+          "votes": 48,
+          "pct": 0.2,
           "winner": false
         }
       ],
-      "totalVotes": 14200,
+      "totalVotes": 27398,
       "reporting": {
-        "units": 6,
+        "units": 13,
         "total": 133,
         "label": "localities",
-        "pct": 4.5
+        "pct": 9.8
       },
-      "checkedAt": "2026-11-04T00:12:49.178Z",
-      "changedAt": "2026-11-04T00:12:49.178Z"
+      "checkedAt": "2026-11-04T00:18:49.245Z",
+      "changedAt": "2026-11-04T00:18:49.245Z"
     },
     {
       "id": "VA-01",
@@ -165,33 +165,40 @@
         "house"
       ],
       "officialUrl": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General",
-      "status": "waiting",
+      "status": "live",
       "contestName": "Member, House of Representatives (1st District)",
       "candidates": [
         {
-          "name": "Shannon L. Taylor",
-          "party": "D",
-          "votes": 0,
-          "pct": 0,
+          "name": "Robert J. \"Rob\" Wittman",
+          "party": "R",
+          "votes": 1147,
+          "pct": 57.1,
           "winner": false
         },
         {
-          "name": "Robert J. \"Rob\" Wittman",
-          "party": "R",
-          "votes": 0,
-          "pct": 0,
+          "name": "Shannon L. Taylor",
+          "party": "D",
+          "votes": 854,
+          "pct": 42.5,
+          "winner": false
+        },
+        {
+          "name": "Write-In",
+          "party": null,
+          "votes": 7,
+          "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 0,
+      "totalVotes": 2008,
       "reporting": {
-        "units": 0,
+        "units": 3,
         "total": 18,
         "label": "localities",
-        "pct": 0
+        "pct": 16.7
       },
-      "checkedAt": "2026-11-04T00:12:49.178Z",
-      "changedAt": "2026-10-28T23:11:27.002Z"
+      "checkedAt": "2026-11-04T00:18:49.245Z",
+      "changedAt": "2026-11-04T00:18:49.245Z"
     },
     {
       "id": "VA-02",
@@ -242,7 +249,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:12:49.178Z",
+      "checkedAt": "2026-11-04T00:18:49.245Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -294,7 +301,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:12:49.178Z",
+      "checkedAt": "2026-11-04T00:18:49.245Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -423,7 +430,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:12:49.178Z",
+      "checkedAt": "2026-11-04T00:18:49.245Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -468,7 +475,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:12:49.178Z",
+      "checkedAt": "2026-11-04T00:18:49.245Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
