@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T04:30:55.681Z",
+  "updatedAt": "2026-11-04T04:36:55.515Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -52,27 +52,27 @@
         {
           "name": "Jon Ossoff",
           "party": "D",
-          "votes": 2398456,
-          "pct": 58.9,
+          "votes": 2403619,
+          "pct": 58.8,
           "winner": false
         },
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 1671006,
-          "pct": 41.1,
+          "votes": 1682564,
+          "pct": 41.2,
           "winner": false
         }
       ],
-      "totalVotes": 4069462,
+      "totalVotes": 4086183,
       "reporting": {
         "units": 159,
         "total": 159,
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:30:55.681Z",
-      "changedAt": "2026-11-04T04:27:55.362Z"
+      "checkedAt": "2026-11-04T04:36:55.515Z",
+      "changedAt": "2026-11-04T04:33:55.561Z"
     },
     {
       "id": "GA-gov",
@@ -89,27 +89,27 @@
         {
           "name": "Keisha Lance Bottoms",
           "party": "D",
-          "votes": 2210334,
-          "pct": 54.3,
+          "votes": 2214459,
+          "pct": 54.2,
           "winner": false
         },
         {
           "name": "Rick Jackson",
           "party": "R",
-          "votes": 1861321,
-          "pct": 45.7,
+          "votes": 1873966,
+          "pct": 45.8,
           "winner": false
         }
       ],
-      "totalVotes": 4071655,
+      "totalVotes": 4088425,
       "reporting": {
         "units": 159,
         "total": 159,
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:30:55.681Z",
-      "changedAt": "2026-11-04T04:27:55.362Z"
+      "checkedAt": "2026-11-04T04:36:55.515Z",
+      "changedAt": "2026-11-04T04:33:55.561Z"
     },
     {
       "id": "VA-sen",
@@ -126,34 +126,34 @@
         {
           "name": "Mark R. Warner",
           "party": "D",
-          "votes": 1972995,
+          "votes": 1973570,
           "pct": 59.9,
           "winner": false
         },
         {
           "name": "Bert Mizusawa",
           "party": "R",
-          "votes": 1314627,
+          "votes": 1315001,
           "pct": 39.9,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 8870,
+          "votes": 8875,
           "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 3296492,
+      "totalVotes": 3297446,
       "reporting": {
         "units": 133,
         "total": 133,
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:30:55.681Z",
-      "changedAt": "2026-11-04T04:27:55.362Z"
+      "checkedAt": "2026-11-04T04:36:55.515Z",
+      "changedAt": "2026-11-04T04:36:55.515Z"
     },
     {
       "id": "VA-01",
@@ -197,7 +197,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:30:55.681Z",
+      "checkedAt": "2026-11-04T04:36:55.515Z",
       "changedAt": "2026-11-04T04:27:55.362Z"
     },
     {
@@ -216,14 +216,14 @@
         {
           "name": "Elaine G. Luria",
           "party": "D",
-          "votes": 155650,
-          "pct": 51.4,
+          "votes": 155929,
+          "pct": 51.5,
           "winner": false
         },
         {
           "name": "Jen A. Kiggans",
           "party": "R",
-          "votes": 139888,
+          "votes": 139910,
           "pct": 46.2,
           "winner": false
         },
@@ -237,27 +237,27 @@
         {
           "name": "Geral D. \"Bishop\" Staten",
           "party": "I",
-          "votes": 2328,
+          "votes": 2368,
           "pct": 0.8,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 386,
+          "votes": 388,
           "pct": 0.1,
           "winner": false
         }
       ],
-      "totalVotes": 302540,
+      "totalVotes": 302883,
       "reporting": {
         "units": 8,
         "total": 8,
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:30:55.681Z",
-      "changedAt": "2026-11-04T04:27:55.362Z"
+      "checkedAt": "2026-11-04T04:36:55.515Z",
+      "changedAt": "2026-11-04T04:36:55.515Z"
     },
     {
       "id": "NC-sen",
@@ -275,41 +275,41 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2425734,
+          "votes": 2431014,
           "pct": 58.6,
           "winner": false
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1620891,
+          "votes": 1624701,
           "pct": 39.2,
           "winner": false
         },
         {
           "name": "Shannon W. Bray",
           "party": "L",
-          "votes": 54758,
+          "votes": 54914,
           "pct": 1.3,
           "winner": false
         },
         {
           "name": "Michael Dublin",
           "party": "G",
-          "votes": 35730,
+          "votes": 35847,
           "pct": 0.9,
           "winner": false
         }
       ],
-      "totalVotes": 4137113,
+      "totalVotes": 4146476,
       "reporting": {
-        "units": 2556,
+        "units": 2568,
         "total": 2626,
         "label": "precincts",
-        "pct": 97.3
+        "pct": 97.8
       },
-      "checkedAt": "2026-11-04T04:30:55.681Z",
-      "changedAt": "2026-11-04T04:24:55.271Z"
+      "checkedAt": "2026-11-04T04:36:55.515Z",
+      "changedAt": "2026-11-04T04:33:55.561Z"
     },
     {
       "id": "ME-sen",
@@ -437,7 +437,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:30:55.681Z",
+      "checkedAt": "2026-11-04T04:36:55.515Z",
       "changedAt": "2026-11-04T04:24:55.271Z"
     },
     {
@@ -482,7 +482,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:30:55.681Z",
+      "checkedAt": "2026-11-04T04:36:55.515Z",
       "changedAt": "2026-11-04T03:51:54.309Z"
     },
     {
