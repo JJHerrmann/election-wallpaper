@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T05:16:07.062Z",
+  "updatedAt": "2026-11-04T05:22:07.163Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -71,7 +71,7 @@
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:16:07.062Z",
+      "checkedAt": "2026-11-04T05:22:07.163Z",
       "changedAt": "2026-11-04T04:45:55.725Z"
     },
     {
@@ -108,7 +108,7 @@
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:16:07.062Z",
+      "checkedAt": "2026-11-04T05:22:07.163Z",
       "changedAt": "2026-11-04T04:45:55.725Z"
     },
     {
@@ -126,34 +126,34 @@
         {
           "name": "Mark R. Warner",
           "party": "D",
-          "votes": 2026895,
+          "votes": 2032624,
           "pct": 60.1,
           "winner": false
         },
         {
           "name": "Bert Mizusawa",
           "party": "R",
-          "votes": 1338453,
-          "pct": 39.7,
+          "votes": 1339695,
+          "pct": 39.6,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 8992,
+          "votes": 9003,
           "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 3374340,
+      "totalVotes": 3381322,
       "reporting": {
         "units": 133,
         "total": 133,
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:16:07.062Z",
-      "changedAt": "2026-11-04T05:16:07.062Z"
+      "checkedAt": "2026-11-04T05:22:07.163Z",
+      "changedAt": "2026-11-04T05:22:07.163Z"
     },
     {
       "id": "VA-01",
@@ -197,7 +197,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:16:07.062Z",
+      "checkedAt": "2026-11-04T05:22:07.163Z",
       "changedAt": "2026-11-04T04:27:55.362Z"
     },
     {
@@ -216,48 +216,48 @@
         {
           "name": "Elaine G. Luria",
           "party": "D",
-          "votes": 161387,
-          "pct": 51.8,
+          "votes": 162295,
+          "pct": 51.9,
           "winner": false
         },
         {
           "name": "Jen A. Kiggans",
           "party": "R",
-          "votes": 142931,
-          "pct": 45.9,
+          "votes": 143334,
+          "pct": 45.8,
           "winner": false
         },
         {
           "name": "J. Matt Baker",
           "party": "I",
-          "votes": 4323,
+          "votes": 4349,
           "pct": 1.4,
           "winner": false
         },
         {
           "name": "Geral D. \"Bishop\" Staten",
           "party": "I",
-          "votes": 2496,
+          "votes": 2512,
           "pct": 0.8,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 421,
+          "votes": 426,
           "pct": 0.1,
           "winner": false
         }
       ],
-      "totalVotes": 311558,
+      "totalVotes": 312916,
       "reporting": {
         "units": 8,
         "total": 8,
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:16:07.062Z",
-      "changedAt": "2026-11-04T05:16:07.062Z"
+      "checkedAt": "2026-11-04T05:22:07.163Z",
+      "changedAt": "2026-11-04T05:19:07.316Z"
     },
     {
       "id": "NC-sen",
@@ -308,7 +308,7 @@
         "label": "precincts",
         "pct": 99.4
       },
-      "checkedAt": "2026-11-04T05:16:07.062Z",
+      "checkedAt": "2026-11-04T05:22:07.163Z",
       "changedAt": "2026-11-04T05:13:07.074Z"
     },
     {
@@ -437,7 +437,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:16:07.062Z",
+      "checkedAt": "2026-11-04T05:22:07.163Z",
       "changedAt": "2026-11-04T05:13:07.074Z"
     },
     {
@@ -482,7 +482,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:16:07.062Z",
+      "checkedAt": "2026-11-04T05:22:07.163Z",
       "changedAt": "2026-11-04T03:51:54.309Z"
     },
     {
