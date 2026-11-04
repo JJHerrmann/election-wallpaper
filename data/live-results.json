@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T00:00:48.746Z",
+  "updatedAt": "2026-11-04T00:06:48.970Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -71,7 +71,7 @@
         "label": "counties",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:00:48.746Z",
+      "checkedAt": "2026-11-04T00:06:48.970Z",
       "changedAt": "2026-11-03T23:12:47.916Z"
     },
     {
@@ -108,7 +108,7 @@
         "label": "counties",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:00:48.746Z",
+      "checkedAt": "2026-11-04T00:06:48.970Z",
       "changedAt": "2026-11-03T23:12:47.916Z"
     },
     {
@@ -145,7 +145,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:00:48.746Z",
+      "checkedAt": "2026-11-04T00:06:48.970Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -183,7 +183,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:00:48.746Z",
+      "checkedAt": "2026-11-04T00:06:48.970Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -235,7 +235,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:00:48.746Z",
+      "checkedAt": "2026-11-04T00:06:48.970Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -287,7 +287,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:00:48.746Z",
+      "checkedAt": "2026-11-04T00:06:48.970Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -416,7 +416,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:00:48.746Z",
+      "checkedAt": "2026-11-04T00:06:48.970Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -461,7 +461,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:00:48.746Z",
+      "checkedAt": "2026-11-04T00:06:48.970Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
