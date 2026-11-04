@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T00:42:49.816Z",
+  "updatedAt": "2026-11-04T00:48:49.831Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -52,27 +52,27 @@
         {
           "name": "Jon Ossoff",
           "party": "D",
-          "votes": 864631,
-          "pct": 65,
+          "votes": 911149,
+          "pct": 64.4,
           "winner": false
         },
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 465907,
-          "pct": 35,
+          "votes": 503994,
+          "pct": 35.6,
           "winner": false
         }
       ],
-      "totalVotes": 1330538,
+      "totalVotes": 1415143,
       "reporting": {
-        "units": 52,
+        "units": 62,
         "total": 159,
         "label": "counties",
-        "pct": 32.7
+        "pct": 39
       },
-      "checkedAt": "2026-11-04T00:42:49.816Z",
-      "changedAt": "2026-11-04T00:42:49.816Z"
+      "checkedAt": "2026-11-04T00:48:49.831Z",
+      "changedAt": "2026-11-04T00:45:49.835Z"
     },
     {
       "id": "GA-gov",
@@ -89,27 +89,27 @@
         {
           "name": "Keisha Lance Bottoms",
           "party": "D",
-          "votes": 808805,
-          "pct": 60.8,
+          "votes": 852128,
+          "pct": 60.2,
           "winner": false
         },
         {
           "name": "Rick Jackson",
           "party": "R",
-          "votes": 521802,
-          "pct": 39.2,
+          "votes": 563143,
+          "pct": 39.8,
           "winner": false
         }
       ],
-      "totalVotes": 1330607,
+      "totalVotes": 1415271,
       "reporting": {
-        "units": 52,
+        "units": 62,
         "total": 159,
         "label": "counties",
-        "pct": 32.7
+        "pct": 39
       },
-      "checkedAt": "2026-11-04T00:42:49.816Z",
-      "changedAt": "2026-11-04T00:42:49.816Z"
+      "checkedAt": "2026-11-04T00:48:49.831Z",
+      "changedAt": "2026-11-04T00:45:49.835Z"
     },
     {
       "id": "VA-sen",
@@ -126,34 +126,34 @@
         {
           "name": "Mark R. Warner",
           "party": "D",
-          "votes": 229831,
-          "pct": 62.4,
+          "votes": 298259,
+          "pct": 59.3,
           "winner": false
         },
         {
           "name": "Bert Mizusawa",
           "party": "R",
-          "votes": 137556,
-          "pct": 37.4,
+          "votes": 203536,
+          "pct": 40.5,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 886,
-          "pct": 0.2,
+          "votes": 1287,
+          "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 368273,
+      "totalVotes": 503082,
       "reporting": {
-        "units": 75,
+        "units": 88,
         "total": 133,
         "label": "localities",
-        "pct": 56.4
+        "pct": 66.2
       },
-      "checkedAt": "2026-11-04T00:42:49.816Z",
-      "changedAt": "2026-11-04T00:42:49.816Z"
+      "checkedAt": "2026-11-04T00:48:49.831Z",
+      "changedAt": "2026-11-04T00:48:49.831Z"
     },
     {
       "id": "VA-01",
@@ -171,34 +171,34 @@
         {
           "name": "Robert J. \"Rob\" Wittman",
           "party": "R",
-          "votes": 15709,
-          "pct": 58.7,
+          "votes": 29114,
+          "pct": 61.6,
           "winner": false
         },
         {
           "name": "Shannon L. Taylor",
           "party": "D",
-          "votes": 10981,
-          "pct": 41,
+          "votes": 17995,
+          "pct": 38.1,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 81,
+          "votes": 139,
           "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 26771,
+      "totalVotes": 47248,
       "reporting": {
-        "units": 9,
+        "units": 11,
         "total": 18,
         "label": "localities",
-        "pct": 50
+        "pct": 61.1
       },
-      "checkedAt": "2026-11-04T00:42:49.816Z",
-      "changedAt": "2026-11-04T00:42:49.816Z"
+      "checkedAt": "2026-11-04T00:48:49.831Z",
+      "changedAt": "2026-11-04T00:48:49.831Z"
     },
     {
       "id": "VA-02",
@@ -216,48 +216,48 @@
         {
           "name": "Jen A. Kiggans",
           "party": "R",
-          "votes": 9416,
-          "pct": 54.6,
+          "votes": 9838,
+          "pct": 55.2,
           "winner": false
         },
         {
           "name": "Elaine G. Luria",
           "party": "D",
-          "votes": 7344,
-          "pct": 42.6,
+          "votes": 7487,
+          "pct": 42,
           "winner": false
         },
         {
           "name": "J. Matt Baker",
           "party": "I",
-          "votes": 317,
+          "votes": 327,
           "pct": 1.8,
           "winner": false
         },
         {
           "name": "Geral D. \"Bishop\" Staten",
           "party": "I",
-          "votes": 132,
+          "votes": 135,
           "pct": 0.8,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 21,
+          "votes": 22,
           "pct": 0.1,
           "winner": false
         }
       ],
-      "totalVotes": 17230,
+      "totalVotes": 17809,
       "reporting": {
         "units": 4,
         "total": 8,
         "label": "localities",
         "pct": 50
       },
-      "checkedAt": "2026-11-04T00:42:49.816Z",
-      "changedAt": "2026-11-04T00:42:49.816Z"
+      "checkedAt": "2026-11-04T00:48:49.831Z",
+      "changedAt": "2026-11-04T00:48:49.831Z"
     },
     {
       "id": "NC-sen",
@@ -308,7 +308,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:42:49.816Z",
+      "checkedAt": "2026-11-04T00:48:49.831Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -437,7 +437,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:42:49.816Z",
+      "checkedAt": "2026-11-04T00:48:49.831Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -482,7 +482,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:42:49.816Z",
+      "checkedAt": "2026-11-04T00:48:49.831Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
