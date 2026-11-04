@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T04:06:54.838Z",
+  "updatedAt": "2026-11-04T04:12:54.904Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -71,7 +71,7 @@
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:06:54.838Z",
+      "checkedAt": "2026-11-04T04:12:54.904Z",
       "changedAt": "2026-11-04T04:06:54.838Z"
     },
     {
@@ -108,7 +108,7 @@
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:06:54.838Z",
+      "checkedAt": "2026-11-04T04:12:54.904Z",
       "changedAt": "2026-11-04T04:06:54.838Z"
     },
     {
@@ -126,34 +126,34 @@
         {
           "name": "Mark R. Warner",
           "party": "D",
-          "votes": 1944235,
-          "pct": 60,
+          "votes": 1950685,
+          "pct": 59.9,
           "winner": false
         },
         {
           "name": "Bert Mizusawa",
           "party": "R",
-          "votes": 1288228,
-          "pct": 39.7,
+          "votes": 1294747,
+          "pct": 39.8,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 8746,
+          "votes": 8778,
           "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 3241209,
+      "totalVotes": 3254210,
       "reporting": {
         "units": 133,
         "total": 133,
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:06:54.838Z",
-      "changedAt": "2026-11-04T04:06:54.838Z"
+      "checkedAt": "2026-11-04T04:12:54.904Z",
+      "changedAt": "2026-11-04T04:12:54.904Z"
     },
     {
       "id": "VA-01",
@@ -197,7 +197,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:06:54.838Z",
+      "checkedAt": "2026-11-04T04:12:54.904Z",
       "changedAt": "2026-11-04T04:03:54.725Z"
     },
     {
@@ -216,48 +216,48 @@
         {
           "name": "Elaine G. Luria",
           "party": "D",
-          "votes": 152659,
-          "pct": 51.6,
+          "votes": 153992,
+          "pct": 51.7,
           "winner": false
         },
         {
           "name": "Jen A. Kiggans",
           "party": "R",
-          "votes": 136197,
-          "pct": 46.1,
+          "votes": 137257,
+          "pct": 46,
           "winner": false
         },
         {
           "name": "J. Matt Baker",
           "party": "I",
-          "votes": 4186,
+          "votes": 4228,
           "pct": 1.4,
           "winner": false
         },
         {
           "name": "Geral D. \"Bishop\" Staten",
           "party": "I",
-          "votes": 2189,
+          "votes": 2217,
           "pct": 0.7,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 373,
+          "votes": 376,
           "pct": 0.1,
           "winner": false
         }
       ],
-      "totalVotes": 295604,
+      "totalVotes": 298070,
       "reporting": {
         "units": 8,
         "total": 8,
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:06:54.838Z",
-      "changedAt": "2026-11-04T04:06:54.838Z"
+      "checkedAt": "2026-11-04T04:12:54.904Z",
+      "changedAt": "2026-11-04T04:12:54.904Z"
     },
     {
       "id": "NC-sen",
@@ -308,7 +308,7 @@
         "label": "precincts",
         "pct": 94.4
       },
-      "checkedAt": "2026-11-04T04:06:54.838Z",
+      "checkedAt": "2026-11-04T04:12:54.904Z",
       "changedAt": "2026-11-04T04:03:54.725Z"
     },
     {
@@ -437,7 +437,7 @@
         "label": "precincts",
         "pct": 99.7
       },
-      "checkedAt": "2026-11-04T04:06:54.838Z",
+      "checkedAt": "2026-11-04T04:12:54.904Z",
       "changedAt": "2026-11-04T04:00:54.625Z"
     },
     {
@@ -482,7 +482,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T04:06:54.838Z",
+      "checkedAt": "2026-11-04T04:12:54.904Z",
       "changedAt": "2026-11-04T03:51:54.309Z"
     },
     {
