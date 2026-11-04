@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T05:28:07.313Z",
+  "updatedAt": "2026-11-04T05:34:07.408Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -71,7 +71,7 @@
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:28:07.313Z",
+      "checkedAt": "2026-11-04T05:34:07.408Z",
       "changedAt": "2026-11-04T04:45:55.725Z"
     },
     {
@@ -108,7 +108,7 @@
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:28:07.313Z",
+      "checkedAt": "2026-11-04T05:34:07.408Z",
       "changedAt": "2026-11-04T04:45:55.725Z"
     },
     {
@@ -126,34 +126,34 @@
         {
           "name": "Mark R. Warner",
           "party": "D",
-          "votes": 2034056,
+          "votes": 2034485,
           "pct": 60.1,
           "winner": false
         },
         {
           "name": "Bert Mizusawa",
           "party": "R",
-          "votes": 1340287,
+          "votes": 1341385,
           "pct": 39.6,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 9010,
+          "votes": 9013,
           "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 3383353,
+      "totalVotes": 3384883,
       "reporting": {
         "units": 133,
         "total": 133,
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:28:07.313Z",
-      "changedAt": "2026-11-04T05:28:07.313Z"
+      "checkedAt": "2026-11-04T05:34:07.408Z",
+      "changedAt": "2026-11-04T05:34:07.408Z"
     },
     {
       "id": "VA-01",
@@ -197,7 +197,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:28:07.313Z",
+      "checkedAt": "2026-11-04T05:34:07.408Z",
       "changedAt": "2026-11-04T04:27:55.362Z"
     },
     {
@@ -256,7 +256,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:28:07.313Z",
+      "checkedAt": "2026-11-04T05:34:07.408Z",
       "changedAt": "2026-11-04T05:28:07.313Z"
     },
     {
@@ -308,7 +308,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:28:07.313Z",
+      "checkedAt": "2026-11-04T05:34:07.408Z",
       "changedAt": "2026-11-04T05:25:07.252Z"
     },
     {
@@ -437,7 +437,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:28:07.313Z",
+      "checkedAt": "2026-11-04T05:34:07.408Z",
       "changedAt": "2026-11-04T05:13:07.074Z"
     },
     {
@@ -482,7 +482,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T05:28:07.313Z",
+      "checkedAt": "2026-11-04T05:34:07.408Z",
       "changedAt": "2026-11-04T03:51:54.309Z"
     },
     {
