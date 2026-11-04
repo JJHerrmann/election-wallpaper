@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T03:30:53.985Z",
+  "updatedAt": "2026-11-04T03:36:54.025Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -52,27 +52,27 @@
         {
           "name": "Jon Ossoff",
           "party": "D",
-          "votes": 2226360,
+          "votes": 2248614,
           "pct": 58.8,
           "winner": false
         },
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 1558801,
+          "votes": 1572488,
           "pct": 41.2,
           "winner": false
         }
       ],
-      "totalVotes": 3785161,
+      "totalVotes": 3821102,
       "reporting": {
         "units": 156,
         "total": 159,
         "label": "counties",
         "pct": 98.1
       },
-      "checkedAt": "2026-11-04T03:30:53.985Z",
-      "changedAt": "2026-11-04T03:30:53.985Z"
+      "checkedAt": "2026-11-04T03:36:54.025Z",
+      "changedAt": "2026-11-04T03:36:54.025Z"
     },
     {
       "id": "GA-gov",
@@ -89,27 +89,27 @@
         {
           "name": "Keisha Lance Bottoms",
           "party": "D",
-          "votes": 2055333,
+          "votes": 2075905,
           "pct": 54.3,
           "winner": false
         },
         {
           "name": "Rick Jackson",
           "party": "R",
-          "votes": 1731803,
+          "votes": 1747215,
           "pct": 45.7,
           "winner": false
         }
       ],
-      "totalVotes": 3787136,
+      "totalVotes": 3823120,
       "reporting": {
         "units": 156,
         "total": 159,
         "label": "counties",
         "pct": 98.1
       },
-      "checkedAt": "2026-11-04T03:30:53.985Z",
-      "changedAt": "2026-11-04T03:30:53.985Z"
+      "checkedAt": "2026-11-04T03:36:54.025Z",
+      "changedAt": "2026-11-04T03:36:54.025Z"
     },
     {
       "id": "VA-sen",
@@ -126,34 +126,34 @@
         {
           "name": "Mark R. Warner",
           "party": "D",
-          "votes": 1864730,
-          "pct": 60.3,
+          "votes": 1890810,
+          "pct": 60.4,
           "winner": false
         },
         {
           "name": "Bert Mizusawa",
           "party": "R",
-          "votes": 1218897,
+          "votes": 1232485,
           "pct": 39.4,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 8430,
+          "votes": 8494,
           "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 3092057,
+      "totalVotes": 3131789,
       "reporting": {
         "units": 132,
         "total": 133,
         "label": "localities",
         "pct": 99.2
       },
-      "checkedAt": "2026-11-04T03:30:53.985Z",
-      "changedAt": "2026-11-04T03:30:53.985Z"
+      "checkedAt": "2026-11-04T03:36:54.025Z",
+      "changedAt": "2026-11-04T03:36:54.025Z"
     },
     {
       "id": "VA-01",
@@ -197,7 +197,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T03:30:53.985Z",
+      "checkedAt": "2026-11-04T03:36:54.025Z",
       "changedAt": "2026-11-04T03:30:53.985Z"
     },
     {
@@ -216,48 +216,48 @@
         {
           "name": "Elaine G. Luria",
           "party": "D",
-          "votes": 143263,
+          "votes": 144794,
           "pct": 51.5,
           "winner": false
         },
         {
           "name": "Jen A. Kiggans",
           "party": "R",
-          "votes": 128537,
-          "pct": 46.2,
+          "votes": 130143,
+          "pct": 46.3,
           "winner": false
         },
         {
           "name": "J. Matt Baker",
           "party": "I",
-          "votes": 3935,
+          "votes": 3954,
           "pct": 1.4,
           "winner": false
         },
         {
           "name": "Geral D. \"Bishop\" Staten",
           "party": "I",
-          "votes": 2040,
+          "votes": 2054,
           "pct": 0.7,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 355,
+          "votes": 360,
           "pct": 0.1,
           "winner": false
         }
       ],
-      "totalVotes": 278130,
+      "totalVotes": 281305,
       "reporting": {
         "units": 8,
         "total": 8,
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T03:30:53.985Z",
-      "changedAt": "2026-11-04T03:30:53.985Z"
+      "checkedAt": "2026-11-04T03:36:54.025Z",
+      "changedAt": "2026-11-04T03:33:54.087Z"
     },
     {
       "id": "NC-sen",
@@ -275,41 +275,41 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2329125,
+          "votes": 2329803,
           "pct": 58.3,
           "winner": false
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1578972,
+          "votes": 1579316,
           "pct": 39.5,
           "winner": false
         },
         {
           "name": "Shannon W. Bray",
           "party": "L",
-          "votes": 52667,
+          "votes": 52680,
           "pct": 1.3,
           "winner": false
         },
         {
           "name": "Michael Dublin",
           "party": "G",
-          "votes": 34155,
+          "votes": 34165,
           "pct": 0.9,
           "winner": false
         }
       ],
-      "totalVotes": 3994919,
+      "totalVotes": 3995964,
       "reporting": {
-        "units": 2408,
+        "units": 2410,
         "total": 2626,
         "label": "precincts",
-        "pct": 91.7
+        "pct": 91.8
       },
-      "checkedAt": "2026-11-04T03:30:53.985Z",
-      "changedAt": "2026-11-04T03:30:53.985Z"
+      "checkedAt": "2026-11-04T03:36:54.025Z",
+      "changedAt": "2026-11-04T03:36:54.025Z"
     },
     {
       "id": "ME-sen",
@@ -411,34 +411,34 @@
         {
           "name": "Don Davis",
           "party": "D",
-          "votes": 145547,
-          "pct": 49.4,
+          "votes": 145921,
+          "pct": 49.5,
           "winner": false
         },
         {
           "name": "Laurie Buckhout",
           "party": "R",
-          "votes": 139551,
-          "pct": 47.4,
+          "votes": 139576,
+          "pct": 47.3,
           "winner": false
         },
         {
           "name": "Tom Bailey",
           "party": "L",
-          "votes": 9447,
+          "votes": 9461,
           "pct": 3.2,
           "winner": false
         }
       ],
-      "totalVotes": 294545,
+      "totalVotes": 294958,
       "reporting": {
-        "units": 274,
+        "units": 275,
         "total": 290,
         "label": "precincts",
-        "pct": 94.5
+        "pct": 94.8
       },
-      "checkedAt": "2026-11-04T03:30:53.985Z",
-      "changedAt": "2026-11-04T03:27:53.889Z"
+      "checkedAt": "2026-11-04T03:36:54.025Z",
+      "changedAt": "2026-11-04T03:36:54.025Z"
     },
     {
       "id": "NC-11",
@@ -482,7 +482,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T03:30:53.985Z",
+      "checkedAt": "2026-11-04T03:36:54.025Z",
       "changedAt": "2026-11-04T03:27:53.889Z"
     },
     {
