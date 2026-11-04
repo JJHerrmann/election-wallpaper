@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T17:51:27.777Z",
+  "updatedAt": "2026-11-04T02:22:42.433Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -12,7 +12,7 @@
     "demSeatsProjected": 50,
     "gopSeatsProjected": 50,
     "control": "Toss-up",
-    "confidence": "Across 12 forecasters: D 47–53 seats (median 50), R 44–48 (median 46), median 4 toss-ups. Sweeping the toss-ups gets D to 56 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
+    "confidence": "Across 12 forecasters: D 47–53 seats (median 49), R 44–48 (median 46), median 5 toss-ups. Sweeping the toss-ups gets D to 56 or R to 53 at most. D needs 51; R holds at 50. Currently 53 R – 47 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
@@ -22,9 +22,9 @@
           "tossups": 6
         },
         {
-          "dem": 51,
-          "gop": 46,
-          "tossups": 3
+          "dem": 49,
+          "gop": 45,
+          "tossups": 6
         },
         {
           "dem": 49,
@@ -80,11 +80,11 @@
       "total": 100,
       "demLow": 47,
       "demHigh": 53,
-      "demMedian": 50,
+      "demMedian": 49,
       "gopLow": 44,
       "gopHigh": 48,
       "gopMedian": 46,
-      "tossupMedian": 4,
+      "tossupMedian": 5,
       "demCeiling": 56,
       "gopCeiling": 53
     }
@@ -527,13 +527,13 @@
         }
       ],
       "bestPoll": {
-        "source": "Decision Desk HQ",
+        "source": "270toWin",
         "date": "November 3, 2026",
-        "margin": 0.3,
-        "leaderParty": "R",
+        "margin": 0.9,
+        "leaderParty": "D",
         "candidatePcts": {
-          "R": 47.3,
-          "D": 47
+          "R": 46.8,
+          "D": 47.7
         }
       }
     },
@@ -552,28 +552,28 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Roger Marshall",
-          "articleTitle": "Roger Marshall",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Marshall%20in%20January%202025%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Adam Hamilton",
           "articleTitle": "Adam Hamilton (pastor)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam%20Hamilton%20at%20podium%20(cropped%202).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Roger Marshall",
+          "articleTitle": "Roger Marshall",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Marshall%20in%20January%202025%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 2, 2026",
-        "margin": 4.6,
+        "date": "November 3, 2026",
+        "margin": 5,
         "leaderParty": "D",
         "candidatePcts": {
           "R": 45.2,
-          "D": 49.8
+          "D": 50.2
         }
       }
     },
@@ -595,7 +595,7 @@
           "name": "Andy Barr",
           "articleTitle": "Andy Barr",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Andy%20Barr%20116th%20Congress.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Andy%20Barr%20116th%20Congress%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -637,7 +637,16 @@
           "isIncumbent": false
         }
       ],
-      "bestPoll": null
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "November 3, 2026",
+        "margin": 4,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 47.8,
+          "D": 43.8
+        }
+      }
     },
     {
       "id": "ME-senate",
@@ -654,18 +663,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Susan Collins",
-          "articleTitle": "Susan Collins",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Collins%20During%20Senate%20Appropriation%20Homeland%20Security%20Subcommittee%20Hearing%208%20May%202025.jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Troy Jackson (replacing Graham Platner)",
           "articleTitle": "Troy Jackson",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Troy%20Jackson%20in%20the%20Senate%20Chamber%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Susan Collins",
+          "articleTitle": "Susan Collins",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Collins%20During%20Senate%20Appropriation%20Homeland%20Security%20Subcommittee%20Hearing%208%20May%202025.jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": {
@@ -722,13 +731,13 @@
         }
       ],
       "bestPoll": {
-        "source": "Decision Desk HQ",
-        "date": "November 2, 2026",
-        "margin": 25.9,
+        "source": "''Silver Bulletin''",
+        "date": "November 3, 2026",
+        "margin": 26.3,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 55.1,
-          "R": 29.2
+          "D": 56.7,
+          "R": 30.4
         }
       }
     },
@@ -763,12 +772,12 @@
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 2, 2026",
-        "margin": 6.3,
+        "date": "November 3, 2026",
+        "margin": 5.9,
         "leaderParty": "D",
         "candidatePcts": {
-          "D": 50.9,
-          "R": 44.6
+          "D": 50.8,
+          "R": 44.9
         }
       }
     },
@@ -832,7 +841,16 @@
           "isIncumbent": false
         }
       ],
-      "bestPoll": null
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "November 3, 2026",
+        "margin": 6.5,
+        "leaderParty": "R",
+        "candidatePcts": {
+          "R": 45.7,
+          "D": 39.2
+        }
+      }
     },
     {
       "id": "MO-senate",
@@ -877,13 +895,13 @@
         }
       ],
       "bestPoll": {
-        "source": "Decision Desk HQ",
-        "date": "October 30, 2026",
-        "margin": 6.2,
+        "source": "FiftyPlusOne",
+        "date": "November 3, 2026",
+        "margin": 8,
         "leaderParty": "R",
         "candidatePcts": {
-          "R": 16.1,
-          "D": 31.3
+          "R": 15.7,
+          "D": 32.1
         }
       }
     },
@@ -902,18 +920,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Pete Ricketts",
-          "articleTitle": "Pete Ricketts",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sen.%20Pete%20Ricketts%20official%20portrait%2C%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Dan Osborn",
           "articleTitle": "Dan Osborn",
           "party": null,
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Osborn%20Headshot%202%20(cropped)%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Pete Ricketts",
+          "articleTitle": "Pete Ricketts",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sen.%20Pete%20Ricketts%20official%20portrait%2C%20118th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -949,18 +967,27 @@
           "name": "Chris Pappas",
           "articleTitle": "Chris Pappas (American politician)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Pappas%2C%20official%20portrait%20-%202022%20(cropped%202).png?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Pappas%2C%20official%20portrait%2C%20116th%20Congress.jpg?width=80",
           "isIncumbent": false
         },
         {
           "name": "John E. Sununu",
-          "articleTitle": "John E. Sununu",
+          "articleTitle": "John E. Sununu (American politician)",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20E.%20Sununu%20(cropped%202).jpg?width=80",
           "isIncumbent": false
         }
       ],
-      "bestPoll": null
+      "bestPoll": {
+        "source": "270toWin",
+        "date": "November 3, 2026",
+        "margin": 8.2,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 50.8,
+          "R": 42.6
+        }
+      }
     },
     {
       "id": "NJ-senate",
@@ -1023,13 +1050,13 @@
         }
       ],
       "bestPoll": {
-        "source": "RealClearPolitics",
-        "date": "October 27, 2026",
-        "margin": 16.5,
+        "source": "''Silver Bulletin''",
+        "date": "November 3, 2026",
+        "margin": 17,
         "leaderParty": null,
         "candidatePcts": {
-          "D": 53.5,
-          "R": 37
+          "D": 55.3,
+          "R": 37.4
         }
       }
     },
@@ -1061,28 +1088,28 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Michael Whatley",
-          "articleTitle": "Michael Whatley",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Whatley%20(55505282618)%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Roy Cooper",
           "articleTitle": "Roy Cooper",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roy%20Cooper%20at%20Roy%20Cooper%20Rally%20April%202026-2%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Michael Whatley",
+          "articleTitle": "Michael Whatley",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Whatley%20(55505282618)%20(cropped).jpg?width=80",
+          "isIncumbent": false
         }
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 1, 2026",
-        "margin": 11.6,
+        "date": "November 3, 2026",
+        "margin": 11.4,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 41.8,
-          "D": 53.4
+          "R": 42.8,
+          "D": 54.2
         }
       }
     },
@@ -1114,27 +1141,27 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Jon Husted",
-          "articleTitle": "Jon Husted",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sen._Jon_Husted_official_portrait%2C_119th_Congress%20(cropped%202).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Sherrod Brown",
           "articleTitle": "Sherrod Brown",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sherrod%20Brown%20117th%20Congress%20(2)%20(3x4%20crop).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Jon Husted",
+          "articleTitle": "Jon Husted",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sen._Jon_Husted_official_portrait%2C_119th_Congress%20(cropped%202).jpg?width=80",
+          "isIncumbent": false
         }
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 2, 2026",
-        "margin": 1.7,
+        "date": "November 3, 2026",
+        "margin": 1.9,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 47,
+          "R": 46.8,
           "D": 48.7
         }
       }
@@ -1243,7 +1270,16 @@
           "isIncumbent": false
         }
       ],
-      "bestPoll": null
+      "bestPoll": {
+        "source": "''Silver Bulletin''",
+        "date": "November 3, 2026",
+        "margin": 28.9,
+        "leaderParty": "D",
+        "candidatePcts": {
+          "D": 58.3,
+          "R": 29.4
+        }
+      }
     },
     {
       "id": "SC-senate",
@@ -1260,18 +1296,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Darline Graham (replacing Lindsey Graham)",
-          "articleTitle": "Darline Graham",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Official%20portrait%20of%20Darline%20Graham%2C%20member%20of%20the%20United%20States%20Senate%20from%20South%20Carolina%20(2026)%20(cropped)%202.jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Annie Andrews",
-          "articleTitle": "Annie Andrews (pediatrician)",
+          "articleTitle": "Annie Andrews",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Annie%20Andrews%20Greenville%20(cropped%202).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Darline Graham",
+          "articleTitle": "Darline Graham",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Official%20portrait%20of%20Darline%20Graham%2C%20member%20of%20the%20United%20States%20Senate%20from%20South%20Carolina%20(2026)%20(cropped)%202.jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": {
@@ -1362,28 +1398,28 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Ken Paxton",
-          "articleTitle": "Ken Paxton",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ken%20Paxton%20-%2055022425595%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "James Talarico",
           "articleTitle": "James Talarico",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/James%20Talarico%20Press%20Conference%20(centered).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Ken Paxton",
+          "articleTitle": "Ken Paxton",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ken%20Paxton%20-%2055022425595%20(cropped).jpg?width=80",
+          "isIncumbent": false
         }
       ],
       "bestPoll": {
         "source": "270toWin",
-        "date": "November 2, 2026",
-        "margin": 3.4,
+        "date": "November 3, 2026",
+        "margin": 3.2,
         "leaderParty": "D",
         "candidatePcts": {
-          "R": 46.1,
-          "D": 49.5
+          "R": 46.4,
+          "D": 49.6
         }
       }
     },

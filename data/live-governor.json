@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T17:51:28.263Z",
+  "updatedAt": "2026-11-04T02:22:43.325Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -382,17 +382,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Rick Jackson",
-          "articleTitle": "Rick Jackson (businessman)",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rick%20Jackson%20(cropped)%20(cropped).png?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Keisha Lance Bottoms",
           "articleTitle": "Keisha Lance Bottoms",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Keisha%20Lance%20Bottoms%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Rick Jackson",
+          "articleTitle": "Rick Jackson (businessman)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rick%20Jackson%20(cropped)%20(cropped).png?width=80",
           "isIncumbent": false
         }
       ],
@@ -1084,17 +1084,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Vivek Ramaswamy",
-          "articleTitle": "Vivek Ramaswamy",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vivek%20Ramaswamy%20(55241367373)%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Amy Acton",
           "articleTitle": "Amy Acton",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amy%20Acton%2005%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Vivek Ramaswamy",
+          "articleTitle": "Vivek Ramaswamy",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vivek%20Ramaswamy%20(55241367373)%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -1242,9 +1242,9 @@
           "isIncumbent": false
         },
         {
-          "name": "Aaron Guckian",
-          "articleTitle": null,
-          "party": "R",
+          "name": "Ken Block",
+          "articleTitle": "Ken Block (politician)",
+          "party": null,
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
@@ -1359,18 +1359,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Greg Abbott",
-          "articleTitle": "Greg Abbott",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Greg%20Abbott%202026.jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Gina Hinojosa",
           "articleTitle": "Gina Hinojosa",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gina%20Hinojosa%20at%20LBJ%20Library%20Forum%20(3x4%20cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Greg Abbott",
+          "articleTitle": "Greg Abbott",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Greg%20Abbott%202026.jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": {
