@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:16:12.909Z",
+  "updatedAt": "2026-11-04T09:22:13.000Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -71,7 +71,7 @@
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:16:12.909Z",
+      "checkedAt": "2026-11-04T09:22:13.000Z",
       "changedAt": "2026-11-04T04:45:55.725Z"
     },
     {
@@ -108,7 +108,7 @@
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:16:12.909Z",
+      "checkedAt": "2026-11-04T09:22:13.000Z",
       "changedAt": "2026-11-04T04:45:55.725Z"
     },
     {
@@ -152,7 +152,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:16:12.909Z",
+      "checkedAt": "2026-11-04T09:22:13.000Z",
       "changedAt": "2026-11-04T08:16:11.298Z"
     },
     {
@@ -197,7 +197,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:16:12.909Z",
+      "checkedAt": "2026-11-04T09:22:13.000Z",
       "changedAt": "2026-11-04T04:27:55.362Z"
     },
     {
@@ -256,7 +256,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:16:12.909Z",
+      "checkedAt": "2026-11-04T09:22:13.000Z",
       "changedAt": "2026-11-04T06:19:08.614Z"
     },
     {
@@ -275,41 +275,41 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2462440,
+          "votes": 2463773,
           "pct": 58.7,
           "winner": false
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1640368,
+          "votes": 1640663,
           "pct": 39.1,
           "winner": false
         },
         {
           "name": "Shannon W. Bray",
           "party": "L",
-          "votes": 55718,
+          "votes": 55674,
           "pct": 1.3,
           "winner": false
         },
         {
           "name": "Michael Dublin",
           "party": "G",
-          "votes": 36426,
+          "votes": 36368,
           "pct": 0.9,
           "winner": false
         }
       ],
-      "totalVotes": 4194952,
+      "totalVotes": 4196478,
       "reporting": {
         "units": 2626,
         "total": 2626,
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:16:12.909Z",
-      "changedAt": "2026-11-04T05:58:08.066Z"
+      "checkedAt": "2026-11-04T09:22:13.000Z",
+      "changedAt": "2026-11-04T09:22:13.000Z"
     },
     {
       "id": "ME-sen",
@@ -411,34 +411,34 @@
         {
           "name": "Don Davis",
           "party": "D",
-          "votes": 151133,
-          "pct": 49.6,
+          "votes": 152442,
+          "pct": 49.8,
           "winner": false
         },
         {
           "name": "Laurie Buckhout",
           "party": "R",
-          "votes": 143539,
-          "pct": 47.1,
+          "votes": 143852,
+          "pct": 47,
           "winner": false
         },
         {
           "name": "Tom Bailey",
           "party": "L",
-          "votes": 9765,
+          "votes": 9728,
           "pct": 3.2,
           "winner": false
         }
       ],
-      "totalVotes": 304437,
+      "totalVotes": 306022,
       "reporting": {
         "units": 290,
         "total": 290,
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:16:12.909Z",
-      "changedAt": "2026-11-04T05:13:07.074Z"
+      "checkedAt": "2026-11-04T09:22:13.000Z",
+      "changedAt": "2026-11-04T09:22:13.000Z"
     },
     {
       "id": "NC-11",
@@ -482,7 +482,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:16:12.909Z",
+      "checkedAt": "2026-11-04T09:22:13.000Z",
       "changedAt": "2026-11-04T03:51:54.309Z"
     },
     {
