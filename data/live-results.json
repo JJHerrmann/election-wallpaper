@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T02:00:52.744Z",
+  "updatedAt": "2026-11-04T02:06:51.887Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -52,27 +52,27 @@
         {
           "name": "Jon Ossoff",
           "party": "D",
-          "votes": 1835574,
-          "pct": 60.5,
+          "votes": 1863444,
+          "pct": 60.2,
           "winner": false
         },
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 1198129,
-          "pct": 39.5,
+          "votes": 1232321,
+          "pct": 39.8,
           "winner": false
         }
       ],
-      "totalVotes": 3033703,
+      "totalVotes": 3095765,
       "reporting": {
-        "units": 134,
+        "units": 137,
         "total": 159,
         "label": "counties",
-        "pct": 84.3
+        "pct": 86.2
       },
-      "checkedAt": "2026-11-04T02:00:52.744Z",
-      "changedAt": "2026-11-04T02:00:52.744Z"
+      "checkedAt": "2026-11-04T02:06:51.887Z",
+      "changedAt": "2026-11-04T02:03:51.702Z"
     },
     {
       "id": "GA-gov",
@@ -89,27 +89,27 @@
         {
           "name": "Keisha Lance Bottoms",
           "party": "D",
-          "votes": 1705464,
-          "pct": 56.2,
+          "votes": 1729768,
+          "pct": 55.9,
           "winner": false
         },
         {
           "name": "Rick Jackson",
           "party": "R",
-          "votes": 1329290,
-          "pct": 43.8,
+          "votes": 1367176,
+          "pct": 44.1,
           "winner": false
         }
       ],
-      "totalVotes": 3034754,
+      "totalVotes": 3096944,
       "reporting": {
-        "units": 134,
+        "units": 137,
         "total": 159,
         "label": "counties",
-        "pct": 84.3
+        "pct": 86.2
       },
-      "checkedAt": "2026-11-04T02:00:52.744Z",
-      "changedAt": "2026-11-04T02:00:52.744Z"
+      "checkedAt": "2026-11-04T02:06:51.887Z",
+      "changedAt": "2026-11-04T02:03:51.702Z"
     },
     {
       "id": "VA-sen",
@@ -126,34 +126,34 @@
         {
           "name": "Mark R. Warner",
           "party": "D",
-          "votes": 1312576,
-          "pct": 59.6,
+          "votes": 1380700,
+          "pct": 60,
           "winner": false
         },
         {
           "name": "Bert Mizusawa",
           "party": "R",
-          "votes": 882418,
-          "pct": 40.1,
+          "votes": 913649,
+          "pct": 39.7,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 6131,
+          "votes": 6597,
           "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 2201125,
+      "totalVotes": 2300946,
       "reporting": {
         "units": 127,
         "total": 133,
         "label": "localities",
         "pct": 95.5
       },
-      "checkedAt": "2026-11-04T02:00:52.744Z",
-      "changedAt": "2026-11-04T02:00:52.744Z"
+      "checkedAt": "2026-11-04T02:06:51.887Z",
+      "changedAt": "2026-11-04T02:06:51.887Z"
     },
     {
       "id": "VA-01",
@@ -197,7 +197,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T02:00:52.744Z",
+      "checkedAt": "2026-11-04T02:06:51.887Z",
       "changedAt": "2026-11-04T02:00:52.744Z"
     },
     {
@@ -256,7 +256,7 @@
         "label": "localities",
         "pct": 87.5
       },
-      "checkedAt": "2026-11-04T02:00:52.744Z",
+      "checkedAt": "2026-11-04T02:06:51.887Z",
       "changedAt": "2026-11-04T02:00:52.744Z"
     },
     {
@@ -308,7 +308,7 @@
         "label": "precincts",
         "pct": 31.3
       },
-      "checkedAt": "2026-11-04T02:00:52.744Z",
+      "checkedAt": "2026-11-04T02:06:51.887Z",
       "changedAt": "2026-11-04T02:00:52.744Z"
     },
     {
@@ -437,7 +437,7 @@
         "label": "precincts",
         "pct": 26.2
       },
-      "checkedAt": "2026-11-04T02:00:52.744Z",
+      "checkedAt": "2026-11-04T02:06:51.887Z",
       "changedAt": "2026-11-04T02:00:52.744Z"
     },
     {
@@ -482,7 +482,7 @@
         "label": "precincts",
         "pct": 54.1
       },
-      "checkedAt": "2026-11-04T02:00:52.744Z",
+      "checkedAt": "2026-11-04T02:06:51.887Z",
       "changedAt": "2026-11-04T02:00:52.744Z"
     },
     {
