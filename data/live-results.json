@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:22:13.000Z",
+  "updatedAt": "2026-11-04T09:28:13.223Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -52,27 +52,27 @@
         {
           "name": "Jon Ossoff",
           "party": "D",
-          "votes": 2445285,
+          "votes": 2463132,
           "pct": 59,
           "winner": false
         },
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 1697747,
+          "votes": 1711322,
           "pct": 41,
           "winner": false
         }
       ],
-      "totalVotes": 4143032,
+      "totalVotes": 4174454,
       "reporting": {
         "units": 159,
         "total": 159,
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:22:13.000Z",
-      "changedAt": "2026-11-04T04:45:55.725Z"
+      "checkedAt": "2026-11-04T09:28:13.223Z",
+      "changedAt": "2026-11-04T09:28:13.223Z"
     },
     {
       "id": "GA-gov",
@@ -89,27 +89,27 @@
         {
           "name": "Keisha Lance Bottoms",
           "party": "D",
-          "votes": 2251699,
+          "votes": 2268462,
           "pct": 54.3,
           "winner": false
         },
         {
           "name": "Rick Jackson",
           "party": "R",
-          "votes": 1893587,
+          "votes": 1908261,
           "pct": 45.7,
           "winner": false
         }
       ],
-      "totalVotes": 4145286,
+      "totalVotes": 4176723,
       "reporting": {
         "units": 159,
         "total": 159,
         "label": "counties",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:22:13.000Z",
-      "changedAt": "2026-11-04T04:45:55.725Z"
+      "checkedAt": "2026-11-04T09:28:13.223Z",
+      "changedAt": "2026-11-04T09:28:13.223Z"
     },
     {
       "id": "VA-sen",
@@ -152,7 +152,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:22:13.000Z",
+      "checkedAt": "2026-11-04T09:28:13.223Z",
       "changedAt": "2026-11-04T08:16:11.298Z"
     },
     {
@@ -197,7 +197,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:22:13.000Z",
+      "checkedAt": "2026-11-04T09:28:13.223Z",
       "changedAt": "2026-11-04T04:27:55.362Z"
     },
     {
@@ -256,7 +256,7 @@
         "label": "localities",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:22:13.000Z",
+      "checkedAt": "2026-11-04T09:28:13.223Z",
       "changedAt": "2026-11-04T06:19:08.614Z"
     },
     {
@@ -308,7 +308,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:22:13.000Z",
+      "checkedAt": "2026-11-04T09:28:13.223Z",
       "changedAt": "2026-11-04T09:22:13.000Z"
     },
     {
@@ -437,7 +437,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:22:13.000Z",
+      "checkedAt": "2026-11-04T09:28:13.223Z",
       "changedAt": "2026-11-04T09:22:13.000Z"
     },
     {
@@ -482,7 +482,7 @@
         "label": "precincts",
         "pct": 100
       },
-      "checkedAt": "2026-11-04T09:22:13.000Z",
+      "checkedAt": "2026-11-04T09:28:13.223Z",
       "changedAt": "2026-11-04T03:51:54.309Z"
     },
     {
