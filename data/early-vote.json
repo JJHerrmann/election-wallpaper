@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T02:22:45.801Z",
+  "updatedAt": "2026-11-04T17:59:26.283Z",
   "source": "UF Election Lab early vote tracker (official state reports)",
   "sourceUrl": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
   "caveat": "Party registration of people who have voted, not how they voted. Ballots are not counted until Election Day.",
@@ -77,21 +77,21 @@
       }
     },
     "CO": {
-      "voted": 2351968,
-      "inPerson": 119464,
-      "mailReturned": 2232504,
-      "dem": 684296,
-      "rep": 573093,
-      "other": 1094579,
+      "voted": 2677896,
+      "inPerson": 138130,
+      "mailReturned": 2539766,
+      "dem": 765322,
+      "rep": 639667,
+      "other": 1272907,
       "hasParty": true,
       "turnout2022": 2540666,
-      "pctOf2022": 92.6,
-      "lastUpdate": "2026-11-03",
+      "pctOf2022": 105.4,
+      "lastUpdate": "2026-11-04",
       "stateSource": null,
       "change": {
         "since": "2026-11-03",
-        "voted": 492068,
-        "demLead": 4143
+        "voted": 817996,
+        "demLead": 18595
       }
     },
     "CT": {
@@ -635,21 +635,21 @@
       }
     },
     "OR": {
-      "voted": 1668842,
+      "voted": 1808770,
       "inPerson": 0,
-      "mailReturned": 1668842,
-      "dem": 667966,
-      "rep": 507499,
-      "other": 493377,
+      "mailReturned": 1808770,
+      "dem": 720033,
+      "rep": 539073,
+      "other": 549664,
       "hasParty": true,
       "turnout2022": 1997689,
-      "pctOf2022": 83.5,
+      "pctOf2022": 90.5,
       "lastUpdate": "2026-11-03",
       "stateSource": "https://sos.oregon.gov/elections/Documents/2026-general-election-unofficial-ballot-returns.pdf",
       "change": {
         "since": "2026-11-03",
-        "voted": 163148,
-        "demLead": 10358
+        "voted": 303076,
+        "demLead": 30851
       }
     },
     "PA": {

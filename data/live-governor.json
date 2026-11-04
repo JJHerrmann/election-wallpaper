@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T02:22:43.325Z",
+  "updatedAt": "2026-11-04T17:59:24.736Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -7,66 +7,66 @@
     "gopSeatsHeld": 18,
     "demNet": 2,
     "gopNet": -2,
-    "demSeatsBefore": 24,
-    "gopSeatsBefore": 26,
-    "demSeatsProjected": 26,
-    "gopSeatsProjected": 24,
+    "demSeatsBefore": 26,
+    "gopSeatsBefore": 24,
+    "demSeatsProjected": 28,
+    "gopSeatsProjected": 22,
     "control": "Projected Democratic",
-    "confidence": "Across 8 forecasters: D 23–28 governorships (median 27), R 18–22 (median 22), median 3 toss-ups. Sweeping the toss-ups gets D to 32 or R to 27 at most. Currently 26 R – 24 D.",
+    "confidence": "Across 8 forecasters: D 25–30 governorships (median 29), R 16–20 (median 20), median 3 toss-ups. Sweeping the toss-ups gets D to 34 or R to 25 at most. Currently 24 R – 26 D.",
     "unit": "published forecaster ratings, not raw polling; map color is the consensus rating",
     "projection": {
       "forecasters": [
         {
-          "dem": 26,
-          "gop": 21,
+          "dem": 28,
+          "gop": 19,
           "tossups": 3
         },
         {
-          "dem": 27,
-          "gop": 22,
-          "tossups": 1
-        },
-        {
-          "dem": 24,
-          "gop": 22,
-          "tossups": 4
-        },
-        {
-          "dem": 27,
-          "gop": 22,
+          "dem": 29,
+          "gop": 20,
           "tossups": 1
         },
         {
           "dem": 26,
-          "gop": 22,
-          "tossups": 2
+          "gop": 20,
+          "tossups": 4
         },
         {
-          "dem": 23,
-          "gop": 18,
-          "tossups": 9
+          "dem": 29,
+          "gop": 20,
+          "tossups": 1
         },
         {
           "dem": 28,
-          "gop": 22,
+          "gop": 20,
+          "tossups": 2
+        },
+        {
+          "dem": 25,
+          "gop": 16,
+          "tossups": 9
+        },
+        {
+          "dem": 30,
+          "gop": 20,
           "tossups": 0
         },
         {
-          "dem": 27,
-          "gop": 20,
+          "dem": 29,
+          "gop": 18,
           "tossups": 3
         }
       ],
       "total": 50,
-      "demLow": 23,
-      "demHigh": 28,
-      "demMedian": 27,
-      "gopLow": 18,
-      "gopHigh": 22,
-      "gopMedian": 22,
+      "demLow": 25,
+      "demHigh": 30,
+      "demMedian": 29,
+      "gopLow": 16,
+      "gopHigh": 20,
+      "gopMedian": 20,
       "tossupMedian": 3,
-      "demCeiling": 32,
-      "gopCeiling": 27
+      "demCeiling": 34,
+      "gopCeiling": 25
     }
   },
   "races": [
@@ -292,7 +292,7 @@
           "name": "Ned Lamont",
           "articleTitle": "Ned Lamont",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Governor%20Ned%20Lamont%20of%20Connecticut%2C%20official%20portrait%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gold%20Star%20Bridge%20Visit%20with%20U.S.%20Secretary%20of%20Transportation%20Pete%20Buttigieg%20(cropped).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -528,17 +528,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Zach Lahn",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zach%20Lahn%20IA%20State%20Fair%202026.jog%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Rob Sand",
           "articleTitle": "Rob Sand",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rob%20Sand%20campaign%20headshot%20(cropped%201).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Zach Lahn",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zach%20Lahn%20IA%20State%20Fair%202026.jog%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -578,7 +578,7 @@
           "name": "Ty Masterson",
           "articleTitle": "Ty Masterson",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TY%20mASTERSON%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TY%20mASTERSON%20(cropped%202).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -894,18 +894,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Joe Lombardo",
-          "articleTitle": "Joe Lombardo",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Lombardo%20by%20Gage%20Skidmore%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Aaron Ford",
           "articleTitle": "Aaron Ford (Nevada politician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nevada%20Attorney%20General%20Aaron%20Ford%20addresses%20the%20United%20Nations%20Human%20Rights%20Committee%2C%20October%2017-18%2C%202023%201%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Joe Lombardo",
+          "articleTitle": "Joe Lombardo",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Lombardo%20by%20Gage%20Skidmore%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": {
@@ -1525,14 +1525,14 @@
           "name": "Eric Barlow",
           "articleTitle": "Eric Barlow",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20%5B%5BEric%20Barlow%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BEric%20Barlow%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
-          "name": "Kenneth Casner",
+          "name": "Rebecca Bextel",
           "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Kenneth%20Casner?width=80",
+          "party": null,
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Rebecca%20Bextel?width=80",
           "isIncumbent": false
         }
       ],
