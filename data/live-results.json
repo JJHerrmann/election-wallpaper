@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T01:18:50.738Z",
+  "updatedAt": "2026-11-04T01:24:51.293Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -52,27 +52,27 @@
         {
           "name": "Jon Ossoff",
           "party": "D",
-          "votes": 1570284,
-          "pct": 64.1,
+          "votes": 1579951,
+          "pct": 63.8,
           "winner": false
         },
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 878460,
-          "pct": 35.9,
+          "votes": 897024,
+          "pct": 36.2,
           "winner": false
         }
       ],
-      "totalVotes": 2448744,
+      "totalVotes": 2476975,
       "reporting": {
-        "units": 109,
+        "units": 111,
         "total": 159,
         "label": "counties",
-        "pct": 68.6
+        "pct": 69.8
       },
-      "checkedAt": "2026-11-04T01:18:50.738Z",
-      "changedAt": "2026-11-04T01:18:50.738Z"
+      "checkedAt": "2026-11-04T01:24:51.293Z",
+      "changedAt": "2026-11-04T01:24:51.293Z"
     },
     {
       "id": "GA-gov",
@@ -89,27 +89,27 @@
         {
           "name": "Keisha Lance Bottoms",
           "party": "D",
-          "votes": 1468520,
-          "pct": 60,
+          "votes": 1477073,
+          "pct": 59.6,
           "winner": false
         },
         {
           "name": "Rick Jackson",
           "party": "R",
-          "votes": 980248,
-          "pct": 40,
+          "votes": 1000002,
+          "pct": 40.4,
           "winner": false
         }
       ],
-      "totalVotes": 2448768,
+      "totalVotes": 2477075,
       "reporting": {
-        "units": 109,
+        "units": 111,
         "total": 159,
         "label": "counties",
-        "pct": 68.6
+        "pct": 69.8
       },
-      "checkedAt": "2026-11-04T01:18:50.738Z",
-      "changedAt": "2026-11-04T01:18:50.738Z"
+      "checkedAt": "2026-11-04T01:24:51.293Z",
+      "changedAt": "2026-11-04T01:24:51.293Z"
     },
     {
       "id": "VA-sen",
@@ -126,34 +126,34 @@
         {
           "name": "Mark R. Warner",
           "party": "D",
-          "votes": 789469,
-          "pct": 59.7,
+          "votes": 888845,
+          "pct": 59.8,
           "winner": false
         },
         {
           "name": "Bert Mizusawa",
           "party": "R",
-          "votes": 528467,
-          "pct": 40,
+          "votes": 593307,
+          "pct": 39.9,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 3737,
+          "votes": 4144,
           "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 1321673,
+      "totalVotes": 1486296,
       "reporting": {
-        "units": 115,
+        "units": 119,
         "total": 133,
         "label": "localities",
-        "pct": 86.5
+        "pct": 89.5
       },
-      "checkedAt": "2026-11-04T01:18:50.738Z",
-      "changedAt": "2026-11-04T01:18:50.738Z"
+      "checkedAt": "2026-11-04T01:24:51.293Z",
+      "changedAt": "2026-11-04T01:24:51.293Z"
     },
     {
       "id": "VA-01",
@@ -169,36 +169,36 @@
       "contestName": "Member, House of Representatives (1st District)",
       "candidates": [
         {
-          "name": "Shannon L. Taylor",
-          "party": "D",
-          "votes": 77074,
-          "pct": 50,
+          "name": "Robert J. \"Rob\" Wittman",
+          "party": "R",
+          "votes": 107663,
+          "pct": 50.2,
           "winner": false
         },
         {
-          "name": "Robert J. \"Rob\" Wittman",
-          "party": "R",
-          "votes": 76560,
-          "pct": 49.7,
+          "name": "Shannon L. Taylor",
+          "party": "D",
+          "votes": 106039,
+          "pct": 49.5,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 440,
+          "votes": 565,
           "pct": 0.3,
           "winner": false
         }
       ],
-      "totalVotes": 154074,
+      "totalVotes": 214267,
       "reporting": {
-        "units": 15,
+        "units": 17,
         "total": 18,
         "label": "localities",
-        "pct": 83.3
+        "pct": 94.4
       },
-      "checkedAt": "2026-11-04T01:18:50.738Z",
-      "changedAt": "2026-11-04T01:18:50.738Z"
+      "checkedAt": "2026-11-04T01:24:51.293Z",
+      "changedAt": "2026-11-04T01:24:51.293Z"
     },
     {
       "id": "VA-02",
@@ -216,48 +216,48 @@
         {
           "name": "Jen A. Kiggans",
           "party": "R",
-          "votes": 46651,
-          "pct": 49.4,
+          "votes": 48690,
+          "pct": 49.7,
           "winner": false
         },
         {
           "name": "Elaine G. Luria",
           "party": "D",
-          "votes": 45178,
-          "pct": 47.8,
+          "votes": 46515,
+          "pct": 47.5,
           "winner": false
         },
         {
           "name": "J. Matt Baker",
           "party": "I",
-          "votes": 1715,
+          "votes": 1760,
           "pct": 1.8,
           "winner": false
         },
         {
           "name": "Geral D. \"Bishop\" Staten",
           "party": "I",
-          "votes": 747,
+          "votes": 768,
           "pct": 0.8,
           "winner": false
         },
         {
           "name": "Write-In",
           "party": null,
-          "votes": 135,
+          "votes": 144,
           "pct": 0.1,
           "winner": false
         }
       ],
-      "totalVotes": 94426,
+      "totalVotes": 97877,
       "reporting": {
-        "units": 5,
+        "units": 6,
         "total": 8,
         "label": "localities",
-        "pct": 62.5
+        "pct": 75
       },
-      "checkedAt": "2026-11-04T01:18:50.738Z",
-      "changedAt": "2026-11-04T01:15:50.586Z"
+      "checkedAt": "2026-11-04T01:24:51.293Z",
+      "changedAt": "2026-11-04T01:24:51.293Z"
     },
     {
       "id": "NC-sen",
@@ -269,47 +269,47 @@
         "nc"
       ],
       "officialUrl": "https://er.ncsbe.gov/?election_dt=11/03/2026",
-      "status": "waiting",
+      "status": "live",
       "contestName": "US SENATE (VOTE FOR 1)",
       "candidates": [
         {
-          "name": "Michael Dublin",
-          "party": "G",
-          "votes": 0,
-          "pct": 0,
-          "winner": false
-        },
-        {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 0,
-          "pct": 0,
-          "winner": false
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "L",
-          "votes": 0,
-          "pct": 0,
+          "votes": 1501539,
+          "pct": 66.8,
           "winner": false
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 0,
-          "pct": 0,
+          "votes": 709535,
+          "pct": 31.6,
+          "winner": false
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "L",
+          "votes": 20626,
+          "pct": 0.9,
+          "winner": false
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "G",
+          "votes": 16195,
+          "pct": 0.7,
           "winner": false
         }
       ],
-      "totalVotes": 0,
+      "totalVotes": 2247895,
       "reporting": {
-        "units": 0,
+        "units": 66,
         "total": 2626,
         "label": "precincts",
-        "pct": 0
+        "pct": 2.5
       },
-      "checkedAt": "2026-11-04T01:18:50.738Z",
-      "changedAt": "2026-10-28T23:11:27.002Z"
+      "checkedAt": "2026-11-04T01:24:51.293Z",
+      "changedAt": "2026-11-04T01:21:50.704Z"
     },
     {
       "id": "ME-sen",
@@ -405,40 +405,40 @@
         "house"
       ],
       "officialUrl": "https://er.ncsbe.gov/?election_dt=11/03/2026",
-      "status": "waiting",
+      "status": "live",
       "contestName": "US HOUSE OF REPRESENTATIVES DISTRICT 01 (VOTE FOR 1)",
       "candidates": [
         {
           "name": "Don Davis",
           "party": "D",
-          "votes": 0,
-          "pct": 0,
+          "votes": 57886,
+          "pct": 54.4,
           "winner": false
         },
         {
           "name": "Laurie Buckhout",
           "party": "R",
-          "votes": 0,
-          "pct": 0,
+          "votes": 45650,
+          "pct": 42.9,
           "winner": false
         },
         {
           "name": "Tom Bailey",
           "party": "L",
-          "votes": 0,
-          "pct": 0,
+          "votes": 2816,
+          "pct": 2.6,
           "winner": false
         }
       ],
-      "totalVotes": 0,
+      "totalVotes": 106352,
       "reporting": {
-        "units": 0,
+        "units": 14,
         "total": 290,
         "label": "precincts",
-        "pct": 0
+        "pct": 4.8
       },
-      "checkedAt": "2026-11-04T01:18:50.738Z",
-      "changedAt": "2026-10-28T23:11:27.002Z"
+      "checkedAt": "2026-11-04T01:24:51.293Z",
+      "changedAt": "2026-11-04T01:21:50.704Z"
     },
     {
       "id": "NC-11",
@@ -450,40 +450,40 @@
         "house"
       ],
       "officialUrl": "https://er.ncsbe.gov/?election_dt=11/03/2026",
-      "status": "waiting",
+      "status": "live",
       "contestName": "US HOUSE OF REPRESENTATIVES DISTRICT 11 (VOTE FOR 1)",
       "candidates": [
         {
-          "name": "Jennifer Capps Balkcom",
-          "party": "R",
-          "votes": 0,
-          "pct": 0,
+          "name": "Jamie Ager",
+          "party": "D",
+          "votes": 137650,
+          "pct": 63.8,
           "winner": false
         },
         {
-          "name": "Jamie Ager",
-          "party": "D",
-          "votes": 0,
-          "pct": 0,
+          "name": "Jennifer Capps Balkcom",
+          "party": "R",
+          "votes": 75859,
+          "pct": 35.2,
           "winner": false
         },
         {
           "name": "Travis Groo",
           "party": "L",
-          "votes": 0,
-          "pct": 0,
+          "votes": 2175,
+          "pct": 1,
           "winner": false
         }
       ],
-      "totalVotes": 0,
+      "totalVotes": 215684,
       "reporting": {
-        "units": 0,
+        "units": 7,
         "total": 290,
         "label": "precincts",
-        "pct": 0
+        "pct": 2.4
       },
-      "checkedAt": "2026-11-04T01:18:50.738Z",
-      "changedAt": "2026-10-28T23:11:27.002Z"
+      "checkedAt": "2026-11-04T01:24:51.293Z",
+      "changedAt": "2026-11-04T01:21:50.704Z"
     },
     {
       "id": "IA-01",
