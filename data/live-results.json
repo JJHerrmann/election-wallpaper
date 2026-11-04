@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T00:06:48.970Z",
+  "updatedAt": "2026-11-04T00:12:49.178Z",
   "electionDate": "2026-11-03",
   "groups": [
     {
@@ -46,33 +46,33 @@
         "senate"
       ],
       "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
-      "status": "waiting",
+      "status": "live",
       "contestName": "US Senate",
       "candidates": [
         {
-          "name": "Mike Collins",
-          "party": "R",
-          "votes": 0,
-          "pct": 0,
+          "name": "Jon Ossoff",
+          "party": "D",
+          "votes": 520317,
+          "pct": 72.6,
           "winner": false
         },
         {
-          "name": "Jon Ossoff",
-          "party": "D",
-          "votes": 0,
-          "pct": 0,
+          "name": "Mike Collins",
+          "party": "R",
+          "votes": 196043,
+          "pct": 27.4,
           "winner": false
         }
       ],
-      "totalVotes": 0,
+      "totalVotes": 716360,
       "reporting": {
-        "units": 0,
+        "units": 13,
         "total": 159,
         "label": "counties",
-        "pct": 0
+        "pct": 8.2
       },
-      "checkedAt": "2026-11-04T00:06:48.970Z",
-      "changedAt": "2026-11-03T23:12:47.916Z"
+      "checkedAt": "2026-11-04T00:12:49.178Z",
+      "changedAt": "2026-11-04T00:09:49.011Z"
     },
     {
       "id": "GA-gov",
@@ -83,33 +83,33 @@
         "canaries"
       ],
       "officialUrl": "https://results.sos.ga.gov/results/public/Georgia",
-      "status": "waiting",
+      "status": "live",
       "contestName": "Governor",
       "candidates": [
         {
-          "name": "Rick Jackson",
-          "party": "R",
-          "votes": 0,
-          "pct": 0,
+          "name": "Keisha Lance Bottoms",
+          "party": "D",
+          "votes": 486918,
+          "pct": 68,
           "winner": false
         },
         {
-          "name": "Keisha Lance Bottoms",
-          "party": "D",
-          "votes": 0,
-          "pct": 0,
+          "name": "Rick Jackson",
+          "party": "R",
+          "votes": 228670,
+          "pct": 32,
           "winner": false
         }
       ],
-      "totalVotes": 0,
+      "totalVotes": 715588,
       "reporting": {
-        "units": 0,
+        "units": 13,
         "total": 159,
         "label": "counties",
-        "pct": 0
+        "pct": 8.2
       },
-      "checkedAt": "2026-11-04T00:06:48.970Z",
-      "changedAt": "2026-11-03T23:12:47.916Z"
+      "checkedAt": "2026-11-04T00:12:49.178Z",
+      "changedAt": "2026-11-04T00:09:49.011Z"
     },
     {
       "id": "VA-sen",
@@ -120,33 +120,40 @@
         "canaries"
       ],
       "officialUrl": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General",
-      "status": "waiting",
+      "status": "live",
       "contestName": "Member, United States Senate",
       "candidates": [
         {
-          "name": "Mark R. Warner",
-          "party": "D",
-          "votes": 0,
-          "pct": 0,
+          "name": "Bert Mizusawa",
+          "party": "R",
+          "votes": 7163,
+          "pct": 50.4,
           "winner": false
         },
         {
-          "name": "Bert Mizusawa",
-          "party": "R",
-          "votes": 0,
-          "pct": 0,
+          "name": "Mark R. Warner",
+          "party": "D",
+          "votes": 7017,
+          "pct": 49.4,
+          "winner": false
+        },
+        {
+          "name": "Write-In",
+          "party": null,
+          "votes": 20,
+          "pct": 0.1,
           "winner": false
         }
       ],
-      "totalVotes": 0,
+      "totalVotes": 14200,
       "reporting": {
-        "units": 0,
+        "units": 6,
         "total": 133,
         "label": "localities",
-        "pct": 0
+        "pct": 4.5
       },
-      "checkedAt": "2026-11-04T00:06:48.970Z",
-      "changedAt": "2026-10-28T23:11:27.002Z"
+      "checkedAt": "2026-11-04T00:12:49.178Z",
+      "changedAt": "2026-11-04T00:12:49.178Z"
     },
     {
       "id": "VA-01",
@@ -183,7 +190,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:06:48.970Z",
+      "checkedAt": "2026-11-04T00:12:49.178Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -235,7 +242,7 @@
         "label": "localities",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:06:48.970Z",
+      "checkedAt": "2026-11-04T00:12:49.178Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -287,7 +294,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:06:48.970Z",
+      "checkedAt": "2026-11-04T00:12:49.178Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -416,7 +423,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:06:48.970Z",
+      "checkedAt": "2026-11-04T00:12:49.178Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
@@ -461,7 +468,7 @@
         "label": "precincts",
         "pct": 0
       },
-      "checkedAt": "2026-11-04T00:06:48.970Z",
+      "checkedAt": "2026-11-04T00:12:49.178Z",
       "changedAt": "2026-10-28T23:11:27.002Z"
     },
     {
