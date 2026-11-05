@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-11-04T19:30:00Z",
+  "source": "Race calls as reported by NBC News / AP / CNN on Nov 4, 2026. Hand-maintained: edit this file as races are called.",
+  "senate": {
+    "flipsToD": ["IA", "KS", "OH", "ME", "NC", "SC", "TX"],
+    "uncalled": { "AK": "D", "MS": "D" },
+    "seats": { "D": 54, "R": 44 }
+  },
+  "governor": {
+    "flipsToD": ["GA", "IA", "NV", "OH", "TX"],
+    "uncalled": { "AK": null, "KS": null },
+    "seats": { "D": 28, "R": 20 }
+  }
+}

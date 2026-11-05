@@ -167,7 +167,69 @@
     els.stateLayer.classList.toggle('outline-only', granularity === 'district');
   }
 
+  // Election results overlay (data/results.json). When a mode has an entry, every
+  // race in it is recolored by actual outcome instead of forecast rating.
+  function applyResults(data) {
+    const res = state.results && state.results[data.mode];
+    if (!res) return data;
+    const out = Object.assign({}, data);
+    out.races = data.races.map((r) => {
+      if (r.status === 'no-race') return r;
+      const st = r.state;
+      const copy = Object.assign({}, r, { dataType: 'result', bestPoll: null, margin: null, competitive: true });
+      if (res.uncalled && Object.prototype.hasOwnProperty.call(res.uncalled, st)) {
+        const lead = res.uncalled[st];
+        copy.status = lead ? 'lead-' + lead.toLowerCase() : 'uncalled';
+        copy.leaderParty = lead || null;
+        copy.resultText = lead ? `Uncalled, ${lead} leading` : 'Uncalled';
+      } else {
+        const flip = (res.flipsToD || []).includes(st);
+        const party = flip ? 'D' : (r.incumbentParty || r.leaderParty || 'D');
+        copy.status = 'won-' + party.toLowerCase();
+        copy.leaderParty = party;
+        copy.resultText = flip ? `${party} win (flip)` : `${party} win (hold)`;
+      }
+      return copy;
+    });
+    const un = Object.keys(res.uncalled || {}).length;
+    out.summary = {
+      control: res.seats && res.seats.D > res.seats.R ? 'Democratic' : 'Republican',
+      demSeats: res.seats ? res.seats.D : 0,
+      gopSeats: res.seats ? res.seats.R : 0,
+      confidence: 'Actual results',
+      unit: un ? `${un} uncalled (${Object.keys(res.uncalled).join(', ')})` : 'all called',
+    };
+    out.dataType = 'result';
+    out.source = state.results.source || '';
+    out.updatedAt = state.results.updatedAt || data.updatedAt;
+    return out;
+  }
+
+  async function loadResults() {
+    try { state.results = await loadJson('data/results.json'); } catch (e) { state.results = null; }
+  }
+
+  function setLegend(isResult) {
+    const lg = document.querySelector('.map-legend');
+    const labels = document.querySelector('.map-legend-labels');
+    if (!lg || !labels) return;
+    if (isResult) {
+      lg.innerHTML = '<span class="lg-sw fill-won-d" title="D won"></span><span class="lg-sw fill-lead-d" title="D leading"></span><span class="lg-sw fill-uncalled" title="Uncalled"></span><span class="lg-sw fill-lead-r" title="R leading"></span><span class="lg-sw fill-won-r" title="R won"></span>';
+      labels.innerHTML = '<span>D won</span><span>Uncalled</span><span>R won</span>';
+    } else if (!lg.dataset.orig) {
+      return;
+    }
+    if (!isResult) { lg.innerHTML = lg.dataset.orig; labels.innerHTML = labels.dataset.orig; }
+  }
+
   function applyModeData(data) {
+    data = applyResults(data);
+    const lgEl = document.querySelector('.map-legend');
+    if (lgEl && !lgEl.dataset.orig) {
+      lgEl.dataset.orig = lgEl.innerHTML;
+      document.querySelector('.map-legend-labels').dataset.orig = document.querySelector('.map-legend-labels').innerHTML;
+    }
+    setLegend(data.dataType === 'result');
     const isDistrict = data.granularity === 'district';
     setGranularity(isDistrict ? 'district' : 'state');
 
@@ -257,6 +319,9 @@
   }
 
   function statusLabel(status) {
+    const m = /^(won|lead)-(d|r)$/.exec(status);
+    if (m) return (m[1] === 'won' ? 'Called ' : 'Leading ') + m[2].toUpperCase();
+    if (status === 'uncalled') return 'Uncalled';
     return status.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
   }
 
@@ -452,7 +517,9 @@
       qs('race-margin-row').classList.toggle('hidden', race.margin == null);
     }
 
-    if (race.dataType === 'pvi') {
+    if (race.dataType === 'result') {
+      els.racePolls.textContent = race.resultText || '';
+    } else if (race.dataType === 'pvi') {
       const pviTxt = race.pviMagnitude != null
         ? `PVI ${race.leaderParty || 'EVEN'}${race.leaderParty ? '+' + race.pviMagnitude : ''}`
         : 'No PVI data';
@@ -622,7 +689,7 @@
     } catch (e) {}
     for (const btn of els.trendWindowBtns) btn.classList.toggle('active', btn.dataset.window === state.trendWindow);
 
-    const [mapData, districtData] = await Promise.all([loadMapPaths(), loadDistrictPaths(), loadEarlyVote()]);
+    const [mapData, districtData] = await Promise.all([loadMapPaths(), loadDistrictPaths(), loadEarlyVote(), loadResults()]);
     buildMap(mapData, districtData);
 
     for (const btn of els.modeSwitcher.querySelectorAll('.mode-btn')) {

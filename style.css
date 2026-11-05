@@ -89,6 +89,11 @@ html, body {
 #map .district.fill-likely-r { fill: var(--gop-likely); }
 #map .state.fill-safe-r,
 #map .district.fill-safe-r { fill: var(--gop-safe); }
+#map .state.fill-won-d, #map .district.fill-won-d { fill: var(--dem-safe); }
+#map .state.fill-won-r, #map .district.fill-won-r { fill: var(--gop-safe); }
+#map .state.fill-lead-d, #map .district.fill-lead-d { fill: var(--dem-lean); }
+#map .state.fill-lead-r, #map .district.fill-lead-r { fill: var(--gop-lean); }
+#map .state.fill-uncalled, #map .district.fill-uncalled { fill: var(--tossup); }
 #map .state.fill-no-race,
 #map .district.fill-no-race { fill: var(--no-race); }
 #map .district.fill-muted-d { fill: var(--muted-d); }
@@ -103,6 +108,11 @@ html, body {
 .race-status-pill.fill-lean-r { background: var(--gop-lean); }
 .race-status-pill.fill-likely-r { background: var(--gop-likely); }
 .race-status-pill.fill-safe-r { background: var(--gop-safe); }
+.race-status-pill.fill-won-d { background: var(--dem-safe); }
+.race-status-pill.fill-won-r { background: var(--gop-safe); }
+.race-status-pill.fill-lead-d { background: var(--dem-lean); }
+.race-status-pill.fill-lead-r { background: var(--gop-lean); }
+.race-status-pill.fill-uncalled { background: var(--tossup); }
 .race-status-pill.fill-no-race { background: var(--no-race); }
 .race-status-pill.fill-muted-d { background: var(--muted-d); }
 .race-status-pill.fill-muted-r { background: var(--muted-r); }
@@ -578,3 +588,9 @@ body.compact #results-link { top: 58px; right: 16px; padding: 5px 11px; font-siz
   }
   body.compact { --panel-col: 300px; }
 }
+
+.map-legend .lg-sw.fill-won-d { background: var(--dem-safe); }
+.map-legend .lg-sw.fill-won-r { background: var(--gop-safe); }
+.map-legend .lg-sw.fill-lead-d { background: var(--dem-lean); }
+.map-legend .lg-sw.fill-lead-r { background: var(--gop-lean); }
+.map-legend .lg-sw.fill-uncalled { background: var(--tossup); }
