@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T02:30:10.444Z",
+  "updatedAt": "2026-11-05T18:02:29.238Z",
   "source": "UF Election Lab early vote tracker (official state reports)",
   "sourceUrl": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
   "caveat": "Party registration of people who have voted, not how they voted. Ballots are not counted until Election Day.",
@@ -77,21 +77,21 @@
       }
     },
     "CO": {
-      "voted": 2716018,
+      "voted": 2727630,
       "inPerson": 138128,
-      "mailReturned": 2577890,
-      "dem": 775845,
-      "rep": 646066,
-      "other": 1294107,
+      "mailReturned": 2589502,
+      "dem": 779415,
+      "rep": 647621,
+      "other": 1300594,
       "hasParty": true,
       "turnout2022": 2540666,
-      "pctOf2022": 106.9,
-      "lastUpdate": "2026-11-04",
+      "pctOf2022": 107.4,
+      "lastUpdate": "2026-11-05",
       "stateSource": null,
       "change": {
         "since": "2026-11-04",
-        "voted": 38122,
-        "demLead": 4124
+        "voted": 49734,
+        "demLead": 6139
       }
     },
     "CT": {

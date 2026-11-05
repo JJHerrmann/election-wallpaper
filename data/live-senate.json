@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T02:30:08.363Z",
+  "updatedAt": "2026-11-05T18:02:27.190Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -830,7 +830,7 @@
           "name": "Scott Colom",
           "articleTitle": "Scott Colom",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Colom.png?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Colom4%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -1303,11 +1303,11 @@
           "isIncumbent": false
         },
         {
-          "name": "Darline Graham",
+          "name": "Darline Graham (replacing Lindsey Graham)",
           "articleTitle": "Darline Graham",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Official%20portrait%20of%20Darline%20Graham%2C%20member%20of%20the%20United%20States%20Senate%20from%20South%20Carolina%20(2026)%20(cropped)%202.jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         }
       ],
       "bestPoll": {
@@ -1504,7 +1504,7 @@
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
-      "raterCount": 11,
+      "raterCount": 12,
       "trend": [],
       "candidates": [
         {
