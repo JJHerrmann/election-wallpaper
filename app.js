@@ -181,7 +181,7 @@
         const lead = res.uncalled[st];
         copy.status = lead ? 'lead-' + lead.toLowerCase() : 'uncalled';
         copy.leaderParty = lead || null;
-        copy.resultText = lead ? `Uncalled, ${lead} leading` : 'Uncalled';
+        copy.resultText = (lead ? `Uncalled, ${lead} leading` : 'Uncalled') + ((res.notes && res.notes[st]) ? '. ' + res.notes[st] : '');
       } else {
         const flip = (res.flipsToD || []).includes(st);
         const party = flip ? 'D' : (r.incumbentParty || r.leaderParty || 'D');

@@ -1,14 +1,44 @@
 {
-  "updatedAt": "2026-11-04T19:30:00Z",
+  "updatedAt": "2026-11-04T20:35:00Z",
   "source": "Race calls as reported by NBC News / AP / CNN on Nov 4, 2026. Hand-maintained: edit this file as races are called.",
   "senate": {
-    "flipsToD": ["IA", "KS", "OH", "ME", "NC", "SC", "TX"],
-    "uncalled": { "AK": "D", "MS": "D" },
-    "seats": { "D": 54, "R": 44 }
+    "flipsToD": [
+      "IA",
+      "KS",
+      "OH",
+      "ME",
+      "NC",
+      "SC",
+      "TX"
+    ],
+    "uncalled": {
+      "AK": "D",
+      "MS": "D"
+    },
+    "seats": {
+      "D": 54,
+      "R": 44
+    },
+    "notes": {
+      "MS": "Colom (D) leads by 1,138 (NYT/AP, ~96% in). Still out: ~3,600 mail ballots due within 5 business days, plus an unknown number of affidavit ballots. Counties certify by Nov 13.",
+      "AK": "Peltola (D) 48.2%, Sullivan (R) 47.9% with ~74% in. Mail ballots counted for 10 days; ranked-choice tabulation Nov 18 if no one clears 50%."
+    }
   },
   "governor": {
-    "flipsToD": ["GA", "IA", "NV", "OH", "TX"],
-    "uncalled": { "AK": null, "KS": null },
-    "seats": { "D": 28, "R": 20 }
+    "flipsToD": [
+      "GA",
+      "IA",
+      "NV",
+      "OH",
+      "TX"
+    ],
+    "uncalled": {
+      "AK": null,
+      "KS": null
+    },
+    "seats": {
+      "D": 28,
+      "R": 20
+    }
   }
 }
