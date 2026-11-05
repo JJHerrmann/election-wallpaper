@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T17:59:25.453Z",
+  "updatedAt": "2026-11-05T02:30:09.545Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -213,7 +213,7 @@
           "name": "Maurice Mercer",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Maurice%20Mercer?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -3803,18 +3803,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Victoria Spartz",
-          "articleTitle": "Victoria Spartz",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20Spartz%20117th%20U.S%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "J. D. Ford",
           "articleTitle": "J. D. Ford",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JD%20Ford%2C%20Indy%20Pride%20Parade%202023%20(2)%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Victoria Spartz",
+          "articleTitle": "Victoria Spartz",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20Spartz%20117th%20U.S%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -4900,17 +4900,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Matthew Dunlap",
-          "articleTitle": "Matthew Dunlap",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matt%20Dunlap%20(cropped%20headshot).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Paul LePage",
           "articleTitle": "Paul LePage",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20LePage%20(32997047882)%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Matthew Dunlap",
+          "articleTitle": "Matthew Dunlap",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matt%20Dunlap%20(cropped%20headshot).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -5021,18 +5021,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Bill Huizenga",
-          "articleTitle": "Bill Huizenga",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Bill%20Huizenga%20-%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Sean McCann",
           "articleTitle": "Sean McCann (politician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Bill Huizenga",
+          "articleTitle": "Bill Huizenga",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Bill%20Huizenga%20-%20118th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -5313,18 +5313,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Brad Finstad",
-          "articleTitle": "Brad Finstad",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Brad%20Finstad%20(R-MN)%2C%20Official%20Portrait%2C%20119th%20Congress%20(head%20crop).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Jake Johnson",
           "articleTitle": "Jake Johnson (Minnesota politician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Brad Finstad",
+          "articleTitle": "Brad Finstad",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Brad%20Finstad%20(R-MN)%2C%20Official%20Portrait%2C%20119th%20Congress%20(head%20crop).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -8275,7 +8275,7 @@
         },
         {
           "name": "Don Leonard",
-          "articleTitle": null,
+          "articleTitle": "Don Leonard (politician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
@@ -9470,8 +9470,11 @@
       "margin": null,
       "leaderParty": "R",
       "incumbentParty": "R",
-      "dataType": "pvi",
+      "dataType": "rating",
+      "raterCount": 10,
+      "consensusStatus": "safe-r",
       "pviMagnitude": 11,
+      "pviParty": "R",
       "competitive": false,
       "trend": [],
       "candidates": [
@@ -11520,18 +11523,18 @@
       "trend": [],
       "candidates": [
         {
+          "name": "Mitchell Berman",
+          "articleTitle": "Mitchell Berman (politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        },
+        {
           "name": "Bryan Steil",
           "articleTitle": "Bryan Steil",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Steil%20Headshot%20(cropped).jpg?width=80",
           "isIncumbent": true
-        },
-        {
-          "name": "Mitchell Berman",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
         }
       ],
       "bestPoll": null
@@ -11691,7 +11694,7 @@
       "candidates": [
         {
           "name": "Michael Alfonso",
-          "articleTitle": "Michael Alfonso (Wisconsin politician)",
+          "articleTitle": "Michael Alfonso (politician)",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Alfonso%202025.jpg?width=80",
           "isIncumbent": false

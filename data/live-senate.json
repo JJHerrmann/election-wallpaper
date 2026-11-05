@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T17:59:24.196Z",
+  "updatedAt": "2026-11-05T02:30:08.363Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -553,7 +553,7 @@
       "candidates": [
         {
           "name": "Adam Hamilton",
-          "articleTitle": "Adam Hamilton (American politician)",
+          "articleTitle": "Adam Hamilton (pastor)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam%20Hamilton%20at%20podium%20(cropped%202).jpg?width=80",
           "isIncumbent": false
@@ -1038,7 +1038,7 @@
           "name": "Ben Ray Luján",
           "articleTitle": "Ben Ray Luján",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben%20Ray%20Luj%C3%A1n%2C%20official%20portrait%20(119th%20Congress)%20(cropped)1.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben%20Ray%20Luj%C3%A1n%2C%20official%20portrait%20(119th%20Congress)%20(cropped).jpg?width=80",
           "isIncumbent": true
         },
         {
