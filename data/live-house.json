@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T02:30:15.295Z",
+  "updatedAt": "2026-11-06T17:30:41.193Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -5885,17 +5885,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Aaron Flint",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Sam Forstag",
           "articleTitle": "Sam Forstag",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sam%20Forstag%20Portrait%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Aaron Flint",
+          "articleTitle": null,
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -9812,7 +9812,7 @@
           "name": "Danny Minton",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Danny%20Minton?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -9868,7 +9868,7 @@
           "name": "Laura Jones",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Laura%20Jones?width=80",
           "isIncumbent": false
         }
       ],
