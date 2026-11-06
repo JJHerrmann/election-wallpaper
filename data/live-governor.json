@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:02:27.671Z",
+  "updatedAt": "2026-11-06T02:30:13.941Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -895,7 +895,7 @@
       "candidates": [
         {
           "name": "Aaron Ford",
-          "articleTitle": "Aaron Ford (Nevada politician)",
+          "articleTitle": "Aaron Ford",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nevada%20Attorney%20General%20Aaron%20Ford%20addresses%20the%20United%20Nations%20Human%20Rights%20Committee%2C%20October%2017-18%2C%202023%201%20(cropped).jpg?width=80",
           "isIncumbent": false

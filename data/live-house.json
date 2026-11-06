@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:02:28.577Z",
+  "updatedAt": "2026-11-06T02:30:15.295Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -1459,18 +1459,18 @@
       "trend": [],
       "candidates": [
         {
+          "name": "Jessica Killin",
+          "articleTitle": "Jessica Killin",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        },
+        {
           "name": "Jeff Crank",
           "articleTitle": "Jeff Crank",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeff%20Crank%20119th%20Congress%20(cropped).jpg?width=80",
           "isIncumbent": true
-        },
-        {
-          "name": "Jessica Killin",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
         }
       ],
       "bestPoll": null
@@ -1774,9 +1774,9 @@
       "candidates": [
         {
           "name": "Austin Rogers",
-          "articleTitle": null,
+          "articleTitle": "Austin Rogers (politician)",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''Austin%20Rogers'''?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BAustin%20Rogers%20(politician)%7CAustin%20Rogers%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
@@ -1995,7 +1995,7 @@
         },
         {
           "name": "Dan Green",
-          "articleTitle": "Dan Green (politician)",
+          "articleTitle": null,
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20R.%20Green%20(cropped).jpg?width=80",
           "isIncumbent": false
@@ -2047,9 +2047,9 @@
       "candidates": [
         {
           "name": "Joe Strada",
-          "articleTitle": null,
+          "articleTitle": "Joe Strada",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20Joe%20Strada?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BJoe%20Strada%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
@@ -2204,7 +2204,7 @@
           "name": "Sydney Gruters",
           "articleTitle": "Sydney Gruters",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20%5B%5BSydney%20Gruters%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BSydney%20Gruters%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
@@ -2292,9 +2292,9 @@
       "candidates": [
         {
           "name": "Jim Schwartzel",
-          "articleTitle": null,
+          "articleTitle": "Jim Schwartzel",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20Jim%20Schwartzel?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BJim%20Schwartzel%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
@@ -2382,7 +2382,7 @@
       "candidates": [
         {
           "name": "Pia Dandiya",
-          "articleTitle": null,
+          "articleTitle": "Pia Dandiya",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pia%20Dandiya%20WHF%20(cropped).png?width=80",
           "isIncumbent": false
@@ -3035,18 +3035,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Mariannette Miller-Meeks",
-          "articleTitle": "Mariannette Miller-Meeks",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mariannette%20Miller-Meeks%2C%20official%20portrait%2C%20117th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Christina Bohannan",
           "articleTitle": "Christina Bohannan",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Christina%20Bohannan%20(3x4).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Mariannette Miller-Meeks",
+          "articleTitle": "Mariannette Miller-Meeks",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mariannette%20Miller-Meeks%2C%20official%20portrait%2C%20117th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -3066,17 +3066,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Joe Mitchell",
-          "articleTitle": "Joe Mitchell (politician)",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Mitchell%20(cropped2).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Lindsay James",
           "articleTitle": "Lindsay James (politician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Member%20of%20the%20Iowa%20House%20of%20Representatives%20Lindsay%20James%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Joe Mitchell",
+          "articleTitle": "Joe Mitchell (politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Mitchell%20(cropped2).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -3097,18 +3097,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Zach Nunn",
-          "articleTitle": "Zach Nunn",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Official%20Portrait%20of%20Rep.%20Zach%20Lunn%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Sarah Trone Garriott",
           "articleTitle": "Sarah Trone Garriott",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarah%20Trone%20Garriott%202023%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Zach Nunn",
+          "articleTitle": "Zach Nunn",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Official%20Portrait%20of%20Rep.%20Zach%20Lunn%20119th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -3126,7 +3126,7 @@
       "candidates": [
         {
           "name": "Chris McGowan",
-          "articleTitle": null,
+          "articleTitle": "Chris McGowan",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
@@ -4229,17 +4229,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "| party1 =",
-          "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D?width=80",
-          "isIncumbent": false
+          "name": "Steve Scalise",
+          "articleTitle": "Steve Scalise",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Scalise%20116th%20Congress%20official%20photo.jpg?width=80",
+          "isIncumbent": true
         },
         {
-          "name": "| party2 =",
+          "name": "Lauren Jewett",
           "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D?width=80",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -4257,17 +4257,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "| party1 =",
-          "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D?width=80",
-          "isIncumbent": false
+          "name": "Troy Carter",
+          "articleTitle": "Troy Carter (politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Troy%20Carter%20-%20117th%20Congress%20Official%20Portrait%20(cropped).jpg?width=80",
+          "isIncumbent": true
         },
         {
-          "name": "| party2 =",
+          "name": "Peter Williams",
           "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D?width=80",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -4285,17 +4285,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "| party1 =",
-          "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D?width=80",
-          "isIncumbent": false
+          "name": "Clay Higgins",
+          "articleTitle": "Clay Higgins",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2024%20Clay%20Higgins%20(cropped).jpg?width=80",
+          "isIncumbent": true
         },
         {
-          "name": "| party2 =",
+          "name": "John Day",
           "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D?width=80",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -4313,17 +4313,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "| party1 =",
-          "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D?width=80",
-          "isIncumbent": false
+          "name": "Mike Johnson",
+          "articleTitle": "Mike Johnson",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Speaker%20Mike%20Johnson%20Official%20Portrait%20(cropped).jpg?width=80",
+          "isIncumbent": true
         },
         {
-          "name": "| party2 =",
+          "name": "Conrad Cable",
           "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D?width=80",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -4341,17 +4341,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "| party1 =",
-          "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D?width=80",
+          "name": "Pat Moore",
+          "articleTitle": "Pat Moore (Louisiana politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pat%20Moore.jpg?width=80",
           "isIncumbent": false
         },
         {
-          "name": "| party2 =",
-          "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D?width=80",
+          "name": "Gabe Firment",
+          "articleTitle": "Gabe Firment",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -4369,17 +4369,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "| party1 =",
+          "name": "Chauna Banks",
           "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D?width=80",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20Chauna%20Banks?width=80",
           "isIncumbent": false
         },
         {
-          "name": "| party2 =",
-          "articleTitle": null,
-          "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D?width=80",
+          "name": "Blake Miguez",
+          "articleTitle": "Blake Miguez",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20%5B%5BBlake%20Miguez%5D%5D?width=80",
           "isIncumbent": false
         }
       ],
@@ -5031,7 +5031,7 @@
           "name": "Bill Huizenga",
           "articleTitle": "Bill Huizenga",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Bill%20Huizenga%20official%20photo%20(118th%20Congress).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Bill%20Huizenga%20-%20118th%20Congress%20(portrait%20crop).jpg?width=80",
           "isIncumbent": true
         }
       ],
@@ -5052,7 +5052,7 @@
           "name": "Tim Walberg",
           "articleTitle": "Tim Walberg",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tim%20Walberg%2C%20official%20portrait%2C%20112th%20Congress.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TimWalbergHeadshot.jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -5080,7 +5080,7 @@
           "name": "Debbie Dingell",
           "articleTitle": "Debbie Dingell",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Debbie%20Dingell%20official%20photo%20(118th%20Congress).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Debbie%20Dingell%20Official%20Headshot%20(cropped).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -5118,7 +5118,7 @@
           "name": "Tom Barrett",
           "articleTitle": "Tom Barrett (Michigan politician)",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Barrett%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20M.%20Barrett.jpg?width=80",
           "isIncumbent": true
         }
       ],
@@ -5142,7 +5142,7 @@
           "name": "Kristen McDonald Rivet",
           "articleTitle": "Kristen McDonald Rivet",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristen%20McDonald%20Rivet%20119th%20US%20Congress.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristen%20McDonald%20Rivet%2C%20official%20portrait%20-%202025.jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -5170,7 +5170,7 @@
           "name": "Lisa McClain",
           "articleTitle": "Lisa McClain",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisa%20McClain%20118th%20Congress%20portrait.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Lisa%20McClain%20(cropped).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -5257,7 +5257,7 @@
           "name": "Rashida Tlaib",
           "articleTitle": "Rashida Tlaib",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Rashida%20Tlaib%20official%20photo%20(118th%20Congress).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rashida%20Tlaib%20portrait%20(118th%20Congress).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -5285,7 +5285,7 @@
           "name": "Donavan McKinney",
           "articleTitle": "Donavan McKinney",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/State%20Rep%20Donavan%20McKinney%20Swearing%20In%2012.12.22%20(52565631658)%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -6428,17 +6428,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Brinker Harding",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20Brinker%20Harding?width=80",
+          "name": "Denise Powell",
+          "articleTitle": "Denise Powell",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Denise%20Powell%20talking%20at%20Campaign%20Rally%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
-          "name": "Denise Powell",
+          "name": "Brinker Harding",
           "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Denise%20Powell?width=80",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -9861,7 +9861,7 @@
           "name": "Jessica Steinmann",
           "articleTitle": null,
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jessica%20Hart%20Steinmann.png?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20Jessica%20Steinmann?width=80",
           "isIncumbent": false
         },
         {
@@ -10063,18 +10063,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Monica De La Cruz",
-          "articleTitle": "Monica De La Cruz",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MDLC%20Official%20Portrait%202025%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Bobby Pulido",
           "articleTitle": "Bobby Pulido",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bobby23%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Monica De La Cruz",
+          "articleTitle": "Monica De La Cruz",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MDLC%20Official%20Portrait%202025%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -10269,7 +10269,7 @@
       "candidates": [
         {
           "name": "Trever Nehls",
-          "articleTitle": null,
+          "articleTitle": "Trever Nehls",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackjack%20Recognition%20Ceremony%20Trever%20Nehls%20(cropped).jpg?width=80",
           "isIncumbent": false
