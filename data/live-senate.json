@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:57:51.046Z",
+  "updatedAt": "2026-11-07T16:28:03.129Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -155,7 +155,7 @@
           "name": "Dan S. Sullivan",
           "articleTitle": "Dan Sullivan (U.S. senator)",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Senator%20Dan%20Sullivan%20official.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Senator%20Sullivan%20Memorial%20Day%202024%20(cropped).jpg?width=80",
           "isIncumbent": true
         }
       ],
@@ -663,7 +663,7 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Troy Jackson",
+          "name": "Troy Jackson (replacing Graham Platner)",
           "articleTitle": "Troy Jackson",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Troy%20Jackson%20in%20the%20Senate%20Chamber%20(cropped).jpg?width=80",
@@ -1091,7 +1091,7 @@
           "name": "Roy Cooper",
           "articleTitle": "Roy Cooper",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roy%20Cooper%20at%20Roy%20Cooper%20Rally%20April%202026-2%20(cropped%20flipped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roy%20Cooper%20at%20Roy%20Cooper%20Rally%20April%202026-2%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:57:52.518Z",
+  "updatedAt": "2026-11-07T16:28:04.306Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -6585,7 +6585,7 @@
         },
         {
           "name": "Zack Mullock",
-          "articleTitle": null,
+          "articleTitle": "Zack Mullock",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
@@ -9859,9 +9859,9 @@
       "candidates": [
         {
           "name": "Jessica Steinmann",
-          "articleTitle": null,
+          "articleTitle": "Jessica Steinmann",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20Jessica%20Steinmann?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BJessica%20Steinmann%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
@@ -9892,14 +9892,14 @@
           "name": "Leticia Gutierrez",
           "articleTitle": "Leticia Gutierrez",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20%5B%5BLeticia%20Gutierrez%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leticia%20Gutierrez%20Cropped.jpg?width=80",
           "isIncumbent": false
         },
         {
           "name": "Alex Mealer",
           "articleTitle": null,
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Alex%20Mealer?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -9921,9 +9921,9 @@
       "candidates": [
         {
           "name": "Chris Gober",
-          "articleTitle": null,
+          "articleTitle": "Chris Gober",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20Chris%20Gober?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BChris%20Gober%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
@@ -10302,7 +10302,7 @@
           "name": "Katy Padilla Stout",
           "articleTitle": "Katy Padilla Stout",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Katy%20Padilla%20Stout%20Cropped.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Katypadillastoutofficialcampaign.jpg?width=80",
           "isIncumbent": false
         },
         {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:57:53.058Z",
+  "updatedAt": "2026-11-07T16:28:05.014Z",
   "source": "UF Election Lab early vote tracker (official state reports)",
   "sourceUrl": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
   "caveat": "Party registration of people who have voted, not how they voted. Ballots are not counted until Election Day.",
@@ -59,39 +59,39 @@
       }
     },
     "CA": {
-      "voted": 10677324,
+      "voted": 11308974,
       "inPerson": 1443508,
-      "mailReturned": 9233816,
-      "dem": 5254508,
-      "rep": 2690305,
-      "other": 2732511,
+      "mailReturned": 9865466,
+      "dem": 5601289,
+      "rep": 2832959,
+      "other": 2874726,
       "hasParty": true,
       "turnout2022": 11146610,
-      "pctOf2022": 95.8,
-      "lastUpdate": "2026-11-05",
+      "pctOf2022": 101.5,
+      "lastUpdate": "2026-11-06",
       "stateSource": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026",
       "change": {
         "since": "2026-11-06",
-        "voted": 0,
-        "demLead": 0
+        "voted": 631650,
+        "demLead": 204127
       }
     },
     "CO": {
-      "voted": 2745464,
-      "inPerson": 138128,
-      "mailReturned": 2607336,
-      "dem": 784201,
-      "rep": 650645,
-      "other": 1310618,
+      "voted": 2746097,
+      "inPerson": 138127,
+      "mailReturned": 2607970,
+      "dem": 784366,
+      "rep": 650741,
+      "other": 1310990,
       "hasParty": true,
       "turnout2022": 2540666,
       "pctOf2022": 108.1,
-      "lastUpdate": "2026-11-06",
+      "lastUpdate": "2026-11-07",
       "stateSource": null,
       "change": {
         "since": "2026-11-06",
-        "voted": 1109,
-        "demLead": 95
+        "voted": 1742,
+        "demLead": 164
       }
     },
     "CT": {
@@ -491,21 +491,21 @@
       }
     },
     "NV": {
-      "voted": 767886,
-      "inPerson": 322681,
-      "mailReturned": 445205,
-      "dem": 300466,
-      "rep": 259548,
-      "other": 207872,
+      "voted": 1094834,
+      "inPerson": 517285,
+      "mailReturned": 577549,
+      "dem": 400485,
+      "rep": 363213,
+      "other": 331136,
       "hasParty": true,
       "turnout2022": 1023617,
-      "pctOf2022": 75,
-      "lastUpdate": "2026-11-03",
+      "pctOf2022": 107,
+      "lastUpdate": "2026-11-07",
       "stateSource": "https://www.nvsos.gov/elections/election-information/vivid-project",
       "change": {
         "since": "2026-11-06",
-        "voted": 0,
-        "demLead": 0
+        "voted": 326948,
+        "demLead": -3646
       }
     },
     "NJ": {
@@ -635,21 +635,21 @@
       }
     },
     "OR": {
-      "voted": 2024318,
+      "voted": 2028213,
       "inPerson": 0,
-      "mailReturned": 2024318,
-      "dem": 795165,
-      "rep": 584593,
-      "other": 644560,
+      "mailReturned": 2028213,
+      "dem": 796431,
+      "rep": 585475,
+      "other": 646307,
       "hasParty": true,
       "turnout2022": 1997689,
-      "pctOf2022": 101.3,
+      "pctOf2022": 101.5,
       "lastUpdate": "2026-11-06",
       "stateSource": "https://sos.oregon.gov/elections/Documents/2026-general-election-unofficial-ballot-returns.pdf",
       "change": {
         "since": "2026-11-06",
-        "voted": 215548,
-        "demLead": 29612
+        "voted": 219443,
+        "demLead": 29996
       }
     },
     "PA": {
