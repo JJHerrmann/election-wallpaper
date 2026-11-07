@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T17:30:41.193Z",
+  "updatedAt": "2026-11-07T01:57:52.518Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -377,17 +377,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Jay Feely",
-          "articleTitle": "Jay Feely",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jay%20Feely%202026%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Amish Shah",
           "articleTitle": "Amish Shah",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amish%20Shah%20by%20Gage%20Skidmore%202%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Jay Feely",
+          "articleTitle": "Jay Feely",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jay%20Feely%202026%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -526,17 +526,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Juan Ciscomani",
-          "articleTitle": "Juan Ciscomani",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Juan%20Ciscomani%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "JoAnna Mendoza",
           "articleTitle": "JoAnna Mendoza",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JoAnna%20Mendoza%2C%202013.jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Juan Ciscomani",
+          "articleTitle": "Juan Ciscomani",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Juan%20Ciscomani%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -2592,7 +2592,7 @@
           "name": "Jim Kingston",
           "articleTitle": "Jim Kingston (politician)",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20%5B%5BJim%20Kingston%20(politician)%7CJim%20Kingston%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BJim%20Kingston%20(politician)%7CJim%20Kingston%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
@@ -2871,7 +2871,7 @@
           "name": "John Cowan",
           "articleTitle": "John Cowan (Georgia politician)",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20%5B%5BJohn%20Cowan%20(Georgia%20politician)%7CJohn%20Cowan%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BJohn%20Cowan%20(Georgia%20politician)%7CJohn%20Cowan%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
@@ -5111,7 +5111,7 @@
           "name": "William Lawrence",
           "articleTitle": "William Lawrence (Michigan politician)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Lawrence%202026%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -5574,18 +5574,18 @@
       "trend": [],
       "candidates": [
         {
+          "name": "Fred Wellman",
+          "articleTitle": "Fred Wellman",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fred%20Wellman%2C%20August%202025.png?width=80",
+          "isIncumbent": false
+        },
+        {
           "name": "Ann Wagner",
           "articleTitle": "Ann Wagner",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ann%20Wagner%20portrait%20(118th%20Congress).jpg?width=80",
           "isIncumbent": true
-        },
-        {
-          "name": "Fred Wellman",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fred%20Wellman%2C%20August%202025.png?width=80",
-          "isIncumbent": false
         }
       ],
       "bestPoll": null
@@ -7684,9 +7684,9 @@
       "candidates": [
         {
           "name": "Anthony Constantino",
-          "articleTitle": null,
+          "articleTitle": "Anthony Constantino (politician)",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20Anthony%20Constantino?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BAnthony%20Constantino%20(politician)%7CAnthony%20Constantino%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
@@ -9479,18 +9479,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Scott DesJarlais",
-          "articleTitle": "Scott DesJarlais",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep%20Scott%20DesJarlais%2C%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Victoria Broderick",
           "articleTitle": "Victoria Broderick",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Scott DesJarlais",
+          "articleTitle": "Scott DesJarlais",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep%20Scott%20DesJarlais%2C%20118th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
