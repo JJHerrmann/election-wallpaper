@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T01:28:02.190Z",
+  "updatedAt": "2026-11-08T16:41:19.165Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -5118,7 +5118,7 @@
           "name": "Tom Barrett",
           "articleTitle": "Tom Barrett (Michigan politician)",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20M.%20Barrett.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Tom%20Barrett%20official%20photo%2C%20119th%20Congress%20(3x4%20close).jpg?width=80",
           "isIncumbent": true
         }
       ],
@@ -5229,7 +5229,7 @@
           "name": "Jeremy Moss",
           "articleTitle": "Jeremy Moss",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michigan%20Senator%20Jeremy%20Moss%202019%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -8031,7 +8031,7 @@
           "name": "Brian Poindexter",
           "articleTitle": "Brian Poindexter",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Poindexter%20delivering%20remarks%20after%20victory.jpg?width=80",
           "isIncumbent": false
         },
         {
