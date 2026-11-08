@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T16:28:04.306Z",
+  "updatedAt": "2026-11-08T01:28:02.190Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -1428,18 +1428,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Lauren Boebert",
-          "articleTitle": "Lauren Boebert",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lauren%20Boebert%20117th%20U.S%20Congress%20(cropped2).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Eileen Laubacher",
           "articleTitle": "Eileen Laubacher",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eileen%20H.%20Laubacher%20(3)%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Lauren Boebert",
+          "articleTitle": "Lauren Boebert",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lauren%20Boebert%20117th%20U.S%20Congress%20(cropped2).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -1546,18 +1546,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Gabe Evans",
-          "articleTitle": "Gabe Evans",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Gabe%20Evans%20official%20photo%2C%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Manny Rutinel",
           "articleTitle": "Manny Rutinel",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Manny%20Rutinel%20at%202024%20YIMBY%20Denver%20Legislative%20Kickoff%20(head%20crop).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Gabe Evans",
+          "articleTitle": "Gabe Evans",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Gabe%20Evans%20official%20photo%2C%20119th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -5024,7 +5024,7 @@
           "name": "Sean McCann",
           "articleTitle": "Sean McCann (politician)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BSean%20McCann%20(politician)%7CSean%20McCann%5D%5D'''?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         },
         {
@@ -6062,18 +6062,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Virginia Foxx",
-          "articleTitle": "Virginia Foxx",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Virginia%20Foxx%20official%20photo%20(alt%20crop).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Chuck Hubbard",
           "articleTitle": "Chuck Hubbard",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Virginia Foxx",
+          "articleTitle": "Virginia Foxx",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Virginia%20Foxx%20official%20photo%20(alt%20crop).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -6093,18 +6093,18 @@
       "trend": [],
       "candidates": [
         {
+          "name": "Cyril Jefferson",
+          "articleTitle": "Cyril Jefferson",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        },
+        {
           "name": "Addison McDowell",
           "articleTitle": "Addison McDowell",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Addison%20McDowell%20119th%20congress%20(cropped).jpg?width=80",
           "isIncumbent": true
-        },
-        {
-          "name": "Cyril Jefferson",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
         }
       ],
       "bestPoll": null
@@ -6186,18 +6186,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Richard Hudson",
-          "articleTitle": "Richard Hudson (American politician)",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Hudson%20official%20photo%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Richard Ojeda",
           "articleTitle": "Richard Ojeda",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Ojeda%20shirt%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Richard Hudson",
+          "articleTitle": "Richard Hudson (American politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Hudson%20official%20photo%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -6248,17 +6248,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Jennifer Balkcom (replacing Chuck Edwards)",
-          "articleTitle": "Jennifer Balkcom",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Jennifer%20Balkcom.jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Jamie Ager",
           "articleTitle": "Jamie Ager",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Jennifer Balkcom (replacing Chuck Edwards)",
+          "articleTitle": "Jennifer Balkcom",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Jennifer%20Balkcom.jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -6307,18 +6307,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Brad Knott",
-          "articleTitle": "Brad Knott",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Brad%20Knott%20official%20photo%2C%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Paul Barringer",
           "articleTitle": "Paul Barringer (attorney)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Brad Knott",
+          "articleTitle": "Brad Knott",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Brad%20Knott%20official%20photo%2C%20119th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -6338,18 +6338,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Tim Moore",
-          "articleTitle": "Tim Moore (North Carolina politician)",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moore%20Tim%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Lakesha Womack",
           "articleTitle": "Lakesha Womack",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Tim Moore",
+          "articleTitle": "Tim Moore (North Carolina politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moore%20Tim%20119th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -8028,18 +8028,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Max Miller",
-          "articleTitle": "Max Miller (politician)",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Miller%2C%20official%20portrait%20(119th%20Congress)%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Brian Poindexter",
           "articleTitle": "Brian Poindexter",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Max Miller",
+          "articleTitle": "Max Miller (politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Miller%2C%20official%20portrait%20(119th%20Congress)%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -8121,18 +8121,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Mike Turner",
-          "articleTitle": "Mike Turner",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Turner%20118th%20Congress%20(cropped).jpeg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Kristina Knickerbocker",
           "articleTitle": "Kristina Knickerbocker",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Mike Turner",
+          "articleTitle": "Mike Turner",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Turner%20118th%20Congress%20(cropped).jpeg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -8267,18 +8267,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Mike Carey",
-          "articleTitle": "Mike Carey (politician)",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Carey%2C%20official%20portrait%20(119th%20Congress).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Don Leonard",
           "articleTitle": "Don Leonard (politician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Mike Carey",
+          "articleTitle": "Mike Carey (politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Carey%2C%20official%20portrait%20(119th%20Congress).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -8612,18 +8612,18 @@
       "trend": [],
       "candidates": [
         {
+          "name": "Bob Harvie",
+          "articleTitle": "Bob Harvie (politician)",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "isIncumbent": false
+        },
+        {
           "name": "Brian Fitzpatrick",
           "articleTitle": "Brian Fitzpatrick (American politician)",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Fitzpatrick%20official%20congressional%20photo%20(uncropped)%20(cropped).jpg?width=80",
           "isIncumbent": true
-        },
-        {
-          "name": "Bob Harvie",
-          "articleTitle": null,
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
         }
       ],
       "bestPoll": null
@@ -8783,18 +8783,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Ryan Mackenzie",
-          "articleTitle": "Ryan Mackenzie",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Ryan%20Mackenzie%20official%20photo%2C%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Bob Brooks",
           "articleTitle": "Bob Brooks (Pennsylvania politician)",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Ryan Mackenzie",
+          "articleTitle": "Ryan Mackenzie",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Ryan%20Mackenzie%20official%20photo%2C%20119th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -8814,18 +8814,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Rob Bresnahan",
-          "articleTitle": "Rob Bresnahan",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Rob%20Bresnahan%20official%20photo%2C%20119th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Paige Cognetti",
           "articleTitle": "Paige Cognetti",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paige%20Cognetti%20(52165104986)%20(3x4a)%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Rob Bresnahan",
+          "articleTitle": "Rob Bresnahan",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Rob%20Bresnahan%20official%20photo%2C%20119th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -8873,18 +8873,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Scott Perry",
-          "articleTitle": "Scott Perry",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Scott%20Perry%2C%20official%20portrait%2C%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Janelle Stelson",
           "articleTitle": "Janelle Stelson",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Janelle%20Stelson%2008-29-2026%20(cropped).jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Scott Perry",
+          "articleTitle": "Scott Perry",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Scott%20Perry%2C%20official%20portrait%2C%20118th%20Congress%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
@@ -10778,7 +10778,7 @@
           "isIncumbent": false
         },
         {
-          "name": "Riley Owens",
+          "name": "Riley Owen",
           "articleTitle": null,
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
