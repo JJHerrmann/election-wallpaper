@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-09T01:45:02.994Z",
+  "updatedAt": "2026-11-09T20:45:55.542Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
-    "demSeatsHeld": 13,
+    "demSeatsHeld": 12,
     "gopSeatsHeld": 22,
     "demNet": 3,
     "gopNet": -3,
@@ -788,7 +788,7 @@
       "margin": null,
       "leaderParty": "D",
       "consensusStatus": "likely-d",
-      "incumbentParty": "D",
+      "incumbentParty": null,
       "pollCount": 0,
       "lastPollDaysAgo": null,
       "dataType": "rating",
