@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T16:41:19.165Z",
+  "updatedAt": "2026-11-09T01:45:05.245Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -4676,7 +4676,7 @@
           "name": "Johnny Olszewski",
           "articleTitle": "Johnny Olszewski",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnny%20Olszewski%20119th%20congress%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnny%20Olszewski%2C%20official%20portrait%20(119th%20Congress)%20(3x4%20crop).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -5205,7 +5205,7 @@
           "isIncumbent": false
         },
         {
-          "name": "Michael Bouchard",
+          "name": "Michael Bouchard Jr.",
           "articleTitle": null,
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
@@ -5525,7 +5525,7 @@
           "name": "Trina Swanson",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Trina%20Swanson%2C%20DFL%20candidate%20for%20Minnesota's%208th%20Congressional%20District%2C%20speaks%20outside%20the%20Itasca%20County%20DFL%20office%20during%20a%20DFL%20bus%20tour%20campaign%20stop%20in%20Grand%20Rapids%2C%20Minnesota%20(55638398936)%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -6577,18 +6577,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Jeff Van Drew",
-          "articleTitle": "Jeff Van Drew",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Representative%20Jeff%20Van%20Drew%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Zack Mullock",
           "articleTitle": "Zack Mullock",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Jeff Van Drew",
+          "articleTitle": "Jeff Van Drew",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Representative%20Jeff%20Van%20Drew%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null

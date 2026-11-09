@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T16:41:19.645Z",
+  "updatedAt": "2026-11-09T01:45:06.091Z",
   "source": "UF Election Lab early vote tracker (official state reports)",
   "sourceUrl": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
   "caveat": "Party registration of people who have voted, not how they voted. Ballots are not counted until Election Day.",
@@ -17,7 +17,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": "https://www.elections.alaska.gov/research/statistics/#aeqstats",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -35,7 +35,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": "https://www.stealth-analytics.com/early-ballots",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -53,7 +53,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -71,7 +71,7 @@
       "lastUpdate": "2026-11-06",
       "stateSource": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -89,7 +89,7 @@
       "lastUpdate": "2026-11-07",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -107,7 +107,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -125,7 +125,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -143,7 +143,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://dcboe.org/",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -161,7 +161,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://countyfilesvbm-ev.floridados.gov/VoteByMailEarlyVotingReports/PublicStats",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -179,7 +179,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://mvp.sos.ga.gov/s/voter-absentee-files",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -197,7 +197,7 @@
       "lastUpdate": "2026-11-06",
       "stateSource": "https://elections.hawaii.gov/resources/absentee-voting-report/",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -215,7 +215,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -233,7 +233,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://www.elections.il.gov/VotingAndRegistrationSystems/PreElectionCounts.aspx",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -251,7 +251,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -269,7 +269,7 @@
       "lastUpdate": "2026-11-05",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -287,7 +287,7 @@
       "lastUpdate": "2026-11-06",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -305,7 +305,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": "https://elect.ky.gov/Pages/default.aspx",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -323,7 +323,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://www.sos.la.gov/elections-voting/early-voting-statistics-statewide",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -341,7 +341,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://www.maine.gov/sos/cec/elec/data/index.html",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -359,7 +359,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://elections.maryland.gov/press_room/index.html",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -377,7 +377,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -395,7 +395,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -413,7 +413,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": "https://www.sos.mn.gov/election-administration-campaigns/data-maps/absentee-data/",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -431,7 +431,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": "https://mailchi.mp/6261872c3b27/press-release-2026-november-general-election-absentee-report-september-1198?e=24ef845026",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -449,7 +449,7 @@
       "lastUpdate": "2026-10-29",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -467,7 +467,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://sosmt.gov/elections/absentee-ballot-count/",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -485,7 +485,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -503,7 +503,7 @@
       "lastUpdate": "2026-11-07",
       "stateSource": "https://www.nvsos.gov/elections/election-information/vivid-project",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -521,7 +521,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -539,7 +539,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -557,7 +557,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -575,7 +575,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -593,7 +593,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": "https://vip.sos.nd.gov/abev.aspx?eid=348",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -611,7 +611,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://data.ohiosos.gov/portal/election-dashboards",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -629,7 +629,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -647,7 +647,7 @@
       "lastUpdate": "2026-11-06",
       "stateSource": "https://sos.oregon.gov/elections/Documents/2026-general-election-unofficial-ballot-returns.pdf",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -665,7 +665,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://data.pa.gov/Government-Efficiency-Citizen-Engagement/2026-General-Election-Mail-Ballot-Requests-Departm/nbwd-pfn4/about_data",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -683,7 +683,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -701,7 +701,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://scvotes.gov/elections-statistics/voter-participation/",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -719,7 +719,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -737,7 +737,7 @@
       "lastUpdate": "2026-10-30",
       "stateSource": "https://sos.tn.gov/govotetn",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -755,7 +755,7 @@
       "lastUpdate": "2026-11-02",
       "stateSource": "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -773,7 +773,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -791,7 +791,7 @@
       "lastUpdate": "2026-11-05",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -809,7 +809,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://www.vpap.org/elections/early-voting/",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -827,7 +827,7 @@
       "lastUpdate": "2026-11-05",
       "stateSource": "https://www.sos.wa.gov/elections/data-research/election-data-and-maps/ballot-return-statistics",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -845,7 +845,7 @@
       "lastUpdate": "2026-10-29",
       "stateSource": "https://sos.wv.gov/article/secretary-warner-announces-more-115000-ballots-have-been-cast-absentee-voting-and-during",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
@@ -863,7 +863,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": "https://elections.wi.gov/resources/statistics/absentee-ballot-report-november-3-2026-general-election-0",
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": null
       }
@@ -881,7 +881,7 @@
       "lastUpdate": "2026-11-03",
       "stateSource": null,
       "change": {
-        "since": "2026-11-07",
+        "since": "2026-11-08",
         "voted": 0,
         "demLead": 0
       }
