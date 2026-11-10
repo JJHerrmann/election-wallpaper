@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:09:00.614Z",
+  "updatedAt": "2026-11-10T17:51:56.829Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -40,7 +40,7 @@
         },
         {
           "name": "Bill Hill",
-          "articleTitle": "Bill Hill (Alaska politician)",
+          "articleTitle": null,
           "party": null,
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Hill%20(cropped%203x4).jpg?width=80",
           "isIncumbent": false
@@ -5316,7 +5316,7 @@
           "name": "Jake Johnson",
           "articleTitle": "Jake Johnson (Minnesota politician)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jake%20Johnson%20MN%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -9628,17 +9628,17 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Justin J. Pearson",
-          "articleTitle": "Justin J. Pearson",
-          "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin%20J%20Pearson%20August%202023.jpg?width=80",
-          "isIncumbent": false
-        },
-        {
           "name": "Brent Taylor",
           "articleTitle": "Brent Taylor (Tennessee politician)",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brent%20Taylor%20(Tennessee%20politician).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
+          "name": "Justin J. Pearson",
+          "articleTitle": "Justin J. Pearson",
+          "party": "D",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin%20J%20Pearson%20August%202023.jpg?width=80",
           "isIncumbent": false
         }
       ],
