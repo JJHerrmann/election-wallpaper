@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T20:45:56.880Z",
+  "updatedAt": "2026-11-10T04:09:00.614Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -6338,8 +6338,8 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Lakesha Womack",
-          "articleTitle": "Lakesha Womack",
+          "name": "LaKesha Womack",
+          "articleTitle": "LaKesha Womack",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
@@ -9283,14 +9283,14 @@
           "name": "Wes Climer",
           "articleTitle": "Wes Climer",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20%5B%5BWes%20Climer%5D%5D?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         },
         {
           "name": "Mallory Dittmer",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Mallory%20Dittmer?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -10889,7 +10889,7 @@
           "name": "Shannon Taylor",
           "articleTitle": "Shannon Taylor (politician)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shannon%20Taylor%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BShannon%20Taylor%20(politician)%7CShannon%20Taylor%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {
