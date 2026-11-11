@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T17:51:55.875Z",
+  "updatedAt": "2026-11-11T01:57:30.528Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -712,7 +712,7 @@
         },
         {
           "name": "Mike Minogue",
-          "articleTitle": "Mike Minogue (businessman)",
+          "articleTitle": null,
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
@@ -1134,7 +1134,7 @@
           "name": "Cyndi Munson",
           "articleTitle": "Cyndi Munson",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyndi%20Munson.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyndi%20Munson%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],

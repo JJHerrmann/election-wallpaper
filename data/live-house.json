@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T17:51:56.829Z",
+  "updatedAt": "2026-11-11T01:57:31.344Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -2049,14 +2049,14 @@
           "name": "Joe Strada",
           "articleTitle": "Joe Strada",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BJoe%20Strada%5D%5D'''?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Strada%20group%20photo%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
           "name": "James Pericola",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20James%20Pericola?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -6003,18 +6003,18 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Greg Murphy",
-          "articleTitle": "Greg Murphy (politician)",
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Greg%20Murphy%20116th%20Congress%20Portrait%20(cropped).jpg?width=80",
-          "isIncumbent": true
-        },
-        {
           "name": "Raymond Smith Jr.",
           "articleTitle": "Raymond Smith Jr.",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Raymond%20E.%20Smith%20Jr.jpg?width=80",
           "isIncumbent": false
+        },
+        {
+          "name": "Greg Murphy",
+          "articleTitle": "Greg Murphy (politician)",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Greg%20Murphy%20116th%20Congress%20Portrait%20(cropped).jpg?width=80",
+          "isIncumbent": true
         }
       ],
       "bestPoll": null
