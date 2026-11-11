@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T01:57:30.055Z",
+  "updatedAt": "2026-11-11T17:55:12.853Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -663,7 +663,7 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Troy Jackson (replacing Graham Platner)",
+          "name": "Troy Jackson (replaced Graham Platner)",
           "articleTitle": "Troy Jackson",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Troy%20Jackson%20in%20the%20Senate%20Chamber%20(cropped).jpg?width=80",
