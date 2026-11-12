@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T17:55:14.066Z",
+  "updatedAt": "2026-11-12T03:04:20.388Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -1926,7 +1926,7 @@
       "candidates": [
         {
           "name": "Ryan Elijah",
-          "articleTitle": null,
+          "articleTitle": "Ryan Elijah",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
@@ -6096,7 +6096,7 @@
           "name": "Cyril Jefferson",
           "articleTitle": "Cyril Jefferson",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/NC%20Democratic%20House%20Delegation%20Nov%202026%20(Jefferson-cropped).jpeg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20Representative%20Cyril%20Jefferson%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
@@ -6723,7 +6723,7 @@
           "name": "Rebecca Bennett",
           "articleTitle": "Rebecca Bennett (politician)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Littoral%20combat%20ship%20USS%20Independence%20(LCS%202)%2C%20RIMPAC%202014%20(Image%203%20of%203)%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rebecca%20Bennett%20and%20Andy%20Kim%20Nov%202026%20(cropped1).jpeg?width=80",
           "isIncumbent": false
         },
         {
@@ -7015,7 +7015,7 @@
           "name": "Teresa Benitez-Thompson",
           "articleTitle": "Teresa Benitez-Thompson",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa%20Benitez-Thompson%20(cropped).jpeg?width=80",
           "isIncumbent": false
         },
         {
