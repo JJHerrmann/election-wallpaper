@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T03:04:16.811Z",
+  "updatedAt": "2026-11-12T18:20:26.240Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -633,7 +633,7 @@
           "name": "Jamie Davis",
           "articleTitle": "Jamie Davis (Louisiana)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamie%20Davis%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -1144,7 +1144,7 @@
           "name": "Sherrod Brown",
           "articleTitle": "Sherrod Brown",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sherrod%20Brown%20117th%20Congress%20(2)%20(3x4%20crop).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sherrod%20Brown%20117th%20Congress%20(1)%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
