@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T18:20:27.486Z",
+  "updatedAt": "2026-11-13T02:39:12.009Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -3294,7 +3294,7 @@
       "candidates": [
         {
           "name": "Patty Garcia",
-          "articleTitle": null,
+          "articleTitle": "Patty Garcia",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Patty%20Garcia%20with%20Alderman%20Andre%20Vasquez%20at%20Fundraiser%20Cropped.jpg?width=80",
           "isIncumbent": false
@@ -11322,7 +11322,7 @@
       "candidates": [
         {
           "name": "Amanda McKinney",
-          "articleTitle": null,
+          "articleTitle": "Amanda McKinney",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanda%20McKinney%20(55022651563)%20(cropped).jpg?width=80",
           "isIncumbent": false
