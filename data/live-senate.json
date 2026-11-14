@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T02:27:51.932Z",
+  "updatedAt": "2026-11-14T16:36:38.301Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -378,14 +378,14 @@
           "name": "Jon Ossoff",
           "articleTitle": "Jon Ossoff",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jon%20Ossoff%20Senate%20Portrait%202021%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7B%7BCSS%20image%20crop%7CImage%20%3D%20Jon%20Ossoff%2C%20United%20States%20Senator%20from%20Georgia.jpg%7CbSize%20%3D%20130%7CcHeight%20%3D%20160%7CcWidth%20%3D%20120%7CoTop%20%3D%200%7CoLeft%20%3D%203%7D%7D?width=80",
           "isIncumbent": true
         },
         {
           "name": "Mike Collins",
           "articleTitle": "Mike Collins (politician)",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Mike%20Collins%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7B%7BCSS%20image%20crop%7CImage%20%3D%20Rep.%20Mike%20Collins%20official%20photo%2C%20118th%20Congress.jpg%7CbSize%20%3D%20190%7CcHeight%20%3D%20160%7CcWidth%20%3D%20120%7CoTop%20%3D%2015%7CoLeft%20%3D%2031%7D%7D?width=80",
           "isIncumbent": false
         }
       ],
