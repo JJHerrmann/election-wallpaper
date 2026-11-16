@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:12:39.970Z",
+  "updatedAt": "2026-11-16T02:12:19.433Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "senate",
   "summary": {
@@ -720,7 +720,7 @@
           "articleTitle": "Ed Markey",
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ed%20Markey%20in%20Edgartown%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "John Deaton",
