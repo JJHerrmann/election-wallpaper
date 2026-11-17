@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:30:03.078Z",
+  "updatedAt": "2026-11-17T04:31:49.149Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -8330,7 +8330,7 @@
           "articleTitle": "Josh Brecheen",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Josh%20Brecheen%20official%20photo%2C%20118th%20Congress%20(cropped).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Brandon Wade",
@@ -8358,7 +8358,7 @@
           "articleTitle": "Frank Lucas (Oklahoma politician)",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Frank%20Lucas%20portrait%20(118th%20Congress).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Suzie Byrd",
@@ -8386,7 +8386,7 @@
           "articleTitle": "Tom Cole",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep-Tom-Cole-117thCong%20(cropped).jpeg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Mitchell Jacob",
@@ -8417,7 +8417,7 @@
           "articleTitle": "Stephanie Bice",
           "party": "R",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Stephanie%20Bice%2C%20117th%20Congress%20(3x4%20crop).jpg?width=80",
-          "isIncumbent": true
+          "isIncumbent": false
         },
         {
           "name": "Jena Nelson",
@@ -9252,7 +9252,7 @@
           "name": "William Timmons",
           "articleTitle": "William Timmons",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Timmons%2C%20official%20portrait%2C%20116th%20Congress%20(cropped).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Timmons%2C%20official%20portrait%20(119th%20Congress)%20(cropped).png?width=80",
           "isIncumbent": true
         },
         {
