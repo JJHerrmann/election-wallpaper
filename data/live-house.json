@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:31:49.149Z",
+  "updatedAt": "2026-11-17T19:11:47.675Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -10566,17 +10566,17 @@
       "trend": [],
       "candidates": [
         {
+          "name": "Jace Yarbrough",
+          "articleTitle": "Jace Yarbrough",
+          "party": "R",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joint%20Base%20Commander%20visits%20the%20US%20Air%20Force%20Honor%20Guard%20-%20Jace%20Yarbrough%20(cropped).jpg?width=80",
+          "isIncumbent": false
+        },
+        {
           "name": "Dan Barrios",
           "articleTitle": null,
           "party": "D",
           "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
-          "isIncumbent": false
-        },
-        {
-          "name": "Jace Yarbrough",
-          "articleTitle": null,
-          "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joint%20Base%20Commander%20visits%20the%20US%20Air%20Force%20Honor%20Guard%20-%20Jace%20Yarbrough%20(cropped).jpg?width=80",
           "isIncumbent": false
         }
       ],
@@ -10656,10 +10656,10 @@
       "trend": [],
       "candidates": [
         {
-          "name": "Johnny C. Garcia",
-          "articleTitle": "Johnny C. Garcia",
+          "name": "Johnny Garcia",
+          "articleTitle": "Johnny Garcia (politician)",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnny%20Garcia%20TX.png?width=80",
           "isIncumbent": false
         },
         {
@@ -10744,9 +10744,9 @@
       "candidates": [
         {
           "name": "Jon Bonck",
-          "articleTitle": null,
+          "articleTitle": "Jon Bonck",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20Jon%20Bonck?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BJon%20Bonck%5D%5D'''?width=80",
           "isIncumbent": false
         },
         {

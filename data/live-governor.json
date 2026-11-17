@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:31:47.604Z",
+  "updatedAt": "2026-11-17T19:11:46.735Z",
   "source": "Wikipedia (aggregated forecaster ratings: Cook, Inside Elections, Sabato, Race to the WH, RCP, Fox, VoteHub, Silver Bulletin, and others)",
   "mode": "governor",
   "summary": {
@@ -531,7 +531,7 @@
           "name": "Rob Sand",
           "articleTitle": "Rob Sand",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rob%20Sand%20campaign%20headshot%20(cropped%201).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rob%20Sand%20in%20September%202025%20(cropped).png?width=80",
           "isIncumbent": false
         },
         {
@@ -1525,14 +1525,14 @@
           "name": "Eric Barlow",
           "articleTitle": "Eric Barlow",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BEric%20Barlow%5D%5D'''?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/68th-BarlowEric%20(1).jpg?width=80",
           "isIncumbent": false
         },
         {
           "name": "Rebecca Bextel",
           "articleTitle": null,
           "party": null,
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Rebecca%20Bextel?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
