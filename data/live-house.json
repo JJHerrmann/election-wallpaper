@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:11:47.675Z",
+  "updatedAt": "2026-11-18T03:43:41.128Z",
   "source": "Wikipedia (Cook Partisan Voting Index by congressional district, current representative party); district boundaries from U.S. Census Bureau cb_2025_us_cd119_500k",
   "mode": "house",
   "summary": {
@@ -5031,7 +5031,7 @@
           "name": "Bill Huizenga",
           "articleTitle": "Bill Huizenga",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Bill%20Huizenga%20-%20118th%20Congress%20(portrait%20crop).jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rep.%20Bill%20Huizenga%20-%20118th%20Congress%20(cropped).jpg?width=80",
           "isIncumbent": true
         }
       ],
@@ -5142,7 +5142,7 @@
           "name": "Kristen McDonald Rivet",
           "articleTitle": "Kristen McDonald Rivet",
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristen%20McDonald%20Rivet%2C%20official%20portrait%20-%202025.jpg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristen%20McDonald%20Rivet%2C%20official%20portrait%20-%202025%20(cropped).jpg?width=80",
           "isIncumbent": true
         },
         {
@@ -10181,14 +10181,14 @@
           "name": "Tom Sell",
           "articleTitle": "Tom Sell",
           "party": "R",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee1%20%3D%20'''%5B%5BTom%20Sell%5D%5D'''?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Sell%20119th-120th%20Congress%20Veterans%20Day%20tribute%20(cropped)%20(cropped).jpg?width=80",
           "isIncumbent": false
         },
         {
           "name": "Kyle Rable",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%7C%20nominee2%20%3D%20Kyle%20Rable?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
           "isIncumbent": false
         }
       ],
@@ -10368,7 +10368,7 @@
           "name": "Dione Sims",
           "articleTitle": null,
           "party": "D",
-          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3x4.svg?width=80",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DioneSims.png?width=80",
           "isIncumbent": false
         }
       ],
